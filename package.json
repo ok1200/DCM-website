@@ -1,0 +1,31 @@
+{
+  "name": "dcm-website",
+  "version": "1.0.0",
+  "description": "dcm-website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C:\\Users\\User\\Documents\\GitHub\\DMC-website"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "connect-history-api-fallback": "^1.5.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sitemap": "^4.2.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglifycss": "^1.0.9",
+    "gulp-watch": "^4.3.11"
+  }
+}
