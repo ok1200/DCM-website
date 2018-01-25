@@ -1,52 +1,283 @@
+//Variables//
+
+//Tipigrafía//
+Rubik = 'Rubik', sans-serif;
+Lato = 'Lato', sans-serif;
+
+//Colores//
+
+Yellow_100 =  #FFD04D
+Yellow_200 =  #FFBD1A  //Primario//
+Yellow_300 =  #E08F00
+Brown_100 =  	#995300
+Red_100 =  #E54554
+Gradient_Red =  #FFD04D //Gradiente//
+Blue_100 =  #538CF2
+Blue_200 =  #3770D3
+Blue_300 =  #0F4BB7  //Primario//
+Blue_400 =  #073499
+Gradient_Blue =  #FFD04D //Gradiente//
+White_100 =  #FFFFFF
+White_200 =  #FAFBFC
+Grey_100 =  #EFF1F4
+Grey_200 =  #DFE1E5
+Grey_300 =  #BCC2CC
+Grey_400 =  #8A9099  //Primario//
+Grey_500 =  #323A47
+
+
 
 
 .Header
-	background-color #2395ED
-	height 500px
+	background-image url("../img/Header-Background.jpg")
+	background-repeat no-repeat
+	background-size cover
+	background-position center
+	height 800px
 	padding 0
+	padding-top 1em
+	position relative
+	z-index 0
 	.Conjunto_1
 		display flex
 		justify-content space-between
 		align-items center
 		padding-top 20px
 		.fa.fa-phone
-			color orange
+			color Yellow_200
 			transform rotate(270deg)
-			font-size 30px		
+			font-size 30px
+			margin-right 5px		
 		.Contact_tel
 			color #fff
 			&:hover
 				text-decoration none
 		.Certificado_link
-			background-color blue
-			color white
-			border-radius 5px
+			background-color Yellow_200
+			font-family Lato
+			font-size 14px
+			font-weight bold
+			border-radius 5px 0 5px 0
 			padding-left 10px
+			transition .5s
+			cursor pointer
+			&:hover
+				transform scale(1.1)
+			a
+				color Grey_500
 			p
 				display inline-block
 				margin-right 10px
 				margin-bottom 0 
 			.Dowload_icon
 				display inline-block
-				padding 15px
-				background-color #000
-				border-radius 0 5px 0 5px
+				padding 10px
+				background-color Yellow_100
+				border-radius 0 0 5px 0
 				i
-					color #E0D12C
-					
-	.Menu_container
-		background-color #fff
-		ul
-			li
-				a
-					color #A0A0A0				
-					&:hover
-							color #2395ED
-				.nav-link.active
-					color blue
-		.Menu
-			display flex
-			align-items center
-			justify-content space-between
+					color Grey_500
+					font-size 25px
+		
+		
+		/*&:after 
+			content ""
+			position absolute
+			height 100%
+			width 100%
+			background-color red
+			top 5px
+			left 5px
+			opacity 0
+			z-index -1
+			transition .5s
+		&:hover
+			&:after
+				opacity 1*/
+				
+.Contorno
+	min-height 120px
+	margin-top 2em
+	margin-bottom 2em
+
+.Menu_container
+	background-color Grey_100
+	width 90%
+	border-radius 25px 0 25px 0 
+	display flex
+	align-items center
+	.Logo
+		margin-left 1em
+		img
+			width 100px
+	ul
+		li
+			a
+				color Grey_400
+				font-family Lato	
+				font-size 16px
+				font-weight 400		
+				&:hover
+						color #2395ED
+			.nav-link.active
+				color #0D5CBA
+				font-weight 600
+	.Menu
+		display flex
+		align-items center
+		justify-content space-between
+		height 70px
+
+.Conjunto_2
+	display flex
+	align-items center
+	.Subconjunto_2
+		margin-bottom 5em
+	h1
+		font-family Lato
+		font-size 54px
+		color Yellow_200
+	p
+		font-family Rubik
+		font-size 24px
+		color White_100
+		font-weight 100	
+	a
+		color Grey_500
+		text-decoration none
+		
+
+.Constructor
+	img
+		margin-top 1em
+		height 504px
+		width 380px
 
 
+//Menu Fixed//		
+.Fixed_nav
+	position fixed
+	top -100%
+	width 100%
+	z-index 1
+	border-radius 0
+	left 0
+	margin-top 0
+	background-color Grey_100
+	transition 1s ease
+
+
+.Nav_visible
+	top 0%
+	transition 1s ease
+
+
+
+
+
+.Button
+	background-color Yellow_200
+	font-family Lato
+	display inline-flex
+	align-items center
+	justify-content center
+	font-weight bold
+	border-radius 10px 0 10px 0
+	padding-left 10px
+	transition .5s
+	cursor pointer
+	min-height 50px
+	min-width 260px
+	text-align center
+	position relative
+	transition .5s ease-in-out
+	&:focus
+		outline none
+	span
+		margin-right 15px
+	&:before
+		content ""
+		position absolute
+		display inline-flex
+		height 100%
+		width 100%
+		background-color red
+		z-index -1
+		opacity 0
+		top 5px
+		left 5px
+		border-radius 10px 0 10px 0
+		box-shadow 2px 3px 5px 0px rgba(0,0,0,0.15)
+		transition .5s ease-in-out
+	&:hover
+		&:before
+			opacity 1
+	
+
+.Cursos
+	margin-top -1em
+	position relative
+	.Curso_group_1
+		margin-bottom 2em
+	&:before,&:after
+		content ""
+		width 58%
+		height 100%
+		position absolute
+		display inline-block
+		background-color Grey_100
+		top 0
+		left 0
+		z-index -1
+	&:after
+		left 87%
+		transform: skew(40deg)
+	&:before
+		transform: skew(-135deg)
+		left -39%
+		
+
+.card
+	text-align center
+	border 1px solid Grey_200
+	border-radius 25px 0 25px 0
+	padding 3em 5px
+	font-family Lato
+	transition .5s ease-in-out
+	cursor pointer
+	box-shadow 2px 3px 5px 0px rgba(0,0,0,0.15)
+	img
+		width 100px
+		margin 0 auto
+	h4
+		font-size 24px
+		color Grey_500
+	p
+		font-family Rubik
+		font-weight 100
+		font-size 16px
+		color Grey_400
+	a
+		color  Grey_500
+		text-decoration none
+	&:hover
+		transform translateY(-15px)
+		box-shadow 2px 3px 36px 8px rgba(0,0,0,0.1)
+		h4
+			color Blue_200
+		p
+			color Grey_500
+		.Cursos_btn
+			background-color Yellow_200
+			&:before
+				opacity 1
+	
+		
+.Cursos_btn
+	background-color White_200
+	border 1px solid Grey_200
+	margin-top 2em
+	position relative
+
+
+
+	
