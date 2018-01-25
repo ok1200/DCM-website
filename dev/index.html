@@ -13,6 +13,8 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Rubik:300,400,700" rel="stylesheet">
         <title></title>
         <meta name="description" content="">
+        <!-- AOS css -->
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <!-- Our css -->
         <link rel="stylesheet" href="css/main.css">
     </head>
@@ -20,7 +22,7 @@
         <header id="Header">
             <section class="container-fluid Header">
                 <!-- Conjunto 1 -->
-                    <div class="Conjunto_1 container">
+                    <div class="Conjunto_1 container" data-aos="fade-down">
                         <label for="">
                             <a href="tel:+573124567834" class="Contact_tel">
                                 <i class="fa fa-phone" aria-hidden="true"></i> 312 456 7834
@@ -40,7 +42,7 @@
                     <!-- Menu -->
               <div class="Contorno">
                 <div id="Menu_container">
-                  <div class="container-fluid Menu_container">
+                  <div class="container-fluid Menu_container" data-aos="fade-in">
                       <menu class="container Menu">
                             <a class="navbar-brand Logo Inicio" href="#Header">
                               <img src="img/UI-Designer-Icon.svg" alt="">
@@ -86,14 +88,14 @@
                  <!-- Artículo header -->
               <div class="container">
                 <div class="row Conjunto_2">
-                  <div class="col-6 Subconjunto_2">
+                  <div class="col-6 Subconjunto_2" data-aos="fade-right">
                    <h1>TRABAJO SEGURO EN ALTURAS</h1>
                    <p>¿Ya tienes tu certificado de trabajo en alturas?
                    Conoce nuestros cursos de capacitación</p>
                    <a href="" class="Button"><span>Registrarme ahora</span> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                     
                   </div>
-                  <div class="col-5 offset-1 Constructor">
+                  <div class="col-5 offset-1 Constructor" data-aos="fade-left">
                     <img src="img/Constructor.png" class="img-fluid" alt="">
                   </div>
                 </div>
@@ -105,7 +107,7 @@
         <section class="Cursos">
           <div class="container">
             <div class="row Curso_group_1">
-              <article class="col-4">
+              <article class="col-4" data-aos="zoom-in-up">
                 <a href="">
                   <div class="card">
                     <img class="card-img-top" src="img/UI-Designer-Icon.svg" alt="Card image cap">
@@ -120,7 +122,7 @@
                   </div> 
                 </a>
               </article>
-              <article class="col-4">
+              <article class="col-4" data-aos="zoom-in-up">
                 <a href="">
                   <div class="card">
                     <img class="card-img-top" src="img/UI-Designer-Icon.svg" alt="Card image cap">
@@ -135,7 +137,7 @@
                   </div> 
                 </a>
               </article>
-              <article class="col-4">
+              <article class="col-4" data-aos="zoom-in-up">
                 <a href="">
                   <div class="card">
                     <img class="card-img-top" src="img/UI-Designer-Icon.svg" alt="Card image cap">
@@ -152,7 +154,7 @@
               </article>                        
             </div>
             <div class="row Curso_group_2">
-              <article class="col-4">
+              <article class="col-4" data-aos="zoom-in-up">
                 <div class="card">
                   <img class="card-img-top" src="img/UI-Designer-Icon.svg" alt="Card image cap">
                   <div class="card-body">
@@ -165,7 +167,7 @@
                   </div>
                 </div>        
               </article>
-              <article class="col-4">
+              <article class="col-4" data-aos="zoom-in-up">
                  <div class="card">
                   <img class="card-img-top" src="img/UI-Designer-Icon.svg" alt="Card image cap">
                   <div class="card-body">
@@ -178,7 +180,7 @@
                   </div>
                 </div>                
               </article>
-              <article class="col-4">
+              <article class="col-4" data-aos="zoom-in-up">
                  <div class="card">
                   <img class="card-img-top" src="img/UI-Designer-Icon.svg" alt="Card image cap">
                   <div class="card-body">
@@ -204,8 +206,10 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
              <!--then Bootstrap JS. -->
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+            <!-- AOS javascript -->
+            <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
             <!-- Our javascript -->
-            <script type="text/javascript" src="js/all.js"></script>            
+            <script type="text/javascript" src="js/all.js"></script>         
 
     </body>
 </html>

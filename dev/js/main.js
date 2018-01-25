@@ -1,5 +1,6 @@
 $(document).ready(function (){
 
+        //Smoot Scroll Menu//
       $(".Inicio").click(function(e){
     	e.preventDefault();
     	var linkHref = $(this).attr("href");
@@ -8,6 +9,7 @@ $(document).ready(function (){
         }, 1200);
     });
 
+        //Movimiento background header//
         $(".Header").mousemove(function(ev){
             var x = ev.clientX/50;
             var y = ev.clientY/50;
@@ -18,7 +20,7 @@ $(document).ready(function (){
         });
 
 
-
+        //Cambio a menú fixed//
 	    $(window).scroll(function(){
         var posicionDeWindow = $(window).scrollTop();
 
@@ -40,6 +42,17 @@ $(document).ready(function (){
             $(".Menu_container").css({"background-color": "#eff1f4"});
         }                
     });
+
+            //Animaciones con Scroll//
+            AOS.init({
+              offset: 200,
+              duration: 1200,
+              easing: 'ease-in-out',
+              delay: 100,
+              once: true,
+            });
+
+            AOS.refresh();
 })
 
 
