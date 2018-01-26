@@ -11,8 +11,8 @@ $(document).ready(function (){
 
         //Movimiento background header//
         $(".Header").mousemove(function(ev){
-            var x = ev.clientX/50;
-            var y = ev.clientY/50;
+            var x = ev.clientX/20;
+            var y = ev.clientY/20;
 
             $(".Header").css({
                 "background-position": -x + "px " + -y + "px",

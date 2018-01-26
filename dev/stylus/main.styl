@@ -27,7 +27,6 @@ Grey_500 =  #323A47
 
 
 
-
 .Header
 	background-image url("../img/Header-Background.jpg")
 	background-repeat no-repeat
@@ -37,7 +36,6 @@ Grey_500 =  #323A47
 	padding 0
 	padding-top 1em
 	position relative
-	z-index 0
 	overflow hidden
 	.Conjunto_1
 		display flex
@@ -193,8 +191,8 @@ Grey_500 =  #323A47
 	transition .5s ease-in-out
 	&:focus
 		outline none
-	span
-		margin-right 15px
+	i
+		margin-left 15px
 	&:before
 		content ""
 		position absolute
@@ -204,14 +202,16 @@ Grey_500 =  #323A47
 		background-color red
 		z-index -1
 		opacity 0
-		top 5px
-		left 5px
+		top 0
+		left 0
 		border-radius 10px 0 10px 0
 		box-shadow 2px 3px 5px 0px rgba(0,0,0,0.15)
-		transition .5s ease-in-out
+		transition .3s ease-in-out
 	&:hover
 		&:before
 			opacity 1
+			top 5px
+			left 5px
 	
 
 .Cursos
@@ -219,22 +219,28 @@ Grey_500 =  #323A47
 	position relative
 	.Curso_group_1
 		margin-bottom 2em
-	&:before,&:after
-		content ""
-		width 58%
+	.Cursos-Diagonal
+		display inline-block
+		width 100%
 		height 100%
 		position absolute
-		display inline-block
-		background-color Grey_100
-		top 0
-		left 0
-		z-index -1
-	&:after
-		left 87%
-		transform: skew(40deg)
-	&:before
-		transform: skew(-135deg)
-		left -39%
+		overflow hidden
+		&:before,&:after
+			content ""
+			width 58%
+			height 100%
+			position absolute
+			display inline-block
+			background-color Grey_100
+			top 0
+			left 0
+			z-index -1
+		&:after
+			left 87%
+			transform: skew(40deg)
+		&:before
+			transform: skew(-135deg)
+			left -39%
 		
 
 .card
@@ -278,6 +284,8 @@ Grey_500 =  #323A47
 	border 1px solid Grey_200
 	margin-top 2em
 	position relative
+	&:hover
+		border-color Yellow_200
 
 
 
