@@ -10,13 +10,13 @@ $(document).ready(function (){
     });
 
         //Movimiento background header//
-        $(".Header").mousemove(function(ev){
-            var x = ev.clientX/20;
-            var y = ev.clientY/20;
+        $(window).scroll(function(){
+            var x = $(window).scrollTop();
+            var y =  x * 0.10;
 
             $(".Header").css({
-                "background-position": -x + "px " + -y + "px",
-            },5000);
+                "background-position": "0 -" + y + "px",
+            });
         });
 
 
@@ -26,10 +26,12 @@ $(document).ready(function (){
 
         if(posicionDeWindow > 501){
             $("#Menu_container").addClass("Fixed_nav");
+            $("#Menu_container").css({"position": "fixed"});
             
         }
         else if(posicionDeWindow < 500){
             $("#Menu_container").removeClass("Fixed_nav");
+            $("#Menu_container").css({"position": "relative"});
 
         }
         if(posicionDeWindow > 600){
@@ -51,8 +53,6 @@ $(document).ready(function (){
               delay: 100,
               once: true,
             });
-
-            AOS.refresh();
 })
 
 

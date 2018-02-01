@@ -11,12 +11,12 @@ Yellow_200 =  #FFBD1A  //Primario//
 Yellow_300 =  #E08F00
 Brown_100 =  	#995300
 Red_100 =  #E54554
-Gradient_Red =  #FFD04D //Gradiente//
+Gradient_Red = linear-gradient(to right, rgba(229,69,84,1) 0%, rgba(255,189,26,1) 100%) //Gradiente//
 Blue_100 =  #538CF2
 Blue_200 =  #3770D3
 Blue_300 =  #0F4BB7  //Primario//
 Blue_400 =  #073499
-Gradient_Blue =  #FFD04D //Gradiente//
+Gradient_Blue = linear-gradient(to right, rgba(0,55,188,1) 0%, rgba(54,127,214,1) 100%) //Gradiente//
 White_100 =  #FFFFFF
 White_200 =  #FAFBFC
 Grey_100 =  #EFF1F4
@@ -26,13 +26,16 @@ Grey_400 =  #8A9099  //Primario//
 Grey_500 =  #323A47
 
 
+body
+	p
+		font-family Rubik
 
 .Header
 	background-image url("../img/Header-Background.jpg")
 	background-repeat no-repeat
-	background-size 110%
-	background-position center
-	height 800px
+	background-size cover
+	background-attachment fixed
+	height 95vh
 	padding 0
 	padding-top 1em
 	position relative
@@ -60,8 +63,24 @@ Grey_500 =  #323A47
 			padding-left 10px
 			transition .5s
 			cursor pointer
+			position relative
+			&:before
+				content ""
+				position absolute
+				display inline-block
+				border-radius 5px 0 5px 0
+				width 100%
+				height 100%
+				top 0
+				left 0
+				background Gradient_Red
+				z-index -1
+				transition .3s ease-in-out
 			&:hover
-				transform scale(1.1)
+				&:before
+					top 5px
+					left 5px				
+				
 			a
 				color Grey_500
 			p
@@ -77,26 +96,15 @@ Grey_500 =  #323A47
 					color Grey_500
 					font-size 25px
 		
-		
-		/*&:after 
-			content ""
-			position absolute
-			height 100%
-			width 100%
-			background-color red
-			top 5px
-			left 5px
-			opacity 0
-			z-index -1
-			transition .5s
-		&:hover
-			&:after
-				opacity 1*/
 				
 .Contorno
 	min-height 120px
 	margin-top 2em
 	margin-bottom 2em
+
+#Menu_container
+	position relative
+	z-index 1
 
 .Menu_container
 	background-color Grey_100
@@ -105,26 +113,59 @@ Grey_500 =  #323A47
 	display flex
 	align-items center
 	.Logo
-		margin-left 1em
+		margin auto 1em
 		img
 			width 100px
+			transition 1s ease
 	ul
+		.nav-item.active
+			position relative
+			a
+				color #0D5CBA
+				font-weight 600
+			&:before
+				content ""
+				position absolute
+				display inline-block
+				height 7%
+				width 50%
+				background-color Yellow_100
+				top 94%
+				left 25%
+				transform skewX(-40deg)
 		li
 			a
 				color Grey_400
 				font-family Lato	
 				font-size 16px
-				font-weight 400		
+				font-weight 400	
+				display block
+				padding 48px 20px	
 				&:hover
 						color #2395ED
-			.nav-link.active
-				color #0D5CBA
-				font-weight 600
+
+
+					
 	.Menu
 		display flex
-		align-items center
 		justify-content space-between
-		height 70px
+		margin-top 0
+		margin-bottom 0
+
+.nav
+	height 120px
+	
+
+.dropdown-toggle
+	&:after
+		display none
+	&:focus
+		.fa-chevron-down
+			transform rotate(-180deg)
+
+.fa-chevron-down
+	margin-left 5px
+	transition .5s ease-in-out
 
 .Conjunto_2
 	display flex
@@ -136,7 +177,6 @@ Grey_500 =  #323A47
 		font-size 54px
 		color Yellow_200
 	p
-		font-family Rubik
 		font-size 24px
 		color White_100
 		font-weight 100	
@@ -148,7 +188,7 @@ Grey_500 =  #323A47
 .Constructor
 	img
 		margin-top 1em
-		height 504px
+		height 535px
 		width 380px
 
 
@@ -163,6 +203,7 @@ Grey_500 =  #323A47
 	margin-top 0
 	background-color Grey_100
 	transition 1s ease
+	box-shadow 2px 3px 5px 0px rgba(0,0,0,0.15)
 
 
 .Nav_visible
@@ -174,7 +215,7 @@ Grey_500 =  #323A47
 
 
 .Button
-	background-color Yellow_200
+	background Yellow_200
 	font-family Lato
 	display inline-flex
 	align-items center
@@ -188,7 +229,6 @@ Grey_500 =  #323A47
 	min-width 260px
 	text-align center
 	position relative
-	transition .5s ease-in-out
 	&:focus
 		outline none
 	i
@@ -199,7 +239,7 @@ Grey_500 =  #323A47
 		display inline-flex
 		height 100%
 		width 100%
-		background-color red
+		background Gradient_Red
 		z-index -1
 		opacity 0
 		top 0
@@ -208,10 +248,27 @@ Grey_500 =  #323A47
 		box-shadow 2px 3px 5px 0px rgba(0,0,0,0.15)
 		transition .3s ease-in-out
 	&:hover
+		i
+			animation-name flecha
+			animation-duration .8s
+			animation-iteration-count infinite
+			animation-direction alternate
+			animation-fill-mode: forwards
+			transition .8s
 		&:before
 			opacity 1
-			top 5px
-			left 5px
+			top 8px
+			left 8px
+
+@keyframes flecha{
+	0%{
+		transform translateX(0)
+	}
+	
+	100%{		
+		transform translateX(5px)
+	}	
+}
 	
 
 .Cursos
@@ -231,7 +288,7 @@ Grey_500 =  #323A47
 			height 100%
 			position absolute
 			display inline-block
-			background-color Grey_100
+			background-color White_200
 			top 0
 			left 0
 			z-index -1
@@ -259,7 +316,6 @@ Grey_500 =  #323A47
 		font-size 24px
 		color Grey_500
 	p
-		font-family Rubik
 		font-weight 100
 		font-size 16px
 		color Grey_400
@@ -284,9 +340,80 @@ Grey_500 =  #323A47
 	border 1px solid Grey_200
 	margin-top 2em
 	position relative
+	a
+		color  Grey_500
+		text-decoration none
 	&:hover
+		background-color Yellow_200
 		border-color Yellow_200
+		
 
+.Instalaciones
+	position relative
+	z-index 0
+	margin-top 10em
+	margin-bottom 5em
+	background Gradient_Blue
+	.Instalaciones_parrafo
+		padding 70px 20px
+	h2
+		font-family Lato
+		font-size 36px
+		color White_100
+		margin-bottom 1.5rem
+	p
+		font-size 16px
+		color Grey_200
+		font-weight 300
+		margin-bottom 1.5rem
+	span
+		color Yellow_100
+		font-weight 500
+	.Instalaciones_btn
+		min-width 160px
+		text-decoration none
+		color Grey_500
+		margin-bottom 1em
+		&:hover
+			color Grey_500
+
+.Conjunto_instalaciones
+	justify-content center
+		
+.Andamio
+	transform scaleY(1.2)
+	position relative
+	&:before
+		border-color Grey_100
+		border-radius 15px 0 15px 0
+		content ""
+		position absolute
+		height 100%
+		width 100%
+		top 0
+		left 0
+		background-image url("../img/Andamio.jpg")
+		background-size 432px 600px
+		background-position -12px -28px
+		background-repeat no-repeat
+		box-shadow: 0px -2px 27px 1px rgba(0,0,0,0.16)
+		
 
 
 	
+.Frases
+	margin-top 35em
+	height 300px
+	display flex
+	align-items center
+	text-align center
+	background-image url("../img/DCM-Fondo-1.png")
+	background-size cover
+	h3
+		font-family Lato
+		font-size 30px
+		color White_100
+		line-height 1.9
+
+.Frase_container
+	justify-content center
