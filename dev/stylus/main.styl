@@ -35,7 +35,6 @@ body
 	background-repeat no-repeat
 	background-size cover
 	background-attachment fixed
-	height 95vh
 	padding 0
 	padding-top 1em
 	position relative
@@ -54,48 +53,30 @@ body
 			color #fff
 			&:hover
 				text-decoration none
-		.Certificado_link
-			background-color Yellow_200
-			font-family Lato
-			font-size 14px
-			font-weight bold
-			border-radius 5px 0 5px 0
-			padding-left 10px
-			transition .5s
-			cursor pointer
-			position relative
-			&:before
-				content ""
-				position absolute
-				display inline-block
-				border-radius 5px 0 5px 0
-				width 100%
-				height 100%
-				top 0
-				left 0
-				background Gradient_Red
-				z-index -1
-				transition .3s ease-in-out
-			&:hover
-				&:before
-					top 5px
-					left 5px				
-				
-			a
-				color Grey_500
-			p
-				display inline-block
-				margin-right 10px
-				margin-bottom 0 
-			.Dowload_icon
-				display inline-block
-				padding 10px
-				background-color Yellow_100
-				border-radius 0 0 5px 0
-				i
-					color Grey_500
-					font-size 25px
+
+.Certificado_link
+	background-color Yellow_200
+	font-family Lato
+	color Grey_500
+	font-size 16px
+	font-weight bold
+	text-decoration none
+	&:hover
+		text-decoration none
+		color Grey_500
 		
+		
+
+.Dowload_icon
+	display inline-block
+	padding 11px
+	margin-left 10px
+	background-color Yellow_100
+	border-radius 0 0 5px 0
+	color Grey_500	
+
+.Dowload_icon.fa
+	font-size 25px
 				
 .Contorno
 	min-height 120px
@@ -159,7 +140,7 @@ body
 .dropdown-toggle
 	&:after
 		display none
-	&:focus
+	&:hover
 		.fa-chevron-down
 			transform rotate(-180deg)
 
@@ -229,6 +210,11 @@ body
 	min-width 260px
 	text-align center
 	position relative
+	&:hover
+		&:before
+			opacity 1
+			top 8px
+			left 8px
 	&:focus
 		outline none
 	i
@@ -247,6 +233,10 @@ body
 		border-radius 10px 0 10px 0
 		box-shadow 2px 3px 5px 0px rgba(0,0,0,0.15)
 		transition .3s ease-in-out
+	
+
+
+.Button__Register
 	&:hover
 		i
 			animation-name flecha
@@ -255,10 +245,7 @@ body
 			animation-direction alternate
 			animation-fill-mode: forwards
 			transition .8s
-		&:before
-			opacity 1
-			top 8px
-			left 8px
+
 
 @keyframes flecha{
 	0%{
@@ -274,6 +261,7 @@ body
 .Cursos
 	margin-top -1em
 	position relative
+	padding-bottom 10em
 	.Curso_group_1
 		margin-bottom 2em
 	.Cursos-Diagonal
@@ -309,11 +297,13 @@ body
 	transition .5s ease-in-out
 	cursor pointer
 	box-shadow 2px 3px 5px 0px rgba(0,0,0,0.15)
+	min-height 500px
 	img
 		width 100px
 		margin 0 auto
 	h4
 		font-size 24px
+		min-height 70px
 		color Grey_500
 	p
 		font-weight 100
@@ -340,6 +330,7 @@ body
 	border 1px solid Grey_200
 	margin-top 2em
 	position relative
+	padding-left 0
 	a
 		color  Grey_500
 		text-decoration none
@@ -351,16 +342,10 @@ body
 .Instalaciones
 	position relative
 	z-index 0
-	margin-top 10em
-	margin-bottom 5em
 	background Gradient_Blue
+	overflow hidden
 	.Instalaciones_parrafo
 		padding 70px 20px
-	h2
-		font-family Lato
-		font-size 36px
-		color White_100
-		margin-bottom 1.5rem
 	p
 		font-size 16px
 		color Grey_200
@@ -376,30 +361,86 @@ body
 		margin-bottom 1em
 		&:hover
 			color Grey_500
+	
+.Titulo__instalaciones
+		color White_100
+		margin-bottom 1.5rem
 
-.Conjunto_instalaciones
-	justify-content center
 		
 .Andamio
-	transform scaleY(1.2)
 	position relative
-	&:before
-		border-color Grey_100
-		border-radius 15px 0 15px 0
-		content ""
-		position absolute
-		height 100%
-		width 100%
-		top 0
-		left 0
-		background-image url("../img/Andamio.jpg")
-		background-size 432px 600px
-		background-position -12px -28px
-		background-repeat no-repeat
-		box-shadow: 0px -2px 27px 1px rgba(0,0,0,0.16)
-		
+	background-image url("../img/Andamio.jpg")
+	background-size cover
+	background-position 1px -585px
+	background-repeat no-repeat
 
+.Seguridad-salud
+	padding-top 5em
+	background-color White_200
 
+.Titulo
+	font-family Lato
+	font-size 36px
+	font-weight bold
+	
+.Seguridad-salud_Tittle
+	text-align center
+	margin-bottom 2em
+	color Blue_200
+	
+
+.Seguridad-salud__Servicio
+	display flex
+	align-items center
+	padding 40px 20px
+	
+.Seguridad-salud__Link
+	display inline-block
+	font-size 18px
+	font-family Lato
+	color Grey_400
+	&:hover
+		text-decoration none
+		color Grey_400
+	
+.Dowload_icon--Service
+	display inline-table
+	margin-right 1em
+	background-color White_100
+	border-color #DFE1E5
+	padding 20px
+	color Blue_100
+	
+.Dowload_icon--Service.fa
+	font-size 26px
+	
+
+.Certificado
+	background-image url("../img/Certificado-Section.jpg")
+	background-size cover
+	background-position center
+	background-repeat no-repeat
+	color White_100
+	padding 100px 15px
+	position relative
+	z-index 0
+	align-items center
+
+.Certificado__articulo
+	align-items center
+
+.Certificado__Titulo
+	display inline
+	margin-right .5em
+
+.Certificado__Arrow-2.fa
+	font-size 24px
+	
+
+.Certificado__parrafo
+	font-weight 100
+	margin 2em 0
+	
 	
 .Frases
 	margin-top 35em
@@ -417,3 +458,5 @@ body
 
 .Frase_container
 	justify-content center
+	
+

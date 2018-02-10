@@ -47,7 +47,7 @@ $(document).ready(function (){
 
             //Animaciones con Scroll//
             AOS.init({
-              offset: 200,
+              offset: 50,
               duration: 1200,
               easing: 'ease-in-out',
               delay: 100,
