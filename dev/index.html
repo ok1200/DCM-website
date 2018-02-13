@@ -18,7 +18,10 @@
         <!-- Fontawesome -->
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
         <!-- Animate.css -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+        <!-- Animate.css -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" rel="stylesheet">  
+
         <!-- Our css -->
         <link rel="stylesheet" href="css/main.css">
     </head>
@@ -45,7 +48,7 @@
                   <div class="container-fluid Menu_container">
                       <nav class="container Menu">
                             <a class="navbar-brand Logo Inicio" href="#Header">
-                              <img src="img/UI-Designer-Icon.svg" alt="dcm logo">
+                              <img src="img/DCM-Logo.png" alt="dcm logo">
                             </a>
                           <ul class="nav">
                             <li class="nav-item active">
@@ -55,10 +58,12 @@
                                   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CURSOS <i class="fa fa-chevron-down" aria-hidden="true"></i>
                                   </a>
                                   <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">CURSO #1</a>
-                                    <a class="dropdown-item" href="#">CURSO #2</a>
-                                    <a class="dropdown-item" href="#">CURSO #3</a>
-                                    <a class="dropdown-item" href="#">CURSO #4</a>
+                                    <a class="dropdown-item" href="Cursos.html">BÁSICO ADMINISTRATIVO</a>
+                                    <a class="dropdown-item" href="#">BÁSICO OPERATIVO</a>
+                                    <a class="dropdown-item" href="#">AVANZADO</a>
+                                    <a class="dropdown-item" href="#">REENTRENAMIENTO</a>
+                                    <a class="dropdown-item" href="#">COORDINADOR</a>
+                                    <a class="dropdown-item" href="#">ARMADO Y DESARMADO DE ANDAMIOS</a>
                                   </div>
                               </li>
                               <li class="nav-item dropdown">
@@ -87,11 +92,11 @@
                  <!-- Menu -->
 
                  <!-- Artículo header -->
-              <div class="container">
+              <div class="container Header_articulo">
                 <div class="row Conjunto_2">
                   <div class="col-6 Subconjunto_2" data-aos="fade-right">
                    <h1>TRABAJO SEGURO EN ALTURAS</h1>
-                   <p>¿Ya tienes tu certificado de trabajo en alturas?
+                   <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
                    Conoce nuestros cursos de capacitación</p>
                    <a href="" class="Button Button__Register">Registrarme ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                     
@@ -111,7 +116,7 @@
             <div class="row Curso_group_1">
               <article class="col-4" data-aos="zoom-in-up">
                   <div class="card">
-                    <img class="card-img-top" src="img/UI-Designer-Icon.svg" alt="Card image cap">
+                    <img class="card-img-top" src="img/Curso-1.png" alt="Card image cap">
                     <div class="card-body">
                       <h4 class="card-title">BÁSICO ADMINISTRATIVO</h4>
                       <p class="card-text">Para personas que toman decisiones
@@ -124,7 +129,7 @@
               </article>
               <article class="col-4" data-aos="zoom-in-up">
                   <div class="card">
-                    <img class="card-img-top" src="img/UI-Designer-Icon.svg" alt="Card image cap">
+                    <img class="card-img-top" src="img/Curso-2.png" alt="Card image cap">
                     <div class="card-body">
                       <h4 class="card-title">BÁSICO<br> OPERATIVO</h4>
                       <p class="card-text">Para personas que toman decisiones
@@ -137,7 +142,7 @@
               </article>
               <article class="col-4" data-aos="zoom-in-up">
                   <div class="card">
-                    <img class="card-img-top" src="img/UI-Designer-Icon.svg" alt="Card image cap">
+                    <img class="card-img-top" src="img/Curso-3.png" alt="Card image cap">
                     <div class="card-body">
                       <h4 class="card-title">AVANZADO</h4>
                       <p class="card-text">Para personas que toman decisiones
@@ -152,7 +157,7 @@
             <div class="row Curso_group_2">
               <article class="col-4" data-aos="zoom-in-up">
                 <div class="card">
-                  <img class="card-img-top" src="img/UI-Designer-Icon.svg" alt="Card image cap">
+                  <img class="card-img-top" src="img/Curso-1.png" alt="Card image cap">
                   <div class="card-body">
                     <h4 class="card-title">REENTRENAMIENTO</h4>
                     <p class="card-text">Para personas que toman decisiones
@@ -165,7 +170,7 @@
               </article>
               <article class="col-4" data-aos="zoom-in-up">
                  <div class="card">
-                  <img class="card-img-top" src="img/UI-Designer-Icon.svg" alt="Card image cap">
+                  <img class="card-img-top" src="img/Curso-2.png" alt="Card image cap">
                   <div class="card-body">
                     <h4 class="card-title">COORDINADOR</h4>
                     <p class="card-text">Para personas que toman decisiones
@@ -178,7 +183,7 @@
               </article>
               <article class="col-4" data-aos="zoom-in-up">
                  <div class="card">
-                  <img class="card-img-top" src="img/UI-Designer-Icon.svg" alt="Card image cap">
+                  <img class="card-img-top" src="img/Curso-3.png" alt="Card image cap">
                   <div class="card-body">
                     <h4 class="card-title">ARMADO Y DESARMADO DE ANDAMIOS</h4>
                     <p class="card-text">Para personas que toman decisiones
@@ -222,7 +227,7 @@
               Capacitación<br> Bomberotecnia</a>
               </section>
               <section class="col-4 Seguridad-salud__Servicio">
-                <i class="fa fa-phone Dowload_icon Dowload_icon--Service" aria-hidden="true"></i>
+                <i class="fas fa-exclamation-triangle Dowload_icon--Service" aria-hidden="true"></i>
                 <a href="" class="Seguridad-salud__Link">
                   
                   Diseño de planes de Emergencia
@@ -278,21 +283,21 @@
                </a>
               </section>  
                <section class="col-4 Seguridad-salud__Servicio">
-                <i class="fa fa-phone Dowload_icon Dowload_icon--Service" aria-hidden="true"></i>
+                <i class="fas fa-road Dowload_icon Dowload_icon--Service" aria-hidden="true"></i>
                 <a href="" class="Seguridad-salud__Link">
                   
                   Diseño del plan estratégico de seguridad vial
                </a>
               </section>
               <section class="col-4 Seguridad-salud__Servicio">
-                <i class="fa fa-phone Dowload_icon Dowload_icon--Service" aria-hidden="true"></i>
+                <i class="fas fa-fire-extinguisher Dowload_icon Dowload_icon--Service" aria-hidden="true"></i>
                 <a href="" class="Seguridad-salud__Link">
                   
                   Asesoría seguridad y salud en el trabajo
                </a>
               </section>  
               <section class="col-4 Seguridad-salud__Servicio">
-                <i class="Dowload_icon--Service fa fa-phone Dowload_icon " aria-hidden="true"></i>
+                <i class="Dowload_icon--Service fas fa-list-ol Dowload_icon " aria-hidden="true"></i>
                 <a href="" class="Seguridad-salud__Link">
                   
                   Diseño y ejecución del sistema de gestión de seguridad y salud en el trabajo
@@ -317,7 +322,7 @@
 
               </section>
               <section class="col-6 offset-1" data-aos="fade-right">
-                <img src="img/certificado.jpg" class="img-fluid" alt="Certificado">
+                <img src="img/Certificado.png" class="img-fluid" alt="Certificado">
                 
               </section>
             </article>
@@ -325,11 +330,32 @@
         </div>
         <!-- Certificado! --> 
 
+        <!-- Portafolio! -->
+        <div class="Certificado Portafolio">
+          <div class="container">
+            <article class="row Certificado__articulo Portafolio_articulo">
+              <section class="col-4" data-aos="fade-left">
+                <img src="img/Constructor-2.png" class="img-fluid Portafolio_img" alt="Constructor">
+              </section>
+              <section class="col-5 offset-2" data-aos="fade-right">
+                <h2 class="Titulo Portafolio_titulo">Conoce nuestro<br> portafolio de servicios</h2>
+                <i class="fa fa-arrow-right Certificado__Arrow-2" aria-hidden="true"></i>
+                <p class="Certificado__parrafo Portafolio__parrafo">Somos una empresa que ofrece soluciones en sistemas de gestión de la seguridad y salud en el trabajo generando experiencias emocionales memorables a nuestros clientes.</p>
+                <a href="" class="Certificado_link Button" target="_blank">DESCARGAR PORTAFOLIO
+                  <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
+                </a>                
+                
+              </section>
+            </article>
+          </div>
+        </div> 
+        <!-- Portafolio! --> 
+
         <!-- Frases! --> 
         <div class="Frases">
           <div class="container" data-aos="zoom-out-left">
             <div class="row Frase_container">
-              <section class="col-9">
+              <section class="col-9 Frase_text">
                 <h3>Acercamos a nuestros clientes a experiencias significativas de aprendizaje, que contribuyan a mejorar las condiciones de trabajo en sus respectivas empresas</h3>
               </section>
             </div>
@@ -341,7 +367,7 @@
         <div class="Elegir-dcm">
           <div class="container">
             <h2 class="Titulo Elegir-dcm__titulo">¿Por qué elegir a DCM?</h2>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-aos="fade-up">
               <ol class="carousel-indicators">
                 <li class="Indicador active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
                 <li class="Indicador" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -406,18 +432,21 @@
         <!-- Clientes! -->
         <div class="Clientes">
           <div class="container">
-            <h2 class="Titulo Clientes__titulo">Nuestros Clientes</h2>
+            <h2 class="Titulo Clientes__titulo" data-aos="fade-up">Nuestros Clientes</h2>
             <div class="row Clientes__row">
-              <section class="col-3 Clientes__section">
+              <section class="col-3 Clientes__section" data-aos="fade-up">
                 <img src="img/client-1.jpg" class="img-fluid Clientes__img" alt="">
               </section>
-              <section class="col-3 Clientes__section">
+              <section class="col-3 Clientes__section" data-aos="fade-up"
+     data-aos-duration="1500">
                 <img src="img/client-2.jpg" class="img-fluid Clientes__img" alt="">
               </section>
-              <section class="col-3 Clientes__section">
+              <section class="col-3 Clientes__section" data-aos="fade-up"
+     data-aos-duration="1800">
                 <img src="img/Corbelen-Marinilla-png.png" class="img-fluid Clientes__img" alt="">
               </section>
-              <section class="col-3 Clientes__section">
+              <section class="col-3 Clientes__section" data-aos="fade-up"
+     data-aos-duration="2100">
                <img src="img/client-1.jpg" class="img-fluid Clientes__img" alt=""> 
               </section>
             </div>
@@ -427,9 +456,53 @@
         <!-- Clientes! -->
 
         <!-- Footer! -->
-        <footer class="Footer">
-          
-        </footer>
+        <div class="Footer">
+          <footer class="container Footer_flex">
+            <img src="img/UI-Designer-Icon.svg" class="Footer_logo" data-aos="fade-down" alt="logo">
+            <section class="Footer_redes" data-aos="fade-up">
+              <a href="" class="Footer_link Footer_facebook hvr-float"><i class="fab fa-facebook-square"></i></a>
+              <a href="" class="Footer_link Footer_linkedin hvr-float"><i class="fab fa-linkedin "></i></a>
+              <a href="" class="Footer_link Footer_instagram hvr-float"><i class="fab fa-instagram"></i></a>
+            </section>
+            <div class="Footer_menu row">
+              <section class="col-2" data-aos="fade-right">
+              <p class="Footer_menu_title">Menú</p>
+              <ul class="Footer_menu_list">
+                <a href=""><li>Inicio</li></a>
+                <a href=""><li>Cursos</li></a>
+                <a href=""><li>Servicios</li></a>
+                <a href=""><li>Nosotros</li></a>
+                <a href=""><li>Galería</li></a>
+                <a href=""><li>Contacto</li></a>
+              </ul>               
+              </section>
+              <section class="col-2" data-aos="fade-right">
+              <p class="Footer_menu_title">Cursos</p>
+              <ul class="Footer_menu_list">
+                <a href=""><li>Administrativo</li></a>
+                <a href=""><li>Básico</li></a>
+                <a href=""><li>Avanzado</li></a>
+                <a href=""><li>Reentrenamiento</li></a>
+                <a href=""><li>Coordinador</li></a>
+                <a href=""><li>Otros servicios</li></a>
+              </ul>               
+              </section>
+              <section class="col-5 offset-3" data-aos="fade-left">
+                <h2 class="Titulo Certificado__Titulo">Valida y descarga tu Certificado Online</h2>
+                <i class="fa fa-arrow-right Certificado__Arrow-2" aria-hidden="true"></i>
+                <p class="Certificado__parrafo">Ingresa a nuestro sistema de validación de Certificados Online, y podrás descargar tu certificado en formato PDF.</p>
+                <a href="http://localhost/xampp/Curso%20PHP/Buscador_dcm/" class="Certificado_link Button" target="_blank">DESCARGAR CERTIFICADO
+                  <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
+                </a>
+
+              </section>              
+            </div>
+            <small class="row Footer_copy">
+              <p class="col-4">DCM Servicios y consultoría © - 2017</p>
+              <a href="https://www.juancarmona.co/" target="_blank" class="col-5 offset-3 Footer_link-juan">Diseñado por Juan Carmona</a>
+          </small>      
+          </footer>        
+        </div>
 
         <!-- Footer! -->
 

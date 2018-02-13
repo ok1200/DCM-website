@@ -29,6 +29,10 @@ Grey_500 =  #323A47
 body
 	p
 		font-family Rubik
+	a
+		color White_100
+		&:hover
+			text-decoration none
 
 .Header
 	background-image url("../img/Header-Background.jpg")
@@ -46,8 +50,8 @@ body
 		padding-top 20px
 		.fa.fa-phone
 			color Yellow_200
-			transform rotate(270deg)
-			font-size 30px
+			transform rotate(360deg)
+			font-size 25px
 			margin-right 5px		
 		.Contact_tel
 			color #fff
@@ -124,6 +128,8 @@ body
 				padding 48px 20px	
 				&:hover
 						color #2395ED
+			.dropdown-item
+				padding 15px
 
 
 					
@@ -155,9 +161,10 @@ body
 		margin-bottom 5em
 	h1
 		font-family Lato
-		font-size 54px
-		color Yellow_200
-	p
+		font-size 40px
+		color White_100
+		margin-bottom 1em
+	.Conjunto_2-description
 		font-size 24px
 		color White_100
 		font-weight 100	
@@ -172,6 +179,21 @@ body
 		height 535px
 		width 380px
 
+
+.Header
+	&:before
+		content ""
+		display block
+		height 100%
+		width 100%
+		position absolute
+		top 15%
+		left 26%
+		background-image url("../img/Check-Logo.png")
+		background-size 56%
+		background-repeat no-repeat
+		background-position center
+	
 
 //Menu Fixed//		
 .Fixed_nav
@@ -190,6 +212,10 @@ body
 .Nav_visible
 	top 0%
 	transition 1s ease
+	.nav
+		height 90px
+	.nav-link
+		padding 30px 20px
 
 
 
@@ -400,9 +426,10 @@ body
 	font-size 18px
 	font-family Lato
 	color Grey_400
+	transition .5s ease-in-out
 	&:hover
 		text-decoration none
-		color Grey_400
+		color Blue_200
 	
 .Dowload_icon--Service
 	display inline-table
@@ -442,9 +469,20 @@ body
 	font-weight 100
 	margin 2em 0
 	
+.Portafolio
+	background White_200
+
+.Portafolio_articulo
+	justify-content center	
+
+.Portafolio_titulo
+	color Blue_200
+
+.Portafolio__parrafo
+	color Grey_400
+	margin-top 0
 	
 .Frases
-	margin-top 35em
 	height 300px
 	display flex
 	align-items center
@@ -459,6 +497,23 @@ body
 
 .Frase_container
 	justify-content center
+
+.Frase_text
+	position relative
+	&:before,&:after
+		content ""
+		position absolute
+		height 100%
+		width 20%
+		top -40%
+		left -16%
+		background-image url("../img/Frase-1.png")
+		background-repeat no-repeat
+		background-position center
+	&:after
+		top 80%
+		left 90%
+		background-image url("../img/Frase-2.png")
 	
 
 .Elegir-dcm
@@ -548,4 +603,171 @@ body
 .Clientes__img
 	width 120px
 
+
+.Footer
+	margin 5em 0
+	margin-bottom 0
+	padding 3em 0
+	padding-bottom 1em
+	background-image url("../img/Footer.jpg")
+	background-size cover
+	background-position center
+	background-repeat no-repeat
+	color White_100
+
+
+.Footer_logo
+	width 120px
+	display block
+	margin 0 auto
 	
+.Footer_redes
+	margin 1em 0
+	text-align center
+
+.Footer_link
+	text-decoration none
+	color White_100
+	font-size 36px
+	&:hover
+		color White_100
+		
+
+.Footer_facebook
+	margin-right 1.5em
+
+.Footer_instagram
+	margin-left 1.5em
+
+.Footer_menu
+	margin-top 4em
+	
+.Footer_menu_title
+	font-family Rubik
+	font-weight 100
+	font-size 30px
+
+.Footer_menu_list
+	padding-left 0
+	list-style none
+	font-family Rubik
+	font-weight 100
+	font-size 20px
+	a
+		&:hover
+			text-decoration none
+	li
+		margin 15px 0
+		color White_100
+
+
+.Footer_copy
+	margin-top 4em
+	font-size 20px
+	font-weight 100
+
+.Footer_link-juan
+	&:hover
+		color White_100
+
+//Page_cursos_header//
+.Page_cursos
+	background Gradient_Blue
+
+.Page_cursos-row
+	align-items start
+
+.Page_cursos_img
+	width 150px
+	margin-right 2em
+
+.Page_cursos_title
+	font-weight 400
+	color White_100
+
+.Page_cursos_conjunto-1
+	display flex
+	align-items center
+
+.Page_cursos-col
+	color White_100
+	font-family Rubik
+	font-size 20px
+	font-weight 100
+
+
+.Page_cursos-requisitos
+	font-weight bold
+	font-family Lato
+	font-size 24px
+			
+.Page_cursos-requisito
+	font-family Rubik
+	font-size 20px
+	font-weight 100
+	margin-left 1em
+	margin-top 1em
+
+
+.Requisito-icon
+	margin-bottom 1em
+	display block
+	
+
+
+.Page_cursos_form
+	background White_100
+	padding 40px 30px
+	margin-bottom 1em
+	border-radius 25px 0 25px 0
+	font-family Rubik
+	font-weight 100
+	font-size 17px
+
+.Form_label
+	color Blue_200
+	margin-top 1em
+	margin-bottom 0
+
+.Form_input
+	background White_200
+	font-size 17px
+
+.Button_form
+	text-align center
+
+.Page_cursos_title-inscribete
+	font-family Lato
+	font-weight bold
+	font-size 24px
+	color Blue_200
+	text-align center
+	margin-bottom 1em
+
+.Cursos_info
+	display inline-flex
+	align-items center
+	margin-top 1.5em
+	background-color White_100
+	border-radius 10px 0 10px 0
+	margin-right 1em
+
+.Cursos_info-icon
+	font-size 30px
+	color Blue_200
+	margin-right 1em
+	background-color Grey_200
+	padding 20px
+	border-radius 10px 0 0 0
+
+.Cursos_info-title
+	margin-bottom 0
+	color Blue_200
+	font-weight bold
+	font-family Lato
+
+.Cursos_info-duration
+	color Grey_400
+	font-weight 100
+	font-family Rubik
+	margin-right 3em

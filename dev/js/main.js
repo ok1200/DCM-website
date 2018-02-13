@@ -53,6 +53,11 @@ $(document).ready(function (){
               delay: 100,
               once: true,
             });
+
+            //Cursos interactivos//
+            $(".Curso").click(function(){
+                alert("Hola!");
+            });
 })
 
 

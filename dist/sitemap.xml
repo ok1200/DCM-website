@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+        <loc>http://www.example.com/Cursos.html</loc>
+        <lastmod>2018-02-13T23:26:46.264Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://www.example.com/index - copia.html</loc>
+        <lastmod>2018-02-13T23:26:46.264Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
         <loc>http://www.example.com/</loc>
-        <lastmod>2018-02-12T00:54:42.315Z</lastmod>
+        <lastmod>2018-02-13T23:26:46.264Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
