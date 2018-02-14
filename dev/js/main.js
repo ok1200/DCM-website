@@ -1,7 +1,7 @@
 $(document).ready(function (){
 
         //Smoot Scroll Menu//
-      $(".Inicio").click(function(e){
+      $(".Inicio,.Curso_slider-name").click(function(e){
     	e.preventDefault();
     	var linkHref = $(this).attr("href");
         $("html, body").animate({
@@ -54,10 +54,25 @@ $(document).ready(function (){
               once: true,
             });
 
-            //Cursos interactivos//
-            $(".Curso").click(function(){
-                alert("Hola!");
+            //Curso Slider (Slick)//
+            $('.Cursos_slider-row').slick({
+              infinite: true,
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              autoplaySpeed: 4000,
+              autoplay: false
             });
+
+            //Function tab interactivas//
+            $("p").click(function(){
+                var tabsId = $(this).attr("id");
+                $("#" + tabsId + "-title").addClass("active").siblings().removeClass("active");
+                $("#" + tabsId + "-content").addClass("active2").siblings().removeClass("active2");
+            });
+
+          
+
+
 })
 
 

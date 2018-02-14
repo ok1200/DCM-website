@@ -87,7 +87,7 @@ body
 .Contorno
 	min-height 120px
 	margin-top 2em
-	margin-bottom 2em
+	margin-bottom 98px
 
 #Menu_container
 	position relative
@@ -610,6 +610,7 @@ body
 
 .Clientes__row
 	align-items center
+	margin-bottom 60px
 
 .Clientes__section
 	text-align center
@@ -619,7 +620,6 @@ body
 
 
 .Footer
-	margin 5em 0
 	margin-bottom 0
 	padding 80px 0
 	padding-bottom 1em
@@ -687,6 +687,10 @@ body
 //Page_cursos_header//
 .Page_cursos
 	background Gradient_Blue
+
+.Page_cursos.Header
+	&:before
+		display none
 
 .Page_cursos-row
 	align-items start
@@ -785,3 +789,47 @@ body
 	font-weight 100
 	font-family Rubik
 	margin-right 3em
+
+
+//Function table cursos
+.hidden
+	display none
+
+.hidden.active
+	display flex
+
+.active2
+	display block
+
+.Cursos_slider
+	height 500px
+	display flex
+	align-items center
+
+.Cursos_slider-title
+	font-weight 400
+	color Blue_200
+	text-align center
+	margin-bottom 80px
+
+.Curso_slider-item
+	text-align center
+	font-size 18px
+	font-family Lato
+	font-weight 500
+	&:focus
+		outline none
+	img
+		height 160px
+		margin 0 auto
+		margin-bottom 27px
+
+
+//Slick control//
+.slick-prev
+	left -40px
+
+.slick-prev&:before,.slick-next&:before
+	font-size 35px
+	opacity 1
+	color Blue_200

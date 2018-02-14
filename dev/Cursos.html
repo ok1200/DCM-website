@@ -20,7 +20,11 @@
         <!-- Animate.css -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
         <!-- Animate.css -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" rel="stylesheet">  
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" rel="stylesheet">
+        <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+        <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
 
         <!-- Our css -->
         <link rel="stylesheet" href="css/main.css">
@@ -90,49 +94,97 @@
                 </div>
               </div>
                  <!-- Menu -->
-
                  <!-- Artículo header -->
               <div class="container">
                 <div class="row Conjunto_2 Page_cursos-row">
                   <div class="col-11 Subconjunto_2" data-aos="fade-right">
-                    <section id="tab-1-title" class="Page_cursos_conjunto-1 Page_cursos-row-hiden">
+                    <section id="tab-1-title" class="Page_cursos_conjunto-1 hidden active">
                       <img src="img/Cliente-2.png" class="img-fluid Page_cursos_img" alt="Cliente-2">
                       <h3 class="Titulo Page_cursos_title">Administración para jefe de área trabajo seguro en alturas</h3>
                     </section>
-                  </div>
-                  <div id="tab-1-content" class="col-7 Page_cursos-col Page_cursos-col-hiden" data-aos="fade-up">
-                      <p class="Page_cursos-description">Para personas que toman decisiones administrativas en relación con la aplicación de este reglamento en empresas en las que se haya identificado el riesgo de caída por trabajo en altura.</p>
-                      <p class="Page_cursos-requisitos">Requisitos</p>
-                      <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Superar el nivel medio definido por la empresa</span></i>
-                      <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Fotocopia del documento de identidad</span></i>
-                      <div class="Cursos_info">
-                        <i class="fas fa-clock Cursos_info-icon"></i>
-                        <div class="Cursos_info-description">
-                          <p class="Cursos_info-title">Duración</p>
-                          <small class="Cursos_info-duration">10 Horas teóricas</small> 
+                    <section id="tab-2-title" class="Page_cursos_conjunto-1 hidden">
+                      <img src="img/Cliente-2.png" class="img-fluid Page_cursos_img" alt="Cliente-2">
+                      <h3 class="Titulo Page_cursos_title">BÁSICO OPERATIVO</h3>
+                    </section>
+                    <section id="tab-3-title" class="Page_cursos_conjunto-1 hidden">
+                      <img src="img/Cliente-2.png" class="img-fluid Page_cursos_img" alt="Cliente-2">
+                      <h3 class="Titulo Page_cursos_title">ARMADO Y DESARMADO DE ANDAMIOS</h3>
+                    </section>                                        
+                  </div>                                
+                  <div class="col-7 Page_cursos-col Page_cursos-col-hiden" data-aos="fade-up">
+                    <div id="tab-1-content" class=" hidden active2">
+                        <p class="Page_cursos-description">Para personas que toman decisiones administrativas en relación con la aplicación de este reglamento en empresas en las que se haya identificado el riesgo de caída por trabajo en altura.</p>
+                        <p class="Page_cursos-requisitos">Requisitos</p>
+                        <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Superar el nivel medio definido por la empresa</span></i>
+                        <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Fotocopia del documento de identidad</span></i>
+                        <div class="Cursos_info">
+                          <i class="fas fa-clock Cursos_info-icon"></i>
+                          <div class="Cursos_info-description">
+                            <p class="Cursos_info-title">Duración</p>
+                            <small class="Cursos_info-duration">10 Horas teóricas</small> 
+                          </div>
                         </div>
-                      </div>
-                      <div class="Cursos_info">
-                        <i class="fas fa-map-marker Cursos_info-icon"></i>
-                        <div class="Cursos_info-description">
-                          <p class="Cursos_info-title">Lugar</p>
-                          <small class="Cursos_info-duration">Rionegro, Antioquia</small> 
+                        <div class="Cursos_info">
+                          <i class="fas fa-map-marker Cursos_info-icon"></i>
+                          <div class="Cursos_info-description">
+                            <p class="Cursos_info-title">Lugar</p>
+                            <small class="Cursos_info-duration">Rionegro, Antioquia</small> 
+                          </div>
+                        </div>                                            
+                    </div>
+                    <div id="tab-2-content" class="hidden">
+                        <p class="Page_cursos-description">Curso 2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, nulla excepturi ratione quasi repellendus vitae. Nemo, adipisci. Vel minus minima fuga, consectetur doloribus provident repellendus suscipit sequi rerum reprehenderit obcaecati!</p>
+                        <p class="Page_cursos-requisitos">Requisitos</p>
+                        <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Superar el nivel medio definido por la empresa</span></i>
+                        <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Fotocopia del documento de identidad</span></i>
+                        <div class="Cursos_info">
+                          <i class="fas fa-clock Cursos_info-icon"></i>
+                          <div class="Cursos_info-description">
+                            <p class="Cursos_info-title">Duración</p>
+                            <small class="Cursos_info-duration">12 Horas teóricas</small> 
+                          </div>
                         </div>
-                      </div>                      
-                      
+                        <div class="Cursos_info">
+                          <i class="fas fa-map-marker Cursos_info-icon"></i>
+                          <div class="Cursos_info-description">
+                            <p class="Cursos_info-title">Lugar</p>
+                            <small class="Cursos_info-duration">Bello, Antioquia</small> 
+                          </div>
+                        </div>                                            
+                    </div>
+                    <div id="tab-3-content" class="hidden">
+                        <p class="Page_cursos-description">Curso 3: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dignissimos autem blanditiis maiores quibusdam, qui placeat eius quae eum quasi id doloremque eligendi reprehenderit ratione vitae molestias atque, consequatur facilis!</p>
+                        <p class="Page_cursos-requisitos">Requisitos</p>
+                        <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Superar el nivel medio definido por la empresa</span></i>
+                        <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Fotocopia del documento de identidad</span></i>
+                        <div class="Cursos_info">
+                          <i class="fas fa-clock Cursos_info-icon"></i>
+                          <div class="Cursos_info-description">
+                            <p class="Cursos_info-title">Duración</p>
+                            <small class="Cursos_info-duration">15 Horas teóricas</small> 
+                          </div>
+                        </div>
+                        <div class="Cursos_info">
+                          <i class="fas fa-map-marker Cursos_info-icon"></i>
+                          <div class="Cursos_info-description">
+                            <p class="Cursos_info-title">Lugar</p>
+                            <small class="Cursos_info-duration">Medellin, Antioquia</small> 
+                          </div>
+                        </div>                                            
+                    </div>                                                         
                   </div>
-
                   <!--Formulario -->
                   <form class="col-4 offset-1 Constructor Page_cursos_form" data-aos="fade-left">
                     <h4 class="Page_cursos_title-inscribete">Inscríbete en este <br> curso ahora</h4>
                     <label class="Form_label" for="opciones">Selecciona un curso</label>
                       <select class="form-control Form_input form-control-lg" id="opciones">
-                        <option class="Curso" >BÁSICO ADMINISTRATIVO</option>
-                        <option class="Curso" >BÁSICO OPERATIVO</option>
-                        <option class="Curso">AVANZADO</option>
-                        <option class="Curso">REENTRENAMIENTO</option>
-                        <option class="Curso">COORDINADOR</option>
-                        <option class="Curso">ARMADO Y DESARMADO DE ANDAMIOS</option>
+                        <option ></option>
+                        <option >BÁSICO ADMINISTRATIVO</option>
+                        <option >BÁSICO OPERATIVO</option>
+                        <option>AVANZADO</option>
+                        <option>REENTRENAMIENTO</option>
+                        <option>COORDINADOR</option>
+                        <option>ARMADO Y DESARMADO DE ANDAMIOS</option>
                       </select>
                       <label class="Form_label" for="nombre">Nombre</label>
                       <input type="text" class="form-control Form_input" id="nombre" placeholder="Carolina Montenegro">
@@ -143,13 +195,51 @@
                       <div class="Button_form">
                         <a href="#" id="Enviar" class="Button Cursos_btn">Enviar</a>
                       </div>
-                  </form>
+                  </form>                  
+                </div>
+
+
                   </div>
               </div>
-              <!-- Artículo header -->
+              <!-- Artículo header -->                 
             </section>
         </header>
  
+        <!-- Cursos Slider! -->
+        <div class="Cursos_slider">
+          <div class="container">
+            <h2 class="Titulo Cursos_slider-title">Otros cursos que te pueden interesar</h2>
+          <section class="row Cursos_slider-row">
+            <div class="col-4 Curso_slider-item">
+              <img src="img/Curso-1.png" class="img-fluid" alt="">
+              <p id="tab-1" class="Curso_slider-name" href=".Page_cursos-row">BÁSICO ADMINISTRATIVO</p>
+            </div>
+            <div class="col-4 Curso_slider-item">
+              <img src="img/Curso-2.png" class="img-fluid" alt="">
+              <p id="tab-2" class="Curso_slider-name" href=".Page_cursos-row">BÁSICO OPERATIVO</p>
+            </div>
+            <div class="col-4 Curso_slider-item">
+              <img src="img/Curso-3.png" class="img-fluid" alt="">
+              <p id="tab-3" class="Curso_slider-name" href=".Page_cursos-row">AVANZADO</p>
+            </div>
+            <div class="col-4 Curso_slider-item">
+              <img src="img/Curso-1.png" class="img-fluid" alt="">
+              <p class="Curso_slider-name" href=".Page_cursos-row">REENTRENAMIENTO</p>
+            </div>
+            <div class="col-4 Curso_slider-item">
+              <img src="img/Curso-2.png" class="img-fluid" alt="">
+              <p class="Curso_slider-name" href=".Page_cursos-row">COORDINADOR</p>
+            </div>
+            <div class="col-4 Curso_slider-item">
+              <img src="img/Curso-3.png" class="img-fluid" alt="">
+              <p class="Curso_slider-name" href=".Page_cursos-row">ARMADO Y DESARMADO DE ANDAMIOS</p>
+            </div>
+          </section>           
+          </div>
+        </div>
+
+        <!-- Cursos Slider! -->
+
 
         <!-- Footer! -->
         <div class="Footer">
@@ -212,6 +302,8 @@
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
             <!-- AOS javascript -->
             <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+            <!-- Slick -->
+            <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
             <!-- Our javascript -->
             <script type="text/javascript" src="js/all.js"></script>         
 
