@@ -58,13 +58,15 @@ body
 			&:hover
 				text-decoration none
 
-.Certificado_link
+.Button.Certificado_link
 	background-color Yellow_200
 	font-family Lato
 	color Grey_500
 	font-size 16px
 	font-weight bold
 	text-decoration none
+	display inline-flex
+	justify-content flex-end
 	&:hover
 		text-decoration none
 		color Grey_500
@@ -100,7 +102,7 @@ body
 	.Logo
 		margin auto 1em
 		img
-			width 100px
+			width 140px
 			transition 1s ease
 	ul
 		.nav-item.active
@@ -161,13 +163,14 @@ body
 		margin-bottom 5em
 	h1
 		font-family Lato
-		font-size 40px
+		font-size 36px
 		color White_100
-		margin-bottom 1em
+		margin-bottom 2em
 	.Conjunto_2-description
 		font-size 24px
 		color White_100
-		font-weight 100	
+		font-weight 100
+		margin-bottom 40px
 	a
 		color Grey_500
 		text-decoration none
@@ -244,7 +247,7 @@ body
 	&:focus
 		outline none
 	i
-		margin-left 15px
+		margin-left 30px
 	&:before
 		content ""
 		position absolute
@@ -401,7 +404,6 @@ body
 	background-repeat no-repeat
 
 .Seguridad-salud
-	padding-top 5em
 	background-color White_200
 
 .Titulo
@@ -412,8 +414,12 @@ body
 	
 .Seguridad-salud_Tittle
 	text-align center
-	margin-bottom 2em
+	padding-top 157px
+	margin-bottom 110px
 	color Blue_200
+
+.Seguridad-salud_article
+	padding-bottom 153px
 	
 
 .Seguridad-salud__Servicio
@@ -467,6 +473,7 @@ body
 
 .Certificado__parrafo
 	font-weight 100
+	line-height 30px
 	margin 2em 0
 	
 .Portafolio
@@ -481,9 +488,12 @@ body
 .Portafolio__parrafo
 	color Grey_400
 	margin-top 0
+
+.Portafolio_icon
+	padding-top 13px
 	
 .Frases
-	height 300px
+	height 400px
 	display flex
 	align-items center
 	text-align center
@@ -503,17 +513,20 @@ body
 	&:before,&:after
 		content ""
 		position absolute
-		height 100%
-		width 20%
-		top -40%
-		left -16%
+		height 56px
+		width 65px	
+	&:before
 		background-image url("../img/Frase-1.png")
 		background-repeat no-repeat
 		background-position center
+		top -20px
+		left -90px
 	&:after
-		top 80%
-		left 90%
+		bottom -40px
+		right -66px
 		background-image url("../img/Frase-2.png")
+		background-repeat no-repeat
+		background-position center		
 	
 
 .Elegir-dcm
@@ -607,7 +620,7 @@ body
 .Footer
 	margin 5em 0
 	margin-bottom 0
-	padding 3em 0
+	padding 80px 0
 	padding-bottom 1em
 	background-image url("../img/Footer.jpg")
 	background-size cover
@@ -617,12 +630,12 @@ body
 
 
 .Footer_logo
-	width 120px
+	width 183px
 	display block
 	margin 0 auto
 	
 .Footer_redes
-	margin 1em 0
+	margin 40px 0
 	text-align center
 
 .Footer_link
