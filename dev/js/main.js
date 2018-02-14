@@ -55,13 +55,13 @@ $(document).ready(function (){
             });
 
             //Curso Slider (Slick)//
-            $('.Cursos_slider-row').slick({
-              infinite: true,
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              autoplaySpeed: 4000,
-              autoplay: false
-            });
+            // $('.Cursos_slider-row').slick({
+            //   infinite: true,
+            //   slidesToShow: 3,
+            //   slidesToScroll: 1,
+            //   autoplaySpeed: 4000,
+            //   autoplay: false
+            // });
 
             //Function tab interactivas//
             $("p").click(function(){

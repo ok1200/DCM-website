@@ -826,10 +826,21 @@ body
 
 
 //Slick control//
+.slick-prev, .slick-next
+	top 30%
+
 .slick-prev
 	left -40px
 
 .slick-prev&:before,.slick-next&:before
-	font-size 35px
+	font-family "FontAwesome"
+	font-size 60px
+	font-weight bold
 	opacity 1
 	color Blue_200
+	
+.slick-prev&:before
+	content "\f104"
+	
+.slick-next&:before
+	content "\f105"
