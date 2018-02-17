@@ -108,9 +108,6 @@ body
 	ul
 		.nav-item.active
 			position relative
-			a
-				color #0D5CBA
-				font-weight 600
 			&:before
 				content ""
 				position absolute
@@ -133,14 +130,21 @@ body
 						color #2395ED
 			.dropdown-item
 				padding 15px
+				
+.nav-link.activo
+	color #0D5CBA
+	font-weight 600
 
-
+.dropdown-item.active
+	color #0D5CBA
+	font-weight 600
+	background-color transparent
 					
-	.Menu
-		display flex
-		justify-content space-between
-		margin-top 0
-		margin-bottom 0
+.Menu
+	display flex
+	justify-content space-between
+	margin-top 0
+	margin-bottom 0
 
 .nav
 	height 120px
@@ -167,6 +171,7 @@ body
 		font-size 36px
 		color White_100
 		margin-bottom 2em
+		line-height 55px
 	.Conjunto_2-description
 		font-size 24px
 		color White_100
@@ -177,11 +182,10 @@ body
 		text-decoration none
 		
 
-.Constructor
-	img
-		margin-top 1em
-		height 535px
-		width 380px
+.Constructor_img
+	margin-top 1em
+	height 535px
+	width 380px
 
 
 .Header
@@ -240,6 +244,7 @@ body
 	min-width 260px
 	text-align center
 	position relative
+	box-shadow 2px 3px 5px 0px rgba(0,0,0,0.15)
 	&:hover
 		&:before
 			opacity 1
@@ -442,9 +447,11 @@ body
 	display inline-table
 	margin-right 1em
 	background-color White_100
-	border-color #DFE1E5
-	padding 20px
+	border .5px solid Grey_200
+	border-radius 5px 0 5px 0
+	padding 15px
 	color Blue_100
+	font-size 30px
 	
 .Dowload_icon--Service.fa
 	font-size 26px
@@ -463,6 +470,9 @@ body
 
 .Certificado__articulo
 	align-items center
+
+.Certificado__img
+	border-radius 2%
 
 .Certificado__Titulo
 	display inline
@@ -521,7 +531,7 @@ body
 		background-repeat no-repeat
 		background-position center
 		top -20px
-		left -90px
+		left -148px
 	&:after
 		bottom -40px
 		right -66px
@@ -610,6 +620,7 @@ body
 
 .Clientes__row
 	align-items center
+	justify-content center
 	margin-bottom 60px
 
 .Clientes__section
@@ -713,11 +724,15 @@ body
 	font-size 20px
 	font-weight 100
 
+.Page_cursos-description
+	margin-bottom 63px
+
 
 .Page_cursos-requisitos
 	font-weight bold
 	font-family Lato
 	font-size 24px
+	margin-bottom 36px
 			
 .Page_cursos-requisito
 	font-family Rubik
@@ -726,17 +741,17 @@ body
 	margin-left 1em
 	margin-top 1em
 
-
 .Requisito-icon
 	margin-bottom 1em
 	display block
 	
-
+.Page_cursos-requisito2
+	margin-bottom 70px
 
 .Page_cursos_form
 	background White_100
 	padding 40px 30px
-	margin-bottom 1em
+	margin-bottom 170px
 	border-radius 25px 0 25px 0
 	font-family Rubik
 	font-weight 100
@@ -758,6 +773,7 @@ body
 	font-family Lato
 	font-weight bold
 	font-size 24px
+	line-height 35px
 	color Blue_200
 	text-align center
 	margin-bottom 1em
@@ -765,41 +781,32 @@ body
 .Cursos_info
 	display inline-flex
 	align-items center
-	margin-top 1.5em
 	background-color White_100
 	border-radius 10px 0 10px 0
 	margin-right 1em
+	margin-bottom 20px
+	min-width 290px
 
 .Cursos_info-icon
 	font-size 30px
 	color Blue_200
 	margin-right 1em
 	background-color Grey_200
-	padding 20px
+	padding 25px 20px
 	border-radius 10px 0 0 0
 
 .Cursos_info-title
 	margin-bottom 0
-	color Blue_200
+	color Grey_400
 	font-weight bold
+	font-size 14px
 	font-family Lato
 
 .Cursos_info-duration
-	color Grey_400
-	font-weight 100
+	color Blue_200
+	font-size 18px	
 	font-family Rubik
-	margin-right 3em
 
-
-//Function table cursos
-.hidden
-	display none
-
-.hidden.active
-	display flex
-
-.active2
-	display block
 
 .Cursos_slider
 	height 500px
@@ -830,7 +837,7 @@ body
 	top 30%
 
 .slick-prev
-	left -40px
+	left -60px
 
 .slick-prev&:before,.slick-next&:before
 	font-family "FontAwesome"
@@ -839,8 +846,254 @@ body
 	opacity 1
 	color Blue_200
 	
-.slick-prev&:before
-	content "\f104"
+.slick-prev
+	&:before
+		content "\f104"
 	
-.slick-next&:before
-	content "\f105"
+.slick-next
+	&:before
+		content "\f105"
+
+.Page_servicio_icon
+	font-size 67px
+	background-color White_100
+	padding 37px
+	border-radius 50%
+	color Yellow_200
+	margin-right 48px
+
+.Conjunto_2
+	.Page_servicios_title
+		margin-bottom 0
+
+
+.Servicio_cliente
+	float left
+	margin-right 37px
+	background-color White_100
+	margin-bottom 80px
+	img
+		width 80px
+
+.Servicios_slider-item
+	display flex !important
+	align-items center
+	justify-content center
+
+.Seguridad-salud__Link-diseno
+	text-align left
+
+
+//Nosotros section//
+.Nosotros_header
+	background-image url("../img/Nosotros-Header-Background.jpg")
+	&:before
+		display none
+.Nosotros_articulo
+	h1
+		margin-bottom 40px
+
+.Nosotros_mundo
+	margin-bottom 126px
+	
+.Somos_title
+	color Blue_200
+	text-align center
+
+.Marco
+	padding 0 15px
+
+.Marco_articulo
+	padding 127px 15px
+
+		
+.Marco_resolucion-title
+	color Grey_500
+	font-weight 500
+	
+.Valores_title
+	text-align center
+	padding-top 137px
+	margin-bottom 68px
+.Valores_row
+	margin-bottom 157px
+.Valores_col
+	justify-content center
+	padding 0 25px
+	min-height auto
+	cursor default
+	min-height 435px
+	&:hover
+		p
+			color Grey_400
+
+.Valores_icon
+	font-size 60px
+	color Blue_200
+	margin-bottom 52px
+	margin-top 80px
+
+.Valor_title
+	font-weight bold
+	color Grey_500
+	font-size 20px
+	margin-bottom 30px
+
+.card-text.Valores_text
+	margin-bottom 92px
+
+.Equipo_col
+	text-align center
+	
+	
+.Equipo_img
+	width 294px
+	
+.Equipo_name
+	font-family lato
+	font-weight bold
+	font-size 19px
+	color Grey_500
+	margin-bottom 0
+
+.Equipo_rol
+	font-family lato
+	font-weight 500
+	font-size 20px
+	color Grey_400	
+
+
+//Galería//
+
+.Galeria_title
+	font-family lato
+	font-weight 400
+	color White_100
+	font-size 40px
+	text-align center
+	margin-bottom 71px
+
+//Galería Embed//
+
+.Galeria_before
+	position relative
+	&:before,&:after
+		content ""
+		position absolute
+		width 100%
+		height 75px
+		background-color White_100
+	&:before
+		top 5px
+		left 0
+	&:after
+		bottom 0
+		right 0
+				
+	
+//Contacto//
+.Mapa_container
+	position relative
+	
+.Mapa
+	height 800px
+	
+
+.Mapa_info
+	position absolute
+	top 30%
+	left 200px
+	background-color White_100
+	padding 36px 62px
+	border-radius 25px 0 25px 0
+	box-shadow 0px 0px 30px 25px rgba(0,0,0,0.1)
+	
+.Mapa_info-options
+	padding 0
+	margin-bottom 50px
+
+.Mapa_info-button
+	padding 15px 0
+	min-width 215px
+	color Grey_300
+	display inline-flex
+	justify-content center
+	background-color White_100
+	font-family lato
+	font-weight bold
+	font-size 16px
+	border 1px solid Grey_200
+	cursor pointer
+
+.Mapa_info-button.active
+	transition .5s ease-in-out		
+	background Blue_200
+	color White_100
+
+.Opcion_rionegro
+	border-radius 5px 0 0 5px
+	border-right none
+	
+.Opcion_berrio
+	border-radius 0 5px 5px	0
+	border-left none
+	
+
+.Mapa_info-title
+	font-family lato
+	font-size 24px
+	font-weight 400
+	color Grey_500
+	margin-bottom 50px
+
+.Contact_section
+	color Grey_400
+	font-family Rubik
+	font-weight 400
+	font-size 20px
+	display block
+	margin-bottom 35px
+	&:hover
+		color Blue_200
+
+.Contact_mail
+	margin-bottom 0
+		
+.Contact_icon
+	color Blue_200
+	margin-right 15px
+	
+.Contacto_form
+	font-family lato
+
+.Contacto_form-title
+	font-size 30px
+	color Blue_200
+	font-weight 400
+	padding-top 120px
+	margin-bottom 27px
+	
+.Contacto_form-row
+	margin-bottom 107px
+	align-items center
+	
+.Contacto_form-img
+	margin-bottom 110px
+
+	
+
+.Contacto_form-label
+	font-weight bold
+	font-size 10px
+	color Grey_400
+
+.form-control.Contacto_form-input
+	background-color rgba(138, 144, 153, 0.04)
+	border-radius 10px 0 10px 0
+	box-shadow 0px 0px 5px 0px rgba(0,0,0,0.15)
+	font-family Rubik
+
+.Contacto_form-btn
+	color Grey_500
+	&:hover
+		color Grey_500	

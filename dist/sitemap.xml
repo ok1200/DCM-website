@@ -1,14 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+        <loc>http://www.example.com/Basico-Administrativo.html</loc>
+        <lastmod>2018-02-16T23:38:54.961Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://www.example.com/Capacitacion-Bomberotecnia.html</loc>
+        <lastmod>2018-02-16T23:38:54.961Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://www.example.com/Contactano.html</loc>
+        <lastmod>2018-02-16T23:38:54.961Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://www.example.com/Contactanos.html</loc>
+        <lastmod>2018-02-16T23:38:54.961Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://www.example.com/Contacto.html</loc>
+        <lastmod>2018-02-16T23:38:54.961Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://www.example.com/Curso-1.html</loc>
+        <lastmod>2018-02-16T23:38:54.961Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
         <loc>http://www.example.com/Cursos.html</loc>
-        <lastmod>2018-02-14T21:17:18.074Z</lastmod>
+        <lastmod>2018-02-16T23:38:54.961Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://www.example.com/Galeria.html</loc>
+        <lastmod>2018-02-16T23:38:54.961Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://www.example.com/index - copia.html</loc>
+        <lastmod>2018-02-16T23:38:54.961Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>http://www.example.com/</loc>
-        <lastmod>2018-02-14T21:17:18.074Z</lastmod>
+        <lastmod>2018-02-16T23:38:54.961Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://www.example.com/Nosotros.html</loc>
+        <lastmod>2018-02-16T23:38:54.961Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://www.example.com/Servicio-1.html</loc>
+        <lastmod>2018-02-16T23:38:54.961Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://www.example.com/Servicios.html</loc>
+        <lastmod>2018-02-16T23:38:54.961Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>

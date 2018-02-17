@@ -1,7 +1,7 @@
 $(document).ready(function (){
 
         //Smoot Scroll Menu//
-      $(".Inicio,.Curso_slider-name").click(function(e){
+      $(".Inicio").click(function(e){
     	e.preventDefault();
     	var linkHref = $(this).attr("href");
         $("html, body").animate({
@@ -52,25 +52,22 @@ $(document).ready(function (){
               easing: 'ease-in-out',
               delay: 100,
               once: true,
+            }); 
+
+            //Tabs control//
+            $("ul.Mapa_info-options li:first").addClass("active");
+            $('.Mapa_info-description div').hide();
+            $('.Mapa_info-description div:first').show();
+
+            $("ul.Mapa_info-options li").click(function(){
+                $("ul.Mapa_info-options li").removeClass("active");
+                $(this).addClass("active");
+                 $(".Mapa_info-description div").hide();
+
+                var activeTab = $(this).attr("href");
+                $(activeTab).show();
+                return false;
             });
-
-            //Curso Slider (Slick)//
-            // $('.Cursos_slider-row').slick({
-            //   infinite: true,
-            //   slidesToShow: 3,
-            //   slidesToScroll: 1,
-            //   autoplaySpeed: 4000,
-            //   autoplay: false
-            // });
-
-            //Function tab interactivas//
-            $("p").click(function(){
-                var tabsId = $(this).attr("id");
-                $("#" + tabsId + "-title").addClass("active").siblings().removeClass("active");
-                $("#" + tabsId + "-content").addClass("active2").siblings().removeClass("active2");
-            });
-
-          
 
 
 })
