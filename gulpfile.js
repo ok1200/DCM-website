@@ -10,7 +10,7 @@ var gulp = require('gulp'),
 	imagemin = require('gulp-imagemin'),
 	sitemap = require('gulp-sitemap'),
 	livereload = require('gulp-livereload'),
-	connect = require('gulp-connect'),
+	connect = require('gulp-connect-php'),
     historyApiFallback = require('connect-history-api-fallback');
 
 
@@ -24,6 +24,22 @@ gulp.task('StylusToCSS', function(){
 		.pipe(sourcemaps.write('.'))
 		.pipe(gulp.dest('dist/css/'))
 		.pipe(livereload());
+});
+
+gulp.task('MovePhp',function(){
+  return gulp.src([
+      './dev/libs/*.php'
+  ],  {base: './dev/'})
+  .pipe(gulp.dest('./dist'))
+  .pipe(livereload());
+});
+
+gulp.task('MoveMainPhp',function(){
+  return gulp.src([
+      './dev/*.php'
+  ],  {base: './dev/'})
+  .pipe(gulp.dest('./dist'))
+  .pipe(livereload());
 });
 
 gulp.task('CompressHTML', function() {
@@ -83,6 +99,8 @@ gulp.task('Sitemap', function () {
 gulp.task('Watch', function(){
 	livereload.listen({ basePath: 'dist' });
 	gulp.watch('dev/stylus/*.styl', ['StylusToCSS']);
+	gulp.watch('dev/libs/*.php', ['MovePhp']);
+	gulp.watch('dev/libs/*.php', ['MoveMainPhp']);
 	gulp.watch('dev/css/*.css', ['CompressCSS']);
 	gulp.watch('dev/js/*.js', ['CompressJS']);
 	gulp.watch('dev/*.html', ['CompressHTML']);
@@ -90,4 +108,4 @@ gulp.task('Watch', function(){
 	gulp.watch('dist/**/*.html', ['Sitemap']);
 });
 
-gulp.task('default', ['StylusToCSS','CompressCSS','CompressJS','CompressHTML','imageMin','Sitemap','Watch','Server']);
+gulp.task('default', ['StylusToCSS','MovePhp','MoveMainPhp','CompressCSS','CompressJS','CompressHTML','imageMin','Sitemap','Watch','Server']);

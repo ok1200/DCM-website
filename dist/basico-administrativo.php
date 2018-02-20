@@ -129,26 +129,21 @@
                         </div>
                   </div>
                   <!--Formulario -->
-                  <form class="col-lg-4 col-md-8 col-10 offset-lg-1 Constructor Page_cursos_form" data-aos="fade-left">
+
+                  <div id="Form" class="col-lg-4 col-md-8 col-10 offset-lg-1 Form Constructor Page_cursos_form">
                     <h4 class="Page_cursos_title-inscribete">Inscríbete en este <br> curso ahora</h4>
-                    <label class="Form_label" for="opciones">Curso</label>
-                      <select class="form-control Form_input form-control-lg" id="opciones">
-                        <option >BÁSICO ADMINISTRATIVO</option>
-                      </select>
-                      <label class="Form_label" for="nombre">Nombre</label>
-                      <input type="text" class="form-control Form_input" id="nombre" placeholder="Carolina Montenegro">
-                      <label class="Form_label" for="email">Email</label>
-                      <input type="email" class="form-control Form_input" id="email" placeholder="carolinamontenegro@gmail.com">
-                      <label class="Form_label" for="telefono">Teléfono</label>
-                      <input type="text" class="form-control Form_input" id="telefono" placeholder="312 728 38 14">
-                      <div class="Button_form">
-                        <a href="#" id="Enviar" class="Button Cursos_btn">Enviar</a>
-                      </div>
-                  </form>                  
-                </div>
 
+                    <?php (isset($_POST["curso"])) ? $curso = $_POST["curso"] : $curso=3; ?>
 
+                    <?php require("formulario-curso.php"); ?>
+
+                    <div class="done-message">
+                      Tu mensaje ha sido enviado exitosamente!
+                    </div>
+                      
                   </div>
+                  
+                </div>
               </div>
               <!-- Artículo header -->                 
             </section>
@@ -244,7 +239,7 @@
 
    
             <!-- jQuery first, then Tether, then Bootstrap JS. -->
-            <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
              <!--then Bootstrap JS. -->
@@ -278,6 +273,97 @@
                 ]
 
               });
+
+              jQuery(function(){
+                  "use strict";
+
+                  initFormValidation();
+              });
+
+              // form validation init
+              function initFormValidation() {
+                  //if submit button is clicked
+                  $('#submit').click(function () {
+                    console.log("Funcionando");
+
+                      //Get the data from all the fields
+                      var nombre = $('input[name=nombre]');
+                      var telefono = $('input[name=telefono]');
+                      var email = $('input[name=email]');
+                      var curso = $('input[name=curso]');
+                      var returnError = false;
+
+                      //Simple validation to make sure user entered something
+                      //Add your own error checking here with JS, but also do some error checking with PHP.
+                      //If error found, add hightlight class to the text field
+                      if (nombre.val()=='') {
+                          nombre.addClass('error');
+                          returnError = true;
+                      } else nombre.removeClass('error filled');
+
+                      if (telefono.val()=='') {
+                          telefono.addClass('error');
+                          returnError = true;
+                      } else telefono.removeClass('error filled');
+
+                      if (email.val()=='') {
+                          email.addClass('error');
+                          returnError = true;
+                      } else email.removeClass('error');
+
+                       if (curso.val()=='') {
+                          curso.addClass('error');
+                          returnError = true;
+                      } else curso.removeClass('error');
+
+
+                      // Highlight all error fields, then quit.
+                      if(returnError == true) {
+                          return false;
+                      }
+
+                      //organize the data
+                      var data = 'nombre=' + nombre.val() + '&telefono=' + telefono.val() + '&email=' + email.val() + '&curso=' + curso.val();
+
+                      //show the loading sign
+                      $('.loading').show();
+
+                      //start the ajax
+                      $.ajax({
+                          //this is the php file that processes the data and sends email
+                          url: "libs/process.php",
+
+                          //GET method is used
+                          type: "GET",
+
+                          //pass the data
+                          data: data,
+
+                          //Do not cache the page
+                          cache: false,
+
+                          //success
+                          success: function (html) {
+                          //if process.php returned 1/true (send mail success)
+                              if (html==1) {
+                              //hide the form
+                              $('.f-contact-form').fadeOut('slow');
+
+                              //show the success message
+
+                              setTimeout(function(){
+                                $(".done-message").addClass("done-message-success");
+                              }, 1500);
+
+                              //if process.php returned 0/false (send mail failed)
+                              } else alert('Sorry, unexpected error. Please try again later.');
+                          }
+                      });
+
+                      //cancel the submit button default behaviours
+                      return false;
+                  });
+              }
             </script>         
 
     </body>
