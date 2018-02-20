@@ -1042,14 +1042,15 @@ body
 	text-align center
 	padding-top 137px
 	margin-bottom 68px
+	
 .Valores_row
 	margin-bottom 157px
+	
 .Valores_col
 	justify-content center
 	padding 0 25px
 	min-height auto
 	cursor default
-	min-height 435px
 	&:hover
 		p
 			color Grey_400
@@ -1068,6 +1069,7 @@ body
 
 .card-text.Valores_text
 	margin-bottom 92px
+	min-height 96px
 
 .Equipo_title
 	color Blue_200
@@ -1291,7 +1293,15 @@ body
 	.slick-prev
 		left 0
 		top 25%
+		
+	.card-text.Valores_text
+		min-height 144px
 
+	.Valor_title
+		font-size 18px
+	
+	.Valores_row
+		justify-content center
 
 
 //md query//
@@ -1411,6 +1421,12 @@ body
 	.Marco_articulo
 		flex-direction column-reverse
 		text-align center
+	
+	.Button_resolucion
+		margin-bottom 50px
+	
+	.Row-equipo
+		justify-content center
 	
 @media (max-width: 767.98px)
 	.Header
