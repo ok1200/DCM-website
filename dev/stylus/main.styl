@@ -98,34 +98,46 @@ body
 	.Logo
 		margin auto 1em
 		margin-left 0
-		img
-			width 140px
-			transition 1s ease
 	ul
-		.nav-item.active
-			position relative
-			&:before
-				content ""
-				position absolute
-				display inline-block
-				height 7%
-				width 50%
-				background-color Yellow_100
-				top 94%
-				left 25%
-				transform skewX(-40deg)
 		li
-			a
-				color Grey_400
-				font-family Lato	
-				font-size 16px
-				font-weight 400	
-				display block
-				padding 48px 20px	
-				&:hover
-						color #2395ED
 			.dropdown-item
 				padding 15px
+
+.nav-link
+	color Grey_400
+	font-family Lato	
+	font-size 16px
+	font-weight 400	
+	display block
+	padding 48px 20px	
+	&:hover
+			color #2395ED
+
+.nav-item.active
+	position relative
+	&:before
+		content ""
+		position absolute
+		display inline-block
+		height 7%
+		width 50%
+		background-color Yellow_100
+		top 94%
+		left 25%
+		transform skewX(-40deg)
+
+.Logo_img
+	width 140px
+	transition 1s ease
+
+.dropdown-menu.show
+	display none
+
+.nav-item.dropdown
+	&:hover
+		.dropdown-menu
+			display block
+
 				
 .nav-link.activo
 	color #0D5CBA
@@ -141,6 +153,9 @@ body
 	justify-content space-between
 	margin-top 0
 	margin-bottom 0
+
+.Hamburguer_icon
+	display none
 
 .nav
 	height 120px
@@ -974,6 +989,43 @@ body
 .Somos_title
 	color Blue_200
 	text-align center
+	margin-top 101px
+	margin-bottom 75px
+	
+.Somos_col
+	display flex
+	flex-direction column
+	align-items center
+	text-align center
+
+.Somos_contorno-img
+	height 220px
+	width 220px
+	border-radius 50%
+	border 5px solid Blue_200
+
+.Somos_contorno-img--1
+	background-image url("../img/Company.jpeg")
+	background-position center
+	background-size cover
+	background-repeat no-repeat
+
+.Somos_contorno-img--2
+	background-image url("../img/Galeria-2.jpeg")
+	background-position -88px 0px
+	background-size cover
+	background-repeat no-repeat
+
+.Somos_contorno-img--3
+	background-image url("../img/Andamio.jpg")
+	background-position center
+	background-size cover
+	background-repeat no-repeat
+
+.Somos_description
+	max-width 263px
+	margin-top 41px
+	margin-bottom 136px
 
 .Marco
 	padding 0 15px
@@ -1017,12 +1069,17 @@ body
 .card-text.Valores_text
 	margin-bottom 92px
 
+.Equipo_title
+	color Blue_200
+	text-align center
+	margin 75px 0
+
 .Equipo_col
 	text-align center
-	
-	
+	margin-bottom 86px
+
 .Equipo_img
-	width 294px
+	margin-bottom 39px
 	
 .Equipo_name
 	font-family lato
@@ -1207,10 +1264,22 @@ body
 		flex-direction column
 		align-items center
 	
-	.Menu_container
-		display none
-		.Logo
-			margin-top 15px
+	.Logo_img
+		width 100px
+		margin-top 15px
+	
+	.nav
+		height 90px
+	
+	.nav-link
+		padding 20px
+
+	.Nav_visible
+		.nav
+			height 70px
+		.nav-link
+			padding 20px
+
 	
 	.Andamio
 		background-position center
@@ -1234,6 +1303,13 @@ body
 
 	.Contorno
 		margin-bottom 0
+	
+	.nav-link
+		padding 20px 13px
+	
+	.Nav_visible
+		.nav-link
+			padding 20px 13px
 
 	.Constructor_img
 		height 480px
@@ -1321,7 +1397,20 @@ body
 	
 	.Page_cursos-col
 		margin-bottom 3em
+
+	.Somos_row
+		justify-content center
+	
+	.Somos_contorno-img
+		width 300px
+		height 300px
 		
+	.Somos_description
+		margin-bottom 60px
+		
+	.Marco_articulo
+		flex-direction column-reverse
+		text-align center
 	
 @media (max-width: 767.98px)
 	.Header
@@ -1340,6 +1429,78 @@ body
 	address
 		margin-bottom 0
 	
+	.Menu_container
+		position fixed
+		top 0
+		width 100%
+		border-radius 0
+		background-color Grey_100 !important
+	
+	.Menu
+		max-width 100%
+		flex-direction initial
+	
+	.Logo_img
+		margin 15px 0
+	
+	.Contorno
+		min-height 0
+	
+	.Header
+		.Conjunto_1
+			padding-top 75px
+			margin-bottom 80px
+	
+	.Hamburguer_icon
+		display block
+		border 4px solid Blue_200
+		width 45px
+		height 45px
+		border-radius 50%
+		overflow hidden
+		z-index 3
+		span
+			display block
+			height 100%
+			width 100%
+			text-align center
+			line-height 35px
+			font-size 22px
+			color Blue_200
+			transition .5s
+			&:nth-child(2)
+				background-color Blue_200
+				color White_100
+				border none
+		span.Icon_active
+			transform translateY(-100%)
+			
+				
+
+	.nav
+		position fixed
+		height 100%
+		width 100%
+		top 0
+		left -100%
+		background-color Grey_100
+		flex-direction column
+		text-align center
+		justify-content space-around
+		transition .5s
+	
+	.nav.Menu_active
+		left 0
+	
+	.Nav_visible
+		.nav
+			height 100%
+			width 100%			
+	
+	.dropdown-menu
+		left 28%
+		top 68%
+		text-align center
 
 	.Certificado_col-img
 		margin-top 40px

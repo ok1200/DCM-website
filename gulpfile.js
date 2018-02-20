@@ -10,7 +10,7 @@ var gulp = require('gulp'),
 	imagemin = require('gulp-imagemin'),
 	sitemap = require('gulp-sitemap'),
 	livereload = require('gulp-livereload'),
-	connect = require('gulp-connect-php'),
+	connect = require('gulp-connect'),
     historyApiFallback = require('connect-history-api-fallback');
 
 

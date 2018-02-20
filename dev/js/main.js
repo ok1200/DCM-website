@@ -9,6 +9,12 @@ $(document).ready(function (){
         }, 1200);
     });
 
+
+        $(".Hamburguer_icon, Nav_link").click(function(){
+            $(".Hamburguer_icon span").toggleClass("Icon_active");
+            $(".nav").toggleClass("Menu_active");
+         });
+
         //Movimiento background header//
         $(window).scroll(function(){
             var x = $(window).scrollTop();
