@@ -11,8 +11,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
-        <title>Servicio de Capacitación en Bomberotecnia - DCM - Antioquia</title>
-        <meta name="description" content="Servicio de Capacitación en Bomberotecnia - DCM - Antioquia. Servicio ofrecido a las empresas que requieren capacitación en el estudio de conceptos básico relacionados con incendios, así como métodos de extinción y estrategias para la no propagación, uso y efectividad de extintores.">
+        <title>Servicio de Diseño de Planes de Emergencia - DCM - Antioquia</title>
+        <meta name="description" content="Servicio de Diseño de Planes de Emergencia - DCM - Antioquia, servicio ofrecido a las empresas que quieren crear un plan de emergencia con la finalidad de reducir al mínimo las posibles consecuencias humanas y/o económicas que puedan derivar de las situaciones de emergencias.">
         <!-- AOS css -->
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <!-- Fontawesome -->
@@ -97,10 +97,10 @@
                 <div class="row Conjunto_2 Page_cursos-row Page_servicios-row">                                
                     <div class="col-lg-7 col-md-10 Page_cursos-col" data-aos="fade-up">
                           <section id="tab-1-title" class="Page_cursos_conjunto-1 Page_servicios_title_2">
-                            <i class="fas fa-fire Page_servicio_icon Page_servicio_icon-1" aria-hidden="true"></i>
-                            <h1 class="Titulo Page_servicios_title">Capacitación Bomberotecnia</h1>
+                            <i class="fas fa-exclamation-triangle Page_servicio_icon Page_servicio_icon-1" aria-hidden="true"></i>
+                            <h1 class="Titulo Page_servicios_title">Diseño de Planes de Emergencia</h1>
                           </section>  
-                          <p class="Page_cursos-description">La bomberotecnia es el estudio de los incendios como se origina, propagan, los métodos que se utilizan para su extinción, cuales agentes extintores son los más recomendados de acuerdo a los materiales utilizados, manejo de extintores, que efectividad tienen, que daños hacen, que elementos componen el fuego, cuantas clases de fuego hay y como se extinguen y/o se apagan.</p>
+                          <p class="Page_cursos-description">Formación para el diseño del plan de Emergencias con la finalidad de reducir al mínimo las posibles consecuencias humanas y/o económicas que puedan derivar de las situaciones de emergencias; este plan integra un conjunto de estrategias que permiten reducir la posibilidad de ser afectados si se presenta la emergencia.</p>
                           <a href="tel:+573124567834" class="Cursos_info">
                             <i class="fas fa-phone Cursos_info-icon"></i>
                             <div class="Cursos_info-description">

@@ -29,10 +29,6 @@ Grey_500 =  #323A47
 body
 	p
 		font-family Rubik
-	a
-		color White_100
-		&:hover
-			text-decoration none
 
 .Header
 	background-image url("../img/Header-Background.jpg")
@@ -170,7 +166,6 @@ body
 		font-family Lato
 		font-size 36px
 		color White_100
-		margin-bottom 2em
 		line-height 55px
 	.Conjunto_2-description
 		font-size 24px
@@ -657,6 +652,7 @@ body
 	background-position center
 	background-repeat no-repeat
 	color White_100
+	overflow hidden
 
 
 .Footer_logo
@@ -710,7 +706,10 @@ body
 	font-weight 100
 
 .Footer_link-juan
+	text-decoration none
+	color White_100
 	&:hover
+		text-decoration none
 		color White_100
 
 //Page_cursos_header//
@@ -735,6 +734,7 @@ body
 .Page_cursos_conjunto-1
 	display flex
 	align-items center
+	margin-bottom 3em
 
 .Page_cursos-col
 	color White_100
@@ -774,7 +774,10 @@ body
 	font-family Rubik
 	font-weight 100
 	font-size 17px
-
+	
+.Campos-necesarios
+	color #8A9099
+	
 .Form_label
 	color Blue_200
 	margin-top 1em
@@ -783,6 +786,24 @@ body
 .Form_input
 	background White_200
 	font-size 17px
+	&::-webkit-input-placeholder
+		color #BCC2CC
+		font-weight 300
+	&::-moz-placeholder
+		color #BCC2CC
+		font-weight 300
+	&:-ms-input-placeholder
+		color #BCC2CC
+		font-weight 300
+	&:-moz-placeholder
+		color #BCC2CC
+		font-weight 300
+  	&:placeholder
+ 		color #BCC2CC
+ 		font-weight 300
+ 
+.holi
+	display none
 
 .Button_form
 	display block
@@ -849,19 +870,28 @@ body
 	font-weight 500
 	&:focus
 		outline none
+	a
+		text-decoration none
 	img
 		height 160px
 		margin 0 auto
 		margin-bottom 27px
+	h2
+		font-size 18px
+		font-weight 600
+		color #212529
 
 
 //Slick control//
 .slick-prev, .slick-next
-	top 30%
+	top 10%
 
 .slick-prev
-	left -60px
+	left -10px
 
+.slick-next
+	right -10px
+	
 .slick-prev&:before,.slick-next&:before
 	font-family "FontAwesome"
 	font-size 60px
@@ -878,16 +908,38 @@ body
 		content "\f105"
 
 .Page_servicio_icon
-	font-size 67px
+	font-size 54px
 	background-color White_100
-	padding 37px
+	width 100px
+	height 100px
 	border-radius 50%
 	color Yellow_200
-	margin-right 48px
+	margin-right 40px
+	
+.Page_servicio_icon-1
+	padding 17px 21px
+
+.icon-espacios-confinados
+	padding 22px 27px
+
+.icon-evaluacion-puestos
+	padding 20px 23px
+
+.icon-matriz, .icon-medkit, .icon-search
+	padding 23px 23px
+	
+.icon-wheelchair, .icon-extinguisher
+	padding 20px 26px
+	
+.icon-list-ol
+	padding 21px 21px
 
 .Conjunto_2
 	.Page_servicios_title
 		margin-bottom 0
+		
+.Page_servicios_title_2
+	margin-bottom 3em
 
 
 .Servicio_cliente
@@ -1019,7 +1071,10 @@ body
 	position relative
 	
 .Mapa
-	height 800px
+	height 700px
+	
+.Mapa-2
+	display none
 	
 
 .Mapa_info
@@ -1159,6 +1214,14 @@ body
 	
 	.Andamio
 		background-position center
+		
+	.slick-next
+		right 0
+		top 25%
+		
+	.slick-prev
+		left 0
+		top 25%
 
 
 
@@ -1168,8 +1231,7 @@ body
 	.Header
 		&:before
 			top 26%
-		
-	
+
 	.Contorno
 		margin-bottom 0
 
@@ -1217,11 +1279,7 @@ body
 	.Elegir-dcm__corbelen
 		margin-bottom 60px
 	
-	.slick-arrow
-		display none !important
-	Page_cursos_form
-	.
-		margin-left 15px
+	.Page_cursos_form
 		margin-top 30px
 		
 	.Mapa_info
@@ -1260,6 +1318,9 @@ body
 	
 	.Nosotros_col-header
 		text-align center
+	
+	.Page_cursos-col
+		margin-bottom 3em
 		
 	
 @media (max-width: 767.98px)
@@ -1368,8 +1429,9 @@ body
 		margin-right 0
 
 	.Page_cursos_title
-		font-size 20px
+		font-size 24px
 		margin-top 20px
+		margin-bottom 20px
 		text-align center
 	
 	.Page_cursos-description

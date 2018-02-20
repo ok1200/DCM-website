@@ -17,6 +17,7 @@
 
     <label class="Form_label" for="telefono">Teléfono</label>
     <input type="number" name="telefono" value="" class="form-control Form_input" id="telefono" placeholder="312 728 38 14">
+    <small class="Campos-necesarios">*Todos los campos son necesarios</small>
 
     <input id="submit" class="Button Button_form" type="submit" value="Inscribirme">
 </form>

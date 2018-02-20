@@ -11,8 +11,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
-        <title>Curso Básico administrativo en trabajo seguro en alturas - DCM - Antioquia</title>
-        <meta name="description" content="Curso Básico administrativo en trabajo seguro en alturas, en Antioquia, para personas que toman decisiones administrativas en relación con la aplicación del reglamento en empresas con riesgo de caída por trabajo en alturas. Con una duración de 10 horas teóricas">
+        <title>Curso Reentrenamiento en Trabajo Seguro en Alturas - DCM - Antioquia</title>
+        <meta name="description" content="Curso Reentrenamiento en Trabajo Seguro en Alturas, en Antioquia para trabajadores que requieran la actualización de conocimientos y en cumplimiento al proceso anual obligatorio. Con una duración de 20 horas. ">
         <!-- AOS css -->
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <!-- Fontawesome -->
@@ -30,19 +30,19 @@
     <body>
         <header id="Header">
             <section class="container-fluid Header Page_cursos">
-                <!-- Conjunto 1 -->
-                    <div class="Conjunto_1 container" data-aos="fade-down">
-                        <address>
-                            <a href="tel:+573124567834" class="Contact_tel">
-                                <i class="fa fa-phone" aria-hidden="true"></i> 312 456 7834
-                            </a>
-                        </address>
-                          <a href="http://localhost/xampp/Curso%20PHP/Buscador_dcm/" class="Certificado_link Button" target="_blank">Descargar certificado
-                            <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
+                  <!-- Conjunto 1 -->
+                  <div class="Conjunto_1 container" data-aos="fade-down">
+                      <address>
+                          <a href="tel:+573124567834" class="Contact_tel">
+                              <i class="fa fa-phone" aria-hidden="true"></i> 312 456 7834
                           </a>
+                      </address>
+                        <a href="http://localhost/xampp/Curso%20PHP/Buscador_dcm/" class="Certificado_link Button" target="_blank">Descargar certificado
+                          <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
+                        </a>
 
-                    </div>
-                     <!-- Conjunto 1 -->
+                  </div>
+                  <!-- Conjunto 1 -->
 
                     <!-- Menu -->
               <div class="Contorno">
@@ -94,23 +94,25 @@
                  <!-- Menu -->
                  <!-- Artículo header -->
               <div class="container">
-            
+
                   <div class="row">
                     <div class="col-12 Subconjunto_2" data-aos="fade-right">
                       <section id="tab-1-title" class="Page_cursos_conjunto-1">
                         <img src="img/Cliente-2.png" class="img-fluid Page_cursos_img" alt="Cliente-2">
-                        <h1 class="Titulo Page_cursos_title">Básico Administrativo en Trabajo Seguro en Alturas</h1>
+                        <h1 class="Titulo Page_cursos_title">Reentrenamiento en Trabajo Seguro en Alturas</h1>
                       </section>
                     </div>
                   </div>
 
                   <div class="row">
-
                     <div class="col-lg-7 col-md-12 Page_cursos-col Page_cursos-col-hiden" data-aos="fade-up">
-                          <p class="Page_cursos-description">Para personas que toman decisiones administrativas en relación con la aplicación de este reglamento en empresas en las que se haya identificado el riesgo de caída por trabajo en altura.</p>
+                          <p class="Page_cursos-description">Proceso anual obligatorio, por el cual se actualizan conocimientos y se entrenan habilidades y destrezas en prevención y protección contra caídas. Solo entidades autorizadas bajo resolución 2578 del 2012 pueden certificar este curso.</p>
                           <p class="Page_cursos-requisitos">Requisitos</p>
+                          <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Afiliación vigente a seguridad social</span></i>
+                          <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Certificación médica de aptitud para realizar trabajo en alturas</span></i>
                           <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Superar el nivel medio definido por la empresa</span></i>
-                          <i class="fas fa-chevron-right Requisito-icon Page_cursos-requisito2"><span class="Page_cursos-requisito">Fotocopia del documento de identidad</span></i>
+                          <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Fotocopia del documento de identidad</span></i>
+                          <i class="fas fa-chevron-right Requisito-icon Page_cursos-requisito2"><span class="Page_cursos-requisito">Certificado del nivel avanzado anterior</span></i>
                           <div class="Cursos_info">
                             <i class="fas fa-map-marker-alt Cursos_info-icon"></i>
                             <div class="Cursos_info-description">
@@ -129,24 +131,26 @@
                             <i class="fas fa-clock Cursos_info-icon"></i>
                             <div class="Cursos_info-description">
                               <p class="Cursos_info-title">Duración</p>
-                              <small class="Cursos_info-duration">10 Horas</small> 
+                              <small class="Cursos_info-duration">20 Horas</small> 
                             </div>
                           </div>
                     </div>
                     <!--Formulario -->
 
-                    <div id="Form" class="col-lg-4 col-md-8 col-12 Form Constructor Page_cursos_form">
-
+                    <div id="Form" class="col-lg-4 col-md-8 col-12 offset-lg-1 Form Constructor Page_cursos_form">
                       <h4 class="Page_cursos_title-inscribete">Inscríbete en este <br> curso ahora</h4>
-                      <?php (isset($_POST["curso"])) ? $curso = $_POST["curso"] : $curso=1; ?>
+
+                      <?php (isset($_POST["curso"])) ? $curso = $_POST["curso"] : $curso=4; ?>
                       <?php require 'formulario-curso.php'; ?>
+
                       <div class="done-message">
                         Tu mensaje ha sido enviado exitosamente!
                       </div>
+                        
                     </div>
-
                   </div>
-            
+             
+
 
             </div>
               <!-- Artículo header -->                 
