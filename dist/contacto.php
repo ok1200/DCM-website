@@ -182,8 +182,8 @@
                 </div> 
                 <div class="form-group">
                   <label for="formGroupExampleInput" class="Contacto_form-label">MENSAJE</label>
-                  <textarea type="text" class="form-control Contacto_form-input" id="formGroupExampleInput" placeholder="Escribe un mensaje..." rows="5" required>
-                    </textarea> 
+                  <textarea type="text" class="form-control Contacto_form-input" id="formGroupExampleInput" placeholder="Escribe un mensaje.." rows="5" required>
+                  </textarea> 
                 </div>                                
                 <a href="#" id="Enviar" class="Button Cursos_btn Contacto_form-btn">Enviar</a>                                                           
               </form>
@@ -255,7 +255,7 @@
 
    
             <!-- jQuery first, then Tether, then Bootstrap JS. -->
-            <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
              <!--then Bootstrap JS. -->
