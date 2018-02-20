@@ -838,6 +838,7 @@ body
 	margin-bottom 1em
 
 .Cursos_info
+	text-decoration none
 	display inline-flex
 	align-items center
 	background-color White_100
@@ -845,6 +846,9 @@ body
 	margin-right 1em
 	margin-bottom 20px
 	min-width 290px
+	&:hover
+		text-decoration none
+		
 
 .Cursos_info-icon
 	font-size 30px
@@ -902,10 +906,10 @@ body
 	top 10%
 
 .slick-prev
-	left -10px
+	left -50px
 
 .slick-next
-	right -10px
+	right -50px
 	
 .slick-prev&:before,.slick-next&:before
 	font-family "FontAwesome"
@@ -1124,26 +1128,34 @@ body
 				
 	
 //Contacto//
+.mapa-big
+	margin-top 100px
+	margin-bottom 100px
+	
 .Mapa_container
 	position relative
-	
+
+.mapa-container
+	border-radius 25px 0 25px 0
+	box-shadow 0px 0px 30px 25px rgba(0,0,0,0.1)
+
 .Mapa
-	height 700px
+	height 600px
+	border-radius 25px 0 25px 0
+	box-shadow 0px 0px 30px 25px rgba(0,0,0,0.1)
 	
 .Mapa-2
 	display none
 	
-
 .Mapa_info
-	position absolute
-	top 30%
-	left 200px
+	margin-top 50px
 	background-color White_100
-	padding 36px 62px
+	padding 36px 36px
 	border-radius 25px 0 25px 0
 	box-shadow 0px 0px 30px 25px rgba(0,0,0,0.1)
 	
 .Mapa_info-options
+	text-align center
 	padding 0
 	margin-bottom 50px
 
@@ -1213,6 +1225,7 @@ body
 	align-items center
 	
 .Contacto_form-img
+	text-align center
 	margin-bottom 110px
 
 .Form
@@ -1243,9 +1256,6 @@ body
 
 	.Andamio
 		background-position center
-	
-	.Mapa_info
-		top 51%
 	
 
 //lg query//
@@ -1285,11 +1295,11 @@ body
 		background-position center
 		
 	.slick-next
-		right 0
+		right -30px
 		top 25%
 		
 	.slick-prev
-		left 0
+		left -30px
 		top 25%
 
 
@@ -1332,12 +1342,18 @@ body
 		padding 0 20px
 	
 	.Dowload_icon--Service
-		margin-right 0
-		margin-bottom 15px
+		margin-right 15px
+		
+	.slick-next
+		right 0
+		top 25%
+		
+	.slick-prev
+		left 0
+		top 25%
 	
 	.Seguridad-salud__Link
 		text-align center
-		min-height 108px
 	
 	.Titulo
 		font-size 28px
@@ -1383,7 +1399,6 @@ body
 		margin-bottom 20px
 	
 	.Contact_section
-		display flex
 		flex-direction column
 		text-align center
 		font-size 15px
@@ -1411,6 +1426,9 @@ body
 	.Marco_articulo
 		flex-direction column-reverse
 		text-align center
+		
+	.Page_servicios_title_2
+		margin-top 4em
 	
 @media (max-width: 767.98px)
 	.Header
@@ -1475,8 +1493,6 @@ body
 		span.Icon_active
 			transform translateY(-100%)
 			
-				
-
 	.nav
 		position fixed
 		height 100%
@@ -1531,7 +1547,13 @@ body
 		
 	.Page_cursos-row
 		text-align left
-		justify-content flex-start	
+		justify-content flex-start
+		
+	.mapa-container
+		margin-top 30px
+	
+	.contacto-plane
+		margin-top 50px
 
 		
 
@@ -1553,6 +1575,7 @@ body
 	.Seguridad-salud__Link
 		min-height 135px
 		font-size 16px
+		margin-top 20px
 
 	.Frases
 		height 300px
@@ -1584,6 +1607,7 @@ body
 	
 	.Page_servicio_icon
 		margin-right 0
+		margin-bottom 20px
 		
 	.Page_cursos_img
 		width 100px
@@ -1600,10 +1624,6 @@ body
 	
 	.Page_cursos-requisito
 		font-size 15px
-	
-	.Page_servicio_icon
-		padding 30px
-		font-size 50px
 
 	.Conjunto_2
 		.Page_servicios_title

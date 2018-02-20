@@ -94,8 +94,8 @@
                  <!-- Menu -->
                  <!-- Servicios header -->
               <div class="container">
-                <div class="row Conjunto_2 Page_cursos-row Page_servicios-row">                                
-                    <div class="col-lg-7 col-md-10 Page_cursos-col" data-aos="fade-up">
+                <div class="row">                          
+                    <div class="col-lg-7 col-md-12 Page_cursos-col" data-aos="fade-up">
                           <section id="tab-1-title" class="Page_cursos_conjunto-1 Page_servicios_title_2">
                             <i class="fas fa-exclamation-triangle Page_servicio_icon Page_servicio_icon-1" aria-hidden="true"></i>
                             <h1 class="Titulo Page_servicios_title">Diseño de Planes de Emergencia</h1>
@@ -117,7 +117,7 @@
                           </a>                                                                                             
                     </div>
                     <!--Formulario -->
-                    <div id="Form" class="col-lg-4 col-md-8 col-10 offset-lg-1 Form Constructor Page_cursos_form">
+                    <div id="Form" class="col-lg-4 col-md-8 col-12 offset-lg-1 Form Constructor Page_cursos_form">
                       <h4 class="Page_cursos_title-inscribete">Consulta este <br>servicio ahora</h4>
 
                       <?php require 'formulario-servicios.php'; ?>
@@ -127,7 +127,6 @@
                       </div>
                       
                     </div>
-
                 </div>
               </div>
              
@@ -150,7 +149,6 @@
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
             <!-- AOS javascript -->
             <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-
             <!-- Our javascript -->
             <script type="text/javascript" src="js/all.js"></script>
             <script type="text/javascript">
@@ -162,13 +160,13 @@
                 autoplay: false,
                 responsive:[
                   {
-                    breakpoint: 1024,
+                    breakpoint: 1199,
                      settings:{
                        slidesToShow: 2
                      }                
                   },
                   {
-                    breakpoint: 765,
+                    breakpoint: 991,
                     settings:{
                       slidesToShow: 1
                     }

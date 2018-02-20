@@ -96,66 +96,80 @@
 
               </div>
               <!-- Artículo header -->
+
+              <!--Mapa -->
+                 <div class="mapa-big">
+                   <div class="container">
+                     <div class="row">
+                      
+                      <div class="col-md-6 col-12">
+                          <div class="Mapa_info">
+                            <ul class="Mapa_info-options">
+                              <li href="#tab-1" data-rel="#Mapa_1" class="Mapa_info-button active Opcion_rionegro">RIONEGRO</li>
+                              <li href="#tab-2" data-rel="#Mapa_2" class="Mapa_info-button Opcion_berrio">PUERTO BERRÍO</li>
+                            </ul>
+                            <section  class="Mapa_info-description">
+                              <div id="tab-1">
+                                <h4 class="Mapa_info-title">Datos de Contacto en Rionegro</h4>
+                                <address>
+                                    <a href="tel:+573124567834" class="Contact_section">
+                                        <i class="fas fa-map-marker-alt Contact_icon" aria-hidden="true"></i>KM 1 Via Rionegro el Carmen de Viboral
+                                    </a>
+                                    <a href="tel:+573124567834" class="Contact_section">
+                                        <i class="fa fa-phone Contact_icon" aria-hidden="true"></i> 313 689 35 24 - 314 483 8386
+
+                                    </a>
+                                    <a href="mailto:dcmserviciosyconsultoria@hotmail.com" class="Contact_section Contact_mail">
+                                        <i class="fas fa-envelope Contact_icon" aria-hidden="true"></i> dcmserviciosyconsultoria@hotmail.com
+                                    </a>                                                
+                                </address>                    
+
+                              </div>
+                              <div id="tab-2">
+                                <h4 class="Mapa_info-title">Datos de Contacto en Puerto Berrío</h4>
+                                <address>
+                                    <a href="tel:+573124567834" class="Contact_section">
+                                        <i class="fas fa-map-marker-alt Contact_icon" aria-hidden="true"></i>Puerto Berrío!
+                                    </a>
+                                    <a href="tel:+573124567834" class="Contact_section">
+                                        <i class="fa fa-phone Contact_icon" aria-hidden="true"></i> 312 456 7834
+                                    </a>
+                                    <a href="mailto:dcmserviciosyconsultoria@hotmail.com" class="Contact_section Contact_mail">
+                                        <i class="fas fa-envelope Contact_icon" aria-hidden="true"></i> dcmserviciosyconsultoria@hotmail.com
+                                    </a>                                                
+                                </address>                     
+                              </div>                  
+                            </section>              
+                          </div>
+                      </div>
+
+                      <div class="col-md-6 col-12">
+                        <div class="mapa-container">
+                           <div id="Mapa_1" class="Mapa">
+                              
+                           </div>
+                           <div id="Mapa_2" class="Mapa Mapa-2">
+                              
+                           </div>
+                         </div>
+                      </div> 
+            
+                     </div>
+                   </div>
+                 </div>
+
+                  <!--Mapa -->
             </section>
         </header>
 
-         <!--Galería -->
-         <div class="Mapa_container">
-             <div id="Mapa_1" class="Mapa">
-                
-             </div>
-             <div id="Mapa_2" class="Mapa Mapa-2">
-                
-             </div>
-
-              <div class="Mapa_info">
-                <ul class="Mapa_info-options">
-                  <li href="#tab-1" data-rel="#Mapa_1" class="Mapa_info-button active Opcion_rionegro">RIONEGRO</li>
-                  <li href="#tab-2" data-rel="#Mapa_2" class="Mapa_info-button Opcion_berrio">PUERTO BERRÍO</li>
-                </ul>
-                <section  class="Mapa_info-description">
-                  <div id="tab-1">
-                    <h4 class="Mapa_info-title">Datos de Contacto en Rionegro</h4>
-                    <address>
-                        <a href="tel:+573124567834" class="Contact_section">
-                            <i class="fas fa-map-marker-alt Contact_icon" aria-hidden="true"></i>KM 1 Via Rionegro el Carmen de Viboral
-                        </a>
-                        <a href="tel:+573124567834" class="Contact_section">
-                            <i class="fa fa-phone Contact_icon" aria-hidden="true"></i> 313 689 35 24 - 314 483 8386
-
-                        </a>
-                        <a href="mailto:dcmserviciosyconsultoria@hotmail.com" class="Contact_section Contact_mail">
-                            <i class="fas fa-envelope Contact_icon" aria-hidden="true"></i> dcmserviciosyconsultoria@hotmail.com
-                        </a>                                                
-                    </address>                    
-
-                  </div>
-                  <div id="tab-2">
-                    <h4 class="Mapa_info-title">Datos de Contacto en Puerto Berrío</h4>
-                    <address>
-                        <a href="tel:+573124567834" class="Contact_section">
-                            <i class="fas fa-map-marker-alt Contact_icon" aria-hidden="true"></i>Puerto Berrío!
-                        </a>
-                        <a href="tel:+573124567834" class="Contact_section">
-                            <i class="fa fa-phone Contact_icon" aria-hidden="true"></i> 312 456 7834
-                        </a>
-                        <a href="mailto:dcmserviciosyconsultoria@hotmail.com" class="Contact_section Contact_mail">
-                            <i class="fas fa-envelope Contact_icon" aria-hidden="true"></i> dcmserviciosyconsultoria@hotmail.com
-                        </a>                                                
-                    </address>                     
-                  </div>                  
-                </section>              
-              </div>
-         </div>
-
-          <!--Galería -->
+         
  
         <!--Contacto form -->
         <div class="Contacto_form">
           <div class="container">
             <h3 class="Contacto_form-title">Escríbenos un mensaje</h3>
           <div class="row Contacto_form-row">
-            <div class="col-md-5 col-11 Contacto_form-col">
+            <div class="col-md-5 col-12 Contacto_form-col">
                     
               <?php require 'formulario-servicios.php'; ?>
               <div class="done-message">
@@ -164,8 +178,8 @@
 
             </div>
 
-            <div class="col-md-5 col-11 offset-md-2 Contacto_form-col Contacto_form-img">
-              <img src="img/DCM-Contacto.png" class="img-fluid" alt="Contacto DCM">
+            <div class="col-md-5 col-12 offset-md-2 Contacto_form-col Contacto_form-img">
+              <img src="img/DCM-Contacto.png" class="img-fluid contacto-plane" alt="Contacto DCM">
             </div>
           </div>
             
