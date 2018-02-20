@@ -1,68 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://www.example.com/Capacitacion-Bomberotecnia.html</loc>
-        <lastmod>2018-02-20T00:15:08.533Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>http://www.example.com/Contactano.html</loc>
-        <lastmod>2018-02-20T00:15:08.533Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>http://www.example.com/Contactanos.html</loc>
-        <lastmod>2018-02-20T00:15:08.533Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>http://www.example.com/Contacto.html</loc>
-        <lastmod>2018-02-20T00:15:08.533Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>http://www.example.com/Curso-1.html</loc>
-        <lastmod>2018-02-20T00:15:08.533Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>http://www.example.com/Cursos.html</loc>
-        <lastmod>2018-02-20T00:15:08.533Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>http://www.example.com/Galeria.html</loc>
-        <lastmod>2018-02-20T00:15:08.533Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>http://www.example.com/Nosotros.html</loc>
-        <lastmod>2018-02-20T00:15:08.533Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>http://www.example.com/Servicio-1.html</loc>
-        <lastmod>2018-02-20T00:15:08.533Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>http://www.example.com/Servicios.html</loc>
-        <lastmod>2018-02-20T00:15:08.533Z</lastmod>
+        <loc>http://www.example.com/galeria.html</loc>
+        <lastmod>2018-02-20T05:13:24.951Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>http://www.example.com/</loc>
-        <lastmod>2018-02-20T00:15:08.533Z</lastmod>
+        <lastmod>2018-02-20T05:13:24.951Z</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://www.example.com/nosotros.html</loc>
+        <lastmod>2018-02-20T05:13:24.951Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>

@@ -1,12 +1,12 @@
 <form action="libs/process.php" class="f-contact-form" enctype="multipart/form-data" data-aos="fade-left">
     <label class="Form_label" for="curso">Curso</label>
-    <select class="form-control Form_input form-control-lg" name="curso">
-      <option <?php if ($curso == 1 ) echo 'selected' ; ?> value="Basico-Administrativo" >BÁSICO ADMINISTRATIVO</option>
-      <option <?php if ($curso == 2 ) echo 'selected' ; ?> value="Basico-Operativo" >BÁSICO OPERATIVO</option>
-      <option <?php if ($curso == 3 ) echo 'selected' ; ?> value="Avanzado" >AVANZADO</option>
-      <option <?php if ($curso == 4 ) echo 'selected' ; ?> value="Reentrenamiento" >REENTRENAMIENTO</option>
-      <option <?php if ($curso == 5 ) echo 'selected' ; ?> value="Coordinador" >COORDINADOR</option>
-      <option <?php if ($curso == 6 ) echo 'selected' ; ?> value="Armado-Desarmado-Andamios" >ARMADO Y DESARMADO DE ANDAMIOS</option>
+    <select id="curso" class="form-control Form_input form-control-lg" name="curso">
+      <option <?php if ($curso == 1 ) echo 'selected' ;?> value="Basico-Administrativo" >BÁSICO ADMINISTRATIVO</option>
+      <option <?php if ($curso == 2 ) echo 'selected' ;?> value="Basico-Operativo" >BÁSICO OPERATIVO</option>
+      <option <?php if ($curso == 3 ) echo 'selected' ;?> value="Avanzado" >AVANZADO</option>
+      <option <?php if ($curso == 4 ) echo 'selected' ;?> value="Reentrenamiento" >REENTRENAMIENTO</option>
+      <option <?php if ($curso == 5 ) echo 'selected' ;?> value="Coordinador" >COORDINADOR</option>
+      <option <?php if ($curso == 6 ) echo 'selected' ;?> value="Armado-Desarmado-Andamios" >ARMADO Y DESARMADO DE ANDAMIOS</option>
     </select>
 
     <label class="Form_label" for="nombre">Nombre</label>

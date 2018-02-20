@@ -26,7 +26,7 @@
     </head>
     <body>
         <header id="Header">
-            <section class="container-fluid Header Nosotros_header">
+            <section class="container-fluid Header Page_cursos">
                 <!-- Conjunto 1 -->
                     <div class="Conjunto_1 container" data-aos="fade-down">
                         <address>
@@ -74,14 +74,14 @@
                                     <a class="dropdown-item" href="#">SERVICIO #4</a>
                                   </div>
                               </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="Nosotros.html">NOSOTROS</a>
+                            </li>
+                            <li class="nav-item ">
+                              <a class="nav-link " href="Galeria.html">GALERIA</a>
+                            </li>
                             <li class="nav-item active">
-                              <a class="nav-link activo" href="Nosotros.html">NOSOTROS</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="Galeria.html">GALERIA</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="Contacto.html">CONTACTO</a>
+                              <a class="nav-link activo" href="Contacto.html">CONTACTO</a>
                             </li>                          
                           </ul>                      
                       </nav>
@@ -91,141 +91,114 @@
                  <!-- Menu -->
 
                  <!-- Artículo header -->
-              <div class="container Header_articulo Nosotros_articulo">
-                <div class="row Conjunto_2 Nosotros_row-header">
-                  <div class="col-lg-5 col-10 Subconjunto_2 Nosotros_col-header" data-aos="fade-right">
-                   <h1 class="">SOMOS DCM, EXPERTOS EN CURSOS DE ALTURAS</h1>
-                   <p class="Conjunto_2-description">Somos una empresa que ofrece soluciones en sistemas de gestión de la seguridad y salud en el trabajo</p>
-                   <a href="Contacto.html" class="Button Button__Register">Contáctanos ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                    
-                  </div>
-                  <div class="col-lg-4 col-md-6 offset-0 offset-lg-3 Constructor Nosotros_mundo" data-aos="fade-left">
-                    <img src="img/DCM-De-Clase-Mundial.png" class="img-fluid" alt="Mundo">
-                  </div>
-                </div>
+              <div class="container Header_articulo Galeria_articulo">
+                <h1 class="Galeria_title">CONTÁCTANOS</h1>
+
               </div>
               <!-- Artículo header -->
             </section>
         </header>
-        <!-- Cursos -->
-        <section class="Somos">
-          <div class="container">
-            <h2 class="Titulo Somos_title">¿Quiénes somos?</h2>
-            <section class="row">
-              <div class="col-3 Somos_col">
-                <div class="Somos_contorno-img">
-                  <img src="img/Company.jpeg" class="img-fluid" alt="Company">           
-                </div>
-                <p>Una empresa que ofrece soluciones integrales para la Industria en general</p>
+
+         <!--Galería -->
+         <div class="Mapa_container">
+             <div id="Mapa_1" class="Mapa">
+                <script>
+                      function initMap() {
+                        var uluru = {lat: 6.151940, lng: -75.367545};
+                        var map = new google.maps.Map(document.getElementById('Mapa_1'), {
+                          zoom: 16,
+                          center: uluru
+                        });
+                        var marker = new google.maps.Marker({
+                          position: uluru,
+                          map: map
+                        });
+                      }
+                  </script>
+                  <script async defer
+                  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8UIpiwNoQW-6rYaw7jHtMVPZIL2ibMDo&callback=initMap">
+                  </script>
+             </div>
+              <div class="Mapa_info">
+                <ul class="Mapa_info-options">
+                  <li href="#tab-1" class="Mapa_info-button Opcion_rionegro">RIONEGRO</li>
+                  <li href="#tab-2" class="Mapa_info-button Opcion_berrio">PUERTO BERRÍO</li>
+                </ul>
+                <section  class="Mapa_info-description">
+                  <div id="tab-1">
+                    <h4 class="Mapa_info-title">Datos de Contacto en Rionegro</h4>
+                    <address>
+                        <a href="tel:+573124567834" class="Contact_section">
+                            <i class="fas fa-map-marker-alt Contact_icon" aria-hidden="true"></i>KM 1 Via Rionegro el Carmen de Viboral
+                        </a>
+                        <a href="tel:+573124567834" class="Contact_section">
+                            <i class="fa fa-phone Contact_icon" aria-hidden="true"></i> 313 689 35 24 - 314 483 8386
+
+                        </a>
+                        <a href="mailto:dcmserviciosyconsultoria@hotmail.com" class="Contact_section Contact_mail">
+                            <i class="fas fa-envelope Contact_icon" aria-hidden="true"></i> dcmserviciosyconsultoria@hotmail.com
+                        </a>                                                
+                    </address>                    
+
+                  </div>
+                  <div id="tab-2">
+                    <h4 class="Mapa_info-title">Datos de Contacto en Puerto Berrío</h4>
+                    <address>
+                        <a href="tel:+573124567834" class="Contact_section">
+                            <i class="fas fa-map-marker-alt Contact_icon" aria-hidden="true"></i>Puerto Berrío!
+                        </a>
+                        <a href="tel:+573124567834" class="Contact_section">
+                            <i class="fa fa-phone Contact_icon" aria-hidden="true"></i> 312 456 7834
+                        </a>
+                        <a href="mailto:dcmserviciosyconsultoria@hotmail.com" class="Contact_section Contact_mail">
+                            <i class="fas fa-envelope Contact_icon" aria-hidden="true"></i> dcmserviciosyconsultoria@hotmail.com
+                        </a>                                                
+                    </address>                     
+                  </div>                  
+                </section>              
               </div>
-              <div class="col-3 offset-1 Somos_col">
-                 <img src="img/Galeria-2.jpeg" class="img-fluid" alt="Company">
-                <p>Una empresa que ofrece soluciones integrales para la Industria en general</p>               
-              </div>
-              <div class="col-3 offset-1 Somos_col">
-                <p>Una empresa que ofrece soluciones integrales para la Industria en general</p>               
-              </div>
-            </section>
-          </div>
-        </section>
-        <!-- Cursos -->     
+         </div>
 
-        <!-- Marco legal! -->
-        <div class="Certificado Portafolio Marco">
+          <!--Galería -->
+ 
+        <!--Contacto form -->
+        <div class="Contacto_form">
           <div class="container">
-            <article class="row Certificado__articulo Portafolio_articulo Marco_articulo">
-              <section class="col-5" data-aos="fade-left">
-                <img src="img/Marco-Legal.png" class="img-fluid Portafolio_img" alt="Constructor">
-              </section>
-              <section class="col-6 offset-1" data-aos="fade-right">
-                <h2 class="Titulo Portafolio_titulo">Marco legal</h2>
-                <i class="fa fa-arrow-right Certificado__Arrow-2" aria-hidden="true"></i>
-                <p class="Certificado__parrafo Portafolio__parrafo">Desarrollamos diferentes procesos de servicios en entrenamiento, entre ellos trabajo seguro en alturas en centros de entrenamiento avalados y certificados por entidades nacionales de acuerdo a la <span class="Marco_resolucion-title">Resolución 2578 del 2012.</span></p>
-                <p class="Certificado__parrafo Portafolio__parrafo">Cuenta con Resolución de autorización por la cual se autoriza la empresa DCM SERVICIOS Y CONSULTORIA, para orientar formación en trabajo seguro en alturas.</p>
-                <a href="" class="Certificado_link Button" target="_blank">Descargar resolución
-                  <i class="fas fa-download Dowload_icon Portafolio_icon" aria-hidden="true"></i>
-                </a>                
-                
-              </section>
-            </article>
-          </div>
-        </div> 
-        <!-- Marco legal! --> 
-
-        <!-- Valores! --> 
-        <div class="Valores">
-          <div class="container">
-            <h2 class="Titulo Portafolio_titulo Valores_title" data-aos="fade-in">Valores Corporativos</h2>
-            <article class="row Valores_row">
-              <section class="col-4" data-aos="zoom-in-up">
-                <div class="card Valores_col">
-                  <i class="fas fa-american-sign-language-interpreting Valores_icon"></i>
-                    <h5 class="card-title Valor_title">RESPONSABILIDAD</h5>
-                    <p class="card-text Valores_text">
-                      Valor fundamental en la  construcción de una relación que genere credibilidad en los servicios prestados.
-                    </p> 
+            <h3 class="Contacto_form-title">Escríbenos un mensaje</h3>
+          <div class="row Contacto_form-row">
+            <div class="col-md-5 col-11 Contacto_form-col">
+              <form>
+                <div class="form-group">
+                  <label for="formGroupExampleInput" class="Contacto_form-label">NOMBRE</label>
+                  <input type="text" class="form-control Contacto_form-input" id="formGroupExampleInput" placeholder="Jerónimo Carvajal" required>
+                </div> 
+                <div class="form-group">
+                  <label for="formGroupExampleInput" class="Contacto_form-label">EMAIL</label>
+                  <input type="email" class="form-control Contacto_form-input" id="formGroupExampleInput" placeholder="carvajal.j@gmail.com" required>
                 </div>
-              </section>
-              <section class="col-4" data-aos="zoom-in-up">
-                <div class="card Valores_col">
-                  <i class="fas fa-balance-scale Valores_icon"></i>
-                    <h5 class="card-title Valor_title">INTEGRIDAD</h5>
-                    <p class="card-text Valores_text">
-                      Cualidad que se busca mantener día a día en la empresa, por medio de sus socios y colaboradores, promoviendo una imagen sana ante nuestros clientes.
-                    </p> 
-                </div>
-              </section>
-              <section class="col-4" data-aos="zoom-in-up">
-                <div class="card Valores_col">
-                  <i class="fas fa-check Valores_icon"></i>
-                    <h5 class="card-title Valor_title">CALIDAD EN EL SERVICIO</h5>
-                    <p class="card-text Valores_text">
-                      Fomentando el valor agregado que permitan a nuestros clientes elegirnos como los proveedores número 1 en el mercado por el servicio prestado
-                    </p> 
-                </div>
-              </section>              
+                <div class="form-group">
+                  <label for="formGroupExampleInput" class="Contacto_form-label">TELÉFONO</label>
+                  <input type="text" class="form-control Contacto_form-input" id="formGroupExampleInput" placeholder="312 728 38 14" required>
+                </div> 
+                <div class="form-group">
+                  <label for="formGroupExampleInput" class="Contacto_form-label">MENSAJE</label>
+                  <textarea type="text" class="form-control Contacto_form-input" id="formGroupExampleInput" placeholder="Escribe un mensaje.." rows="5" required>
+                  </textarea> 
+                </div>                                
+                <a href="#" id="Enviar" class="Button Cursos_btn Contacto_form-btn">Enviar</a>                                                           
+              </form>
+            </div>
+            <div class="col-md-5 col-11 offset-md-2 Contacto_form-col Contacto_form-img">
+              <img src="img/DCM-Contacto.png" class="img-fluid" alt="Contacto DCM">
 
-            </article>
-          </div>
-        </div>
-        <!-- Valores! --> 
-
-                <!-- Frases! --> 
-        <div class="Frases">
-          <div class="container" data-aos="zoom-out-left">
-            <div class="row Frase_container">
-              <section class="col-9 Frase_text">
-                <h3>Ofrecemos soluciones integrales para la Industria en general, generando experiencias emocionales memorables a nuestros clientes.</h3>
-              </section>
+              
             </div>
           </div>
-        </div>
-        <!-- Frases! --> 
-
-        <!-- Equipo! --> 
-        <div class="Equipo">
-          <div class="container">
-            <article class="row">
-              <section class="col-4 Equipo_col">
-                <img src="img/Equipo-1.png" class="img-fluid Equipo_img" alt="Especialista">
-                <p class="Equipo_name">JEISON GIRALDO</p>
-                <small class="Equipo_rol">Especialista en HSE</small>
-              </section>
-              <section class="col-4 Equipo_col">
-                <img src="img/Equipo-2.png" class="img-fluid Equipo_img" alt="Especialista">
-                <p class="Equipo_name">JHONATAN CARDONA</p>
-                <small class="Equipo_rol">Representante Legal</small>
-              </section>
-              <section class="col-4 Equipo_col">
-                <img src="img/Marco-Legal.png" class="img-fluid Equipo_img" alt="Especialista">
-                <p class="Equipo_name">PABLO ACEVEDO</p>
-                <small class="Equipo_rol">Asesor Comercial</small>
-              </section>
-            </article>
+            
           </div>
+          
         </div>
-        <!-- Equipo! --> 
-
+        <!--Contacto form -->
 
 
         <!-- Footer! -->
@@ -238,7 +211,7 @@
               <a href="" class="Footer_link Footer_instagram hvr-float"><i class="fab fa-instagram"></i></a>
             </section>
             <div class="Footer_menu row">
-              <section class="col-md-2 col-4" data-aos="fade-right">
+              <section class="col-md-2 col-5" data-aos="fade-right">
                 <p class="Footer_menu_title">Menú</p>
                 <ul class="Footer_menu_list">
                   <a href="index.html"><li>Inicio</li></a>
@@ -249,7 +222,7 @@
                   <a href="Contacto.html"><li>Contacto</li></a>
                 </ul>               
               </section>
-              <section class="col-xl-2 col-md-3 col-4" data-aos="fade-right">
+              <section class="col-xl-2 col-md-3 col-5" data-aos="fade-right">
                 <p class="Footer_menu_title">Cursos</p>
                 <ul class="Footer_menu_list">
                   <a href="Basico-Administrativo.html"><li>Administrativo</li></a>
@@ -260,7 +233,7 @@
                   <a href="Andamios.html"><li>Otros servicios</li></a>
                 </ul>               
                 </section>
-              <section class="col-md-5 col-8 offset-xl-3 offset-md-2" data-aos="fade-left">
+              <section class="col-md-5 col-10 offset-xl-3 offset-md-2" data-aos="fade-left">
                   <h2 class="Titulo Certificado__Titulo">Valida y descarga tu Certificado Online</h2>
                   <i class="fa fa-arrow-right Certificado__Arrow-2" aria-hidden="true"></i>
                   <p class="Certificado__parrafo">Ingresa a nuestro sistema de validación de Certificados Online, y podrás descargar tu certificado en formato PDF.</p>
@@ -290,7 +263,6 @@
             <!-- AOS javascript -->
             <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
             <!-- Our javascript -->
-            <script type="text/javascript" src="js/all.js"></script>         
-
+            <script type="text/javascript" src="js/all.js"></script>
     </body>
 </html>
