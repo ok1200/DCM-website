@@ -27,68 +27,8 @@
     <body>
         <header id="Header">
             <section class="container-fluid Header Nosotros_header">
-                <!-- Conjunto 1 -->
-                    <div class="Conjunto_1 container" data-aos="fade-down">
-                        <address>
-                            <a href="tel:+573124567834" class="Contact_tel">
-                                <i class="fa fa-phone" aria-hidden="true"></i> 312 456 7834
-                            </a>
-                        </address>
-                          <a href="http://localhost/xampp/Curso%20PHP/Buscador_dcm/" class="Certificado_link Button" target="_blank">Descargar certificado
-                            <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
-                          </a>
 
-                    </div>
-                     <!-- Conjunto 1 -->
-
-                    <!-- Menu -->
-              <div class="Contorno">
-                <div id="Menu_container">
-                  <div class="container-fluid Menu_container">
-                      <nav class="container Menu">
-                            <a class="navbar-brand Logo Inicio" href="#Header">
-                              <img src="img/DCM-Logo.png" alt="dcm logo">
-                            </a>
-                          <ul class="nav">
-                            <li class="nav-item">
-                              <a class="nav-link Inicio" href="#Header">INICIO</a>
-                            </li>
-                             <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CURSOS <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                                  </a>
-                                  <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="Basico-Administrativo.html">BÁSICO ADMINISTRATIVO</a>
-                                    <a class="dropdown-item" href="Basico.html">BÁSICO OPERATIVO</a>
-                                    <a class="dropdown-item" href="Avanzado.html">AVANZADO</a>
-                                    <a class="dropdown-item" href="Reentrenamiento.html">REENTRENAMIENTO</a>
-                                    <a class="dropdown-item" href="Coordinador.html">COORDINADOR</a>
-                                    <a class="dropdown-item" href="Andamios.html">ARMADO Y DESARMADO DE ANDAMIOS</a>
-                                  </div>
-                              </li>
-                              <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SERVICIOS <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-                                  <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="Capacitacion-Bomberotecnia.html">Capacitación Bomberotecnia</a>
-                                    <a class="dropdown-item" href="#">SERVICIO #2</a>
-                                    <a class="dropdown-item" href="#">SERVICIO #3</a>
-                                    <a class="dropdown-item" href="#">SERVICIO #4</a>
-                                  </div>
-                              </li>
-                            <li class="nav-item active">
-                              <a class="nav-link activo" href="Nosotros.html">NOSOTROS</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="Galeria.html">GALERIA</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="Contacto.html">CONTACTO</a>
-                            </li>                          
-                          </ul>                      
-                      </nav>
-                  </div>
-                </div>
-              </div>
-                 <!-- Menu -->
+                <?php $page = "nosotros"; require('menu.php');?>
 
                  <!-- Artículo header -->
               <div class="container Header_articulo Nosotros_articulo">
@@ -141,7 +81,6 @@
               </section>
               <section class="col-lg-6 col-10 offset-1" data-aos="fade-right">
                 <h2 class="Titulo Portafolio_titulo">Marco legal</h2>
-                <i class="fa fa-arrow-right Certificado__Arrow-2" aria-hidden="true"></i>
                 <p class="Certificado__parrafo Portafolio__parrafo">Desarrollamos diferentes procesos de servicios en entrenamiento, entre ellos trabajo seguro en alturas en centros de entrenamiento avalados y certificados por entidades nacionales de acuerdo a la <span class="Marco_resolucion-title">Resolución 2578 del 2012.</span></p>
                 <p class="Certificado__parrafo Portafolio__parrafo">Cuenta con Resolución de autorización por la cual se autoriza la empresa DCM SERVICIOS Y CONSULTORIA, para orientar formación en trabajo seguro en alturas.</p>
                 <a href="" class="Certificado_link Button Button_resolucion" target="_blank">Descargar resolución

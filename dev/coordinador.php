@@ -30,74 +30,15 @@
     <body>
         <header id="Header">
             <section class="container-fluid Header Page_cursos">
-                  <!-- Conjunto 1 -->
-                  <div class="Conjunto_1 container" data-aos="fade-down">
-                      <address>
-                          <a href="tel:+573124567834" class="Contact_tel">
-                              <i class="fa fa-phone" aria-hidden="true"></i> 312 456 7834
-                          </a>
-                      </address>
-                        <a href="http://localhost/xampp/Curso%20PHP/Buscador_dcm/" class="Certificado_link Button" target="_blank">Descargar certificado
-                          <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
-                        </a>
+                  
+                <?php $page = "cursos"; require('menu.php');?>
 
-                  </div>
-                  <!-- Conjunto 1 -->
-
-                    <!-- Menu -->
-              <div class="Contorno">
-                <div id="Menu_container">
-                  <div class="container-fluid Menu_container">
-                      <nav class="container Menu">
-                            <a class="navbar-brand Logo Inicio" href="#Header">
-                              <img src="img/DCM-Logo.png" alt="DCM logotipo - trabajo seguro en alturas">
-                            </a>
-                          <ul class="nav">
-                            <li class="nav-item">
-                              <a class="nav-link" href="index.html">INICIO</a>
-                            </li>
-                             <li class="nav-item dropdown active">
-                                  <a class="nav-link dropdown-toggle activo" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CURSOS <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                                  </a>
-                                  <div class="dropdown-menu">
-                                    <a class="dropdown-item active" href="Basico-Administrativo.html">BÁSICO ADMINISTRATIVO</a>
-                                    <a class="dropdown-item" href="Curso-2.html">BÁSICO OPERATIVO</a>
-                                    <a class="dropdown-item" href="Curso-3.html">AVANZADO</a>
-                                    <a class="dropdown-item" href="Curso-4.html">REENTRENAMIENTO</a>
-                                    <a class="dropdown-item" href="Curso-5.html">COORDINADOR</a>
-                                    <a class="dropdown-item" href="Curso-6.html">ARMADO Y DESARMADO DE ANDAMIOS</a>
-                                  </div>
-                              </li>
-                              <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">SERVICIOS <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-                                  <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="Capacitacion-Bomberotecnia.html">Capacitacion Bomberotecnia</a>
-                                    <a class="dropdown-item" href="#">SERVICIO #2</a>
-                                    <a class="dropdown-item" href="#">SERVICIO #3</a>
-                                    <a class="dropdown-item" href="#">SERVICIO #4</a>
-                                  </div>
-                              </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="Nosotros.html">NOSOTROS</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="Galeria.html">GALERIA</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="Contacto.html">CONTACTO</a>
-                            </li>                          
-                          </ul>                      
-                      </nav>
-                  </div>
-                </div>
-              </div>
-                 <!-- Menu -->
                  <!-- Artículo header -->
               <div class="container">
                   <div class="row">
                     <div class="col-12 Subconjunto_2" data-aos="fade-right">
                       <section id="tab-1-title" class="Page_cursos_conjunto-1">
-                        <img src="img/Cliente-2.png" class="img-fluid Page_cursos_img" alt="Cliente-2">
+                        <img src="img/curso-5.png" class="img-fluid Page_cursos_img" alt="Cliente-2">
                         <h1 class="Titulo Page_cursos_title">Coordinador de Trabajo Seguro en Alturas</h1>
                       </section>
                     </div>

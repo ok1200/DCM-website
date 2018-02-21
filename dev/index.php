@@ -27,76 +27,11 @@
     <body>
         <header id="Header">
             <section class="container-fluid Header">
-                <!-- Conjunto 1 -->
-                    <div class="Conjunto_1 container" data-aos="fade-down">
-                        <address>
-                            <a href="tel:+573124567834" class="Contact_tel">
-                                <i class="fa fa-phone" aria-hidden="true"></i> 312 456 7834
-                            </a>
-                        </address>
-                          <a href="http://localhost/xampp/Curso%20PHP/Buscador_dcm/" class="Certificado_link Button" target="_blank">Descargar certificado
-                            <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
-                          </a>
 
-                    </div>
-                     <!-- Conjunto 1 -->
-
-                    <!-- Menu -->
-              <div class="Contorno">
-                <div id="Menu_container">
-                  <div class="container-fluid Menu_container">
-                      <nav class="container Menu">
-                            <a class="navbar-brand Logo Inicio" href="#Header">
-                              <img src="img/DCM-Logo.png" class="Logo_img" alt="DCM logotipo - trabajo seguro en alturas">
-                            </a>
-                              <div class="Hamburguer_icon">
-                                <span><i class="fa fa-bars" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-times" aria-hidden="true"></i>
-                                </span>
-                              </div>
-                          <ul class="nav">
-                            <li class="nav-item active">
-                              <a class="nav-link Inicio activo" href="#Header">INICIO</a>
-                            </li>
-                             <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CURSOS <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                                  </a>
-                                  <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="Basico-Administrativo.html">BÁSICO ADMINISTRATIVO</a>
-                                    <a class="dropdown-item" href="Basico.html">BÁSICO OPERATIVO</a>
-                                    <a class="dropdown-item" href="Avanzado.html">AVANZADO</a>
-                                    <a class="dropdown-item" href="Reentrenamiento.html">REENTRENAMIENTO</a>
-                                    <a class="dropdown-item" href="Coordinador.html">COORDINADOR</a>
-                                    <a class="dropdown-item" href="Andamios.html">ARMADO Y DESARMADO DE ANDAMIOS</a>
-                                  </div>
-                              </li>
-                              <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SERVICIOS <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-                                  <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="Capacitacion-Bomberotecnia.html">Capacitación Bomberotecnia</a>
-                                    <a class="dropdown-item" href="#">SERVICIO #2</a>
-                                    <a class="dropdown-item" href="#">SERVICIO #3</a>
-                                    <a class="dropdown-item" href="#">SERVICIO #4</a>
-                                  </div>
-                              </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="Nosotros.html">NOSOTROS</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="Galeria.html">GALERIA</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="Contacto.html">CONTACTO</a>
-                            </li>                          
-                          </ul>                      
-                      </nav>
-                  </div>
-                </div>
-              </div>
-                 <!-- Menu -->
+              <?php $page = "inicio"; require('menu.php');?>
 
                  <!-- Artículo header -->
-              <div class="container Header_articulo">
+              <div class="container Header_articulo Header_Home">
                 <div class="row Conjunto_2">
                   <div class="col-md-6 col-10 Subconjunto_2" data-aos="fade-right">
                    <h1>TRABAJO SEGURO EN ALTURAS</h1>
@@ -120,7 +55,7 @@
             <div class="row Curso_group_1">
               <article class="col-xl-4 col-lg-5 col-md-8 col-xs-10 col-12" data-aos="zoom-in-up">
                   <div class="card">
-                    <img class="card-img-top" src="img/Curso-1.png" alt="Básico administrativo en trabajo seguro en alturas - DCM">
+                    <img class="card-img-top" src="img/curso-1.png" alt="Básico administrativo en trabajo seguro en alturas - DCM">
                     <div class="card-body">
                       <h4 class="card-title">BÁSICO ADMINISTRATIVO</h4>
                       <p class="card-text">Para personas que toman decisiones
@@ -133,7 +68,7 @@
               </article>
               <article class="col-xl-4 col-lg-5 col-md-8 col-xs-10 col-12" data-aos="zoom-in-up">
                   <div class="card">
-                    <img class="card-img-top" src="img/Curso-2.png" alt="Básico operativo en trabajo seguro en alturas - DCM">
+                    <img class="card-img-top" src="img/curso-2.png" alt="Básico operativo en trabajo seguro en alturas - DCM">
                     <div class="card-body">
                       <h4 class="card-title">BÁSICO<br> OPERATIVO</h4>
                       <p class="card-text">Para personas que toman decisiones
@@ -146,7 +81,7 @@
               </article>
               <article class="col-xl-4 col-lg-5 col-md-8 col-xs-10 col-12" data-aos="zoom-in-up">
                   <div class="card">
-                    <img class="card-img-top" src="img/Curso-3.png" alt="Avanzado en trabajo seguro en alturas - DCM">
+                    <img class="card-img-top" src="img/curso-3.png" alt="Avanzado en trabajo seguro en alturas - DCM">
                     <div class="card-body">
                       <h4 class="card-title">AVANZADO</h4>
                       <p class="card-text">Para personas que toman decisiones
@@ -159,7 +94,7 @@
               </article>
               <article class="col-xl-4 col-lg-5 col-md-8 col-xs-10 col-12" data-aos="zoom-in-up">
                 <div class="card">
-                  <img class="card-img-top" src="img/Curso-1.png" alt="Reentrenamiento en trabajo seguro en alturas - DCM">
+                  <img class="card-img-top" src="img/curso-4.png" alt="Reentrenamiento en trabajo seguro en alturas - DCM">
                   <div class="card-body">
                     <h4 class="card-title">REENTRENAMIENTO</h4>
                     <p class="card-text">Para personas que toman decisiones
@@ -172,7 +107,7 @@
               </article>
               <article class="col-xl-4 col-lg-5 col-md-8 col-xs-10 col-12" data-aos="zoom-in-up">
                  <div class="card">
-                  <img class="card-img-top" src="img/Curso-2.png" alt="Coordinador de trabajo seguro en alturas - DCM">
+                  <img class="card-img-top" src="img/curso-5.png" alt="Coordinador de trabajo seguro en alturas - DCM">
                   <div class="card-body">
                     <h4 class="card-title">COORDINADOR</h4>
                     <p class="card-text">Para personas que toman decisiones
@@ -185,7 +120,7 @@
               </article>
               <article class="col-xl-4 col-lg-5 col-md-8 col-xs-10 col-12" data-aos="zoom-in-up">
                  <div class="card">
-                  <img class="card-img-top" src="img/Curso-3.png" alt="Armado y desarmado de andamios en trabajo seguro en alturas - DCM">
+                  <img class="card-img-top" src="img/curso-6.png" alt="Armado y desarmado de andamios en trabajo seguro en alturas - DCM">
                   <div class="card-body">
                     <h4 class="card-title">ARMADO Y DESARMADO DE ANDAMIOS</h4>
                     <p class="card-text">Para personas que toman decisiones
@@ -353,7 +288,6 @@
               </section>
               <section class="col-lg-5 col-md-8 offset-md-2" data-aos="fade-right">
                 <h2 class="Titulo Portafolio_titulo">Conoce nuestro<br> portafolio de servicios</h2>
-                <i class="fa fa-arrow-right Certificado__Arrow-2" aria-hidden="true"></i>
                 <p class="Certificado__parrafo Portafolio__parrafo">Somos una empresa que ofrece soluciones en sistemas de gestión de la seguridad y salud en el trabajo generando experiencias emocionales memorables a nuestros clientes.</p>
                 <a href="" class="Certificado_link Button" target="_blank">Descargar portafolio
                   <i class="fas fa-download Dowload_icon Portafolio_icon" aria-hidden="true"></i>
@@ -467,7 +401,7 @@
 
         <!-- Footer! -->
         <div class="Footer">
-          <footer class="container Footer_flex">
+          <footer class="container">
             <img src="img/DCM-Logo-Blanco.png" class="Footer_logo" data-aos="fade-down" alt="logo">
             <section class="Footer_redes" data-aos="fade-up">
               <a href="" class="Footer_link Footer_facebook hvr-float"><i class="fab fa-facebook-square"></i></a>
@@ -475,7 +409,7 @@
               <a href="" class="Footer_link Footer_instagram hvr-float"><i class="fab fa-instagram"></i></a>
             </section>
             <div class="Footer_menu row">
-              <section class="col-md-2 col-5" data-aos="fade-right">
+              <section class="col-md-2 col-5" data-aos="fade-up">
                 <p class="Footer_menu_title">Menú</p>
                 <ul class="Footer_menu_list">
                   <a href="index.html"><li>Inicio</li></a>
@@ -486,7 +420,7 @@
                   <a href="Contacto.html"><li>Contacto</li></a>
                 </ul>               
               </section>
-              <section class="col-xl-2 col-md-3 col-5" data-aos="fade-right">
+              <section class="col-xl-2 col-md-3 col-5" data-aos="fade-up">
                 <p class="Footer_menu_title">Cursos</p>
                 <ul class="Footer_menu_list">
                   <a href="Basico-Administrativo.html"><li>Administrativo</li></a>
@@ -497,7 +431,7 @@
                   <a href="Andamios.html"><li>Otros servicios</li></a>
                 </ul>               
                 </section>
-              <section class="col-md-5 col-10 offset-xl-3 offset-md-2" data-aos="fade-left">
+              <section class="col-md-5 col-10 offset-xl-3 offset-md-2" data-aos="fade-down">
                   <h2 class="Titulo Certificado__Titulo">Valida y descarga tu Certificado Online</h2>
                   <i class="fa fa-arrow-right Certificado__Arrow-2" aria-hidden="true"></i>
                   <p class="Certificado__parrafo">Ingresa a nuestro sistema de validación de Certificados Online, y podrás descargar tu certificado en formato PDF.</p>

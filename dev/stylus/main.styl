@@ -38,7 +38,6 @@ body
 	padding 0
 	padding-top 1em
 	position relative
-	overflow hidden
 	.Conjunto_1
 		display flex
 		justify-content space-between
@@ -115,6 +114,9 @@ body
 
 .nav-item.active
 	position relative
+	> a
+		color #0D5CBA
+		font-weight 600
 	&:before
 		content ""
 		position absolute
@@ -137,11 +139,7 @@ body
 	&:hover
 		.dropdown-menu
 			display block
-
-				
-.nav-link.activo
-	color #0D5CBA
-	font-weight 600
+	
 
 .dropdown-item.active
 	color #0D5CBA
@@ -198,14 +196,15 @@ body
 	width 380px
 
 
-.Header
+.Header_Home
+	overflow hidden
 	&:before
+		display none
 		content ""
-		display block
 		height 100%
 		width 100%
 		position absolute
-		top 15%
+		top 2%
 		left 26%
 		background-image url("../img/Check-Logo.png")
 		background-size 56%
@@ -516,7 +515,7 @@ body
 	margin 2em 0
 	
 .Portafolio
-	background White_200
+	background Grey_100
 
 .Portafolio_articulo
 	justify-content center	
@@ -538,6 +537,7 @@ body
 	text-align center
 	background-image url("../img/DCM-Fondo-1.png")
 	background-size cover
+	overflow hidden
 	h3
 		font-family Lato
 		font-size 30px
@@ -572,6 +572,7 @@ body
 	padding 5em 0
 	background-color Grey_100
 	margin-bottom 3em
+	overflow hidden
 	
 .Elegir-dcm__titulo
 	text-align center
@@ -799,6 +800,7 @@ body
 	margin-bottom 0
 
 .Form_input
+	position relative
 	background White_200
 	font-size 17px
 	&::-webkit-input-placeholder
@@ -849,7 +851,6 @@ body
 	&:hover
 		text-decoration none
 		
-
 .Cursos_info-icon
 	font-size 30px
 	color Blue_200
@@ -1516,10 +1517,14 @@ body
 		top 0
 		left -100%
 		background-color Grey_100
-		flex-direction column
+		display inline-block
 		text-align center
-		justify-content space-around
 		transition .5s
+		padding-top 100px
+		li
+			margin-bottom 15px
+			margin-top 15px
+			border-bottom 1px solid Grey_200
 	
 	.nav.Menu_active
 		left 0
@@ -1530,8 +1535,10 @@ body
 			width 100%			
 	
 	.dropdown-menu
-		left 28%
-		top 68%
+		position relative
+		width 100%
+		left 0
+		top 0
 		text-align center
 
 	.Certificado_col-img
