@@ -11,6 +11,7 @@
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
         <title>Trabajo seguro en alturas - DCM</title>
+        <link rel="shortcut icon" href="img/DCM-Logo.png">
         <meta name="description" content="DCM - Compañía de Cursos de trabajo seguro en alturas y Servicios en seguridad y salud en el trabajo. Certificados de cursos de alturas, portafolio de servicios para empresas industriales, ambientales y en seguridad en el trabajo. Ubicados en Antioquia">
         <!-- AOS css -->
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
@@ -19,7 +20,9 @@
         <!-- Animate.css -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
         <!-- Animate.css -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" rel="stylesheet">  
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" rel="stylesheet"> 
+        <!-- Flexslider.css -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.1/flexslider.css" rel="stylesheet"> 
 
         <!-- Our css -->
         <link rel="stylesheet" href="css/main.css">
@@ -31,27 +34,47 @@
               <?php $page = "inicio"; require('menu.php');?>
 
                  <!-- Artículo header -->
-              <div class="container Header_articulo Header_Home">
-                <div class="row Conjunto_2">
-                  <div class="col-md-6 col-10 Subconjunto_2" data-aos="fade-right">
-                   <h1>TRABAJO SEGURO EN ALTURAS</h1>
-                   <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
-                   Conoce nuestros cursos de capacitación</p>
-                   <a href="" class="Button Button__Register">Registrarme ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                    
-                  </div>
-                  <div class="col-lg-5 col-md-6 offset-lg-1 offset-0 Constructor" data-aos="fade-left">
-                    <img src="img/Header-Constructor.png" class="img-fluid Constructor_img" alt="Trabajo seguro en alturas - DCM">
-                  </div>
-                </div>
+              <div class="flexslider">
+                <ul class="slides">
+                  <li class="Slide Slide-1">
+                    <div class="row Conjunto_2 Row_slide-home">
+                      <div class="col-md-5 col-10 Subconjunto_2 Contenido_slide-home" data-aos="fade-right">
+                       <h2 class="Titulo Titulo-slider_header">TRABAJO SEGURO EN ALTURAS</h2>
+                       <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
+                       Conoce nuestros cursos de capacitación</p>
+                       <a href="" class="Button Button__Register">Registrarme ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>                        
+                      </div>
+                    </div>                    
+                  </li>
+                  <li class="Slide Slide-2">
+                    <div class="row Conjunto_2 Row_slide-home">
+                      <div class="col-md-5 col-10 Subconjunto_2 Contenido_slide-home" data-aos="fade-right">
+                       <h2 class="Titulo Titulo-slider_header">TRABAJO SEGURO EN ALTURAS</h2>
+                       <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
+                       Conoce nuestros cursos de capacitación</p>
+                       <a href="" class="Button Button__Register">Registrarme ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>                        
+                      </div>
+                    </div>                    
+                  </li> 
+                  <li class="Slide Slide-3">
+                    <div class="row Conjunto_2 Row_slide-home">
+                      <div class="col-md-5 col-10 Subconjunto_2 Contenido_slide-home" data-aos="fade-right">
+                       <h2 class="Titulo Titulo-slider_header">TRABAJO SEGURO EN ALTURAS</h2>
+                       <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
+                       Conoce nuestros cursos de capacitación</p>
+                       <a href="" class="Button Button__Register">Registrarme ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>                        
+                      </div>
+                    </div>                    
+                  </li>                                                                        
+                </ul>
               </div>
               <!-- Artículo header -->
             </section>
         </header>
         <!-- Cursos -->
         <section class="Cursos">
-          <div class="Cursos-Diagonal"></div>
           <div class="container">
+            <h1 class="Titulo Titulo-cursos_home">Cursos de Trabajo Seguro en Alturas</h1>
             <div class="row Curso_group_1">
               <article class="col-xl-4 col-lg-5 col-md-8 col-xs-10 col-12" data-aos="zoom-in-up">
                   <div class="card">
@@ -157,103 +180,91 @@
           <div class="container">
             <h2 class="Titulo Seguridad-salud_Tittle">Servicios en seguridad<br> y salud en el trabajo</h2>
             <article class="row Seguridad-salud_article">
-              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up"
-     data-aos-duration="1200">
-                <i class="fas fa-fire Dowload_icon Dowload_icon--Service" aria-hidden="true"></i>
-        
-                <a href="Capacitacion-Bomberotecnia.html" class="Seguridad-salud__Link"> 
-              Capacitación<br> Bomberotecnia</a>
+
+              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1200"> 
+                <a href="capacitacion-bomberotecnia.php" class="Seguridad-salud__Link">
+                  <i class="fas fa-fire Dowload_icon--Service Padding-icon--service" aria-hidden="true"></i> 
+                  Capacitación<br> Bomberotecnia</a>
               </section>
-              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up"
-     data-aos-duration="1400">
-                <i class="fas fa-exclamation-triangle Dowload_icon--Service" aria-hidden="true"></i>
-                <a href="" class="Seguridad-salud__Link">
-                  
+
+              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1400">            
+                <a href="planes-emergencia.php" class="Seguridad-salud__Link">
+                  <i class="fas fa-exclamation-triangle Dowload_icon--Service" aria-hidden="true"></i>     
                   Diseño de planes de Emergencia
+                </a>
+              </section>
+
+              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1600">
+                <a href="capacitacion-espacios-confinados.php" class="Seguridad-salud__Link">
+                   <i class="fas fa-align-right Dowload_icon--Service" aria-hidden="true"></i>                  
+                    Capacitación de trabajo en espacios confinados
                </a>
               </section>
-              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up"
-     data-aos-duration="1600">
-                <i class="fas fa-align-right Dowload_icon Dowload_icon--Service" aria-hidden="true"></i>
-                <a href="" class="Seguridad-salud__Link">
-                  
-                  Capacitación de trabajo en espacios confinados
-               </a>
-              </section>
-              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up"
-     data-aos-duration="1200">
-                <i class="fas fa-briefcase Dowload_icon Dowload_icon--Service" aria-hidden="true"></i>
-                <a href="" class="Seguridad-salud__Link">
-                  
+
+              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1200">       
+                <a href="evaluacion-puestos-de-trabajo.php" class="Seguridad-salud__Link">
+                  <i class="fas fa-briefcase Dowload_icon--Service" aria-hidden="true"></i>                  
                   Evaluación de puestos de trabajo
                </a>
               </section>
-              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up"
-     data-aos-duration="1400">
-                <i class="fas fa-th Dowload_icon Dowload_icon--Service" aria-hidden="true"></i>
-                <a href="" class="Seguridad-salud__Link">
-                  
+
+              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1400">
+                <a href="matriz-peligros.php" class="Seguridad-salud__Link">
+                  <i class="fas fa-th Dowload_icon--Service" aria-hidden="true"></i>                
                   Diseño y actualización de matriz de peligros
                </a>
               </section>
-               <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up"
-     data-aos-duration="1600">
-                <i class="fas fa-medkit Dowload_icon Dowload_icon--Service" aria-hidden="true"></i>
-                <a href="" class="Seguridad-salud__Link">
-                  
+
+               <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1600">           
+                <a href="capacitacion-primer-respondiente.php" class="Seguridad-salud__Link">
+                  <i class="fas fa-medkit Dowload_icon--Service" aria-hidden="true"></i>                  
                   Capacitación de primer respondiente (Primeros auxilios)
                </a>
               </section>
-              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up"
-     data-aos-duration="1200">
-                <i class="fas fa-ambulance Dowload_icon Dowload_icon--Service" aria-hidden="true"></i>
-                <a href="" class="Seguridad-salud__Link">
-                  
+
+              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1200">          
+                <a href="capacitacion-brigadas-emergencia.php" class="Seguridad-salud__Link">
+                  <i class="fas fa-ambulance Dowload_icon--Service" aria-hidden="true"></i>                  
                   Capacitación y conformación de brigadas de emergencia
                </a>
               </section>
-               <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up"
-     data-aos-duration="1400">
-                <i class="fas fa-wheelchair Dowload_icon Dowload_icon--Service" aria-hidden="true"></i>
-                <a href="" class="Seguridad-salud__Link">
-                  
+
+               <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1400">           
+                <a href="investigacion-accidentes-de-trabajo.php" class="Seguridad-salud__Link">
+                  <i class="fas fa-wheelchair Dowload_icon--Service" aria-hidden="true"></i>                  
                   Investigación de accidentes de trabajo
                </a>
               </section>
-              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up"
-     data-aos-duration="1600">
-                <i class="fas fa-search Dowload_icon Dowload_icon--Service" aria-hidden="true"></i>
-                <a href="" class="Seguridad-salud__Link">
-                  
+
+              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1600">      
+                <a href="inspeccion-equipos-altura.php" class="Seguridad-salud__Link">
+                  <i class="fas fa-search Dowload_icon--Service" aria-hidden="true"></i>                  
                   Inspección de equipos
                </a>
-              </section>  
-               <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up"
-     data-aos-duration="1200">
-                <i class="fas fa-road Dowload_icon Dowload_icon--Service" aria-hidden="true"></i>
-                <a href="" class="Seguridad-salud__Link">
-                  
+              </section>
+
+               <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1200">        
+                <a href="plan-seguridad-vial.php" class="Seguridad-salud__Link">
+                  <i class="fas fa-road Dowload_icon--Service" aria-hidden="true"></i>                  
                   Diseño del plan estratégico de seguridad vial
                </a>
               </section>
-              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up"
-     data-aos-duration="1400">
-                <i class="fas fa-fire-extinguisher Dowload_icon Dowload_icon--Service" aria-hidden="true"></i>
-                <a href="" class="Seguridad-salud__Link">
-                  
-                  Asesoría seguridad y salud en el trabajo
+
+              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1400">         
+                <a href="asesoria-seguridad-y-salud-trabajo.php" class="Seguridad-salud__Link">
+                  <i class="fas fa-fire-extinguisher Dowload_icon--Service Padding-icon--service" aria-hidden="true"></i>       Asesoría seguridad y salud en el trabajo
                </a>
-              </section>  
-              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up"
-     data-aos-duration="1600">
-                <i class="Dowload_icon--Service fas fa-list-ol Dowload_icon " aria-hidden="true"></i>
-                <a href="" class="Seguridad-salud__Link">
-                  
+              </section>
+
+              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1600">          
+                <a href="sistema-seguridad-y-salud-trabajo.php" class="Seguridad-salud__Link">
+                  <i class="Dowload_icon--Service fas fa-list-ol " aria-hidden="true"></i>                  
                   Diseño y ejecución del sistema de gestión de seguridad y salud en el trabajo
                </a>
-              </section>                                                                        
-            </article>         
-          </div>      
+              </section>  
+
+            </article>   
+          </div>  
         </div>
         <!-- Servicios en seguridad y salud en el trabajo --> 
 
@@ -320,6 +331,7 @@
                 <li class="Indicador active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
                 <li class="Indicador" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li class="Indicador" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li class="Indicador" data-target="#carouselExampleIndicators" data-slide-to="3"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -344,9 +356,11 @@
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-9 offset-md-1 animated fadeIn delay">
-                      <h3 class="Titulo Titulo--corbelen">SST - Corbelen Marinilla</h3>
-                      <small class="Elegir-dcm__article--autor">María Ofir Álzate Cardona</small>
-                      <p class="Elegir-dcm__article--parrafo">Porque son mucho más que una consultoría, prestan un servicio integral a las empresas, acorde a las necesidades y expectativas de sus clientes; Además cuentan con un equipo de trabajo muy profesional, asegurándose de brindar servicios de calidad y seguridad.</p>
+                      <h3 class="Titulo Titulo--corbelen">S Zona E</h3>
+                      <small class="Elegir-dcm__article--autor">Juan Esteban Escobar </small>
+                      <p class="Elegir-dcm__article--parrafo">Por la calidad de las personas que prestan el servicio, el amplio conocimiento y la forma de explicar los temas. 
+                      Por el campo de entrenamiento que cuenta con todas las condiciones necesarias para aprender a trabajar en alturas y hacerlo de la mejor forma.
+                      </p>
                     </div>
                   </article>                
                 </div>
@@ -358,12 +372,26 @@
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-9 offset-md-1 animated fadeIn delay">
-                      <h3 class="Titulo Titulo--corbelen">SST - Corbelen Marinilla</h3>
-                      <small class="Elegir-dcm__article--autor">María Ofir Álzate Cardona</small>
-                      <p class="Elegir-dcm__article--parrafo">Porque son mucho más que una consultoría, prestan un servicio integral a las empresas, acorde a las necesidades y expectativas de sus clientes; Además cuentan con un equipo de trabajo muy profesional, asegurándose de brindar servicios de calidad y seguridad.</p>
+                      <h3 class="Titulo Titulo--corbelen">Formas en Acero SAS</h3>
+                      <small class="Elegir-dcm__article--autor">Jessica Cardona Ramírez</small>
+                      <p class="Elegir-dcm__article--parrafo">Porque cuenta con un personal altamente calificado en sus diversas áreas, un campo apropiado para realizar diferentes tipos de actividades, por la calidad de sus equipos, por sus precios asequibles a todo el público, y por la disposición para resolver tus dudas e inquietudes.</p>
                     </div>
                   </article>                
-                </div>                                
+                </div> 
+                <div class="carousel-item">
+                  <article class="row Elegir-dcm__article">
+                    <div class="col-lg-3 col-sm-4 col-6 animated fadeIn delay">
+                      <div class="Elegir-dcm__corbelen">
+                        <img src="img/Corbelen-Marinilla-png.png" class="img-fluid Elegir-dcm__corbelen-img" alt="">                
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-9 offset-md-1 animated fadeIn delay">
+                      <h3 class="Titulo Titulo--corbelen">Tecnologo en Salud Ocupacional</h3>
+                      <small class="Elegir-dcm__article--autor">Cristian Camilo Guarin Zapata</small>
+                      <p class="Elegir-dcm__article--parrafo">Porque brinda soluciones inmediatas en Seguridad y Salud en el Trabajo teniendo como objeto la aplicación de medidas y el desarrollo de las actividades necesarias para la prevención de riesgos derivados del trabajo, desarrollando acciones de formación en alturas.</p>
+                    </div>
+                  </article>                
+                </div>                                                
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <i class="fas fa-chevron-left Elegir-dcm__control"></i>
@@ -460,8 +488,21 @@
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
             <!-- AOS javascript -->
             <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+            <!-- Flexslider javascript -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.1/jquery.flexslider.js"></script>
+
             <!-- Our javascript -->
-            <script type="text/javascript" src="js/all.js"></script>         
+            <script type="text/javascript" src="js/all.js"></script>
+
+            <script>
+              // Can also be used with $(document).ready()
+                $(document).ready(function() {
+                  $('.flexslider').flexslider({
+                    animation: "slide"
+                  });
+                });
+            </script>                
 
     </body>
 </html>

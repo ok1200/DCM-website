@@ -1,11 +1,11 @@
 <!-- Conjunto 1 -->
 <div class="Conjunto_1 container" data-aos="fade-down">
     <address>
-        <a href="tel:+573124567834" class="Contact_tel">
-            <i class="fa fa-phone" aria-hidden="true"></i> 312 456 7834
+        <a href="https://web.whatsapp.com/send?phone=573136893524" target="_blank" class="Contact_tel">
+            <i class="fab fa-whatsapp WhatsApp-icon" aria-hidden="true"></i> 313 689 3524
         </a>
     </address>
-    <a href="http://localhost/xampp/Curso%20PHP/Buscador_dcm/" class="Certificado_link Button" target="_blank">Descargar certificado
+    <a href="certificado.php" class="Certificado_link Button" target="_blank">Descargar certificado
       <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
     </a>
 

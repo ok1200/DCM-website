@@ -75,6 +75,11 @@ $(document).ready(function (){
                 return false;
             });
 
+            //Remove class error form//
+
+            $(".Form_input").click(function(){
+                $(this).removeClass("error");
+            });
 
 })
 

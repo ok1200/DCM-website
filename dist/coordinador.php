@@ -33,6 +33,10 @@
                   
                 <?php $page = "cursos"; require('menu.php');?>
 
+            <div class="Imagen-curso Curso-5">
+              
+            </div>                
+
                  <!-- Artículo header -->
               <div class="container">
                   <div class="row">
@@ -48,32 +52,51 @@
                     <div class="col-lg-7 col-md-12 Page_cursos-col Page_cursos-col-hiden" data-aos="fade-up">
                           <p class="Page_cursos-description">Persona capaz de identificar riesgos y correspondiente para ser el emisor de los permisos de trabajo en alturas. Solo entidades autorizadas bajo resolución 2578 del 2012 pueden certificar este curso.</p>
                           <p class="Page_cursos-requisitos">Requisitos</p>
-                          <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Afiliación y pago vigente a seguridad social</span></i>
-                          <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Certificación médica ocupacional</span></i>
-                          <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Competencias de lecto-escritura</span></i>
-                          <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Certificado en la norma de competencia laboral</span></i>
-                          <i class="fas fa-chevron-right Requisito-icon Page_cursos-requisito2"><span class="Page_cursos-requisito">Experiencia certificada mínima de un año en el campo</span></i>
-                          <div class="Cursos_info">
-                            <i class="fas fa-map-marker-alt Cursos_info-icon"></i>
+
+                           <ol class="Page_cursos-requisitos--list">
+                            <li class="Page_cursos-requisito"><i class="fas fa-chevron-right Requisito-icon"></i>Afiliación y pago vigente a seguridad social</li>
+                            <li class="Page_cursos-requisito"><i class="fas fa-chevron-right Requisito-icon Page_cursos-requisito2"></i>Certificación médica ocupacional</li>
+                            <li class="Page_cursos-requisito"><i class="fas fa-chevron-right Requisito-icon Page_cursos-requisito2"></i>Competencias de lecto-escritura</li>                            
+                            <li class="Page_cursos-requisito"><i class="fas fa-chevron-right Requisito-icon Page_cursos-requisito2"></i>Certificado en la norma de competencia laboral</li>    
+                            <li class="Page_cursos-requisito"><i class="fas fa-chevron-right Requisito-icon Page_cursos-requisito2"></i>Experiencia certificada mínima de un año en el campo</li>                         
+                          </ol>
+                          
+                          
+                          <div class="Cursos_info-1">
                             <div class="Cursos_info-description">
-                              <p class="Cursos_info-title">Sede 1</p>
-                              <small class="Cursos_info-duration">Rionegro, Antioquia</small> 
+                              <p class="Cursos_info-title-1">Sede 1</p>
+                              <small class="Cursos_info-duration-1">Rionegro, Ant.</small> 
                             </div>
                           </div>
-                          <div class="Cursos_info">
-                            <i class="fas fa-map-marker-alt Cursos_info-icon"></i>
+                          <div class="Cursos_info-1">
                             <div class="Cursos_info-description">
-                              <p class="Cursos_info-title">Sede 2</p>
-                              <small class="Cursos_info-duration">Puerto Berrío, Ant.</small> 
+                              <p class="Cursos_info-title-1">Sede 2</p>
+                              <small class="Cursos_info-duration-1">Puerto Berrío, Ant.</small> 
                             </div>
                           </div>                                                                                                                     
-                          <div class="Cursos_info">
-                            <i class="fas fa-clock Cursos_info-icon"></i>
+                          <div class="Cursos_info-1">
                             <div class="Cursos_info-description">
-                              <p class="Cursos_info-title">Duración</p>
-                              <small class="Cursos_info-duration">80 Horas</small> 
+                              <p class="Cursos_info-title-1">Duración</p>
+                              <small class="Cursos_info-duration-1">80 Horas</small> 
                             </div>
                           </div>
+                          <div class="Contacto-info">
+                            <a href="tel:+573124567834" class="Cursos_info">
+                              <i class="fas fa-phone Cursos_info-icon"></i>
+                              <div class="Cursos_info-description">
+                                <p class="Cursos_info-title">LLÁMANOS</p>
+                                <small class="Cursos_info-duration">313 689 3524</small> 
+                              </div>
+                            </a>
+                            <a href="mailto:info@dcm.com.co" class="Cursos_info">
+                              <i class="fas fa-comments Cursos_info-icon"></i>
+                              <div class="Cursos_info-description Cursos_info-description-2">
+                                <p class="Cursos_info-title">CONTÁCTANOS</p>
+                                <small class="Cursos_info-duration">info@dcmservicios.com</small> 
+                              </div>
+                            </a>                             
+                            
+                          </div>                         
                     </div>
                     <!--Formulario -->
 

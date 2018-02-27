@@ -32,10 +32,14 @@
             <section class="container-fluid Header Page_cursos">
 
                 <?php $page = "servicios"; require('menu.php');?>
+
+            <div class="Imagen-curso Servicio-9">
+              
+            </div>                
                 
                  <!-- Servicios header -->
               <div class="container">
-                <div class="row">                                
+                <div class="row Servicio_page-row">                                
                     <div class="col-lg-7 col-md-12 Page_cursos-col" data-aos="fade-up">
                           <section id="tab-1-title" class="Page_cursos_conjunto-1 Page_servicios_title_2">
                             <i class="fas fa-search Page_servicio_icon Page_servicio_icon-1 icon-search" aria-hidden="true"></i>
@@ -49,17 +53,19 @@
                               <small class="Cursos_info-duration">313 689 3524</small> 
                             </div>
                           </a>
-                          <a href="" class="Cursos_info">
-                            <i class="fas fa-map-marker-alt Cursos_info-icon"></i>
-                            <div class="Cursos_info-description">
-                              <p class="Cursos_info-title">CONTÁCTANOS</p>
-                              <small class="Cursos_info-duration">info@dcm.com.co</small> 
-                            </div>
-                          </a>                                                                                             
+                            <a href="mailto:info@dcmservicios.com" class="Cursos_info">
+                              <i class="fas fa-comments Cursos_info-icon"></i>
+                              <div class="Cursos_info-description Cursos_info-description-2">
+                                <p class="Cursos_info-title">CONTÁCTANOS</p>
+                                <small class="Cursos_info-duration">info@dcmservicios.com</small> 
+                              </div>
+                            </a>                                                                                          
                     </div>
                     <!--Formulario -->
                     <div id="Form" class="col-lg-4 col-md-8 col-12 offset-lg-1 Form Constructor Page_cursos_form">
                       <h4 class="Page_cursos_title-inscribete">Consulta este <br>servicio ahora</h4>
+
+                      <?php (isset($_POST["servicio"])) ? $servicio = $_POST["servicio"] : $servicio=9; ?>
 
                       <?php require 'formulario-servicios.php'; ?>
 

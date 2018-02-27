@@ -1,28 +1,25 @@
-//Variables//
-
-//Tipigrafía//
 Rubik = 'Rubik', sans-serif;
 Lato = 'Lato', sans-serif;
 
-//Colores//
+
 
 Yellow_100 =  #FFD04D
-Yellow_200 =  #FFBD1A  //Primario//
+Yellow_200 =  #FFBD1A  
 Yellow_300 =  #E08F00
-Brown_100 =  	#995300
+Brown_100 =  #995300
 Red_100 =  #E54554
-Gradient_Red = linear-gradient(to right, rgba(229,69,84,1) 0%, rgba(255,189,26,1) 100%) //Gradiente//
+Gradient_Red = linear-gradient(to right, rgba(229,69,84,1) 0%, rgba(255,189,26,1) 100%) 
 Blue_100 =  #538CF2
 Blue_200 =  #3770D3
-Blue_300 =  #0F4BB7  //Primario//
+Blue_300 =  #0F4BB7 
 Blue_400 =  #073499
-Gradient_Blue = linear-gradient(to right, rgba(0,55,188,1) 0%, rgba(54,127,214,1) 100%) //Gradiente//
+Gradient_Blue = linear-gradient(to right, rgba(0,55,188,1) 0%, rgba(54,127,214,1) 100%)
 White_100 =  #FFFFFF
 White_200 =  #FAFBFC
 Grey_100 =  #EFF1F4
 Grey_200 =  #DFE1E5
 Grey_300 =  #BCC2CC
-Grey_400 =  #8A9099  //Primario//
+Grey_400 =  #8A9099
 Grey_500 =  #323A47
 
 
@@ -31,10 +28,7 @@ body
 		font-family Rubik
 
 .Header
-	background-image url("../img/Header-Background.jpg")
-	background-repeat no-repeat
-	background-size cover
-	background-attachment fixed
+	background Gradient_Blue
 	padding 0
 	padding-top 1em
 	position relative
@@ -43,9 +37,8 @@ body
 		justify-content space-between
 		align-items center
 		padding-top 20px
-		.fa.fa-phone
-			color Yellow_200
-			transform rotate(360deg)
+		.WhatsApp-icon
+			color #25d366
 			font-size 25px
 			margin-right 5px		
 		.Contact_tel
@@ -64,9 +57,7 @@ body
 	justify-content flex-end
 	&:hover
 		text-decoration none
-		color Grey_500
-		
-		
+		color Grey_500	
 
 .Dowload_icon
 	display inline-block
@@ -75,14 +66,13 @@ body
 	background-color Yellow_100
 	border-radius 0 0 5px 0
 	color Grey_500	
-
-.Dowload_icon.fas
+.Dowload_icon.fa-download
+	padding 13px
 	font-size 25px
 				
 .Contorno
 	min-height 120px
 	margin-top 2em
-	margin-bottom 98px
 
 #Menu_container
 	position relative
@@ -90,10 +80,9 @@ body
 
 .Menu_container
 	background-color Grey_100
-	width 90%
-	border-radius 25px 0 25px 0 
 	display flex
 	align-items center
+	box-shadow 2px 3px 5px 0px rgba(0,0,0,0.15)
 	.Logo
 		margin auto 1em
 		margin-left 0
@@ -139,6 +128,7 @@ body
 	&:hover
 		.dropdown-menu
 			display block
+			top 95%
 	
 
 .dropdown-item.active
@@ -173,13 +163,6 @@ body
 .Conjunto_2
 	display flex
 	align-items center
-	.Subconjunto_2
-		margin-bottom 5em
-	h1
-		font-family Lato
-		font-size 36px
-		color White_100
-		line-height 55px
 	.Conjunto_2-description
 		font-size 24px
 		color White_100
@@ -188,7 +171,23 @@ body
 	a
 		color Grey_500
 		text-decoration none
-		
+
+.Titulo
+	font-family Lato
+	font-size 36px
+	font-weight bold
+	line-height 54px
+
+.Titulo-slider_header
+	font-size 40px
+	color White_100
+	line-height 60px		
+
+.Titulo-cursos_home
+	color Blue_200
+	text-align center
+	padding 150px 0 110px 0
+
 
 .Constructor_img
 	margin-top 1em
@@ -212,7 +211,7 @@ body
 		background-position center
 	
 
-//Menu Fixed//		
+	
 .Fixed_nav
 	position fixed
 	top -100%
@@ -235,8 +234,55 @@ body
 		padding 30px 20px
 
 
+.flexslider
+	overflow hidden
+	border 0
+	margin-bottom 0
+	
+.flex-control-nav
+	bottom 60px
+	left -42%
 
+.Slide
+	background-image url("../img/Slider-1.jpg")
+	background-position center
+	background-size cover
+	background-repeat no-repeat
 
+.Row_slide-home
+	margin 0
+	
+.Contenido_slide-home
+	padding 120px
+	padding-bottom 150px
+	position relative
+	&:before
+		content ""
+		position absolute
+		height 100%
+		width 100%
+		top 0
+		left 0
+		display block
+		background Gradient_Blue
+		z-index -1
+		opacity .9
+
+.flex-control-paging
+	li
+		a
+			border-radius 2px 0 2px 0
+			height 10px
+			width 10px
+			background transparent
+			border 1px solid White_100
+			margin-left 10px
+
+.flex-control-paging
+	li
+		a.flex-active
+			background-color White_100
+			border 0			
 
 .Button
 	background Yellow_200
@@ -303,34 +349,10 @@ body
 	
 
 .Cursos
-	margin-top -1em
-	position relative
 	padding-bottom 10em
+	background-color White_200
 	.Curso_group_1
-		margin-bottom 2em
-	.Cursos-Diagonal
-		display inline-block
-		width 100%
-		height 100%
-		position absolute
-		overflow hidden
-		&:before,&:after
-			content ""
-			width 58%
-			height 100%
-			position absolute
-			display inline-block
-			background-color White_200
-			top 0
-			left 0
-			z-index -1
-		&:after
-			left 87%
-			transform: skew(40deg)
-		&:before
-			transform: skew(-135deg)
-			left -39%
-		
+		margin-bottom 2em	
 
 .card
 	text-align center
@@ -438,12 +460,6 @@ body
 
 .Seguridad-salud
 	background-color White_200
-
-.Titulo
-	font-family Lato
-	font-size 36px
-	font-weight bold
-	line-height 1.4
 	
 .Seguridad-salud_Tittle
 	text-align center
@@ -459,16 +475,21 @@ body
 	display flex
 	align-items center
 	padding 40px 20px
+	&:hover
+		.Seguridad-salud__Link
+			text-decoration none
+			color Blue_200
+		.Dowload_icon--Service
+			color Yellow_200
 	
 .Seguridad-salud__Link
-	display inline-block
+	display inline-flex
+	align-items center
 	font-size 18px
 	font-family Lato
 	color Grey_400
 	transition .5s ease-in-out
-	&:hover
-		text-decoration none
-		color Blue_200
+
 	
 .Dowload_icon--Service
 	display inline-table
@@ -479,9 +500,10 @@ body
 	padding 15px
 	color Blue_100
 	font-size 30px
-	
-.Dowload_icon--Service.fa
-	font-size 26px
+	transition .5s ease-in-out
+
+.Padding-icon--service
+	padding 15px 20px
 	
 
 .Certificado
@@ -728,7 +750,6 @@ body
 		text-decoration none
 		color White_100
 
-//Page_cursos_header//
 .Page_cursos
 	background Gradient_Blue
 
@@ -750,7 +771,7 @@ body
 .Page_cursos_conjunto-1
 	display flex
 	align-items center
-	margin-bottom 3em
+	margin 3em 0
 
 .Page_cursos-col
 	color White_100
@@ -768,19 +789,18 @@ body
 	font-size 24px
 	margin-bottom 36px
 			
+.Page_cursos-requisitos--list
+	list-style none
+	padding 0
+
 .Page_cursos-requisito
 	font-family Rubik
 	font-size 20px
 	font-weight 100
-	margin-left 1em
-	margin-top 1em
 
 .Requisito-icon
 	margin-bottom 1em
-	display block
-	
-.Page_cursos-requisito2
-	margin-bottom 70px
+	margin-right 10px
 
 .Page_cursos_form
 	background White_100
@@ -818,7 +838,7 @@ body
   	&:placeholder
  		color #BCC2CC
  		font-weight 300
- 
+ 		
 .holi
 	display none
 
@@ -839,6 +859,25 @@ body
 	text-align center
 	margin-bottom 1em
 
+.Cursos_info-1
+	display inline-flex
+	margin-right 25px
+	margin-bottom 76px
+
+.Cursos_info-title-1
+	font-size 24px
+	line-height 36px
+	color White_100
+	font-weight 500
+
+.Cursos_info-duration-1
+	font-size 20px
+	line-height 30px
+	color White_200
+	font-weight 100
+	
+	
+
 .Cursos_info
 	text-decoration none
 	display inline-flex
@@ -847,14 +886,14 @@ body
 	border-radius 10px 0 10px 0
 	margin-right 1em
 	margin-bottom 20px
-	min-width 290px
+	min-width 284px
 	&:hover
 		text-decoration none
 		
 .Cursos_info-icon
 	font-size 30px
 	color Blue_200
-	margin-right 1em
+	margin-right 19px
 	background-color Grey_200
 	padding 25px 20px
 	border-radius 10px 0 0 0
@@ -870,6 +909,10 @@ body
 	color Blue_200
 	font-size 18px	
 	font-family Rubik
+	
+
+.Cursos_info-description-2
+	padding-right 15px
 
 
 .Cursos_slider
@@ -902,7 +945,7 @@ body
 		color #212529
 
 
-//Slick control//
+
 .slick-prev, .slick-next
 	top 10%
 
@@ -926,34 +969,52 @@ body
 .slick-next
 	&:before
 		content "\f105"
+		
+.Imagen-curso
+	height 300px
+	background-image url("../img/Slider-1.jpg")
+	background-attachment fixed
+	background-size cover
+	background-repeat no-repeat
+
+.Servicio_page-row
+	margin-top 150px
 
 .Page_servicio_icon
 	font-size 54px
 	background-color White_100
 	width 100px
 	height 100px
-	border-radius 50%
+	border-radius 5px 0 5px 0 
 	color Yellow_200
 	margin-right 40px
 	
-.Page_servicio_icon-1
-	padding 17px 21px
+.Page_servicio_icon-1.fa-exclamation-triangle 
+	padding 18px
 
-.icon-espacios-confinados
-	padding 22px 27px
-
-.icon-evaluacion-puestos
-	padding 20px 23px
-
-.icon-matriz, .icon-medkit, .icon-search
-	padding 23px 23px
+.Page_servicio_icon-1.fa-fire
+	padding 19px 28px
 	
-.icon-wheelchair, .icon-extinguisher
-	padding 20px 26px
-	
-.icon-list-ol
-	padding 21px 21px
+.Page_servicio_icon.fa-external-link-square-alt
+	padding 22px 23px
 
+.Page_servicio_icon.fa-briefcase
+.Page_servicio_icon.fa-th
+.Page_servicio_icon.fa-medkit
+.Page_servicio_icon.fa-wheelchair 
+.Page_servicio_icon.fa-list-ol  
+	padding 21px
+
+.Page_servicio_icon.fa-ambulance  
+	padding 22px 16px
+	
+.Page_servicio_icon.fa-search   
+	padding 22px 15px
+
+.Page_servicio_icon.fa-road
+.Page_servicio_icon.fa-fire-extinguisher    
+	padding 21px 19px
+			
 .Conjunto_2
 	.Page_servicios_title
 		margin-bottom 0
@@ -978,8 +1039,6 @@ body
 .Seguridad-salud__Link-diseno
 	text-align left
 
-
-//Nosotros section//
 .Nosotros_header
 	background-image url("../img/Nosotros-Header-Background.jpg")
 	&:before
@@ -1101,9 +1160,6 @@ body
 	font-size 20px
 	color Grey_400	
 
-
-//Galería//
-
 .Galeria_title
 	font-family lato
 	font-weight 400
@@ -1111,8 +1167,6 @@ body
 	font-size 40px
 	text-align center
 	margin-bottom 71px
-
-//Galería Embed//
 
 .Galeria_before
 	position relative
@@ -1129,8 +1183,6 @@ body
 		bottom 0
 		right 0
 				
-	
-//Contacto//
 .mapa-big
 	margin-top 100px
 	margin-bottom 100px
@@ -1234,6 +1286,7 @@ body
 .Form
 	position relative
 	min-height 591px
+	overflow hidden
 
 .Contacto_form-label
 	font-weight bold
@@ -1250,26 +1303,45 @@ body
 	color Grey_500
 	&:hover
 		color Grey_500
+
+.Container-certificado
+	background-image url("../img/Certificado-Section.jpg")
+	background-position center
+	background-size cover
+	background-repeat no-repeat
+	height 100vh
+	display flex
+	align-items center
+
+.Cabecera
+	text-align center
+	
+.Display-3
+	color Blue_200
+
+.Form_input.error
+	border-color red
+	
+
+
+		
+
 		
 
 
 
-					//Media Querys//
 @media (max-width:1440px)
 
 	.Andamio
 		background-position center
 	
-
-//lg query//
 @media (max-width: 1199.98px)
 
-//Header//
+
 	.Header
 		background-attachment initial
 		background-position center !important
-	
-	//<!-- Cursos de Index-->//
+
 	.Curso_group_1
 		justify-content center
 	
@@ -1291,9 +1363,7 @@ body
 		.nav
 			height 70px
 		.nav-link
-			padding 20px
-
-	
+			padding 20px	
 	.Andamio
 		background-position center
 		
@@ -1315,7 +1385,7 @@ body
 		justify-content center
 
 
-//md query//
+
 @media (max-width: 991.98px)
 
 	.Header
@@ -1400,7 +1470,7 @@ body
 	.Mapa_info-button
 		border-radius 5px 0 5px 0
 		margin-bottom 15px
-		border 1px solid #dfe1e5
+		border 1px solid Grey_200
 	
 	.Mapa_info-description
 		text-align center

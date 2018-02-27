@@ -30,7 +30,11 @@
     <body>
         <header id="Header">
             <section class="container-fluid Header Page_cursos">
-                  <?php $page = "servicios"; require('menu.php');?>
+                  <?php $page = "cursos"; require('menu.php');?>
+
+            <div class="Imagen-curso Curso-6">
+              
+            </div>                  
                  <!-- Artículo header -->
               <div class="container">
                   <div class="row">
@@ -46,32 +50,51 @@
                     <div class="col-lg-7 col-md-12 Page_cursos-col Page_cursos-col-hiden" data-aos="fade-up">
                           <p class="Page_cursos-description">Esta competencia la deben tener las personas que realicen los procesos de armado y desarmado de los andamios en la empresas.</p>
                           <p class="Page_cursos-requisitos">Requisitos</p>
-                          <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Certificación médica ocupacional</span></i>
-                          <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Afiliación y pago vigente a seguridad social</span></i>
-                          <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Certificación médica de aptitud para realizar trabajo en alturas</span></i>
-                          <i class="fas fa-chevron-right Requisito-icon"><span class="Page_cursos-requisito">Superar el nivel medio definido por la empresa</span></i>
-                          <i class="fas fa-chevron-right Requisito-icon Page_cursos-requisito2"><span class="Page_cursos-requisito">Fotocopia de la cédula</span></i>
-                          <div class="Cursos_info">
-                            <i class="fas fa-map-marker-alt Cursos_info-icon"></i>
+
+                           <ol class="Page_cursos-requisitos--list">
+                            <li class="Page_cursos-requisito"><i class="fas fa-chevron-right Requisito-icon"></i>Certificación médica ocupacional</li>
+                            <li class="Page_cursos-requisito"><i class="fas fa-chevron-right Requisito-icon Page_cursos-requisito2"></i>Afiliación y pago vigente a seguridad social</li>
+                            <li class="Page_cursos-requisito"><i class="fas fa-chevron-right Requisito-icon Page_cursos-requisito2"></i>Certificación médica de aptitud para realizar trabajo en alturas</li>                            
+                            <li class="Page_cursos-requisito"><i class="fas fa-chevron-right Requisito-icon Page_cursos-requisito2"></i>Superar el nivel medio definido por la empresa</li>    
+                            <li class="Page_cursos-requisito"><i class="fas fa-chevron-right Requisito-icon Page_cursos-requisito2"></i>Fotocopia de la cédula</li>                         
+                          </ol>
+                          
+                          
+                          <div class="Cursos_info-1">
                             <div class="Cursos_info-description">
-                              <p class="Cursos_info-title">Sede 1</p>
-                              <small class="Cursos_info-duration">Rionegro, Antioquia</small> 
+                              <p class="Cursos_info-title-1">Sede 1</p>
+                              <small class="Cursos_info-duration-1">Rionegro, Ant.</small> 
                             </div>
                           </div>
-                          <div class="Cursos_info">
-                            <i class="fas fa-map-marker-alt Cursos_info-icon"></i>
+                          <div class="Cursos_info-1">
                             <div class="Cursos_info-description">
-                              <p class="Cursos_info-title">Sede 2</p>
-                              <small class="Cursos_info-duration">Puerto Berrío, Ant.</small> 
+                              <p class="Cursos_info-title-1">Sede 2</p>
+                              <small class="Cursos_info-duration-1">Puerto Berrío, Ant.</small> 
                             </div>
                           </div>                                                                                                                     
-                          <div class="Cursos_info">
-                            <i class="fas fa-clock Cursos_info-icon"></i>
+                          <div class="Cursos_info-1">
                             <div class="Cursos_info-description">
-                              <p class="Cursos_info-title">Duración</p>
-                              <small class="Cursos_info-duration">8 Horas</small> 
+                              <p class="Cursos_info-title-1">Duración</p>
+                              <small class="Cursos_info-duration-1">8 Horas</small> 
                             </div>
                           </div>
+                          <div class="Contacto-info">
+                            <a href="tel:+573124567834" class="Cursos_info">
+                              <i class="fas fa-phone Cursos_info-icon"></i>
+                              <div class="Cursos_info-description">
+                                <p class="Cursos_info-title">LLÁMANOS</p>
+                                <small class="Cursos_info-duration">313 689 3524</small> 
+                              </div>
+                            </a>
+                            <a href="mailto:info@dcm.com.co" class="Cursos_info">
+                              <i class="fas fa-comments Cursos_info-icon"></i>
+                              <div class="Cursos_info-description Cursos_info-description-2">
+                                <p class="Cursos_info-title">CONTÁCTANOS</p>
+                                <small class="Cursos_info-duration">info@dcmservicios.com</small> 
+                              </div>
+                            </a>                             
+                            
+                          </div>                           
                     </div>
                     <!--Formulario -->
 

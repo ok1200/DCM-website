@@ -55,12 +55,12 @@
                                     <a href="tel:+573124567834" class="Contact_section">
                                         <i class="fas fa-map-marker-alt Contact_icon" aria-hidden="true"></i>KM 1 Via Rionegro el Carmen de Viboral
                                     </a>
-                                    <a href="tel:+573124567834" class="Contact_section">
-                                        <i class="fa fa-phone Contact_icon" aria-hidden="true"></i> 313 689 35 24 - 314 483 8386
+                                    <a href="https://web.whatsapp.com/send?phone=573136893524" target="_blank" class="Contact_section">
+                                        <i class="fa fa-phone Contact_icon" aria-hidden="true"></i> 312 456 7834
 
                                     </a>
                                     <a href="mailto:dcmserviciosyconsultoria@hotmail.com" class="Contact_section Contact_mail">
-                                        <i class="fas fa-envelope Contact_icon" aria-hidden="true"></i> dcmserviciosyconsultoria@hotmail.com
+                                        <i class="fas fa-envelope Contact_icon" aria-hidden="true"></i> info@dcmservicios.com
                                     </a>                                                
                                 </address>                    
 
@@ -68,14 +68,14 @@
                               <div id="tab-2">
                                 <h4 class="Mapa_info-title">Datos de Contacto en Puerto Berrío</h4>
                                 <address>
-                                    <a href="tel:+573124567834" class="Contact_section">
-                                        <i class="fas fa-map-marker-alt Contact_icon" aria-hidden="true"></i>Puerto Berrío!
+                                    <a href="" class="Contact_section">
+                                        <i class="fas fa-map-marker-alt Contact_icon" aria-hidden="true"></i>Puerto Berrío -Antioquia
                                     </a>
-                                    <a href="tel:+573124567834" class="Contact_section">
+                                    <a href="https://web.whatsapp.com/send?phone=573136893524" target="_blank" class="Contact_section">
                                         <i class="fa fa-phone Contact_icon" aria-hidden="true"></i> 312 456 7834
                                     </a>
-                                    <a href="mailto:dcmserviciosyconsultoria@hotmail.com" class="Contact_section Contact_mail">
-                                        <i class="fas fa-envelope Contact_icon" aria-hidden="true"></i> dcmserviciosyconsultoria@hotmail.com
+                                    <a href="mailto:info@dcmservicios.com" class="Contact_section Contact_mail">
+                                        <i class="fas fa-envelope Contact_icon" aria-hidden="true"></i> info@dcmservicios.com
                                     </a>                                                
                                 </address>                     
                               </div>                  
@@ -203,7 +203,7 @@
                     center: rionegro
                   });
                   var map2 = new google.maps.Map(document.getElementById('Mapa_2'), {
-                    zoom: 16,
+                    zoom: 17,
                     center: berrio
                   });
 

@@ -32,15 +32,19 @@
             <section class="container-fluid Header Page_cursos">
 
                 <?php $page = "servicios"; require('menu.php');?>
+
+            <div class="Imagen-curso Servicio-1">
+              
+            </div>
                 
                  <!-- Servicios header -->
               <div class="container">
-                <div class="row">                                
-                    <div class="col-lg-7 col-md-12 Page_cursos-col" data-aos="fade-up">
+                      <div class="row Servicio_page-row">
+                        <div class="col-lg-7 col-md-12 Page_cursos-col">
                           <section id="tab-1-title" class="Page_cursos_conjunto-1 Page_servicios_title_2">
                             <i class="fas fa-fire Page_servicio_icon Page_servicio_icon-1" aria-hidden="true"></i>
                             <h1 class="Titulo Page_servicios_title">Capacitación Bomberotecnia</h1>
-                          </section>  
+                          </section>
                           <p class="Page_cursos-description">La bomberotecnia es el estudio de los incendios como se origina, propagan, los métodos que se utilizan para su extinción, cuales agentes extintores son los más recomendados de acuerdo a los materiales utilizados, manejo de extintores, que efectividad tienen, que daños hacen, que elementos componen el fuego, cuantas clases de fuego hay y como se extinguen y/o se apagan.</p>
                           <a href="tel:+573124567834" class="Cursos_info">
                             <i class="fas fa-phone Cursos_info-icon"></i>
@@ -49,24 +53,25 @@
                               <small class="Cursos_info-duration">313 689 3524</small> 
                             </div>
                           </a>
-                          <a href="" class="Cursos_info">
-                            <i class="fas fa-map-marker-alt Cursos_info-icon"></i>
-                            <div class="Cursos_info-description">
-                              <p class="Cursos_info-title">CONTÁCTANOS</p>
-                              <small class="Cursos_info-duration">info@dcm.com.co</small> 
-                            </div>
-                          </a>                                                                                             
-                    </div>
+                            <a href="mailto:info@dcmservicios.com" class="Cursos_info">
+                              <i class="fas fa-comments Cursos_info-icon"></i>
+                              <div class="Cursos_info-description Cursos_info-description-2">
+                                <p class="Cursos_info-title">CONTÁCTANOS</p>
+                                <small class="Cursos_info-duration">info@dcmservicios.com</small> 
+                              </div>
+                            </a> 
+                     </div>                                                    
                     <!--Formulario -->
                     <div id="Form" class="col-lg-4 col-md-8 col-12 offset-lg-1 Form Constructor Page_cursos_form">
                       <h4 class="Page_cursos_title-inscribete">Consulta este <br>servicio ahora</h4>
-
+                      <?php (isset($_POST["servicio"])) ? $servicio = $_POST["servicio"] : $servicio=1; ?>
                       <?php require 'formulario-servicios.php'; ?>
 
                       <div class="done-message">
                         Tu mensaje ha sido enviado exitosamente!
                       </div>
                       
+                    </div>
                     </div>
 
                 </div>
