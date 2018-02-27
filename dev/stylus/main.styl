@@ -30,13 +30,12 @@ body
 .Header
 	background Gradient_Blue
 	padding 0
-	padding-top 1em
 	position relative
 	.Conjunto_1
 		display flex
 		justify-content space-between
 		align-items center
-		padding-top 20px
+		padding 20px 0
 		.WhatsApp-icon
 			color #25d366
 			font-size 25px
@@ -55,6 +54,7 @@ body
 	text-decoration none
 	display inline-flex
 	justify-content flex-end
+	padding-right 0
 	&:hover
 		text-decoration none
 		color Grey_500	
@@ -67,12 +67,11 @@ body
 	border-radius 0 0 5px 0
 	color Grey_500	
 .Dowload_icon.fa-download
-	padding 13px
+	padding 12px
 	font-size 25px
 				
 .Contorno
 	min-height 120px
-	margin-top 2em
 
 #Menu_container
 	position relative
@@ -292,11 +291,10 @@ body
 	justify-content center
 	font-weight bold
 	border-radius 10px 0 10px 0
-	padding-left 10px
 	transition .5s
 	cursor pointer
 	min-height 50px
-	min-width 260px
+	padding 0 20px
 	text-align center
 	position relative
 	box-shadow 2px 3px 5px 0px rgba(0,0,0,0.15)
@@ -308,7 +306,7 @@ body
 	&:focus
 		outline none
 	i
-		margin-left 30px
+		margin-left 20px
 	&:before
 		content ""
 		position absolute
@@ -397,7 +395,7 @@ body
 	border 1px solid Grey_200
 	margin-top 2em
 	position relative
-	padding-left 0
+	padding 0 77px
 	a
 		color  Grey_500
 		text-decoration none
@@ -439,7 +437,7 @@ body
 		color Yellow_100
 		font-weight 500
 	.Instalaciones_btn
-		min-width 160px
+		padding 0 50px
 		text-decoration none
 		color Grey_500
 		margin-bottom 1em
@@ -813,6 +811,8 @@ body
 	
 .Campos-necesarios
 	color #8A9099
+	display block
+	margin-top 10px
 	
 .Form_label
 	color Blue_200
@@ -842,6 +842,21 @@ body
 .holi
 	display none
 
+
+.Check_label
+	margin-top 20px
+	margin-left 10px
+	color Grey_400
+	font-size 15px
+	
+.Check_input-link 
+	color Blue_200
+	margin-left 5px
+	&:hover
+		color Blue_200
+		
+
+
 .Button_form
 	display block
 	margin-top 2em
@@ -849,6 +864,7 @@ body
 	margin-left auto
 	margin-right auto
 	background-color Yellow_200
+	padding 0 77px
 
 .Page_cursos_title-inscribete
 	font-family Lato
@@ -875,8 +891,8 @@ body
 	line-height 30px
 	color White_200
 	font-weight 100
-	
-	
+
+
 
 .Cursos_info
 	text-decoration none
@@ -947,7 +963,9 @@ body
 
 
 .slick-prev, .slick-next
-	top 10%
+	top 20%
+	height 50px
+	width 50px
 
 .slick-prev
 	left -50px
@@ -1312,12 +1330,122 @@ body
 	height 100vh
 	display flex
 	align-items center
+	justify-content center
+
+.Busqueda-certificado
+	background-color White_100
+	border-color Grey_200
+	border-radius 25px 0 25px 0
+	padding 75px 169px
+	position relative
+	z-index 0
+
+.Busqueda-certificado_text
+	color Grey_400
+	font-size 16px
+	line-height 26px
+	font-weight 100
+	font-family Rubik
+	margin-bottom 73px
+
+.Busqueda-negativa
+	color Red_100
+	font-size 24px
+	line-height 36px
+	font-family lato
+	text-align center
+	
+
+.Busqueda-certificado_row
+	align-items flex-end
+
+.Busqueda-group
+	margin-bottom 0
+	
+.Cedula_label
+	font-family lato
+	font-weight bold
+	font-size 10px
+	color Grey_400
+
+.Cedula_input
+	padding 11px 10px
+	border-radius 10px 0 10px 0
+	background White_200
+	
+.Busqueda-certificado_btn
+	display block
+	padding 0 77px
+	border 0
+	
+.Ejemplo-cedula
+	font-family Rubik
+	font-size 12px
+	font-weight 100
+	color Grey_400
 
 .Cabecera
 	text-align center
+	.Logo-dcm
+		margin-bottom 40px
 	
 .Display-3
 	color Blue_200
+	font-family lato
+	font-weight bold
+	line-height 36px
+	font-size 24px
+	margin-bottom 20px
+
+.Exito-texto
+	text-align center
+	margin-top 73px
+	color #39B54A
+	font-size 24px
+	line-height 36px
+	font-family lato
+	font-weight 400
+
+.Display-4
+	display inline-block
+
+
+.table-dark
+	.Thead
+		background Blue_300
+		border 0
+		font-family Rubik
+		font-weight 400
+		font-size 12px
+		line-height 26px
+		color White_100
+
+.table-dark
+	th
+		border-color Grey_200 !important
+
+.table-dark
+	td
+		border-color Grey_200 !important	
+
+.Tbody
+	background White_100
+	border 1px solid Grey_200
+	font-family Rubik
+	font-size 13px
+	line-height 26px
+	color Grey_500
+
+.Descarga-certificado
+	background Yellow_200
+	padding 10px
+	color Grey_500
+	&:hover
+		text-decoration none
+
+.Descarga-certificado_icon
+	padding-left 5px
+	
 
 .Form_input.error
 	border-color red

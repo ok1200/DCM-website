@@ -12,30 +12,30 @@
       <section class="col-md-2 col-5" data-aos="fade-right">
         <p class="Footer_menu_title">Menú</p>
         <ul class="Footer_menu_list">
-          <a href="index.html"><li>Inicio</li></a>
-          <a href="Basico-Administrativo.html"><li>Cursos</li></a>
-          <a href="Capacitacion-Bomberotecnia.html"><li>Servicios</li></a>
-          <a href="Nosotros.html"><li>Nosotros</li></a>
-          <a href="Galeria.html"><li>Galería</li></a>
-          <a href="Contacto.html"><li>Contacto</li></a>
+          <a href="index.php"><li>Inicio</li></a>
+          <a href="basico-administrativo.php"><li>Cursos</li></a>
+          <a href="capacitacion-bomberotecnia.php"><li>Servicios</li></a>
+          <a href="nosotros.php"><li>Nosotros</li></a>
+          <a href="galeria.php"><li>Galería</li></a>
+          <a href="contacto.php"><li>Contacto</li></a>
         </ul>               
       </section>
       <section class="col-xl-2 col-md-3 col-5" data-aos="fade-right">
         <p class="Footer_menu_title">Cursos</p>
         <ul class="Footer_menu_list">
-          <a href="Basico-Administrativo.html"><li>Administrativo</li></a>
-          <a href="Basico.html"><li>Básico</li></a>
-          <a href="Avanzado.html"><li>Avanzado</li></a>
-          <a href="Reentrenamiento.html"><li>Reentrenamiento</li></a>
-          <a href="Coordinador.html"><li>Coordinador</li></a>
-          <a href="Andamios.html"><li>Otros servicios</li></a>
+          <a href="basico-administrativo.php"><li>Administrativo</li></a>
+          <a href="basico-operativo.php"><li>Básico</li></a>
+          <a href="avanzado.php"><li>Avanzado</li></a>
+          <a href="reentrenamiento.php"><li>Reentrenamiento</li></a>
+          <a href="coordinador.php"><li>Coordinador</li></a>
+          <a href="armado-andamios.php"><li>Otros servicios</li></a>
         </ul>               
         </section>
       <section class="col-md-5 col-10 offset-xl-3 offset-md-2" data-aos="fade-left">
           <h2 class="Titulo Certificado__Titulo">Valida y descarga tu Certificado Online</h2>
           <i class="fa fa-arrow-right Certificado__Arrow-2" aria-hidden="true"></i>
           <p class="Certificado__parrafo">Ingresa a nuestro sistema de validación de Certificados Online, y podrás descargar tu certificado en formato PDF.</p>
-          <a href="http://localhost/xampp/Curso%20PHP/Buscador_dcm/" class="Certificado_link Button" target="_blank">Descargar certificado
+          <a href="certificado.php" class="Certificado_link Button" target="_blank">Descargar certificado
             <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
           </a>
 

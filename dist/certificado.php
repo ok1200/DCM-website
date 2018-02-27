@@ -31,87 +31,112 @@
     </head>
   <body>
     <div class="Container-certificado">
-  <div class="container">
-    <div class="Cabecera">
-      <img src="img/DCM-Logo.png" class="Logo-dcm" alt="">
-      <h2 class="Display-3">Validar Certificado</h2>
-      <p>Ingresa tu número de cédula y busca tu certificado en nuestro sistema</p>
+      <div class="container">
+        <div class="Busqueda-certificado">
+        <div class="Cabecera">
+          <img src="img/DCM-Logo.png" class="Logo-dcm" alt="">
+          <h2 class="Display-3">Validar Certificado</h2>
+          <p class="Busqueda-certificado_text">Ingresa el número de cédula para validar si<br>existen certificados relacionados</p>
+          
+        </div>
+        <form role="form" method="POST" class="row Busqueda-certificado_row">
+          <div class="col-7">
+            <div class="form-group Busqueda-group">
+              <label for="documento" class="Cedula_label">NÚMERO DE CÉDULA</label>
+              <input type="text" class="form-control Cedula_input" name="documento" placeholder="Ingrese una identificación" required>
+            </div>
+            
+          </div>
+          <div class="col-5">
+            <button class="Button Busqueda-certificado_btn" type="submit">Buscar</button>
+          </div>     
+        </form>
+        <small class="Ejemplo-cedula">* Ingresa el número sin puntos o comas, ejemplo: 1039234567 </small>
+
       
-    </div>
-    <form role="form" method="POST" >
-      <div class="form-group">
-        <label for="exampleInputEmail1">Cédula:</label>
-        <input type="text" class="form-control" name="documento" placeholder="Ingrese una identificación" required>
-      </div>
+          <?php 
 
-        <button type="submit" class="btn btn-primary">Consultar</button>
-    </form>
+          if ($_POST) {
+            require_once 'config.php';
+            $con = Conectar();
+            $id = $_POST['documento'];
+            $SQL = 'SELECT * FROM informacion WHERE cedula = :doc';
 
-  
-      <?php 
+            $stmt = $con->prepare($SQL);
+            $result = $stmt->execute([
+                'doc' => $id
+            ]);
 
-      if ($_POST) {
-        require_once 'config.php';
-        $con = Conectar();
-        $id = $_POST['documento'];
-        $SQL = 'SELECT * FROM inormacion WHERE cedula = :doc';
+            $rows = $stmt ->fetchAll(PDO::FETCH_OBJ);
 
-        $stmt = $con->prepare($SQL);
-        $result = $stmt->execute([
-            'doc' => $id
-        ]);
-
-        $rows = $stmt ->fetchAll(PDO::FETCH_OBJ);
-
-        ?>
-
-            <table class="table table-dark text-center animated fadeIn delay-5">
-              <thead>
-                <tr>
-                  <th scope="col">Cédula</th>
-                  <th scope="col">Nombre </th>
-                  <th scope="col">Certificado</th>
-                  <th scope="col">Expedición</th>
-                  <th scope="col">Vigencia</th>
-                  <th scope="col">Descargar</th>
-                </tr>
-              </thead>
-              <tbody>
-
-                
-        <?php 
-
-        if (count($rows)){
-          foreach ($rows AS $row){
             ?>
+                  <div class="Exito-texto">
+                    <p class="Display-4">Consulta Exitosa</p> <i class="far fa-check-circle"></i>
+                    <p class="Busqueda-certificado_text">Revisa la información de los certificados relacionados con el <br> documento, en el siguiente cuadro:</p>
+                  </div>
+                
+                <div class="row">
+                  <div class="col-12">
+                <table class="table table-dark text-center animated fadeIn delay-5">
+                  <thead class="Thead">
+                    <tr>
+                      <th scope="col">CÉDULA</th>
+                      <th scope="col">NOMBRE </th>
+                      <th scope="col">CERTIFICADO</th>
+                      <th scope="col">EXPEDICIÓN</th>
+                      <th scope="col">VENCIMIENTO</th>
+                      <th scope="col">PDF</th>
+                    </tr>
+                  </thead>
+                  <tbody class="Tbody">
 
-                <tr>
-                  <td><?php echo $row->cedula; ?></td>
-                  <td><?php echo $row->nombre; ?></td>
-                  <td><?php echo $row->certificado; ?></td>
-                  <td><?php echo $row->expedicion; ?></td>
-                  <td><?php echo $row->vigencia; ?></td>
-                  <td><a href="<?php echo $row->descargar;?>" target="_blank"><i class="fa fa-download" aria-hidden="true"></i></a></td>
-                </tr>
+                    
+            <?php 
 
-          <?php
+            if (count($rows)){
+              foreach ($rows AS $row){
+                ?>
 
+                    
+
+                    <tr>
+                      <td><?php echo $row->cedula; ?></td>
+                      <td><?php echo $row->nombre; ?></td>
+                      <td><?php echo $row->certificado; ?></td>
+                      <td><?php echo $row->expedicion; ?></td>
+                      <td><?php echo $row->vigencia; ?></td>
+                      <td><a class="Descarga-certificado" href="<?php echo $row->descargar;?>" target="_blank">DESCARGAR</a></td>
+                    </tr>
+
+              <?php
+
+              }
+            } else {
+
+              
+              echo "<div class='Busqueda-negativa mt-5 pt-5'>";
+              echo "<p class='Display-4 mb-0'>Documento no registrado</p> <i class='far fa-frown'></i>";
+              echo "<p class='Busqueda-certificado_text'>Lo sentimos, no hemos hallado un certificado relacionado con el documento</p>";
+              echo "<style>.table { display:none;}</style>";
+              echo "<style>.Exito-texto { display:none;}</style>";
+              echo "</div>";
+
+            }
+            
           }
-        } else {
-          echo "<h1 class='mt-5'>Aún no tienes certificados para descargar</h1>";
-          echo "<style>.table { display:none;}</style>";
 
-        }
-        
-      }
+           ?>
+                  </tbody>
+                </table>
+                </div> 
 
-       ?>
-              </tbody>
-            </table>      
-      
+              </div>  
+          
+
+            </div>
+          </div>
+
       </div>
-
-  </div>
 
   
 

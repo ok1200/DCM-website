@@ -17,7 +17,10 @@
 
     <label class="Form_label Label-telefono" for="telefono">Teléfono</label>
     <input type="number" name="telefono" value="" class="form-control Form_input" id="telefono" placeholder="312 728 38 14">
+
+    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label"> Acepto<a href="" target="_blank" class="Check_input Check_input-link">política de tratamiento de datos</a></label>
+    
     <small class="Campos-necesarios">*Todos los campos son necesarios</small>
 
-    <input id="submit" class="Button Button_form" type="submit" value="Inscribirme">
+    <input id="submit" class="Button Button_form" type="submit" value="Enviar">
 </form>
