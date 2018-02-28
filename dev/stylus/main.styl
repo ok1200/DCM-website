@@ -514,6 +514,7 @@ body
 	position relative
 	z-index 0
 	align-items center
+	overflow hidden
 
 .Certificado__articulo
 	align-items center
@@ -795,6 +796,8 @@ body
 	font-family Rubik
 	font-size 20px
 	font-weight 100
+	display flex
+	align-items baseline
 
 .Requisito-icon
 	margin-bottom 1em
@@ -1336,9 +1339,13 @@ body
 	background-color White_100
 	border-color Grey_200
 	border-radius 25px 0 25px 0
-	padding 75px 169px
 	position relative
 	z-index 0
+	overflow hidden
+	transition .5s ease-in-out
+
+.container
+	transition .5s ease-in-out
 
 .Busqueda-certificado_text
 	color Grey_400
@@ -1346,7 +1353,7 @@ body
 	line-height 26px
 	font-weight 100
 	font-family Rubik
-	margin-bottom 73px
+	margin-bottom 50px
 
 .Busqueda-negativa
 	color Red_100
@@ -1354,10 +1361,14 @@ body
 	line-height 36px
 	font-family lato
 	text-align center
+	.Cursos_info
+		border 1px solid Grey_200
+		text-align left
 	
 
 .Busqueda-certificado_row
-	align-items flex-end
+	align-items center
+	padding-bottom 60px
 
 .Busqueda-group
 	margin-bottom 0
@@ -1387,6 +1398,7 @@ body
 .Cabecera
 	text-align center
 	.Logo-dcm
+		padding-top 60px
 		margin-bottom 40px
 	
 .Display-3
@@ -1399,7 +1411,6 @@ body
 
 .Exito-texto
 	text-align center
-	margin-top 73px
 	color #39B54A
 	font-size 24px
 	line-height 36px
@@ -1463,12 +1474,26 @@ body
 	.Andamio
 		background-position center
 	
+	.flex-control-nav
+		left -38%
+		
+	.slick-next
+		right -30px
+		top 25%
+	
+	.slick-prev
+		left -30px
+		top 25%
+	
 @media (max-width: 1199.98px)
 
 
 	.Header
 		background-attachment initial
 		background-position center !important
+	
+	.flex-control-nav
+		left 0
 
 	.Curso_group_1
 		justify-content center
@@ -1491,17 +1516,28 @@ body
 		.nav
 			height 70px
 		.nav-link
-			padding 20px	
+			padding 20px
+			
+	.Seguridad-salud__Link
+		flex-direction column
+		font-size 15px
+		text-align center
+		
+	.Seguridad-salud__Servicio
+		justify-content center
+	
+	.Dowload_icon--Service
+		margin-right 0
+		margin-bottom 10px
+	
+	.Curso_slider-item
+		.Seguridad-salud__Link
+			margin-left 10px
+			flex-direction inherit
+
 	.Andamio
 		background-position center
 		
-	.slick-next
-		right -30px
-		top 25%
-		
-	.slick-prev
-		left -30px
-		top 25%
 		
 	.card-text.Valores_text
 		min-height 144px
@@ -1511,6 +1547,9 @@ body
 	
 	.Valores_row
 		justify-content center
+	
+	.Cursos_info
+		min-width 305px
 
 
 
@@ -1535,34 +1574,24 @@ body
 		margin-top 0
 	
 	.Conjunto_2
-		.Subconjunto_2
-			margin-bottom 2em
 		h1
 			margin-bottom 20px
 	
 	.Andamio
 		height 500px
-		background-position 0 -600px
-		background-size 800px
+		background-position 0 -860px
+		background-size cover
 	
 	.Seguridad-salud__Servicio
 		flex-direction column
 		justify-content center
 		padding 0 20px
-	
-	.Dowload_icon--Service
-		margin-right 15px
 		
-	.slick-next
-		right 0
-		top 25%
-		
-	.slick-prev
-		left 0
-		top 25%
 	
 	.Seguridad-salud__Link
 		text-align center
+		margin-bottom 15px
+		min-height 150px
 	
 	.Titulo
 		font-size 28px
@@ -1681,7 +1710,7 @@ body
 	
 	.Header
 		.Conjunto_1
-			padding-top 75px
+			padding-top 97px
 			margin-bottom 80px
 	
 	.Hamburguer_icon
@@ -1741,6 +1770,10 @@ body
 
 	.Certificado_col-img
 		margin-top 40px
+	
+	.Certificado__articulo
+		justify-content center
+		text-align center
 		
 	.Portafolio_articulo
 		text-align center
@@ -1775,6 +1808,9 @@ body
 	
 	.contacto-plane
 		margin-top 50px
+	
+	.Andamio
+		background-position center
 
 		
 
@@ -1787,14 +1823,14 @@ body
 		address
 			margin-bottom 30px
 	
-
-
-	.Certificado__articulo
-		justify-content center
-		text-align center
+	.Contenido_slide-home
+		padding 40px
+	
+	.flex-control-nav
+		bottom 0
 	
 	.Seguridad-salud__Link
-		min-height 135px
+		min-height 170px
 		font-size 16px
 		margin-top 20px
 
@@ -1833,6 +1869,15 @@ body
 	.Page_cursos_img
 		width 100px
 		margin-right 0
+	
+	.Cursos_info-1
+		margin-right 11px
+	
+	.Cursos_info-title-1
+		font-size 18px
+		
+	.Cursos_info-duration-1
+		font-size 14px
 
 	.Page_cursos_title
 		font-size 24px
@@ -1851,6 +1896,15 @@ body
 			font-size 20px
 			line-height 30px
 			margin-top 20px
+		
+	.Page_cursos_form
+		border-radius 0
+	
+	.slick-prev
+		left 10px
+	
+	.slick-next
+		right 10px
 			
 	.Servicios_slider-item
 		flex-direction column

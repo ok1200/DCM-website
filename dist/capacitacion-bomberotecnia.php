@@ -62,7 +62,7 @@
                             </a> 
                      </div>                                                    
                     <!--Formulario -->
-                    <div id="Form" class="col-lg-4 col-md-8 col-12 offset-lg-1 Form Constructor Page_cursos_form">
+                    <div id="Form" class="col-xl-4 col-lg-5 col-md-8 col-12 offset-xl-1 Form Constructor Page_cursos_form">
                       <h4 class="Page_cursos_title-inscribete">Consulta este <br>servicio ahora</h4>
                       <?php (isset($_POST["servicio"])) ? $servicio = $_POST["servicio"] : $servicio=1; ?>
                       <?php require 'formulario-servicios.php'; ?>

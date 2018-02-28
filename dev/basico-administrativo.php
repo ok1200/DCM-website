@@ -98,7 +98,7 @@
                     </div>
                     <!--Formulario -->
 
-                    <div id="Form" class="col-lg-4 col-md-8 col-12 Form Constructor Page_cursos_form">
+                    <div id="Form" class="col-xl-4 col-lg-5 col-md-8 col-12 offset-xl-1 Form Constructor Page_cursos_form">
 
                       <h4 class="Page_cursos_title-inscribete">Inscríbete en este <br> curso ahora</h4>
                       <?php (isset($_POST["curso"])) ? $curso = $_POST["curso"] : $curso=1; ?>

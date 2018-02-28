@@ -38,7 +38,7 @@
                 <ul class="slides">
                   <li class="Slide Slide-1">
                     <div class="row Conjunto_2 Row_slide-home">
-                      <div class="col-md-5 col-10 Subconjunto_2 Contenido_slide-home" data-aos="fade-right">
+                      <div class="col-xl-5 col-md-8 col-12 Subconjunto_2 Contenido_slide-home" data-aos="fade-right">
                        <h2 class="Titulo Titulo-slider_header">TRABAJO SEGURO EN ALTURAS</h2>
                        <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
                        Conoce nuestros cursos de capacitación</p>
@@ -48,7 +48,7 @@
                   </li>
                   <li class="Slide Slide-2">
                     <div class="row Conjunto_2 Row_slide-home">
-                      <div class="col-md-5 col-10 Subconjunto_2 Contenido_slide-home" data-aos="fade-right">
+                      <div class="col-xl-5 col-md-8 col-12 Subconjunto_2 Contenido_slide-home" data-aos="fade-right">
                        <h2 class="Titulo Titulo-slider_header">TRABAJO SEGURO EN ALTURAS</h2>
                        <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
                        Conoce nuestros cursos de capacitación</p>
@@ -58,7 +58,7 @@
                   </li> 
                   <li class="Slide Slide-3">
                     <div class="row Conjunto_2 Row_slide-home">
-                      <div class="col-md-5 col-10 Subconjunto_2 Contenido_slide-home" data-aos="fade-right">
+                      <div class="col-xl-5 col-md-8 col-12 Subconjunto_2 Contenido_slide-home" data-aos="fade-right">
                        <h2 class="Titulo Titulo-slider_header">TRABAJO SEGURO EN ALTURAS</h2>
                        <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
                        Conoce nuestros cursos de capacitación</p>

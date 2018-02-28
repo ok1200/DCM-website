@@ -16,6 +16,8 @@
 
     <small class="Campos-necesarios">*Todos los campos son necesarios</small>
 
-    <input id="submit" class="Button Button_form" type="submit" value="Enviar">
+    <div class="d-flex justify-content-center justify-content-md-start mt-5">
+        <button id="submit" class="Button Busqueda-certificado_btn" value="Enviar" type="submit">Buscar</button>
+    </div>
 
 </form>
