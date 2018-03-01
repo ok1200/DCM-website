@@ -33,14 +33,14 @@
                  <!-- Artículo header -->
               <div class="container Header_articulo Nosotros_articulo">
                 <div class="row Conjunto_2 Nosotros_row-header">
-                  <div class="col-lg-5 col-10 Subconjunto_2 Nosotros_col-header" data-aos="fade-right">
-                   <h1 class="">SOMOS DCM, EXPERTOS EN CURSOS DE ALTURAS</h1>
+                  <div class="col-xl-5 col-lg-7 col-md-10 col-12 Subconjunto_2 Nosotros_col-header" data-aos="fade-right">
+                   <h1 class="Titulo-slider_header">SOMOS DCM, EXPERTOS EN CURSOS DE ALTURAS</h1>
                    <p class="Conjunto_2-description">Somos una empresa que ofrece soluciones en sistemas de gestión de la seguridad y salud en el trabajo</p>
                    <a href="Contacto.html" class="Button Button__Register">Contáctanos ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                     
                   </div>
-                  <div class="col-lg-4 col-md-6 offset-0 offset-lg-3 Constructor Nosotros_mundo" data-aos="fade-left">
-                    <img src="img/DCM-De-Clase-Mundial.png" class="img-fluid" alt="Mundo">
+                  <div class="col-lg-4 col-md-6 offset-0 offset-lg-1 offset-xl-3 Constructor Nosotros_mundo" data-aos="fade-left">
+                     <img src="img/DCM-De-Clase-Mundial.png" class="img-fluid" alt="Mundo">
                   </div>
                 </div>
               </div>

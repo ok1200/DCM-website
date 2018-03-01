@@ -30,10 +30,11 @@
 
     <label class="Form_label" for="mensaje">Mensaje</label>
     <textarea required type="text" name="mensaje" rows="2" cols="50" class="form-control Form_input" id="mensaje" placeholder="Escribe tu mensaje..."></textarea>
+    
+    <small class="Campos-necesarios">*Todos los campos son necesarios</small>
 
     <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label"> Acepto<a href="" target="_blank" class="Check_input Check_input-link">política de tratamiento de datos</a></label>
 
-    <small class="Campos-necesarios">*Todos los campos son necesarios</small>
 
     <input id="submit" class="Button Button_form" type="submit" value="Enviar">
 
