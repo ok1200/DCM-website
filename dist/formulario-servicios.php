@@ -1,4 +1,4 @@
-<form action="libs/process-servicios.php" class="f-contact-form" enctype="multipart/form-data" data-aos="fade-left">
+<form action="libs/process-servicios.php" class="f-contact-form" enctype="multipart/form-data">
     <label class="Form_label" for="servicio">Servicio</label>
     <select id="servicio" class="form-control Form_input form-control-lg" name="servicio">
       <option <?php if ($servicio == 1 ) echo 'selected' ;?> value="Capacitacion-Bomberotecnia" >CAPACITACIÓN BOMBEROTECNIA</option>

@@ -1,4 +1,4 @@
-<form action="libs/process-servicios.php" class="f-contact-form" enctype="multipart/form-data" data-aos="fade-left"> 
+<form action="libs/process-servicios.php" class="f-contact-form" enctype="multipart/form-data"> 
 
     <label class="Form_label" for="nombre">Nombre</label>
     <input required type="text" name="nombre" value="" class="form-control Form_input" id="nombre" placeholder="Carolina Montenegro">

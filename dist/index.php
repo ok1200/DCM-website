@@ -38,7 +38,7 @@
                 <ul class="slides">
                   <li class="Slide Slide-1">
                     <div class="row Conjunto_2 Row_slide-home">
-                      <div class="col-xl-5 col-md-8 col-12 Subconjunto_2 Contenido_slide-home" data-aos="fade-right">
+                      <div class="col-xl-5 col-md-8 col-12 Subconjunto_2 Contenido_slide-home">
                        <h2 class="Titulo Titulo-slider_header">TRABAJO SEGURO EN ALTURAS</h2>
                        <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
                        Conoce nuestros cursos de capacitación</p>
@@ -48,7 +48,7 @@
                   </li>
                   <li class="Slide Slide-2">
                     <div class="row Conjunto_2 Row_slide-home">
-                      <div class="col-xl-5 col-md-8 col-12 Subconjunto_2 Contenido_slide-home" data-aos="fade-right">
+                      <div class="col-xl-5 col-md-8 col-12 Subconjunto_2 Contenido_slide-home">
                        <h2 class="Titulo Titulo-slider_header">TRABAJO SEGURO EN ALTURAS</h2>
                        <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
                        Conoce nuestros cursos de capacitación</p>
@@ -58,7 +58,7 @@
                   </li> 
                   <li class="Slide Slide-3">
                     <div class="row Conjunto_2 Row_slide-home">
-                      <div class="col-xl-5 col-md-8 col-12 Subconjunto_2 Contenido_slide-home" data-aos="fade-right">
+                      <div class="col-xl-5 col-md-8 col-12 Subconjunto_2 Contenido_slide-home">
                        <h2 class="Titulo Titulo-slider_header">TRABAJO SEGURO EN ALTURAS</h2>
                        <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
                        Conoce nuestros cursos de capacitación</p>
@@ -326,17 +326,17 @@
         <div class="Elegir-dcm">
           <div class="container">
             <h2 class="Titulo Elegir-dcm__titulo">¿Por qué elegir a DCM?</h2>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-aos="fade-up">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
-                <li class="Indicador active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
-                <li class="Indicador" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li class="Indicador" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li class="Indicador" data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active Indicador"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1" class="Indicador"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2" class="Indicador"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3" class="Indicador"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <article class="row Elegir-dcm__article">
-                    <div class="col-lg-3 col-sm-4 col-6 animated fadeIn delay">
+                    <div class="col-lg-3 col-sm-4 col-6 animated fadeIn delay User_icon">
                       <div class="Elegir-dcm__corbelen">
                         <img src="img/Corbelen-Marinilla-png.png" class="img-fluid Elegir-dcm__corbelen-img" alt="">                
                       </div>
@@ -346,13 +346,14 @@
                       <small class="Elegir-dcm__article--autor">María Ofir Álzate Cardona</small>
                       <p class="Elegir-dcm__article--parrafo">Porque son mucho más que una consultoría, prestan un servicio integral a las empresas, acorde a las necesidades y expectativas de sus clientes; Además cuentan con un equipo de trabajo muy profesional, asegurándose de brindar servicios de calidad y seguridad.</p>
                     </div>
-                  </article>                
+                  </article>                   
+                  
                 </div>
                 <div class="carousel-item">
                   <article class="row Elegir-dcm__article">
-                    <div class="col-lg-3 col-sm-4 col-6 animated fadeIn delay">
+                    <div class="col-lg-3 col-sm-4 col-6 animated fadeIn delay User_icon">
                       <div class="Elegir-dcm__corbelen">
-                        <img src="img/Corbelen-Marinilla-png.png" class="img-fluid Elegir-dcm__corbelen-img" alt="">                
+                        <img src="img/Cliente-1_1.png" class="img-fluid Elegir-dcm__corbelen-img" alt="">                
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-9 offset-md-1 animated fadeIn delay">
@@ -362,13 +363,14 @@
                       Por el campo de entrenamiento que cuenta con todas las condiciones necesarias para aprender a trabajar en alturas y hacerlo de la mejor forma.
                       </p>
                     </div>
-                  </article>                
+                  </article>                    
+                  
                 </div>
                 <div class="carousel-item">
                   <article class="row Elegir-dcm__article">
-                    <div class="col-lg-3 col-sm-4 col-6 animated fadeIn delay">
+                    <div class="col-lg-3 col-sm-4 col-6 animated fadeIn delay User_icon">
                       <div class="Elegir-dcm__corbelen">
-                        <img src="img/Corbelen-Marinilla-png.png" class="img-fluid Elegir-dcm__corbelen-img" alt="">                
+                        <i class="fas fa-user Elegir-dcm__corbelen-img"></i>                
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-9 offset-md-1 animated fadeIn delay">
@@ -376,13 +378,14 @@
                       <small class="Elegir-dcm__article--autor">Jessica Cardona Ramírez</small>
                       <p class="Elegir-dcm__article--parrafo">Porque cuenta con un personal altamente calificado en sus diversas áreas, un campo apropiado para realizar diferentes tipos de actividades, por la calidad de sus equipos, por sus precios asequibles a todo el público, y por la disposición para resolver tus dudas e inquietudes.</p>
                     </div>
-                  </article>                
-                </div> 
+                  </article>                      
+                  
+                </div>
                 <div class="carousel-item">
                   <article class="row Elegir-dcm__article">
-                    <div class="col-lg-3 col-sm-4 col-6 animated fadeIn delay">
+                    <div class="col-lg-3 col-sm-4 col-6 animated fadeIn delay User_icon">
                       <div class="Elegir-dcm__corbelen">
-                        <img src="img/Corbelen-Marinilla-png.png" class="img-fluid Elegir-dcm__corbelen-img" alt="">                
+                        <i class="fas fa-user Elegir-dcm__corbelen-img"></i>                 
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-9 offset-md-1 animated fadeIn delay">
@@ -390,8 +393,9 @@
                       <small class="Elegir-dcm__article--autor">Cristian Camilo Guarin Zapata</small>
                       <p class="Elegir-dcm__article--parrafo">Porque brinda soluciones inmediatas en Seguridad y Salud en el Trabajo teniendo como objeto la aplicación de medidas y el desarrollo de las actividades necesarias para la prevención de riesgos derivados del trabajo, desarrollando acciones de formación en alturas.</p>
                     </div>
-                  </article>                
-                </div>                                                
+                  </article>                    
+                  
+                </div>                
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <i class="fas fa-chevron-left Elegir-dcm__control"></i>

@@ -1,6 +1,6 @@
 <!-- Conjunto 1 -->
 <div class="Conjunto_1 container" data-aos="fade-down">
-    <address>
+    <address class="mb-0">
         <a href="https://web.whatsapp.com/send?phone=573136893524" target="_blank" class="Contact_tel">
             <i class="fab fa-whatsapp WhatsApp-icon" aria-hidden="true"></i> 313 689 3524
         </a>

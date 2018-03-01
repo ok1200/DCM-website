@@ -39,9 +39,11 @@ body
 		.WhatsApp-icon
 			color #25d366
 			font-size 25px
-			margin-right 5px		
+			margin-right 10px		
 		.Contact_tel
 			color #fff
+			display flex
+			align-items center
 			&:hover
 				text-decoration none
 
@@ -247,12 +249,14 @@ body
 	background-position center
 	background-size cover
 	background-repeat no-repeat
+	position relative
+	z-index 0
 
 .Row_slide-home
 	margin 0
 	
 .Contenido_slide-home
-	padding 120px
+	padding 160px 120px
 	padding-bottom 150px
 	position relative
 	&:before
@@ -477,6 +481,7 @@ body
 		.Seguridad-salud__Link
 			text-decoration none
 			color Blue_200
+			transform translateY(-15px)
 		.Dowload_icon--Service
 			color Yellow_200
 	
@@ -606,12 +611,15 @@ body
 
 .Elegir-dcm__corbelen
 	padding 25px
-	border-radius 50%
 	float right
-	box-shadow 0px 0px 20px -5px rgba(0,0,0,0.52)
 
 .Elegir-dcm__corbelen-img
 	width 110px
+
+.Elegir-dcm__corbelen
+	.fa-user
+		font-size 110px
+		color Blue_200
 
 .Titulo--corbelen
 	font-weight 400
@@ -633,7 +641,7 @@ body
 	justify-content flex-end
 	
 .carousel-item
-	min-height 310px
+	min-height 310px	
 	
 .Elegir-dcm__control
 	color Blue_200
@@ -648,6 +656,7 @@ body
 		
 .carousel-indicators
 	bottom -40px
+	z-index 100
 	.Indicador
 		width 15px
 		height 15px
@@ -656,6 +665,7 @@ body
 		opacity .5
 		transform scale(.7)
 		transition .5s ease-in-out
+		z-index 100
 
 
 .delay
@@ -666,12 +676,13 @@ body
 .Clientes__titulo
 	color Blue_200
 	text-align center
-	margin 1em 0
+	margin-top 80px
+	margin-bottom 30px
 
 .Clientes__row
 	align-items center
 	justify-content center
-	margin-bottom 60px
+	margin-bottom 120px
 
 .Clientes__section
 	text-align center
@@ -818,7 +829,7 @@ body
 	margin-top 10px
 	
 .Form_label
-	color Blue_200
+	color Grey_400
 	margin-top 1em
 	margin-bottom 0
 
@@ -992,12 +1003,48 @@ body
 		content "\f105"
 		
 .Imagen-curso
-	height 300px
-	background-image url("../img/Slider-1.jpg")
+	height 400px
 	background-attachment fixed
-	background-size cover
 	background-repeat no-repeat
+	background-position center
+	background-size cover
 
+.Servicio-1
+	background-image url("../img/Bomberotecnia-Servicio.jpg")
+	
+.Servicio-2
+	background-image url("../img/Planes-Emergencia-Servicio.jpg")
+
+.Servicio-3
+	background-image url("../img/Espacios-Confinados-Servicio.jpg")
+
+.Servicio-4
+	background-image url("../img/Evaluacion-Puestos-Trabajo-Servicio.jpg")
+
+.Servicio-5
+	background-image url("../img/Matriz-Peligros-Servicio.jpg")
+	
+.Servicio-6
+	background-image url("../img/Primer-Respondiente-Servicios.jpg")
+
+.Servicio-7
+	background-image url("../img/Brigadas-Emergencia-Servicios.jpg")
+	
+.Servicio-8
+	background-image url("../img/Investigacion-Accidentes-Servicio.jpg")
+
+.Servicio-9
+	background-image url("../img/Inspeccion-Equipos-Servicio.jpg")
+
+.Servicio-10
+	background-image url("../img/Plan-Seguridad-Vial-Servicio.jpg")
+
+.Servicio-11
+	background-image url("../img/Asesoria-Seguridad-Servicio.jpg")
+
+.Servicio-12
+	background-image url("../img/Sistema-Seguridad-Servicio.jpg")
+	
 .Servicio_page-row
 	margin-top 150px
 
@@ -1189,6 +1236,10 @@ body
 	text-align center
 	margin-bottom 71px
 
+.Contacto_title
+	color Blue_200
+	padding-top 70px
+
 .Galeria_before
 	position relative
 	&:before,&:after
@@ -1204,21 +1255,64 @@ body
 		bottom 0
 		right 0
 				
-.mapa-big
-	margin-top 100px
-	margin-bottom 100px
+.Contacto-mapa_1
+	background-color Blue_300
+
+.Contacto-mapa_2
+	background-color #083899
+	
+.Row-contacto_mapa
+	display flex
+	align-items center
+	padding 122px 15px
+	ol
+		list-style none
+		padding 0
+
+.mapa-container
+	box-shadow 0px 0px 30px 30px rgba(0,0,0,0.1)
+
+.Contacto-info
+	line-height 36px
+	color White_100
+	font-family Lato
+	font-weight bold
+
+
+.Contacto-sede_title
+	font-size 36px
+	margin-bottom 30px
+	
+
+.Sede_numero
+	font-size 24px
+	font-weight 100
+
+.Contacto-info_title
+	display flex
+	flex-direction column
+	color White_100
+	font-size 20px
+	line-height 36px
+	font-family Lato
+	font-weight bold
+	margin-top 20px
+
+.Contacto-icon_title
+	color Yellow_200
+	margin-right 10px
+
+.Contacto-info_description
+	font-family Rubik
+	line-height 30px
+	color Grey_200
 	
 .Mapa_container
 	position relative
 
-.mapa-container
-	border-radius 25px 0 25px 0
-	box-shadow 0px 0px 30px 25px rgba(0,0,0,0.1)
 
 .Mapa
-	height 600px
-	border-radius 25px 0 25px 0
-	box-shadow 0px 0px 30px 25px rgba(0,0,0,0.1)
+	height 400px
 	
 .Mapa-2
 	display none
@@ -1288,6 +1382,8 @@ body
 	
 .Contacto_form
 	font-family lato
+	background-color Grey_100
+	padding-bottom 108px
 
 .Contacto_form-title
 	font-size 30px
@@ -1462,6 +1558,9 @@ body
 	border-color red
 	
 
+.flex-direction-nav
+	a
+		z-index 0
 		
 
 		
@@ -1517,6 +1616,9 @@ body
 			height 70px
 		.nav-link
 			padding 20px
+	
+	.carousel-item
+		min-height 370px
 			
 	.Seguridad-salud__Link
 		flex-direction column
@@ -1582,6 +1684,22 @@ body
 		background-position 0 -860px
 		background-size cover
 	
+	.carousel-item
+		min-height 590px
+	
+	.User_icon
+		display flex
+		justify-content center
+		align-items center
+		min-height 200px
+	
+		
+	
+	.Elegir-dcm__corbelen
+		padding 0
+		.fa-user
+			font-size 90px
+	
 	.Seguridad-salud__Servicio
 		flex-direction column
 		justify-content center
@@ -1606,35 +1724,10 @@ body
 	.Elegir-dcm__corbelen-img
 		width auto
 		
-	.Elegir-dcm__corbelen
-		margin-bottom 60px
 	
 	.Page_cursos_form
 		margin-top 30px
 		
-	.Mapa_info
-		bottom -70px
-		top initial
-		left initial
-		right 7%
-		padding 20px
-	
-	.Mapa_info-options
-		display flex
-		flex-direction column
-		margin-bottom 20px
-	
-	.Mapa_info-button
-		border-radius 5px 0 5px 0
-		margin-bottom 15px
-		border 1px solid Grey_200
-	
-	.Mapa_info-description
-		text-align center
-	
-	.Mapa_info-title
-		font-size 20px
-		margin-bottom 20px
 	
 	.Contact_section
 		flex-direction column
@@ -1827,6 +1920,8 @@ body
 	.Header
 		.Conjunto_1
 			flex-direction column
+			.Contact_tel
+				margin-bottom 20px
 		address
 			margin-bottom 30px
 	
@@ -1864,7 +1959,7 @@ body
 	
 	.carousel-control-next
 	.carousel-control-prev
-		top 150px
+		top -150px
 		
 	.Page_cursos_conjunto-1
 		flex-direction column

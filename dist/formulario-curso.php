@@ -1,4 +1,4 @@
-<form action="libs/process.php" class="f-contact-form" enctype="multipart/form-data" data-aos="fade-left">
+<form action="libs/process.php" class="f-contact-form" enctype="multipart/form-data">
     <label class="Form_label Label-curso" for="curso">Curso</label>
     <select id="curso" class="form-control Form_input form-control-lg" name="curso">
       <option <?php if ($curso == 1 ) echo 'selected' ;?> value="Basico-Administrativo" >BÁSICO ADMINISTRATIVO</option>

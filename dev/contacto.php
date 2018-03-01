@@ -29,16 +29,88 @@
             <section class="container-fluid Header Page_cursos">
 
                 <?php $page = "contacto"; require('menu.php');?>
-
-                 <!-- Artículo header -->
-              <div class="container Header_articulo Galeria_articulo">
-                <h1 class="Galeria_title">CONTÁCTANOS</h1>
-
-              </div>
               <!-- Artículo header -->
+                      <!--Contacto form -->
+                  <div class="Contacto_form">
+                    <h1 class="Galeria_title Contacto_title">CONTÁCTANOS</h1>
+                    <div class="container">
+                      <h3 class="Contacto_form-title">Escríbenos un mensaje</h3>
+                    <div class="row Contacto_form-row">
+                      <div class="col-md-5 col-12 Contacto_form-col">
+                              
+                        <?php require 'formulario-contacto.php'; ?>
+                        <div class="done-message">
+                          Tu mensaje ha sido enviado exitosamente!
+                        </div>
+
+                      </div>
+
+                      <div class="col-md-5 col-12 offset-md-2 Contacto_form-col Contacto_form-img">
+                        <img src="img/DCM-Contacto.png" class="img-fluid contacto-plane" alt="Contacto DCM">
+                      </div>
+                    </div>
+                      
+                    </div>
+                    
+                  </div>
+                  <!--Contacto form -->
+
+            </section>
+        </header>
+
+         
+        <!--Mapa -->
+        <div class="Contacto-mapa_1">
+          <div class="container">
+            <div class="row Row-contacto_mapa">
+              <div class="col-7">
+                <div class="mapa-container">
+                   <div id="Mapa_1" class="Mapa">               
+                   </div>
+                 </div>                                
+              </div>
+              <div class="col-4 offset-1 Contacto-info">
+                <h4 class="Contacto-sede_title"> <i class="fas fa-map-marker-alt Contacto-icon_title"></i>RIONEGRO</h4>
+                <small class="Sede_numero">SEDE 1</small>
+                <ol class="mb-0"">
+                  <li class="Contacto-info_title">Dirección <small class="Contacto-info_description">KM 1 Via Rionegro el Carmen de Viboral</small></li>
+                  <li class="Contacto-info_title">Teléfono <small class="Contacto-info_description">313 689 35 24</small></li>
+                  <li class="Contacto-info_title">Email <small class="Contacto-info_description">info@dcmservicios.com</small></li>
+                </ol>
+                
+              </div>
+            </div>         
+          </div>
+        </div>
+        <!--Mapa -->
+        <!--Mapa -->
+        <div class="Contacto-mapa_2">
+          <div class="container">
+            <div class="row Row-contacto_mapa">
+              <div class="col-4 Contacto-info">
+                <h4 class="Contacto-sede_title"> <i class="fas fa-map-marker-alt Contacto-icon_title"></i>PUERTO BERRÍO</h4>
+                <small class="Sede_numero">SEDE 2</small>
+                <ol class="mb-0">
+                  <li class="Contacto-info_title">Dirección <small class="Contacto-info_description">KM 1 Via La Malena</small></li>
+                  <li class="Contacto-info_title">Teléfono <small class="Contacto-info_description">313 689 35 24</small></li>
+                  <li class="Contacto-info_title">Email <small class="Contacto-info_description">info@dcmservicios.com</small></li>
+                </ol>
+                
+              </div>
+              <div class="col-7 offset-1">
+                <div class="mapa-container">
+                   <div id="Mapa_2" class="Mapa">               
+                   </div>
+                 </div>                                
+              </div>              
+            </div>            
+          </div>
+        </div>
+        <!--Mapa -->        
+
 
               <!--Mapa -->
-                 <div class="mapa-big">
+<!--                  <div class="mapa-big">
                    <div class="container">
                      <div class="row">
                       
@@ -96,38 +168,9 @@
             
                      </div>
                    </div>
-                 </div>
+                 </div> -->
 
                   <!--Mapa -->
-            </section>
-        </header>
-
-         
- 
-        <!--Contacto form -->
-        <div class="Contacto_form">
-          <div class="container">
-            <h3 class="Contacto_form-title">Escríbenos un mensaje</h3>
-          <div class="row Contacto_form-row">
-            <div class="col-md-5 col-12 Contacto_form-col">
-                    
-              <?php require 'formulario-contacto.php'; ?>
-              <div class="done-message">
-                Tu mensaje ha sido enviado exitosamente!
-              </div>
-
-            </div>
-
-            <div class="col-md-5 col-12 offset-md-2 Contacto_form-col Contacto_form-img">
-              <img src="img/DCM-Contacto.png" class="img-fluid contacto-plane" alt="Contacto DCM">
-            </div>
-          </div>
-            
-          </div>
-          
-        </div>
-        <!--Contacto form -->
-
 
         <!-- Footer! -->
           <?php require 'footer.php'; ?>
