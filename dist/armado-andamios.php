@@ -31,10 +31,7 @@
         <header id="Header">
             <section class="container-fluid Header Page_cursos">
                   <?php $page = "cursos"; require('menu.php');?>
-
-            <div class="Imagen-curso Curso-6">
-              
-            </div>                  
+             
                  <!-- Artículo header -->
               <div class="container">
                   <div class="row">

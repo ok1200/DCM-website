@@ -11,7 +11,7 @@
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
         <title>Trabajo seguro en alturas - DCM</title>
-        <link rel="shortcut icon" href="img/DCM-Logo.png">
+        <link rel="shortcut icon" href="img/Favicon.jpeg">
         <meta name="description" content="DCM - Compañía de Cursos de trabajo seguro en alturas y Servicios en seguridad y salud en el trabajo. Certificados de cursos de alturas, portafolio de servicios para empresas industriales, ambientales y en seguridad en el trabajo. Ubicados en Antioquia">
         <!-- AOS css -->
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
@@ -294,7 +294,7 @@
         <div class="Certificado Portafolio">
           <div class="container">
             <article class="row Certificado__articulo Portafolio_articulo">
-              <section class="col-lg-4 col-md-8 col-7" data-aos="fade-left">
+              <section class="col-lg-4 col-md-8 col-12" data-aos="fade-left">
                 <img src="img/Portafolio-Servicios.png" class="img-fluid Portafolio_img" alt="Servicios en seguridad y salud en el trabajo - DCM">
               </section>
               <section class="col-lg-5 col-md-8 offset-md-2" data-aos="fade-right">
@@ -414,14 +414,14 @@
           <div class="container">
             <h2 class="Titulo Clientes__titulo" data-aos="fade-up">Algunos de Nuestros Clientes</h2>
             <div class="row Clientes__row">
-              <section class="col-3 Clientes__section" data-aos="fade-up">
+              <section class="col-4 Clientes__section" data-aos="fade-up">
                 <img src="img/client-2.jpg" class="img-fluid Clientes__img" alt="">
               </section>
-              <section class="col-3 Clientes__section" data-aos="fade-up"
+              <section class="col-4 Clientes__section" data-aos="fade-up"
      data-aos-duration="1500">
                 <img src="img/Cliente-1_1.png" class="img-fluid Clientes__img" alt="">
               </section>
-              <section class="col-3 Clientes__section" data-aos="fade-up"
+              <section class="col-4 Clientes__section" data-aos="fade-up"
      data-aos-duration="1800">
                 <img src="img/Corbelen-Marinilla-png.png" class="img-fluid Clientes__img" alt="">
               </section>

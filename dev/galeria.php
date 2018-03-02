@@ -25,6 +25,7 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
+    	<div class="loader-page"></div>
         <header id="Header">
             <section class="container-fluid Header Page_cursos">
               
@@ -32,7 +33,7 @@
 
                  <!-- Artículo header -->
               <div class="container Header_articulo Galeria_articulo">
-                <h1 class="Galeria_title">GALERIA DE FOTOS</h1>
+                <h1 class="Galeria_title">GALERÍA DE FOTOS</h1>
 
               </div>
               <!-- Artículo header -->
@@ -69,5 +70,14 @@
             <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
             <!-- Our javascript -->
             <script type="text/javascript" src="js/all.js"></script>
+
+            <script>
+            	$(window).on('load', function () {
+				      setTimeout(function () {
+				    $(".loader-page").css({visibility:"hidden",opacity:"0"})
+				  }, 2000);
+				     
+				});
+            </script>
     </body>
 </html>

@@ -32,10 +32,7 @@
             <section class="container-fluid Header Page_cursos">
                   
                 <?php $page = "cursos"; require('menu.php');?>
-
-            <div class="Imagen-curso Curso-5">
-              
-            </div>                
+           
 
                  <!-- Artículo header -->
               <div class="container">

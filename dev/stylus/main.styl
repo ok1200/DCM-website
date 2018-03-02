@@ -656,7 +656,7 @@ body
 		
 .carousel-indicators
 	bottom -40px
-	z-index 100
+	z-index 0
 	.Indicador
 		width 15px
 		height 15px
@@ -1234,11 +1234,10 @@ body
 	color White_100
 	font-size 40px
 	text-align center
-	margin-bottom 71px
+	padding 70px 0
 
 .Contacto_title
-	color Blue_200
-	padding-top 70px
+	color White_100
 
 .Galeria_before
 	position relative
@@ -1282,6 +1281,7 @@ body
 .Contacto-sede_title
 	font-size 36px
 	margin-bottom 30px
+	display flex
 	
 
 .Sede_numero
@@ -1393,12 +1393,10 @@ body
 	margin-bottom 27px
 	
 .Contacto_form-row
-	margin-bottom 107px
 	align-items center
 	
 .Contacto_form-img
 	text-align center
-	margin-bottom 110px
 
 .Form
 	position relative
@@ -1563,7 +1561,40 @@ body
 		z-index 0
 		
 
-		
+.loader-page 
+	position fixed
+	z-index 25000
+	background rgb(255, 255, 255)
+	left 0px
+	top 0px
+	height 100%
+	width 100%
+	display flex
+	align-items center
+	justify-content center
+	transition all .3s ease
+	&:before,&:after
+		content ""
+		position fixed
+		border 2px solid rgb(13, 92, 186)
+		width 60px
+		height 60px
+		border-radius 50%
+		box-sizing border-box
+		border-left 2px solid rgba(13, 92, 186,0)
+		border-top 2px solid rgba(13, 92, 186,0)
+		animation rotarload 1s linear infinite
+		transform rotate(0deg)
+	&:after
+		border 2px solid rgba(13, 92, 186,.5)
+		animation rotarload 1s ease-out infinite
+
+@keyframes rotarload {
+      0%   {transform: rotate(0deg)}
+      100% {transform: rotate(360deg)}
+  }
+
+
 
 
 
@@ -1727,6 +1758,9 @@ body
 	
 	.Page_cursos_form
 		margin-top 30px
+	
+	.Servicio_page-row
+		margin-top 0
 		
 	
 	.Contact_section
@@ -1744,6 +1778,16 @@ body
 	
 	.Nosotros_col-header
 		text-align center
+	
+	.Contacto-mapa_1
+		.Contacto-sede_title
+			margin-top 60px
+	
+	.Contacto-mapa_2
+		.Contacto-info
+			margin-bottom 60px
+		
+		
 	
 	.Page_cursos-col
 		margin-bottom 3em
@@ -1808,7 +1852,6 @@ body
 	.Header
 		.Conjunto_1
 			padding-top 97px
-			margin-bottom 80px
 	
 	.Hamburguer_icon
 		display block
@@ -1823,7 +1866,7 @@ body
 			height 100%
 			width 100%
 			text-align center
-			line-height 35px
+			line-height 40px
 			font-size 22px
 			color Blue_200
 			transition .5s
@@ -1836,7 +1879,7 @@ body
 			
 	.nav
 		position fixed
-		height 100%
+		height 100vh
 		width 100%
 		top 0
 		left -100%
@@ -1844,7 +1887,6 @@ body
 		display inline-block
 		text-align center
 		transition .5s
-		padding-top 100px
 		li
 			margin-bottom 15px
 			margin-top 15px
@@ -1864,6 +1906,11 @@ body
 		left 0
 		top 0
 		text-align center
+	.Menu_container
+		ul
+			li 
+				.dropdown-item
+					padding 5px
 
 	.Certificado_col-img
 		margin-top 40px
@@ -1883,13 +1930,19 @@ body
 		text-align center
 		
 	.Nosotros_row-header
-		padding-top 0
+		padding 0 15px
 		
 
 	.Footer_menu
 		flex-wrap wrap-reverse
 		justify-content center
 		text-align center
+	
+	.Footer_menu-col
+		text-align left
+	
+	.Imagen-curso
+		height 200px
 	
 	.Footer_menu_title
 		margin-top 50px
@@ -1908,6 +1961,9 @@ body
 	
 	.contacto-plane
 		margin-top 50px
+	
+	.Contacto_form-img
+		margin-top 60px
 	
 	.Andamio
 		background-position center
@@ -1932,9 +1988,8 @@ body
 		bottom 0
 	
 	.Seguridad-salud__Link
-		min-height 170px
+		min-height 220px
 		font-size 16px
-		margin-top 20px
 
 	.Frases
 		height 300px
@@ -1967,6 +2022,9 @@ body
 	.Page_servicio_icon
 		margin-right 0
 		margin-bottom 20px
+	
+	.Page_servicios_title
+		text-align center
 		
 	.Page_cursos_img
 		width 100px

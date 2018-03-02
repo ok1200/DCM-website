@@ -30,9 +30,9 @@
 
                 <?php $page = "contacto"; require('menu.php');?>
               <!-- Artículo header -->
+                    <h1 class="Galeria_title Contacto_title">CONTÁCTANOS</h1>
                       <!--Contacto form -->
                   <div class="Contacto_form">
-                    <h1 class="Galeria_title Contacto_title">CONTÁCTANOS</h1>
                     <div class="container">
                       <h3 class="Contacto_form-title">Escríbenos un mensaje</h3>
                     <div class="row Contacto_form-row">
@@ -63,13 +63,13 @@
         <div class="Contacto-mapa_1">
           <div class="container">
             <div class="row Row-contacto_mapa">
-              <div class="col-7">
+              <div class="col-lg-7 col-12">
                 <div class="mapa-container">
                    <div id="Mapa_1" class="Mapa">               
                    </div>
                  </div>                                
               </div>
-              <div class="col-4 offset-1 Contacto-info">
+              <div class="col-lg-4 col-12 offset-lg-1 offset-0 Contacto-info">
                 <h4 class="Contacto-sede_title"> <i class="fas fa-map-marker-alt Contacto-icon_title"></i>RIONEGRO</h4>
                 <small class="Sede_numero">SEDE 1</small>
                 <ol class="mb-0"">
@@ -87,7 +87,7 @@
         <div class="Contacto-mapa_2">
           <div class="container">
             <div class="row Row-contacto_mapa">
-              <div class="col-4 Contacto-info">
+              <div class="col-lg-4 col-12 Contacto-info">
                 <h4 class="Contacto-sede_title"> <i class="fas fa-map-marker-alt Contacto-icon_title"></i>PUERTO BERRÍO</h4>
                 <small class="Sede_numero">SEDE 2</small>
                 <ol class="mb-0">
@@ -97,7 +97,7 @@
                 </ol>
                 
               </div>
-              <div class="col-7 offset-1">
+              <div class="col-lg-7 col-12 offset-lg-1 offset-0">
                 <div class="mapa-container">
                    <div id="Mapa_2" class="Mapa">               
                    </div>

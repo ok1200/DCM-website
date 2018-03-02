@@ -9,7 +9,7 @@
       <a href="" class="Footer_link Footer_instagram hvr-float"><i class="fab fa-instagram"></i></a>
     </section>
     <div class="Footer_menu row">
-      <section class="col-md-2 col-5" data-aos="fade-right">
+      <section class="col-md-2 col-5 Footer_menu-col" data-aos="fade-right">
         <p class="Footer_menu_title">Menú</p>
         <ul class="Footer_menu_list">
           <a href="index.php"><li>Inicio</li></a>
@@ -20,7 +20,7 @@
           <a href="contacto.php"><li>Contacto</li></a>
         </ul>               
       </section>
-      <section class="col-xl-2 col-md-3 col-5" data-aos="fade-right">
+      <section class="col-xl-2 col-md-3 col-5 Footer_menu-col" data-aos="fade-right">
         <p class="Footer_menu_title">Cursos</p>
         <ul class="Footer_menu_list">
           <a href="basico-administrativo.php"><li>Administrativo</li></a>
@@ -31,7 +31,7 @@
           <a href="armado-andamios.php"><li>Otros servicios</li></a>
         </ul>               
         </section>
-      <section class="col-md-5 col-10 offset-xl-3 offset-md-2" data-aos="fade-left">
+      <section class="col-md-5 col-10 offset-xl-3 offset-md-2 " data-aos="fade-left">
           <h2 class="Titulo Certificado__Titulo">Valida y descarga tu Certificado Online</h2>
           <i class="fa fa-arrow-right Certificado__Arrow-2" aria-hidden="true"></i>
           <p class="Certificado__parrafo">Ingresa a nuestro sistema de validación de Certificados Online, y podrás descargar tu certificado en formato PDF.</p>

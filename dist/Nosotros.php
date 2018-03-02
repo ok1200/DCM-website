@@ -79,7 +79,7 @@
               <section class="col-lg-5 col-10" data-aos="fade-left">
                 <img src="img/Equipo-3.png" class="img-fluid Portafolio_img" alt="Constructor">
               </section>
-              <section class="col-lg-6 col-10 offset-1" data-aos="fade-right">
+              <section class="col-lg-6 col-12 col-md-10 offset-md-1" data-aos="fade-right">
                 <h2 class="Titulo Portafolio_titulo">Marco legal</h2>
                 <p class="Certificado__parrafo Portafolio__parrafo">Desarrollamos diferentes procesos de servicios en entrenamiento, entre ellos trabajo seguro en alturas en centros de entrenamiento avalados y certificados por entidades nacionales de acuerdo a la <span class="Marco_resolucion-title">Resolución 2578 del 2012.</span></p>
                 <p class="Certificado__parrafo Portafolio__parrafo">Cuenta con Resolución de autorización por la cual se autoriza la empresa DCM SERVICIOS Y CONSULTORIA, para orientar formación en trabajo seguro en alturas.</p>
