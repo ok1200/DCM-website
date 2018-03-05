@@ -72,8 +72,12 @@
                 <small class="Sede_numero">SEDE 1</small>
                 <ol class="mb-0"">
                   <li class="Contacto-info_title">Dirección <small class="Contacto-info_description">KM 1 Via Rionegro el Carmen de Viboral</small></li>
-                  <li class="Contacto-info_title">Teléfono <small class="Contacto-info_description">313 689 35 24</small></li>
-                  <li class="Contacto-info_title">Email <small class="Contacto-info_description">info@dcmservicios.com</small></li>
+                  <a href="tel:+573136893524">
+                      <li class="Contacto-info_title">Teléfono <small class="Contacto-info_description">313 689 35 24</small></li>
+                  </a>
+                  <a href="mailto:info@dcmservicios.com">
+                     <li class="Contacto-info_title">Email <small class="Contacto-info_description">info@dcmservicios.com</small></li>
+                  </a>
                 </ol>
                 
               </div>
@@ -81,6 +85,7 @@
           </div>
         </div>
         <!--Mapa -->
+
         <!--Mapa -->
         <div class="Contacto-mapa_2">
           <div class="container">
@@ -90,8 +95,12 @@
                 <small class="Sede_numero">SEDE 2</small>
                 <ol class="mb-0">
                   <li class="Contacto-info_title">Dirección <small class="Contacto-info_description">KM 1 Via La Malena</small></li>
-                  <li class="Contacto-info_title">Teléfono <small class="Contacto-info_description">313 689 35 24</small></li>
-                  <li class="Contacto-info_title">Email <small class="Contacto-info_description">info@dcmservicios.com</small></li>
+                  <a href="tel:+573136893524">
+                      <li class="Contacto-info_title">Teléfono <small class="Contacto-info_description">313 689 35 24</small></li>
+                  </a>
+                  <a href="mailto:info@dcmservicios.com">
+                     <li class="Contacto-info_title">Email <small class="Contacto-info_description">info@dcmservicios.com</small></li>
+                  </a>
                 </ol>
                 
               </div>

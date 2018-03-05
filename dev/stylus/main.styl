@@ -29,7 +29,6 @@ body
 		
 .body-no-scroll
 	overflow-y hidden
-	position fixed
 
 .Header
 	background Gradient_Blue
@@ -81,7 +80,7 @@ body
 
 #Menu_container
 	position relative
-	z-index 1
+	z-index 2
 
 .Menu_container
 	background-color Grey_100
@@ -414,7 +413,6 @@ body
 		
 .Cursos_btn
 	background-color White_200
-	border 1px solid Grey_200
 	margin-top 2em
 	position relative
 	padding 0 77px
@@ -999,14 +997,14 @@ body
 	width 50px
 
 .slick-prev
-	left -50px
+	left -60px
 
 .slick-next
 	right -50px
 	
 .slick-prev&:before,.slick-next&:before
-	font-family "FontAwesome"
-	font-size 60px
+	font-family "Font Awesome\ 5 Free"
+	font-size 50px
 	font-weight bold
 	opacity 1
 	color Blue_200
@@ -1401,6 +1399,8 @@ body
 	font-family lato
 	background-color Grey_100
 	padding-bottom 108px
+	position relative
+	z-index 0
 
 .Contacto_form-title
 	font-size 30px
@@ -1417,6 +1417,7 @@ body
 
 .Form
 	position relative
+	z-index 0
 	min-height 591px
 	overflow hidden
 
@@ -1625,11 +1626,11 @@ body
 		
 	.slick-next
 		right -30px
-		top 25%
+		top 10%
 	
 	.slick-prev
 		left -30px
-		top 25%
+		top 10%
 	
 @media (max-width: 1199.98px)
 
@@ -1945,9 +1946,9 @@ body
 		float none
 		text-align center
 		transform none !important
+		overflow-x hidden
 		overflow-y auto
-    	overflow-x hidden
-    	
+   	
 
 	.Menu_container
 		ul
@@ -1978,14 +1979,10 @@ body
 	.Andamio
 		background-position center
 		
-
 	.Footer_menu
 		flex-wrap wrap-reverse
 		justify-content center
 		text-align center
-	
-	.Footer_menu-col
-		text-align left
 	
 	.Imagen-curso
 		height 200px
@@ -2029,7 +2026,7 @@ body
 	.Contenido_slide-home
 		padding 40px
 		min-height 530px
-		padding 80px 44px
+		padding 80px 20px
 		padding-bottom 80px
 	
 	.flex-control-nav
@@ -2110,6 +2107,7 @@ body
 	
 	.slick-prev
 		left 10px
+		z-index 1
 	
 	.slick-next
 		right 10px

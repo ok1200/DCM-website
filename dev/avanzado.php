@@ -84,7 +84,7 @@
                                 <small class="Cursos_info-duration">313 689 3524</small> 
                               </div>
                             </a>
-                            <a href="mailto:info@dcm.com.co" class="Cursos_info">
+                            <a href="mailto:info@dcmservicios.com" class="Cursos_info">
                               <i class="fas fa-comments Cursos_info-icon"></i>
                               <div class="Cursos_info-description Cursos_info-description-2">
                                 <p class="Cursos_info-title">CONTÁCTANOS</p>

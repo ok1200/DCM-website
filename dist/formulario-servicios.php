@@ -46,7 +46,9 @@
 
             <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox" required><label for="check" class="Check_label"> Acepto<a href="" target="_blank" class="Check_input Check_input-link">política de tratamiento de datos</a></label>
 
-            <input id="submit" class="Button Button_form" type="submit" value="Consultar">
+            <div class="text-center">
+                <button id="submit" class="Button Button_form Busqueda-certificado_btn" type="submit">Consultar</button>
+            </div>
             
             </form>
             <?php

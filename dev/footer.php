@@ -4,9 +4,9 @@
   <footer class="container Footer_flex">
     <img src="img/DCM-Logo-Blanco.png" class="Footer_logo" data-aos="fade-down" alt="logo">
     <section class="Footer_redes" data-aos="fade-up">
-      <a href="" class="Footer_link Footer_facebook hvr-float"><i class="fab fa-facebook-square"></i></a>
-      <a href="" class="Footer_link Footer_linkedin hvr-float"><i class="fab fa-linkedin "></i></a>
-      <a href="" class="Footer_link Footer_instagram hvr-float"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/sstdcm/" target="_blank" class="Footer_link Footer_facebook hvr-float"><i class="fab fa-facebook-square"></i></a>
+      <a href="" target="_blank" class="Footer_link Footer_linkedin hvr-float"><i class="fab fa-linkedin "></i></a>
+      <a href="https://www.instagram.com/sstdcm/" target="_blank" class="Footer_link Footer_instagram hvr-float"><i class="fab fa-instagram"></i></a>
     </section>
     <div class="Footer_menu row">
       <section class="col-md-2 col-6 Footer_menu-col" data-aos="fade-right">

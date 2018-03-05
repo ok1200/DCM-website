@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
-        <title>Curso Reentrenamiento en Trabajo Seguro en Alturas - DCM - Antioquia</title>
+        <title>Curso Coordinador de Trabajo Seguro en Alturas - DCM - Antioquia</title>
         <meta name="description" content="Curso Coordinador de Trabajo Seguro en Alturas, en Antioquia para personas encargadas de coordinar el trabajo seguro en alturas en empresas con riesgo de caída en trabajo en alturas, con una duración de 80 horas. ">
         <link rel="shortcut icon" href="img/favicon.ico">
         <!-- AOS css -->
@@ -86,7 +86,7 @@
                                 <small class="Cursos_info-duration">313 689 3524</small> 
                               </div>
                             </a>
-                            <a href="mailto:info@dcm.com.co" class="Cursos_info">
+                            <a href="mailto:info@dcmservicios.com" class="Cursos_info">
                               <i class="fas fa-comments Cursos_info-icon"></i>
                               <div class="Cursos_info-description Cursos_info-description-2">
                                 <p class="Cursos_info-title">CONTÁCTANOS</p>
