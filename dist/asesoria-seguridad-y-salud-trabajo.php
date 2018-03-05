@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -13,6 +13,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
         <title>Servicio de Asesoría de Seguridad y Salud en el Trabajo - DCM - Antioquia</title>
         <meta name="description" content="Servicio de Asesoría de Seguridad y Salud en el Trabajo - DCM - Antioquia, brindamos asesorías en seguridad y salud en el trabajo basados en la normatividad colombiana vigente y dictado por profesionales altamente calificados para la consultoría.">
+        <link rel="shortcut icon" href="img/favicon.ico">
         <!-- AOS css -->
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <!-- Fontawesome -->
@@ -47,7 +48,7 @@
                           </section>  
                           <p class="Page_cursos-description">Brindamos Asesoría y Consultoría en seguridad y salud en el trabajo SG-SST, en DCM SERVICIOS Y CONSULTORIA contamos con profesionales altamente calificados para la consultoría SG-SST, garantizando siempre el buen cumplimiento de la normatividad Colombiana vigente, optimizando al máximo los recursos que se encuentran disponibles, mitigando reprocesos y gastos innecesarios en la compañía.</p>
                           <p class="Page_cursos-description">Realizamos todos los procesos del Sistema de Gestión de Seguridad y Salud en el Trabajo en todo tipo de empresas de acuerdo al decreto 1072 del 2015 y resolución 1111 del 2017.</p>
-                          <a href="tel:+573124567834" class="Cursos_info">
+                          <a href="tel:+573136893524" class="Cursos_info">
                             <i class="fas fa-phone Cursos_info-icon"></i>
                             <div class="Cursos_info-description">
                               <p class="Cursos_info-title">LLÁMANOS</p>
@@ -68,10 +69,6 @@
 
                       <?php (isset($_POST["servicio"])) ? $servicio = $_POST["servicio"] : $servicio=11; ?>
                       <?php require 'formulario-servicios.php'; ?>
-
-                      <div class="done-message">
-                        Tu mensaje ha sido enviado exitosamente!
-                      </div>
                       
                     </div>
 
@@ -123,101 +120,7 @@
                 ]
 
               });
-            </script>
-            <script type="text/javascript">
-                $(document).ready(function() {
-                    jQuery(function(){
-                    "use strict";
-
-                    initFormValidation();
-                });
-
-                // form validation init
-                function initFormValidation() {
-                    //if submit button is clicked
-                    $('#submit').click(function () {
-                      console.log("Funcionando");
-
-                        //Get the data from all the fields
-                        var nombre = $('input[name=nombre]');
-                        var telefono = $('input[name=telefono]');
-                        var email = $('input[name=email]');
-                        var mensaje = $('textarea[name=mensaje]');
-                        var returnError = false;
-
-                        //Simple validation to make sure user entered something
-                        //Add your own error checking here with JS, but also do some error checking with PHP.
-                        //If error found, add hightlight class to the text field
-                        if (nombre.val()=='') {
-                            nombre.addClass('error');
-                            returnError = true;
-                        } else nombre.removeClass('error filled');
-
-                        if (telefono.val()=='') {
-                            telefono.addClass('error');
-                            returnError = true;
-                        } else telefono.removeClass('error filled');
-
-                        if (email.val()=='') {
-                            email.addClass('error');
-                            returnError = true;
-                        } else email.removeClass('error');
-
-                         if (mensaje.val()=='') {
-                            mensaje.addClass('error');
-                            returnError = true;
-                        } else mensaje.removeClass('error');
-
-
-                        // Highlight all error fields, then quit.
-                        if(returnError == true) {
-                            return false;
-                        }
-
-                        //organize the data
-                        var data = 'nombre=' + nombre.val() + '&telefono=' + telefono.val() + '&email=' + email.val() + '&mensaje=' + mensaje.val();
-
-                        //show the loading sign
-                        $('.loading').show();
-
-                        //start the ajax
-                        $.ajax({
-                            //this is the php file that processes the data and sends email
-                            url: "libs/process-servicios.php",
-
-                            //GET method is used
-                            type: "GET",
-
-                            //pass the data
-                            data: data,
-
-                            //Do not cache the page
-                            cache: false,
-
-                            //success
-                            success: function (html) {
-                            //if process.php returned 1/true (send mail success)
-                                if (html==1) {
-                                //hide the form
-                                $('.f-contact-form').fadeOut('slow');
-
-                                //show the success message
-
-                                setTimeout(function(){
-                                  $(".done-message").addClass("done-message-success");
-                                }, 1500);
-
-                                //if process.php returned 0/false (send mail failed)
-                                } else alert('Sorry, unexpected error. Please try again later.');
-                            }
-                        });
-
-                        //cancel the submit button default behaviours
-                        return false;
-                    });
-                }
-              });
-            </script>      
+            </script>     
 
     </body>
 </html>

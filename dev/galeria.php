@@ -11,7 +11,8 @@
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
         <title>DCM Servicios y Consultoría - Cursos de Alturas</title>
-        <meta name="description" content="">
+        <meta name="description" content="DCM - Compañía de Cursos de trabajo seguro en alturas y Servicios en seguridad y salud en el trabajo. Certificados de cursos de alturas, portafolio de servicios para empresas industriales, ambientales y en seguridad en el trabajo. Ubicados en Antioquia">
+        <link rel="shortcut icon" href="img/favicon.ico">
         <!-- AOS css -->
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <!-- Fontawesome -->

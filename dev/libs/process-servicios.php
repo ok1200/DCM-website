@@ -3,10 +3,12 @@
 //Retrieve form data. 
 //GET - user submitted data using AJAX
 //POST - in case user does not support javascript, we'll use POST instead
-$mensaje = ($_GET['mensaje']) ?$_GET['mensaje'] : $_POST['mensaje'];
+$servicio = ($_GET['servicio']) ?$_GET['servicio'] : $_POST['servicio'];
 $nombre = ($_GET['nombre']) ? $_GET['nombre'] : $_POST['nombre'];
 $email = ($_GET['email']) ?$_GET['email'] : $_POST['email'];
+$empresa = ($_GET['empresa']) ?$_GET['empresa'] : $_POST['empresa'];
 $telefono = ($_GET['telefono']) ? $_GET['telefono'] : $_POST['telefono'];
+$mensaje = ($_GET['mensaje']) ?$_GET['mensaje'] : $_POST['mensaje'];
 
 
 
@@ -17,6 +19,7 @@ $telefono = stripslashes($telefono);
 if ($_POST) $post=1;
 
 //Simple server side validation for POST data, of course, you should validate the email
+if (!$servicio) $errors[count($errors)] = 'Por favor ingresa el servicio.';
 if (!$nombre) $errors[count($errors)] = 'Por favor ingresa tu nombre.';
 if (!$telefono) $errors[count($errors)] = 'Por favor ingresa tu teléfono.';
 if (!$email) $errors[count($errors)] = 'Por favor ingresa tu email.';
@@ -43,9 +46,11 @@ if (!$errors) {
 		<th style="font-size:24px">Nueva Consulta de Servicios - DCM</th>
 	</table>
 	<table>
+		<tr><td>Servicio Consultado</td><td></td><td>' . $servicio . '</td></tr>
 		<tr><td>Nombre</td><td></td><td>' . $nombre . '</td></tr>
-		<tr><td>Teléfono</td><td></td><td>' . $telefono . '</td></tr>
 		<tr><td>Email</td><td></td><td>' . $email . '</td></tr>
+		<tr><td>Teléfono</td><td></td><td>' . $telefono . '</td></tr>
+		<tr><td>Empresa</td><td></td><td>' . $empresa . '</td></tr>
 		<tr><td>mensaje</td><td></td><td>' . $mensaje . '</td></tr>
 	</table>
 	</body>

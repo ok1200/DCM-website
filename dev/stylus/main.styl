@@ -26,6 +26,10 @@ Grey_500 =  #323A47
 body
 	p
 		font-family Rubik
+		
+.body-no-scroll
+	overflow-y hidden
+	position fixed
 
 .Header
 	background Gradient_Blue
@@ -122,13 +126,12 @@ body
 	width 140px
 	transition 1s ease
 
-.dropdown-menu.show
-	display none
+.contacto_btn
+	margin-top 2em
 
 .nav-item.dropdown
 	&:hover
 		.dropdown-menu
-			display block
 			top 95%
 	
 
@@ -245,19 +248,34 @@ body
 	left -42%
 
 .Slide
+	position relative
+	z-index 0
+	
+.Slide-1
 	background-image url("../img/Slider-1.jpg")
 	background-position center
 	background-size cover
 	background-repeat no-repeat
-	position relative
-	z-index 0
+	
+.Slide-2
+	background-image url("../img/Slider-2.jpg")
+	background-position center
+	background-size cover
+	background-repeat no-repeat
+	
+.Slide-3
+	background-image url("../img/Slider-3.jpg")
+	background-position center
+	background-size cover
+	background-repeat no-repeat
 
 .Row_slide-home
 	margin 0
 	
 .Contenido_slide-home
-	padding 160px 120px
+	padding 150px 120px
 	padding-bottom 150px
+	min-height 600px
 	position relative
 	&:before
 		content ""
@@ -269,7 +287,7 @@ body
 		display block
 		background Gradient_Blue
 		z-index -1
-		opacity .9
+		opacity .97
 
 .flex-control-paging
 	li
@@ -413,10 +431,9 @@ body
 	width 100%
 	bottom 20%
 	font-size 20px
+	font-weight 600
 	left 0
 	text-align center
-	opacity 0
-	display none
 	transition all 3s
 	transition-delay 2s
 	
@@ -1712,7 +1729,6 @@ body
 	
 	.Andamio
 		height 500px
-		background-position 0 -860px
 		background-size cover
 	
 	.carousel-item
@@ -1741,9 +1757,14 @@ body
 		text-align center
 		margin-bottom 15px
 		min-height 150px
+		
+	.Certificado_col-img
+		margin-top 40px
 	
 	.Titulo
 		font-size 28px
+		line-height 40px
+		margin-bottom 60px
 	
 	.Portafolio_img
 		margin-bottom 30px
@@ -1816,6 +1837,14 @@ body
 		justify-content center
 	
 @media (max-width: 767.98px)
+
+	.certificado-button-top
+		display none !important
+			
+	.certificado-footer
+		margin-top 40px
+		text-align center
+
 	.Header
 		&:before
 			top 350px
@@ -1853,14 +1882,18 @@ body
 		.Conjunto_1
 			padding-top 97px
 	
+	.Footer_menu-col
+		text-align center
+	
 	.Hamburguer_icon
+		position relative
 		display block
 		border 4px solid Blue_200
 		width 45px
 		height 45px
 		border-radius 50%
 		overflow hidden
-		z-index 3
+		z-index 100
 		span
 			display block
 			height 100%
@@ -1887,6 +1920,7 @@ body
 		display inline-block
 		text-align center
 		transition .5s
+		padding-top 60px
 		li
 			margin-bottom 15px
 			margin-top 15px
@@ -1894,23 +1928,32 @@ body
 	
 	.nav.Menu_active
 		left 0
+		overflow-y auto
 	
 	.Nav_visible
 		.nav
 			height 100%
-			width 100%			
+			width 100%
+			padding-top 60px
+			overflow-y auto	
 	
 	.dropdown-menu
-		position relative
+		position relative !important
 		width 100%
 		left 0
 		top 0
+		float none
 		text-align center
+		transform none !important
+		overflow-y auto
+    	overflow-x hidden
+    	
+
 	.Menu_container
 		ul
 			li 
 				.dropdown-item
-					padding 5px
+					padding 12px 5px
 
 	.Certificado_col-img
 		margin-top 40px
@@ -1931,6 +1974,9 @@ body
 		
 	.Nosotros_row-header
 		padding 0 15px
+		
+	.Andamio
+		background-position center
 		
 
 	.Footer_menu
@@ -1967,7 +2013,6 @@ body
 	
 	.Andamio
 		background-position center
-
 		
 
 
@@ -1983,6 +2028,9 @@ body
 	
 	.Contenido_slide-home
 		padding 40px
+		min-height 530px
+		padding 80px 44px
+		padding-bottom 80px
 	
 	.flex-control-nav
 		bottom 0
@@ -2090,3 +2138,11 @@ body
 		
 	.Nosotros_mundo
 		margin-bottom 100px
+		
+
+@media (min-width: 767.99px)
+
+	.nav-item.dropdown
+		&:hover
+			.dropdown-menu
+				display block

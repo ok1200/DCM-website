@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -11,7 +11,8 @@
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
         <title>DCM Servicios y Consultoría - Cursos de Alturas</title>
-        <meta name="description" content="">
+        <meta name="description" content="DCM es una empresa que ofrece soluciones en sistemas de gestión de la seguridad y salud en el trabajo, además ofrece cursos de trabajo seguro en alturas. Cuenta con centros de entrenamientos avalados y certificados por entidades nacionales.">
+        <link rel="shortcut icon" href="img/favicon.ico">
         <!-- AOS css -->
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <!-- Fontawesome -->
@@ -36,7 +37,7 @@
                   <div class="col-xl-5 col-lg-7 col-md-10 col-12 Subconjunto_2 Nosotros_col-header" data-aos="fade-right">
                    <h1 class="Titulo-slider_header">SOMOS DCM, EXPERTOS EN CURSOS DE ALTURAS</h1>
                    <p class="Conjunto_2-description">Somos una empresa que ofrece soluciones en sistemas de gestión de la seguridad y salud en el trabajo</p>
-                   <a href="Contacto.html" class="Button Button__Register">Contáctanos ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                   <a href="contacto.php" class="Button Button__Register">Contáctanos ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                     
                   </div>
                   <div class="col-lg-4 col-md-6 offset-0 offset-lg-1 offset-xl-3 Constructor Nosotros_mundo" data-aos="fade-left">
@@ -83,15 +84,28 @@
                 <h2 class="Titulo Portafolio_titulo">Marco legal</h2>
                 <p class="Certificado__parrafo Portafolio__parrafo">Desarrollamos diferentes procesos de servicios en entrenamiento, entre ellos trabajo seguro en alturas en centros de entrenamiento avalados y certificados por entidades nacionales de acuerdo a la <span class="Marco_resolucion-title">Resolución 2578 del 2012.</span></p>
                 <p class="Certificado__parrafo Portafolio__parrafo">Cuenta con Resolución de autorización por la cual se autoriza la empresa DCM SERVICIOS Y CONSULTORIA, para orientar formación en trabajo seguro en alturas.</p>
-                <a href="" class="Certificado_link Button Button_resolucion" target="_blank">Descargar resolución
+                <!-- <a href="" class="Certificado_link Button Button_resolucion" target="_blank">Descargar resolución
                   <i class="fas fa-download Dowload_icon Portafolio_icon" aria-hidden="true"></i>
-                </a>                
+                </a> -->                
                 
               </section>
             </article>
           </div>
         </div> 
-        <!-- Marco legal! --> 
+        <!-- Marco legal! -->
+
+
+        <!-- Frases! --> 
+        <div class="Frases">
+          <div class="container" data-aos="zoom-out-left">
+            <div class="row Frase_container">
+              <section class="col-9 Frase_text">
+                <h3>Ofrecemos soluciones integrales para la Industria en general, generando experiencias emocionales memorables a nuestros clientes.</h3>
+              </section>
+            </div>
+          </div>
+        </div>
+        <!-- Frases! --> 
 
         <!-- Valores! --> 
         <div class="Valores">
@@ -130,21 +144,10 @@
           </div>
         </div>
         <!-- Valores! --> 
+ 
 
-                <!-- Frases! --> 
-        <div class="Frases">
-          <div class="container" data-aos="zoom-out-left">
-            <div class="row Frase_container">
-              <section class="col-9 Frase_text">
-                <h3>Ofrecemos soluciones integrales para la Industria en general, generando experiencias emocionales memorables a nuestros clientes.</h3>
-              </section>
-            </div>
-          </div>
-        </div>
-        <!-- Frases! --> 
-
-        <!-- Equipo! --> 
-        <div class="Equipo">
+        
+        <!-- <div class="Equipo">
           <div class="container">
             <h2 class="Titulo Equipo_title" data-aos="fade-in">Nuestro Equipo</h2>            
             <article class="row Row-equipo">
@@ -165,8 +168,8 @@
               </section>
             </article>
           </div>
-        </div>
-        <!-- Equipo! --> 
+        </div> -->
+      
 
 
 

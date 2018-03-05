@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -12,6 +12,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
         <title>Buscar Certificado</title>
         <meta name="description" content="Curso Avanzado en Trabajo Seguro en Alturas, en Antioquia para trabajadores que realicen trabajo en alturas con riesgo de caída y que realice desplazamientos horizontales, verticales y la técnica de suspensión,  con una duración de 40 horas.">
+        <link rel="shortcut icon" href="img/favicon.ico">
         <!-- AOS css -->
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <!-- Fontawesome -->

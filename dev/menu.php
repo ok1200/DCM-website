@@ -5,7 +5,7 @@
             <i class="fab fa-whatsapp WhatsApp-icon" aria-hidden="true"></i> 313 689 3524
         </a>
     </address>
-    <a href="certificado.php" class="Certificado_link Button" target="_blank">Descargar certificado
+    <a href="certificado.php" class="Certificado_link Button certificado-button-top" target="_blank">Descargar certificado
       <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
     </a>
 

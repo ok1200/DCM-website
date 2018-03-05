@@ -3,11 +3,20 @@
 //Retrieve form data. 
 //GET - user submitted data using AJAX
 //POST - in case user does not support javascript, we'll use POST instead
-$curso = ($_GET['curso']) ?$_GET['curso'] : $_POST['curso'];
-$nombre = ($_GET['nombre']) ? $_GET['nombre'] : $_POST['nombre'];
-$email = ($_GET['email']) ?$_GET['email'] : $_POST['email'];
-$telefono = ($_GET['telefono']) ? $_GET['telefono'] : $_POST['telefono'];
+if (isset($_GET['curso'])) {
+    $curso = ($_GET['curso']) ?$_GET['curso'] : $_POST['curso'];
+}
+if (isset($_GET['nombre'])) {
+    $nombre = ($_GET['nombre']) ?$_GET['nombre'] : $_POST['nombre'];
+}
+if (isset($_GET['email'])) {
+    $email = ($_GET['email']) ?$_GET['email'] : $_POST['email'];
+}
+if (isset($_GET['telefono'])) {
+    $telefono = ($_GET['telefono']) ?$_GET['telefono'] : $_POST['telefono'];
+}
 
+$errors = "";
 
 
 $nombre = stripslashes($nombre);
@@ -70,10 +79,9 @@ if (!$errors) {
 } else {
 	//display the errors message
 	for ($i=0; $i<count($errors); $i++) echo $errors[$i] . '<br/>';
-	echo '<a href="../basico-administrativo.php">Back</a>';
+	echo '<a href="../index.php">Back</a>';
 	exit;
 }
-
 
 //Simple mail function with HTML header
 function sendmail($to, $subject, $message, $from) {

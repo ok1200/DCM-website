@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -11,8 +11,8 @@
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
         <title>Trabajo seguro en alturas - DCM</title>
-        <link rel="shortcut icon" href="img/Favicon.jpeg">
         <meta name="description" content="DCM - Compañía de Cursos de trabajo seguro en alturas y Servicios en seguridad y salud en el trabajo. Certificados de cursos de alturas, portafolio de servicios para empresas industriales, ambientales y en seguridad en el trabajo. Ubicados en Antioquia">
+        <link rel="shortcut icon" href="img/favicon.ico">
         <!-- AOS css -->
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <!-- Fontawesome -->
@@ -42,21 +42,20 @@
                        <h2 class="Titulo Titulo-slider_header">TRABAJO SEGURO EN ALTURAS</h2>
                        <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
                        Conoce nuestros cursos de capacitación</p>
-                       <a href="" class="Button Button__Register">Registrarme ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>                        
+                       <a href="contacto.php" class="Button Button__Register">Registrarme ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>                        
                       </div>
                     </div>                    
                   </li>
                   <li class="Slide Slide-2">
                     <div class="row Conjunto_2 Row_slide-home">
                       <div class="col-xl-5 col-md-8 col-12 Subconjunto_2 Contenido_slide-home">
-                       <h2 class="Titulo Titulo-slider_header">TRABAJO SEGURO EN ALTURAS</h2>
-                       <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
-                       Conoce nuestros cursos de capacitación</p>
-                       <a href="" class="Button Button__Register">Registrarme ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>                        
+                       <h2 class="Titulo Titulo-slider_header">ASESORÍA EN SEGURIDAD Y SALUD EN EL TRABAJO</h2>
+                       <p class="Conjunto_2-description">Contamos con profesionales altamente calificados para la consultoría SG-SST</p>
+                       <a href="asesoria-seguridad-y-salud-trabajo.php" class="Button Button__Register">Consultar servicio<i class="fa fa-arrow-right" aria-hidden="true"></i></a>                        
                       </div>
                     </div>                    
                   </li> 
-                  <li class="Slide Slide-3">
+                  <!-- <li class="Slide Slide-3">
                     <div class="row Conjunto_2 Row_slide-home">
                       <div class="col-xl-5 col-md-8 col-12 Subconjunto_2 Contenido_slide-home">
                        <h2 class="Titulo Titulo-slider_header">TRABAJO SEGURO EN ALTURAS</h2>
@@ -65,7 +64,7 @@
                        <a href="" class="Button Button__Register">Registrarme ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>                        
                       </div>
                     </div>                    
-                  </li>                                                                        
+                  </li> -->                                                                        
                 </ul>
               </div>
               <!-- Artículo header -->
@@ -81,11 +80,8 @@
                     <img class="card-img-top" src="img/curso-1.png" alt="Básico administrativo en trabajo seguro en alturas - DCM">
                     <div class="card-body">
                       <h4 class="card-title">BÁSICO ADMINISTRATIVO</h4>
-                      <p class="card-text">Para personas que toman decisiones
-                        administrativas en relación con el
-                        trabajo seguro en alturas
-                      </p>
-                      <a href="Basico-Administrativo.html" class="Button Cursos_btn">Entrar</a>
+                      <p class="card-text">Para personas que toman decisiones administrativas en relación con el trabajo seguro en alturas</p>
+                      <a href="basico-administrativo.php" class="Button Cursos_btn">Entrar</a>
                     </div>
                   </div> 
               </article>
@@ -94,11 +90,8 @@
                     <img class="card-img-top" src="img/curso-2.png" alt="Básico operativo en trabajo seguro en alturas - DCM">
                     <div class="card-body">
                       <h4 class="card-title">BÁSICO<br> OPERATIVO</h4>
-                      <p class="card-text">Para personas que toman decisiones
-                        administrativas en relación con el
-                        trabajo seguro en alturas
-                      </p>
-                      <a href="#" class="Button Cursos_btn">Entrar</a>
+                      <p class="card-text">Diseñado para trabajadores con riesgo de caída que deban utilizar un sistema de acceso seguro.</p>
+                      <a href="basico-operativo.php" class="Button Cursos_btn">Entrar</a>
                     </div>
                   </div> 
               </article>
@@ -107,11 +100,8 @@
                     <img class="card-img-top" src="img/curso-3.png" alt="Avanzado en trabajo seguro en alturas - DCM">
                     <div class="card-body">
                       <h4 class="card-title">AVANZADO</h4>
-                      <p class="card-text">Para personas que toman decisiones
-                        administrativas en relación con el
-                        trabajo seguro en alturas
-                      </p>
-                      <a href="#" class="Button Cursos_btn">Entrar</a>
+                      <p class="card-text">Para trabajadores con riesgo de caída que realice desplazamientos por las estructuras incluida la suspensión.</p>
+                      <a href="avanzado.php" class="Button Cursos_btn">Entrar</a>
                     </div>
                   </div> 
               </article>
@@ -120,11 +110,8 @@
                   <img class="card-img-top" src="img/curso-4.png" alt="Reentrenamiento en trabajo seguro en alturas - DCM">
                   <div class="card-body">
                     <h4 class="card-title">REENTRENAMIENTO</h4>
-                    <p class="card-text">Para personas que toman decisiones
-                      administrativas en relación con el
-                      trabajo seguro en alturas
-                    </p>
-                    <a href="#" class="Button Cursos_btn">Entrar</a>
+                    <p class="card-text">Proceso anual obligatorio de actualización de conocimientos y entrenamiento.</p>
+                    <a href="reentrenamiento.php" class="Button Cursos_btn">Entrar</a>
                   </div>
                 </div>        
               </article>
@@ -133,11 +120,8 @@
                   <img class="card-img-top" src="img/curso-5.png" alt="Coordinador de trabajo seguro en alturas - DCM">
                   <div class="card-body">
                     <h4 class="card-title">COORDINADOR</h4>
-                    <p class="card-text">Para personas que toman decisiones
-                      administrativas en relación con el
-                      trabajo seguro en alturas
-                    </p>
-                    <a href="#" class="Button Cursos_btn">Entrar</a>
+                    <p class="card-text">Persona capaz de identificar riesgos y correspondiente para ser el emisor de los permisos de trabajo en alturas.</p>
+                    <a href="coordinador.php" class="Button Cursos_btn">Entrar</a>
                   </div>
                 </div>                
               </article>
@@ -146,11 +130,8 @@
                   <img class="card-img-top" src="img/curso-6.png" alt="Armado y desarmado de andamios en trabajo seguro en alturas - DCM">
                   <div class="card-body">
                     <h4 class="card-title">ARMADO Y DESARMADO DE ANDAMIOS</h4>
-                    <p class="card-text">Para personas que toman decisiones
-                      administrativas en relación con el
-                      trabajo seguro en alturas
-                    </p>
-                    <a href="#" class="Button Cursos_btn">Entrar</a>
+                    <p class="card-text">Para las personas que realicen los procesos de armado y desarmado de los andamios en la empresas.</p>
+                    <a href="armado-andamios.php" class="Button Cursos_btn">Entrar</a>
                   </div>
                 </div>                
               </article>                                      
@@ -168,7 +149,7 @@
                 <h2 class="Titulo Titulo__instalaciones">Nuestras instalaciones</h2>
                 <p>Contamos con un <span>centro de entrenamiento avalado</span>  y certificado por entidades nacionales de acuerdo a la Resolución 2578 del 2012.</p>
                 <p>Cuenta con resolución de autorización por la cual se autoriza la empresa DCM SERVICIOS Y CONSULTORIA, para orientar formación en trabajo seguro en alturas.</p>
-                <a href="#" class="Button Instalaciones_btn">Ver más</a>
+                <!-- <a href="#" class="Button Instalaciones_btn">Ver más</a> -->
               </div>
             </article>
         </section> 
@@ -272,18 +253,17 @@
         <div class="Certificado">
           <div class="container">
             <article class="row Certificado__articulo">
-              <section class="col-md-5 col-10" data-aos="fade-left">
+              <section class="col-md-5 col-12" data-aos="fade-left">
                 <h2 class="Titulo Certificado__Titulo">Valida y descarga tu Certificado Online</h2>
                 <i class="fa fa-arrow-right Certificado__Arrow-2" aria-hidden="true"></i>
                 <p class="Certificado__parrafo">Ingresa a nuestro sistema de validación de Certificados Online, y podrás descargar tu certificado en formato PDF.</p>
-                <a href="http://localhost/xampp/Curso%20PHP/Buscador_dcm/" class="Certificado_link Button" target="_blank">Descargar certificado
+                <a href="certificado.php" class="Certificado_link Button" target="_blank">Descargar certificado
                   <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
                 </a>
 
               </section>
-              <section class="col-md-6 col-10 offset-md-1 Certificado_col-img" data-aos="fade-right">
+              <section class="col-md-6 col-12 offset-md-1 Certificado_col-img" data-aos="fade-right">
                 <img src="img/Certificado.png" class="img-fluid Certificado__img" alt="Certificado de cursos en trabajo seguro en alturas  - DCM">
-                
               </section>
             </article>
           </div>

@@ -13,7 +13,7 @@
 	</div>
 
 	<div class="Contacto-info" data-aos="fade-up" data-aos-duration="1700" >
-		<a href="tel:+573124567834" class="Cursos_info mb-0">
+		<a href="tel:+573136893524" class="Cursos_info mb-0">
 			<i class="fas fa-phone Cursos_info-icon"></i>
 			<div class="Cursos_info-description">
 			<p class="Cursos_info-title">LLÁMANOS</p>

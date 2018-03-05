@@ -13,6 +13,7 @@ $(document).ready(function (){
         $(".Hamburguer_icon, Nav_link").click(function(){
             $(".Hamburguer_icon span").toggleClass("Icon_active");
             $(".nav").toggleClass("Menu_active");
+            $("body").toggleClass("body-no-scroll");
          });
 
         //Movimiento background header//
@@ -79,6 +80,13 @@ $(document).ready(function (){
 
             $(".Form_input").click(function(){
                 $(this).removeClass("error");
+            });
+
+            $('body').on('mouseenter mouseleave','.dropdown',function(e){
+              var _d=$(e.target).closest('.dropdown');_d.addClass('show');
+              setTimeout(function(){
+                _d[_d.is(':hover')?'addClass':'removeClass']('show');
+              },300);
             });
 
 })
