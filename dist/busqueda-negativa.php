@@ -2,8 +2,14 @@
 
 
 <div class='Busqueda-negativa mb-5'>
-	<style>.table { display:none;}</style>
-	<style>.Exito-texto { display:none;}</style>
+	
+		<style>
+			.Resultado-positivo_row{
+				overflow: initial;
+			}
+			.Exito-texto { display:none;}
+			.table { display:none;}
+		</style>
 	
 	<div data-aos="fade-up" data-aos-duration="1400">
 		<p class='Display-4 mb-0'>Documento no registrado</p> <i class='far fa-frown'></i>

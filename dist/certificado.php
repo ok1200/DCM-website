@@ -30,7 +30,7 @@
         <!-- Our css -->
         <link rel="stylesheet" href="css/main.css">
     </head>
-  <body>
+  <body class="Body_Certificado">
     <div class="Container-certificado">
       <div class="container">
         <div class="Busqueda-certificado">
@@ -41,7 +41,7 @@
           
         </div>
         <form role="form" method="POST" class="row Busqueda-certificado_row">
-          <div class="col-lg-5 offset-lg-2 col-12">
+          <div class="col-lg-5 offset-lg-2 col-md-8">
             <div class="form-group Busqueda-group">
               <label for="documento" class="Cedula_label">NÚMERO DE CÉDULA</label>
               <input type="text" class="form-control Cedula_input" name="documento" placeholder="Ingrese una identificación" required>
@@ -49,7 +49,7 @@
             </div>
             
           </div>
-          <div class="col-lg-2 col-12">
+          <div class="col-lg-2 col-12 Center-button_certificado">
             <button class="Button Busqueda-certificado_btn" type="submit">Buscar</button>
           </div>    
         </form>
@@ -71,6 +71,15 @@
             $rows = $stmt ->fetchAll(PDO::FETCH_OBJ);
 
             ?>
+                  <style>
+                  @media (max-width: 1400.98px){
+                      .Container-certificado{
+                        height: 100%;
+                        padding: 20px 0;
+                      }                    
+
+                  }
+                  </style>
                   <div class="Exito-texto">
                     <div data-aos="fade-up" data-aos-duration="1400">
                       <p class="Display-4">Consulta Exitosa</p> <i class="far fa-check-circle"></i>
@@ -78,8 +87,8 @@
                     </div>
                   </div>
                 
-                <div class="row">
-                  <div class="col-10 offset-1 pb-5">
+                <div class="row Resultado-positivo_row">
+                  <div class="col-lg-10 offset-lg-1 col-12 pb-5">
                 <table class="table table-dark text-center pb-5" data-aos="fade-up" data-aos-duration="1700">
                   <thead class="Thead">
                     <tr>
