@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://www.example.com/certificado-consulta.html</loc>
+<<<<<<< HEAD
         <lastmod>2018-03-06T21:11:43.791Z</lastmod>
+=======
+        <lastmod>2018-03-08T17:29:45.214Z</lastmod>
+>>>>>>> 2b89b45b6a66b83c4ad698d616e97182817ab715
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
