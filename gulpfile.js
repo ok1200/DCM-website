@@ -8,7 +8,6 @@ var gulp = require('gulp'),
 	uglifycss = require('gulp-uglifycss'),
 	sourcemaps = require('gulp-sourcemaps'),
 	imagemin = require('gulp-imagemin'),
-	sitemap = require('gulp-sitemap'),
 	livereload = require('gulp-livereload'),
 	connect = require('gulp-connect-php'),
     historyApiFallback = require('connect-history-api-fallback');
@@ -85,17 +84,6 @@ gulp.task('Server', function(done) {
   	});
 });
 
-gulp.task('Sitemap', function () {
-    gulp.src('dist/**/*.html')
-        .pipe(sitemap({
-            siteUrl: 'http://www.example.com',
-            changefreq: 'monthly',
-    		priority: 0.5,
-    		lastmod: Date.now()
-        }))
-        .pipe(gulp.dest('./dist'));
-});
-
 gulp.task('Watch', function(){
 	livereload.listen({ basePath: 'dist' });
 	gulp.watch('dev/stylus/*.styl', ['StylusToCSS']);
@@ -108,4 +96,4 @@ gulp.task('Watch', function(){
 	gulp.watch('dist/**/*.html', ['Sitemap']);
 });
 
-gulp.task('default', ['StylusToCSS','MovePhp','MoveMainPhp','CompressCSS','CompressJS','CompressHTML','imageMin','Sitemap','Watch','Server']);
+gulp.task('default', ['StylusToCSS','MovePhp','MoveMainPhp','CompressCSS','CompressJS','CompressHTML','imageMin','Watch','Server']);
