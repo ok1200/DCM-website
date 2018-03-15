@@ -15,7 +15,7 @@
     <div class="container-fluid Menu_container">
         <nav class="container Menu">
               <a class="navbar-brand Logo" href="index.php">
-                <img src="img/DCM-Logo.png" class="Logo_img" alt="DCM logotipo - trabajo seguro en alturas">
+                <img src="img/DCM-Logotipo@2x.png" class="Logo_img" alt="DCM logotipo - trabajo seguro en alturas">
               </a>
                 <div class="Hamburguer_icon">
                   <span><i class="fa fa-bars" aria-hidden="true"></i></span>

@@ -2,7 +2,7 @@
 
 <div class="Footer">
   <footer class="container Footer_flex">
-    <img src="img/DCM-Logo-Blanco.png" class="Footer_logo" data-aos="fade-down" alt="logo">
+    <img src="img/DCM-Logotipo-Blanco@2x.png" class="Footer_logo" data-aos="fade-down" alt="logo">
     <section class="Footer_redes" data-aos="fade-up">
       <a href="https://www.facebook.com/sstdcm/" target="_blank" class="Footer_link Footer_facebook hvr-float"><i class="fab fa-facebook-square"></i></a>
       <a href="" target="_blank" class="Footer_link Footer_linkedin hvr-float"><i class="fab fa-linkedin "></i></a>
@@ -33,7 +33,6 @@
       </section>
       <section class="col-md-5 col-12 offset-xl-3 offset-md-2 certificado-footer" data-aos="fade-left">
           <h2 class="Titulo Certificado__Titulo">Valida y descarga tu Certificado Online</h2>
-          <i class="fa fa-arrow-right Certificado__Arrow-2" aria-hidden="true"></i>
           <p class="Certificado__parrafo">Ingresa a nuestro sistema de validación de Certificados Online, y podrás descargar tu certificado en formato PDF.</p>
           <a href="certificado.php" class="Certificado_link Button" target="_blank">Validar certificado
             <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>

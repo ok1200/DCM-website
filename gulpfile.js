@@ -93,7 +93,6 @@ gulp.task('Watch', function(){
 	gulp.watch('dev/js/*.js', ['CompressJS']);
 	gulp.watch('dev/*.html', ['CompressHTML']);
 	gulp.watch('dev/img/*.*', ['imageMin']);
-	gulp.watch('dist/**/*.html', ['Sitemap']);
 });
 
 gulp.task('default', ['StylusToCSS','MovePhp','MoveMainPhp','CompressCSS','CompressJS','CompressHTML','imageMin','Watch','Server']);
