@@ -35,7 +35,6 @@
           <h2 class="Titulo Certificado__Titulo">Valida y descarga tu Certificado Online</h2>
           <p class="Certificado__parrafo">Ingresa a nuestro sistema de validación de Certificados Online, y podrás descargar tu certificado en formato PDF.</p>
           <a href="certificado.php" class="Certificado_link Button" target="_blank">Validar certificado
-            <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
           </a>
       </section>              
     </div>

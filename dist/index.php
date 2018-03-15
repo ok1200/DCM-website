@@ -277,7 +277,6 @@
                 <i class="fa fa-arrow-right Certificado__Arrow-2" aria-hidden="true"></i>
                 <p class="Certificado__parrafo">Ingresa a nuestro sistema de validación de Certificados Online, y podrás descargar tu certificado en formato PDF.</p>
                 <a href="certificado.php" class="Certificado_link Button" target="_blank">Validar certificado
-                  <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
                 </a>
 
               </section>
@@ -300,7 +299,6 @@
                 <h2 class="Titulo Portafolio_titulo">Conoce nuestro<br> portafolio de servicios</h2>
                 <p class="Certificado__parrafo Portafolio__parrafo">Somos una empresa que ofrece soluciones en sistemas de gestión de la seguridad y salud en el trabajo generando experiencias emocionales memorables a nuestros clientes.</p>
                 <a href="" class="Certificado_link Button" target="_blank">Descargar portafolio
-                  <i class="fas fa-download Dowload_icon Portafolio_icon" aria-hidden="true"></i>
                 </a>                
                 
               </section>

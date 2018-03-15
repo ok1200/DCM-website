@@ -66,7 +66,6 @@
               </li>
               <li class="d-block">    
                 <a href="certificado.php" class="Certificado_link Button certificado-button-top" target="_blank">Validar certificado
-                  <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
                 </a>  
               </li>                                      
             </ul>
