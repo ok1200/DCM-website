@@ -23,7 +23,7 @@
               <option <?php if ($servicio == 9 ) echo 'selected' ;?> value="Inspeccion-de-Equipos-de-Alturas" >INSPECCIÓN DE EQUIPO DE ALTURAS</option>
               <option <?php if ($servicio == 10 ) echo 'selected' ;?> value="Plan-Seguridad-Vial" >PLAN SEGURIDAD VIAL</option>
               <option <?php if ($servicio == 11 ) echo 'selected' ;?> value="Asesoria-Seguridad-y-Salud-en-el-Trabajo" >ASESORÍA SEGURIDAD Y SALUD EN EL TRABAJO</option>
-              <option <?php if ($servicio == 12 ) echo 'selected' ;?> value="Sistema-Seguridad-y-Salud-en-el-Trabajo" >SISTEMA SEGURIDAD Y SALUD EN EL TRABAJO</option>
+              <option <?php if ($servicio == 12 ) echo 'selected' ;?> value="Sistema-Seguridad-y-Salud-en-el-Trabajo" >Diseño y Ejecución del Sistema de Seguridad y Salud en el Trabajo (SG-SST)</option>
 
             </select>    
 

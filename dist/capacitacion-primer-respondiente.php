@@ -48,20 +48,21 @@
                           </section>  
                           <p class="Page_cursos-description">La capacitación del primer respondiente presenta los conocimientos básicos que se deben tener en cuenta para responder adecuadamente como primer contacto ante una urgencia o emergencia, mientras los servicios de salud arriban al lugar de los hechos.</p>
                           <p class="Page_cursos-description">Está comprobado que de la ayuda que se preste en los primeros minutos, depende en gran parte el pronóstico y la evolución de una persona lesionada, herida o afectada por una enfermedad.</p>
-                          <a href="tel:+573136893524" class="Cursos_info">
-                            <i class="fas fa-phone Cursos_info-icon"></i>
-                            <div class="Cursos_info-description">
-                              <p class="Cursos_info-title">LLÁMANOS</p>
-                              <small class="Cursos_info-duration">313 689 3524</small> 
-                            </div>
-                          </a>
-                            <a href="mailto:info@dcmservicios.com" class="Cursos_info">
+
+                            <a href="tel:+573235816956" class="Cursos_info">
+                              <i class="fas fa-phone Cursos_info-icon"></i>
+                              <div class="Cursos_info-description">
+                                <p class="Cursos_info-title">LLÁMANOS</p>
+                                <small class="Cursos_info-duration">323 581 6956 - 531 4404</small> 
+                              </div>
+                            </a>
+                            <a href="mailto:contacto@dcmservicios.com" class="Cursos_info">
                               <i class="fas fa-comments Cursos_info-icon"></i>
                               <div class="Cursos_info-description Cursos_info-description-2">
                                 <p class="Cursos_info-title">CONTÁCTANOS</p>
-                                <small class="Cursos_info-duration">info@dcmservicios.com</small> 
+                                <small class="Cursos_info-duration">contacto@dcmservicios.com</small> 
                               </div>
-                            </a>                                                                                            
+                            </a>                                                                                             
                     </div>
                     <!--Formulario -->
                     <div id="Form" class="col-xl-4 col-lg-5 col-md-8 col-12 offset-xl-1 Form Constructor Page_cursos_form">

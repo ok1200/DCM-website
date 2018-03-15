@@ -1,15 +1,12 @@
 <!-- Conjunto 1 -->
-<div class="Conjunto_1 container" data-aos="fade-down">
-    <address class="mb-0">
-        <a href="https://api.whatsapp.com/send?phone=573136893524" target="_blank" class="Contact_tel">
-            <i class="fab fa-whatsapp WhatsApp-icon" aria-hidden="true"></i> 313 689 3524
+    <address class="Whatsapp_buton" data-aos="fade-down">
+        <a href="https://web.whatsapp.com/send?phone=573235816956" target="_blank" class="Contact_tel d-none d-lg-block">
+            <img src="img/Whatsapp.png" alt="Whatsapp logo" class="WhatsApp-icon">
         </a>
+        <a href="https://api.whatsapp.com/send?phone=573235816956" target="_blank" class="Contact_tel d-lg-none">
+            <img src="img/Whatsapp.png" alt="Whatsapp logo" class="WhatsApp-icon">
+        </a>               
     </address>
-    <a href="certificado.php" class="Certificado_link Button certificado-button-top" target="_blank">Descargar certificado
-      <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
-    </a>
-
-</div>
  <!-- Conjunto 1 -->
 
 <!-- Menu -->
@@ -54,8 +51,8 @@
                       <a class="dropdown-item" href="investigacion-accidentes-de-trabajo.php">Investigación de Accidentes de Trabajo</a>
                       <a class="dropdown-item" href="inspeccion-equipos-altura.php">Inspección de Equipos de Alturas</a>
                       <a class="dropdown-item" href="plan-seguridad-vial.php">Plan Seguridad Vial</a>
-                      <a class="dropdown-item" href="asesoria-seguridad-y-salud-trabajo.php">Asesoría Seguridad y Salud en el Trabajo</a>
-                      <a class="dropdown-item" href="sistema-seguridad-y-salud-trabajo.php">Sistema Seguridad y Salud en el Trabajo</a>
+                      <a class="dropdown-item" href="asesoria-seguridad-y-salud-trabajo.php">Asesoría en Seguridad y Salud en el Trabajo</a>
+                      <a class="dropdown-item" href="sistema-seguridad-y-salud-trabajo.php">Diseño y Ejecución del Sistema<br> de Seguridad y Salud en el Trabajo (SG-SST)</a>
                     </div>
                 </li>
               <li class="nav-item <?php echo ($page == "nosotros" ? "active" : "")?>">
@@ -66,8 +63,13 @@
               </li>
               <li class="nav-item <?php echo ($page == "contacto" ? "active" : "")?>">
                 <a class="nav-link" href="contacto.php">CONTACTO</a>
-              </li>                          
-            </ul>                      
+              </li>
+              <li class="d-block">    
+                <a href="certificado.php" class="Certificado_link Button certificado-button-top" target="_blank">Validar certificado
+                  <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
+                </a>  
+              </li>                                      
+            </ul>
         </nav>
     </div>
   </div>

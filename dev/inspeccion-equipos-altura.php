@@ -47,20 +47,21 @@
                             <h1 class="Titulo Page_servicios_title">Servicio Inspección de Equipos de Alturas</h1>
                           </section>  
                           <p class="Page_cursos-description">Capacitación a coordinadores y personal administrativo en el cumplimiento de la Resolución colombiana 1409 de 2012 que menciona que todo equipo o sistema de protección contra caídas deberá ser inspeccionado previo al uso por el trabajador, y como mínimo una vez al año por intermedio de una persona o equipo de personas avaladas por el fabricante y/o calificadas según corresponda.</p>
-                          <a href="tel:+573136893524" class="Cursos_info">
-                            <i class="fas fa-phone Cursos_info-icon"></i>
-                            <div class="Cursos_info-description">
-                              <p class="Cursos_info-title">LLÁMANOS</p>
-                              <small class="Cursos_info-duration">313 689 3524</small> 
-                            </div>
-                          </a>
-                            <a href="mailto:info@dcmservicios.com" class="Cursos_info">
+
+                            <a href="tel:+573235816956" class="Cursos_info">
+                              <i class="fas fa-phone Cursos_info-icon"></i>
+                              <div class="Cursos_info-description">
+                                <p class="Cursos_info-title">LLÁMANOS</p>
+                                <small class="Cursos_info-duration">323 581 6956 - 531 4404</small> 
+                              </div>
+                            </a>
+                            <a href="mailto:contacto@dcmservicios.com" class="Cursos_info">
                               <i class="fas fa-comments Cursos_info-icon"></i>
                               <div class="Cursos_info-description Cursos_info-description-2">
                                 <p class="Cursos_info-title">CONTÁCTANOS</p>
-                                <small class="Cursos_info-duration">info@dcmservicios.com</small> 
+                                <small class="Cursos_info-duration">contacto@dcmservicios.com</small> 
                               </div>
-                            </a>                                                                                          
+                            </a>                                                                                           
                     </div>
                     <!--Formulario -->
                     <div id="Form" class="col-xl-4 col-lg-5 col-md-8 col-12 offset-xl-1 Form Constructor Page_cursos_form">

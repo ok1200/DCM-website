@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -52,46 +51,45 @@
                           <p class="Page_cursos-requisitos">Requisitos</p>
                           <ol class="Page_cursos-requisitos--list">
                             <li class="Page_cursos-requisito"><i class="fas fa-chevron-right Requisito-icon"></i>Afiliación vigente a seguridad social</li>
-                            <li class="Page_cursos-requisito"><i class="fas fa-chevron-right Requisito-icon Page_cursos-requisito2"></i>Certificación médica de aptitud para realizar trabajo en alturas</li>
-                            <li class="Page_cursos-requisito"><i class="fas fa-chevron-right Requisito-icon Page_cursos-requisito2"></i>Superar el nivel medio definido por la empresa</li>                            
+                            <li class="Page_cursos-requisito"><i class="fas fa-chevron-right Requisito-icon Page_cursos-requisito2"></i>Certificación médica de aptitud para realizar trabajo en alturas</li>                          
                             <li class="Page_cursos-requisito"><i class="fas fa-chevron-right Requisito-icon Page_cursos-requisito2"></i>Fotocopia del documento de identidad</li>                            
                           </ol>
                           
                           
                           <div class="Cursos_info-1">
                             <div class="Cursos_info-description">
-                              <p class="Cursos_info-title-1">Sede 1</p>
+                              <p class="Cursos_info-title-1"> <i class="fas fa-map-marker-alt Contacto-icon_title"></i>Sede 1</p>
                               <small class="Cursos_info-duration-1">Rionegro, Ant.</small> 
                             </div>
                           </div>
                           <div class="Cursos_info-1">
                             <div class="Cursos_info-description">
-                              <p class="Cursos_info-title-1">Sede 2</p>
+                              <p class="Cursos_info-title-1"> <i class="fas fa-map-marker-alt Contacto-icon_title"></i>Sede 2</p>
                               <small class="Cursos_info-duration-1">Puerto Berrío, Ant.</small> 
                             </div>
                           </div>                                                                                                                     
                           <div class="Cursos_info-1">
                             <div class="Cursos_info-description">
-                              <p class="Cursos_info-title-1">Duración</p>
+                              <p class="Cursos_info-title-1"> <i class="fas fa-stopwatch Contacto-icon_title"></i>Duración</p>
                               <small class="Cursos_info-duration-1">40 Horas</small> 
                             </div>
                           </div>
                           <div class="Contacto-info">
-                            <a href="tel:+573136893524" class="Cursos_info">
+                            <a href="tel:+573235816956" class="Cursos_info">
                               <i class="fas fa-phone Cursos_info-icon"></i>
                               <div class="Cursos_info-description">
                                 <p class="Cursos_info-title">LLÁMANOS</p>
-                                <small class="Cursos_info-duration">313 689 3524</small> 
+                                <small class="Cursos_info-duration">323 581 6956 - 531 4404</small> 
                               </div>
                             </a>
-                            <a href="mailto:info@dcmservicios.com" class="Cursos_info">
+                            <a href="mailto:contacto@dcmservicios.com" class="Cursos_info">
                               <i class="fas fa-comments Cursos_info-icon"></i>
                               <div class="Cursos_info-description Cursos_info-description-2">
                                 <p class="Cursos_info-title">CONTÁCTANOS</p>
-                                <small class="Cursos_info-duration">info@dcmservicios.com</small> 
+                                <small class="Cursos_info-duration">contacto@dcmservicios.com</small> 
                               </div>
-                            </a>                             
-                            
+                            </a> 
+                                                       
                           </div>                            
                     </div>
                     <!--Formulario -->

@@ -30,11 +30,13 @@
 
             <small class="Campos-necesarios">*Todos los campos son requeridos</small>
 
-            <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox" required><label for="check" class="Check_label"> Acepto<a href="" target="_blank" class="Check_input Check_input-link">política de tratamiento de datos</a></label>          
+            <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox" required><label for="check" class="Check_label"> Acepto<a href="" target="_blank" class="Check_input Check_input-link">política de tratamiento de datos</a></label> 
+
+
             <div class="text-center">
                 <button id="submit" class="Button Button_form Busqueda-certificado_btn" type="submit">Inscribirme</button>
             </div>
-            
+           
             </form>
             <?php
     }

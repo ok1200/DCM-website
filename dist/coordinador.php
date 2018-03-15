@@ -48,7 +48,7 @@
 
                   <div class="row">
                     <div class="col-lg-7 col-md-12 Page_cursos-col Page_cursos-col-hiden" data-aos="fade-up">
-                          <p class="Page_cursos-description">Persona capaz de identificar riesgos y correspondiente para ser el emisor de los permisos de trabajo en alturas. Solo entidades autorizadas bajo resolución 2578 del 2012 pueden certificar este curso.</p>
+                          <p class="Page_cursos-description">Trabajador designado por el empleador, capaz de identificar peligros en el sitio donde se realiza el trabajo en alturas que tiene su autorización para aplicar medidas correctivas  inmediatas para controlar los riesgos asociados a dichos peligros.</p>
                           <p class="Page_cursos-requisitos">Requisitos</p>
 
                            <ol class="Page_cursos-requisitos--list">
@@ -62,37 +62,37 @@
                           
                           <div class="Cursos_info-1">
                             <div class="Cursos_info-description">
-                              <p class="Cursos_info-title-1">Sede 1</p>
+                              <p class="Cursos_info-title-1"> <i class="fas fa-map-marker-alt Contacto-icon_title"></i>Sede 1</p>
                               <small class="Cursos_info-duration-1">Rionegro, Ant.</small> 
                             </div>
                           </div>
                           <div class="Cursos_info-1">
                             <div class="Cursos_info-description">
-                              <p class="Cursos_info-title-1">Sede 2</p>
+                              <p class="Cursos_info-title-1"> <i class="fas fa-map-marker-alt Contacto-icon_title"></i>Sede 2</p>
                               <small class="Cursos_info-duration-1">Puerto Berrío, Ant.</small> 
                             </div>
                           </div>                                                                                                                     
                           <div class="Cursos_info-1">
                             <div class="Cursos_info-description">
-                              <p class="Cursos_info-title-1">Duración</p>
+                              <p class="Cursos_info-title-1"> <i class="fas fa-stopwatch Contacto-icon_title"></i>Duración</p>
                               <small class="Cursos_info-duration-1">80 Horas</small> 
                             </div>
                           </div>
                           <div class="Contacto-info">
-                            <a href="tel:+573136893524" class="Cursos_info">
+                            <a href="tel:+573235816956" class="Cursos_info">
                               <i class="fas fa-phone Cursos_info-icon"></i>
                               <div class="Cursos_info-description">
                                 <p class="Cursos_info-title">LLÁMANOS</p>
-                                <small class="Cursos_info-duration">313 689 3524</small> 
+                                <small class="Cursos_info-duration">323 581 6956 - 531 4404</small> 
                               </div>
                             </a>
-                            <a href="mailto:info@dcmservicios.com" class="Cursos_info">
+                            <a href="mailto:contacto@dcmservicios.com" class="Cursos_info">
                               <i class="fas fa-comments Cursos_info-icon"></i>
                               <div class="Cursos_info-description Cursos_info-description-2">
                                 <p class="Cursos_info-title">CONTÁCTANOS</p>
-                                <small class="Cursos_info-duration">info@dcmservicios.com</small> 
+                                <small class="Cursos_info-duration">contacto@dcmservicios.com</small> 
                               </div>
-                            </a>                             
+                            </a>                            
                             
                           </div>                         
                     </div>

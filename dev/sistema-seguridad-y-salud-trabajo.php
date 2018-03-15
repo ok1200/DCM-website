@@ -47,18 +47,19 @@
                             <h1 class="Titulo Page_servicios_title">Servicio de Diseño y Ejecución del Sistema de Seguridad y Salud en el Trabajo (SG-SST)</h1>
                           </section>  
                           <p class="Page_cursos-description">Actualización e implementación del Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST) el cual consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua y que incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en el trabajo.</p>
-                          <a href="tel:+573136893524" class="Cursos_info">
-                            <i class="fas fa-phone Cursos_info-icon"></i>
-                            <div class="Cursos_info-description">
-                              <p class="Cursos_info-title">LLÁMANOS</p>
-                              <small class="Cursos_info-duration">313 689 3524</small> 
-                            </div>
-                          </a>
-                            <a href="mailto:info@dcmservicios.com" class="Cursos_info">
+
+                            <a href="tel:+573235816956" class="Cursos_info">
+                              <i class="fas fa-phone Cursos_info-icon"></i>
+                              <div class="Cursos_info-description">
+                                <p class="Cursos_info-title">LLÁMANOS</p>
+                                <small class="Cursos_info-duration">323 581 6956 - 531 4404</small> 
+                              </div>
+                            </a>
+                            <a href="mailto:contacto@dcmservicios.com" class="Cursos_info">
                               <i class="fas fa-comments Cursos_info-icon"></i>
                               <div class="Cursos_info-description Cursos_info-description-2">
                                 <p class="Cursos_info-title">CONTÁCTANOS</p>
-                                <small class="Cursos_info-duration">info@dcmservicios.com</small> 
+                                <small class="Cursos_info-duration">contacto@dcmservicios.com</small> 
                               </div>
                             </a>                                                                                         
                     </div>

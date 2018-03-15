@@ -46,12 +46,12 @@
 
     <div class="Curso_slider-item Servicios_slider-item">
       <i class="fas fa-fire-extinguisher Dowload_icon--Service" aria-hidden="true"></i>
-      <a href="asesoria-seguridad-y-salud-trabajo.php" class="Seguridad-salud__Link Seguridad-salud__Link-diseno">Asesoría seguridad y salud en el trabajo</a>
+      <a href="asesoria-seguridad-y-salud-trabajo.php" class="Seguridad-salud__Link Seguridad-salud__Link-diseno">Asesoría en Seguridad y Salud en el Trabajo</a>
     </div>
 
     <div class="Curso_slider-item Servicios_slider-item">
       <i class="fas fa-list-ol Dowload_icon--Service" aria-hidden="true"></i>
-      <a href="sistema-seguridad-y-salud-trabajo.php" class="Seguridad-salud__Link Seguridad-salud__Link-diseno">Diseño y ejecución del sistema de gestión de seguridad y salud en el trabajo</a>
+      <a href="sistema-seguridad-y-salud-trabajo.php" class="Seguridad-salud__Link Seguridad-salud__Link-diseno">Diseño y Ejecución del Sistema de Seguridad y Salud en el Trabajo (SG-SST)</a>
     </div>
 
     <div class="Curso_slider-item Servicios_slider-item">

@@ -73,10 +73,10 @@
                 <ol class="mb-0"">
                   <li class="Contacto-info_title">Dirección <small class="Contacto-info_description">KM 1 Via Rionegro el Carmen de Viboral</small></li>
                   <a href="tel:+573136893524">
-                      <li class="Contacto-info_title">Teléfono <small class="Contacto-info_description">313 689 35 24</small></li>
+                      <li class="Contacto-info_title">Teléfono <small class="Contacto-info_description">323 581 6956 - 531 4404</small></li>
                   </a>
-                  <a href="mailto:info@dcmservicios.com">
-                     <li class="Contacto-info_title">Email <small class="Contacto-info_description">info@dcmservicios.com</small></li>
+                  <a href="mailto:contacto@dcmservicios.com">
+                     <li class="Contacto-info_title">Email <small class="Contacto-info_description">contacto@dcmservicios.com</small></li>
                   </a>
                 </ol>
                 
@@ -96,10 +96,10 @@
                 <ol class="mb-0">
                   <li class="Contacto-info_title">Dirección <small class="Contacto-info_description">KM 1 Via La Malena</small></li>
                   <a href="tel:+573136893524">
-                      <li class="Contacto-info_title">Teléfono <small class="Contacto-info_description">313 689 35 24</small></li>
+                      <li class="Contacto-info_title">Teléfono <small class="Contacto-info_description">323 581 6956</small></li>
                   </a>
-                  <a href="mailto:info@dcmservicios.com">
-                     <li class="Contacto-info_title">Email <small class="Contacto-info_description">info@dcmservicios.com</small></li>
+                  <a href="mailto:contacto@dcmservicios.com">
+                     <li class="Contacto-info_title">Email <small class="Contacto-info_description">contacto@dcmservicios.com</small></li>
                   </a>
                 </ol>
                 
@@ -134,7 +134,7 @@
 
             <script>
                 function initMap() {
-                  var rionegro = {lat: 6.151940, lng: -75.367545};
+                  var rionegro = {lat: 6.144297, lng: -75.352806};
                   var berrio = {lat: 6.490766, lng: -74.414384};
 
                   var map = new google.maps.Map(document.getElementById('Mapa_1'), {

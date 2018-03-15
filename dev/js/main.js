@@ -27,7 +27,7 @@ $(document).ready(function (){
         });
 
 
-        //Cambio a menú fixed//
+/*        //Cambio a menú fixed//
 	    $(window).scroll(function(){
         var posicionDeWindow = $(window).scrollTop();
 
@@ -50,7 +50,7 @@ $(document).ready(function (){
             $(".Fixed_nav").removeClass("Nav_visible");
             $(".Menu_container").css({"background-color": "#eff1f4"});
         }                
-    });
+    });*/
 
             //Animaciones con Scroll//
             AOS.init({

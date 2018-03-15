@@ -11,8 +11,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
-        <title>Servicio de Asesoría de Seguridad y Salud en el Trabajo - DCM - Antioquia</title>
-        <meta name="description" content="Servicio de Asesoría de Seguridad y Salud en el Trabajo - DCM - Antioquia, brindamos asesorías en seguridad y salud en el trabajo basados en la normatividad colombiana vigente y dictado por profesionales altamente calificados para la consultoría.">
+        <title>Servicio de Asesoría en Seguridad y Salud en el Trabajo - DCM - Antioquia</title>
+        <meta name="description" content="Servicio de Asesoría en Seguridad y Salud en el Trabajo - DCM - Antioquia, brindamos asesorías en seguridad y salud en el trabajo basados en la normatividad colombiana vigente y dictado por profesionales altamente calificados para la consultoría.">
         <link rel="shortcut icon" href="img/favicon.ico">
         <!-- AOS css -->
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
@@ -44,22 +44,23 @@
                     <div class="col-lg-7 col-md-12 Page_cursos-col" data-aos="fade-up">
                           <section id="tab-1-title" class="Page_cursos_conjunto-1 Page_servicios_title_2">
                             <i class="fas fa-fire-extinguisher Page_servicio_icon Page_servicio_icon-1 icon-extinguisher" aria-hidden="true"></i>
-                            <h1 class="Titulo Page_servicios_title">Asesoría de Seguridad y Salud en el Trabajo</h1>
+                            <h1 class="Titulo Page_servicios_title">Asesoría en Seguridad y Salud en el Trabajo</h1>
                           </section>  
                           <p class="Page_cursos-description">Brindamos Asesoría y Consultoría en seguridad y salud en el trabajo SG-SST, en DCM SERVICIOS Y CONSULTORIA contamos con profesionales altamente calificados para la consultoría SG-SST, garantizando siempre el buen cumplimiento de la normatividad Colombiana vigente, optimizando al máximo los recursos que se encuentran disponibles, mitigando reprocesos y gastos innecesarios en la compañía.</p>
                           <p class="Page_cursos-description">Realizamos todos los procesos del Sistema de Gestión de Seguridad y Salud en el Trabajo en todo tipo de empresas de acuerdo al decreto 1072 del 2015 y resolución 1111 del 2017.</p>
-                          <a href="tel:+573136893524" class="Cursos_info">
-                            <i class="fas fa-phone Cursos_info-icon"></i>
-                            <div class="Cursos_info-description">
-                              <p class="Cursos_info-title">LLÁMANOS</p>
-                              <small class="Cursos_info-duration">313 689 3524</small> 
-                            </div>
-                          </a>
-                            <a href="mailto:info@dcmservicios.com" class="Cursos_info">
+
+                            <a href="tel:+573235816956" class="Cursos_info">
+                              <i class="fas fa-phone Cursos_info-icon"></i>
+                              <div class="Cursos_info-description">
+                                <p class="Cursos_info-title">LLÁMANOS</p>
+                                <small class="Cursos_info-duration">323 581 6956 - 531 4404</small> 
+                              </div>
+                            </a>
+                            <a href="mailto:contacto@dcmservicios.com" class="Cursos_info">
                               <i class="fas fa-comments Cursos_info-icon"></i>
                               <div class="Cursos_info-description Cursos_info-description-2">
                                 <p class="Cursos_info-title">CONTÁCTANOS</p>
-                                <small class="Cursos_info-duration">info@dcmservicios.com</small> 
+                                <small class="Cursos_info-duration">contacto@dcmservicios.com</small> 
                               </div>
                             </a>                                                                                             
                     </div>

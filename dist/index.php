@@ -42,7 +42,7 @@
                        <h2 class="Titulo Titulo-slider_header">TRABAJO SEGURO EN ALTURAS</h2>
                        <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
                        Conoce nuestros cursos de capacitación</p>
-                       <a href="contacto.php" class="Button Button__Register">Registrarme ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>                        
+                       <a href="avanzado.php" class="Button Button__Register">Registrarme ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>                        
                       </div>
                     </div>                    
                   </li>
@@ -55,16 +55,26 @@
                       </div>
                     </div>                    
                   </li> 
-                  <!-- <li class="Slide Slide-3">
-                    <div class="row Conjunto_2 Row_slide-home">
+                   <li class="Slide Slide-3">
+                      <div class="row Conjunto_2 Row_slide-home">
                       <div class="col-xl-5 col-md-8 col-12 Subconjunto_2 Contenido_slide-home">
-                       <h2 class="Titulo Titulo-slider_header">TRABAJO SEGURO EN ALTURAS</h2>
+                       <h2 class="Titulo Titulo-slider_header">Diseño y Ejecución del Sistema de Seguridad y Salud en el Trabajo (SG-SST)</h2>
                        <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
                        Conoce nuestros cursos de capacitación</p>
-                       <a href="" class="Button Button__Register">Registrarme ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>                        
+                       <a href="sistema-seguridad-y-salud-trabajo.php" class="Button Button__Register">Consultar Servicio<i class="fa fa-arrow-right" aria-hidden="true"></i></a>                        
                       </div>
-                    </div>                    
-                  </li> -->                                                                        
+                       </div>                    
+                  </li>
+                   <li class="Slide Slide-3">
+                      <div class="row Conjunto_2 Row_slide-home">
+                      <div class="col-xl-5 col-md-8 col-12 Subconjunto_2 Contenido_slide-home">
+                       <h2 class="Titulo Titulo-slider_header">Investigación de accidentes de trabajo</h2>
+                       <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
+                       Conoce nuestros cursos de capacitación</p>
+                       <a href="investigacion-accidentes-de-trabajo.php" class="Button Button__Register">Consultar Servicio<i class="fa fa-arrow-right" aria-hidden="true"></i></a>                        
+                      </div>
+                       </div>                    
+                  </li>                                                                                           
                 </ul>
               </div>
               <!-- Artículo header -->
@@ -120,7 +130,7 @@
                   <img class="card-img-top" src="img/curso-5.png" alt="Coordinador de trabajo seguro en alturas - DCM">
                   <div class="card-body">
                     <h4 class="card-title">COORDINADOR</h4>
-                    <p class="card-text">Persona capaz de identificar riesgos y correspondiente para ser el emisor de los permisos de trabajo en alturas.</p>
+                    <p class="card-text">Trabajador designado por el empleador, capaz de identificar peligros en el sitio donde se realiza el trabajo en alturas.</p>
                     <a href="coordinador.php" class="Button Cursos_btn">Entrar</a>
                   </div>
                 </div>                
@@ -162,24 +172,24 @@
             <h2 class="Titulo Seguridad-salud_Tittle">Servicios en seguridad<br> y salud en el trabajo</h2>
             <article class="row Seguridad-salud_article">
 
-              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1200"> 
-                <a href="capacitacion-bomberotecnia.php" class="Seguridad-salud__Link">
-                  <i class="fas fa-fire Dowload_icon--Service Padding-icon--service" aria-hidden="true"></i> 
-                  Capacitación<br> Bomberotecnia</a>
+              <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1200">
+                <a href="sistema-seguridad-y-salud-trabajo.php" class="Seguridad-salud__Link">
+                  <i class="Dowload_icon--Service fas fa-list-ol " aria-hidden="true"></i>                  
+                  Diseño y Ejecución del Sistema de Seguridad y Salud en el Trabajo (SG-SST)
+               </a>                
               </section>
 
               <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1400">            
-                <a href="planes-emergencia.php" class="Seguridad-salud__Link">
-                  <i class="fas fa-exclamation-triangle Dowload_icon--Service" aria-hidden="true"></i>     
-                  Diseño de planes de Emergencia
-                </a>
+                <a href="asesoria-seguridad-y-salud-trabajo.php" class="Seguridad-salud__Link">
+                  <i class="fas fa-fire-extinguisher Dowload_icon--Service Padding-icon--service" aria-hidden="true"></i>       Asesoría en Seguridad y Salud en el Trabajo
+               </a>                
               </section>
 
               <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1600">
-                <a href="capacitacion-espacios-confinados.php" class="Seguridad-salud__Link">
-                   <i class="fas fa-align-right Dowload_icon--Service" aria-hidden="true"></i>                  
-                    Capacitación de trabajo en espacios confinados
-               </a>
+                <a href="investigacion-accidentes-de-trabajo.php" class="Seguridad-salud__Link">
+                  <i class="fas fa-wheelchair Dowload_icon--Service" aria-hidden="true"></i>                  
+                  Investigación de accidentes de trabajo
+               </a>               
               </section>
 
               <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1200">       
@@ -210,11 +220,12 @@
                </a>
               </section>
 
-               <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1400">           
-                <a href="investigacion-accidentes-de-trabajo.php" class="Seguridad-salud__Link">
-                  <i class="fas fa-wheelchair Dowload_icon--Service" aria-hidden="true"></i>                  
-                  Investigación de accidentes de trabajo
-               </a>
+               <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1400">   
+                <a href="capacitacion-espacios-confinados.php" class="Seguridad-salud__Link">
+                   <i class="fas fa-align-right Dowload_icon--Service" aria-hidden="true"></i>                  
+                    Capacitación de trabajo en espacios confinados
+               </a>                       
+
               </section>
 
               <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1600">      
@@ -232,16 +243,16 @@
               </section>
 
               <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1400">         
-                <a href="asesoria-seguridad-y-salud-trabajo.php" class="Seguridad-salud__Link">
-                  <i class="fas fa-fire-extinguisher Dowload_icon--Service Padding-icon--service" aria-hidden="true"></i>       Asesoría seguridad y salud en el trabajo
-               </a>
+                <a href="planes-emergencia.php" class="Seguridad-salud__Link">
+                  <i class="fas fa-exclamation-triangle Dowload_icon--Service" aria-hidden="true"></i>     
+                  Diseño de planes de Emergencia
+                </a>
               </section>
 
               <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1600">          
-                <a href="sistema-seguridad-y-salud-trabajo.php" class="Seguridad-salud__Link">
-                  <i class="Dowload_icon--Service fas fa-list-ol " aria-hidden="true"></i>                  
-                  Diseño y ejecución del sistema de gestión de seguridad y salud en el trabajo
-               </a>
+                <a href="capacitacion-bomberotecnia.php" class="Seguridad-salud__Link">
+                  <i class="fas fa-fire Dowload_icon--Service Padding-icon--service" aria-hidden="true"></i> 
+                  Capacitación<br> Bomberotecnia</a>
               </section>  
 
             </article>   
@@ -257,7 +268,7 @@
                 <h2 class="Titulo Certificado__Titulo">Valida y descarga tu Certificado Online</h2>
                 <i class="fa fa-arrow-right Certificado__Arrow-2" aria-hidden="true"></i>
                 <p class="Certificado__parrafo">Ingresa a nuestro sistema de validación de Certificados Online, y podrás descargar tu certificado en formato PDF.</p>
-                <a href="certificado.php" class="Certificado_link Button" target="_blank">Descargar certificado
+                <a href="certificado.php" class="Certificado_link Button" target="_blank">Validar certificado
                   <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
                 </a>
 

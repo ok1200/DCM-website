@@ -35,13 +35,13 @@
           <h2 class="Titulo Certificado__Titulo">Valida y descarga tu Certificado Online</h2>
           <i class="fa fa-arrow-right Certificado__Arrow-2" aria-hidden="true"></i>
           <p class="Certificado__parrafo">Ingresa a nuestro sistema de validación de Certificados Online, y podrás descargar tu certificado en formato PDF.</p>
-          <a href="certificado.php" class="Certificado_link Button" target="_blank">Descargar certificado
+          <a href="certificado.php" class="Certificado_link Button" target="_blank">Validar certificado
             <i class="fas fa-download Dowload_icon" aria-hidden="true"></i>
           </a>
       </section>              
     </div>
     <small class="row Footer_copy">
-      <p class="col-md-4 col-12">DCM Servicios y consultoría © - 2017</p>
+      <p class="col-md-4 col-12">DCM Servicios &amp; consultoría © - 2018</p>
       <a href="https://www.juancarmona.co/" target="_blank" class="col-md-5 col-12 offset-md-3 Footer_link-juan">Diseñado por Juan Carmona</a>
   </small>      
   </footer>        
