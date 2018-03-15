@@ -78,7 +78,7 @@
         
             //$mail->SMTPDebug = 4;                               // Habilitar el debug
             
-            $mail->isSMTP();                                      // Usar SMTP
+            //$mail->isSMTP();                                      // Usar SMTP
             $mail->Host = 'mail.dcmservicios.com';  //***EDITAR*** Especificar el servidor SMTP reemplazando por el nombre del servidor donde esta alojada su cuenta
             $mail->SMTPAuth = true;                               // Habilitar autenticacion SMTP
             $mail->Username = 'info@dcmservicios.com';             //***EDITAR*** Nombre de usuario SMTP donde debe ir la cuenta de correo a utilizar para el envio
@@ -95,7 +95,7 @@
             
             $mail->isHTML(true);                                  // Habilitar contenido HTML
             
-            $mail->Subject = 'Mensaje de ejemplo'; //***EDITAR*** Asunto del mensaje . No debe tener tildes o estar escrito todo en Mayusculas
+            $mail->Subject = 'Nueva consulta de servicios en dcmservicios.com'; //***EDITAR*** Asunto del mensaje . No debe tener tildes o estar escrito todo en Mayusculas
             $mail->Body    ='<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
                                 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
                                 <html xmlns="http://www.w3.org/1999/xhtml">
