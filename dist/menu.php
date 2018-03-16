@@ -41,6 +41,9 @@
                 <li class="nav-item dropdown <?php echo ($page == "servicios" ? "active" : "")?>">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SERVICIOS <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                     <div class="dropdown-menu">
+                      <a class="dropdown-item" href="sistema-seguridad-y-salud-trabajo.php">Diseño y Ejecución del Sistema<br> de Seguridad y Salud en el Trabajo (SG-SST)</a> 
+                      <a class="dropdown-item" href="asesoria-seguridad-y-salud-trabajo.php">Asesoría en Seguridad y Salud en el Trabajo</a>
+                      <a class="dropdown-item" href="investigacion-accidentes-de-trabajo.php">Investigación de Accidentes de Trabajo</a>                              
                       <a class="dropdown-item" href="capacitacion-bomberotecnia.php">Capacitación Bomberotecnia</a>
                       <a class="dropdown-item" href="planes-emergencia.php">Diseño Planes de Emergencia</a>
                       <a class="dropdown-item" href="capacitacion-espacios-confinados.php">Capacitación Trabajo en Espacios Confinados</a>
@@ -48,11 +51,8 @@
                       <a class="dropdown-item" href="matriz-peligros.php">Diseño de Matriz de Peligro</a>
                       <a class="dropdown-item" href="capacitacion-primer-respondiente.php">Capacitación Primer Respondiente</a>
                       <a class="dropdown-item" href="capacitacion-brigadas-emergencia.php">Capacitación Brigadas de Emergencias</a>
-                      <a class="dropdown-item" href="investigacion-accidentes-de-trabajo.php">Investigación de Accidentes de Trabajo</a>
                       <a class="dropdown-item" href="inspeccion-equipos-altura.php">Inspección de Equipos de Alturas</a>
                       <a class="dropdown-item" href="plan-seguridad-vial.php">Plan Seguridad Vial</a>
-                      <a class="dropdown-item" href="asesoria-seguridad-y-salud-trabajo.php">Asesoría en Seguridad y Salud en el Trabajo</a>
-                      <a class="dropdown-item" href="sistema-seguridad-y-salud-trabajo.php">Diseño y Ejecución del Sistema<br> de Seguridad y Salud en el Trabajo (SG-SST)</a>
                     </div>
                 </li>
               <li class="nav-item <?php echo ($page == "nosotros" ? "active" : "")?>">

@@ -16,7 +16,7 @@
         <!-- AOS css -->
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <!-- Fontawesome -->
-        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
         <!-- Animate.css -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
         <!-- Animate.css -->
@@ -67,18 +67,16 @@
                       <div class="row Conjunto_2 Row_slide-home">
                       <div class="col-xl-5 col-md-8 col-12 Subconjunto_2 Contenido_slide-home">
                        <h2 class="Titulo Titulo-slider_header">Diseño y Ejecución del Sistema de Seguridad y Salud en el Trabajo (SG-SST)</h2>
-                       <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
-                       Conoce nuestros cursos de capacitación</p>
+                       <p class="Conjunto_2-description">Deja la seguridad de tu empresa y empleados en manos expertas</p>
                        <a href="sistema-seguridad-y-salud-trabajo.php" class="Button Button__Register">Consultar Servicio<i class="fa fa-arrow-right" aria-hidden="true"></i></a>                        
                       </div>
                        </div>                    
                   </li>
-                   <li class="Slide Slide-3">
+                   <li class="Slide Slide-4">
                       <div class="row Conjunto_2 Row_slide-home">
                       <div class="col-xl-5 col-md-8 col-12 Subconjunto_2 Contenido_slide-home">
                        <h2 class="Titulo Titulo-slider_header">Investigación de accidentes de trabajo</h2>
-                       <p class="Conjunto_2-description">¿Ya tienes tu certificado de trabajo en alturas?
-                       Conoce nuestros cursos de capacitación</p>
+                       <p class="Conjunto_2-description">Capacita a tu empresa en la prevención de riesgos y disminuye el potencial de accidentalidad</p>
                        <a href="investigacion-accidentes-de-trabajo.php" class="Button Button__Register">Consultar Servicio<i class="fa fa-arrow-right" aria-hidden="true"></i></a>                        
                       </div>
                        </div>                    
@@ -189,7 +187,7 @@
 
               <section class="col-md-4 col-6 Seguridad-salud__Servicio" data-aos="fade-up" data-aos-duration="1400">            
                 <a href="asesoria-seguridad-y-salud-trabajo.php" class="Seguridad-salud__Link">
-                  <i class="fas fa-fire-extinguisher Dowload_icon--Service Padding-icon--service" aria-hidden="true"></i>       Asesoría en Seguridad y Salud en el Trabajo
+                  <i class="fas fa-clipboard-check Dowload_icon--Service Padding-icon--service" aria-hidden="true"></i>       Asesoría en Seguridad y Salud en el Trabajo
                </a>                
               </section>
 

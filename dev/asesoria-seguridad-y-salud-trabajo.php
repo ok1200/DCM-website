@@ -17,7 +17,7 @@
         <!-- AOS css -->
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <!-- Fontawesome -->
-        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
         <!-- Animate.css -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
         <!-- Animate.css -->
@@ -51,7 +51,7 @@
                 <div class="row Servicio_page-row">                                
                     <div class="col-lg-7 col-md-12 Page_cursos-col" data-aos="fade-up">
                           <section id="tab-1-title" class="Page_cursos_conjunto-1 Page_servicios_title_2">
-                            <i class="fas fa-fire-extinguisher Page_servicio_icon Page_servicio_icon-1 icon-extinguisher" aria-hidden="true"></i>
+                            <i class="fas fa-clipboard-check Page_servicio_icon Page_servicio_icon-1 icon-extinguisher" aria-hidden="true"></i>
                             <h1 class="Titulo Page_servicios_title">Asesoría en Seguridad y Salud en el Trabajo</h1>
                           </section>  
                           <p class="Page_cursos-description">Brindamos Asesoría y Consultoría en seguridad y salud en el trabajo SG-SST, en DCM SERVICIOS Y CONSULTORIA contamos con profesionales altamente calificados para la consultoría SG-SST, garantizando siempre el buen cumplimiento de la normatividad Colombiana vigente, optimizando al máximo los recursos que se encuentran disponibles, mitigando reprocesos y gastos innecesarios en la compañía.</p>

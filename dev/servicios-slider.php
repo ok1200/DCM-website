@@ -45,7 +45,7 @@
     </div>
 
     <div class="Curso_slider-item Servicios_slider-item">
-      <i class="fas fa-fire-extinguisher Dowload_icon--Service" aria-hidden="true"></i>
+      <i class="fas fa-clipboard-check Dowload_icon--Service" aria-hidden="true"></i>
       <a href="asesoria-seguridad-y-salud-trabajo.php" class="Seguridad-salud__Link Seguridad-salud__Link-diseno">Asesoría en Seguridad y Salud en el Trabajo</a>
     </div>
 

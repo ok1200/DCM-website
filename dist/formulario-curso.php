@@ -72,7 +72,7 @@
             $mail->Port = 465;                                    // Puerto SMTP
             
             $mail->setFrom('info@dcmservicios.com');     //***EDITAR*** Direccion de correo remitente
-            $mail->addAddress('dmanuell08@gmail.com'); //***EDITAR*** Agregar eldestinatario
+            $mail->addAddress('contacto@dcmservicios.com'); //***EDITAR*** Agregar eldestinatario
             
             $mail->addBCC($email);                          // Direccion con copia del envío 
             
