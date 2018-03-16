@@ -60,12 +60,12 @@
             $mail->SMTPSecure = 'ssl';                            // Habilitar encriptacion
             $mail->Port = 465;                                    // Puerto SMTP
             
-            $mail->setFrom('info@dcmservicios.com');     //***EDITAR*** Direccion de correo remitente
+            $mail->setFrom('contacto@dcmservicios.com');     //***EDITAR*** Direccion de correo remitente
             $mail->addAddress('contacto@dcmservicios.com'); //***EDITAR*** Agregar eldestinatario
             
             $mail->addBCC($email);                          // Direccion con copia del envío 
             
-            $mail->addReplyTo('info@dcmservicios.com');     //***EDITAR*** Direccion de correo para respuestas
+            $mail->addReplyTo('contacto@dcmservicios.com');     //***EDITAR*** Direccion de correo para respuestas
             
             $mail->isHTML(true);                                  // Habilitar contenido HTML
             

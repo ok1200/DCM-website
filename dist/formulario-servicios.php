@@ -81,17 +81,17 @@
             //$mail->isSMTP();                                      // Usar SMTP
             $mail->Host = 'mail.dcmservicios.com';  //***EDITAR*** Especificar el servidor SMTP reemplazando por el nombre del servidor donde esta alojada su cuenta
             $mail->SMTPAuth = true;                               // Habilitar autenticacion SMTP
-            $mail->Username = 'info@dcmservicios.com';             //***EDITAR*** Nombre de usuario SMTP donde debe ir la cuenta de correo a utilizar para el envio
+            $mail->Username = 'contacto@dcmservicios.com';             //***EDITAR*** Nombre de usuario SMTP donde debe ir la cuenta de correo a utilizar para el envio
             $mail->Password = 'wy3HLJFnss0E';              //***EDITAR*** Clave SMTP donde debe ir la clave de la cuenta de correo a utilizar para el envio
             $mail->SMTPSecure = 'ssl';                            // Habilitar encriptacion
             $mail->Port = 465;                                    // Puerto SMTP
             
-            $mail->setFrom('info@dcmservicios.com');     //***EDITAR*** Direccion de correo remitente
+            $mail->setFrom('contacto@dcmservicios.com');     //***EDITAR*** Direccion de correo remitente
             $mail->addAddress('contacto@dcmservicios.com'); //***EDITAR*** Agregar eldestinatario
             
             $mail->addBCC($email);                          // Direccion con copia del envío 
             
-            $mail->addReplyTo('info@dcmservicios.com');     //***EDITAR*** Direccion de correo para respuestas
+            $mail->addReplyTo('contacto@dcmservicios.com');     //***EDITAR*** Direccion de correo para respuestas
             
             $mail->isHTML(true);                                  // Habilitar contenido HTML
             
