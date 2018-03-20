@@ -13,16 +13,8 @@
         <title>DCM Servicios y Consultoría - Cursos de Alturas</title>
         <meta name="description" content="DCM es una empresa que ofrece soluciones en sistemas de gestión de la seguridad y salud en el trabajo, además ofrece cursos de trabajo seguro en alturas. Cuenta con centros de entrenamientos avalados y certificados por entidades nacionales.">
         <link rel="shortcut icon" href="img/favicon.ico">
-        <!-- AOS css -->
-        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <!-- Fontawesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-        
-        <!-- Animate.css -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
-        <!-- Animate.css -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" rel="stylesheet">  
-
         <!-- Our css -->
         <link rel="stylesheet" href="css/main.css">
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115639755-1"></script>
@@ -44,8 +36,8 @@
               <div class="container Header_articulo Nosotros_articulo">
                 <div class="row Conjunto_2 Nosotros_row-header">
                   <div class="col-xl-5 col-lg-7 col-md-10 col-12 Subconjunto_2 Nosotros_col-header" data-aos="fade-right">
-                   <h1 class="Titulo-slider_header">SOMOS DCM, EXPERTOS EN CURSOS DE ALTURAS</h1>
-                   <p class="Conjunto_2-description">Somos una empresa que ofrece soluciones en sistemas de gestión de la seguridad y salud en el trabajo</p>
+                   <h1 class="Titulo-slider_header">SOMOS DCM</h1>
+                   <p class="Conjunto_2-description">Una empresa que brinda soluciones integrales de formación, servicios &amp; consultoría en:<br>- Trabajo seguro en alturas<br> - Seguridad y salud en el trabajo </p>
                    <a href="contacto.php" class="Button Button__Register">Contáctanos ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                     
                   </div>
@@ -187,8 +179,10 @@
 
         <!-- Footer! -->
 
-
-   
+             <!-- AOS css -->
+            <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+            <!-- hover.css -->
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" rel="stylesheet">                
             <!-- jQuery first, then Tether, then Bootstrap JS. -->
             <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 

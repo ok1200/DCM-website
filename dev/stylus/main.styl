@@ -39,9 +39,28 @@ body
 	position fixed
 	bottom 0
 	right 0
-	margin-bottom 15px
-	margin-right 15px
+	margin-bottom 65px
+	margin-right 65px
 	z-index 1
+	&:hover
+		.texto_whatsapp
+			opacity 1
+
+.texto_whatsapp
+	position absolute
+	width 200px
+	top -95px
+	left -70px
+	text-align center
+	background-color Blue_200
+	font-size 15px
+	font-family Lato
+	font-weight bold
+	color White_100
+	opacity 0
+	transition .5s ease-in-out
+	padding 10px
+	border-radius 0 5px 0 5px
 	
 	
 .WhatsApp-icon
@@ -273,6 +292,7 @@ body
 
 .Row_slide-home
 	margin 0
+
 	
 .Contenido_slide-home
 	padding 120px
@@ -719,7 +739,6 @@ body
 	color White_100
 	overflow hidden
 
-
 .Footer_logo
 	width 183px
 	display block
@@ -773,6 +792,7 @@ body
 .Footer_link-juan
 	text-decoration none
 	color White_100
+	font-family Rubik
 	&:hover
 		text-decoration none
 		color White_100
@@ -1514,6 +1534,7 @@ body
 	.Logo-dcm
 		padding-top 60px
 		margin-bottom 40px
+		height 150px
 	
 .Display-3
 	color Blue_200
@@ -1580,17 +1601,23 @@ body
 	a
 		z-index 0
 		transform scale(1.7)
+		height 50px
 		
 .flexslider
 	.flex-prev
 		left -100%
+		transition .5s ease-in-out
 	.flex-next
 		right -100%
-	&:hover
-		.flex-prev
-			left 20px
-		.flex-next
-			right 20px
+		transition .5s ease-in-out
+
+.flexslider
+	&:hover 
+		.flex-direction-nav 
+			.flex-prev
+				left 30px
+			.flex-next
+				right 30px				
 		
 
 .loader-page 
@@ -1720,6 +1747,10 @@ body
 
 
 @media (max-width: 991.98px)
+
+	.Container-certificado
+		padding 20px 0
+		height auto
 
 	.Menu_container
 		position fixed
@@ -2173,18 +2204,23 @@ body
 	.Nosotros_mundo
 		margin-bottom 100px
 	
-	.Container-certificado
-		height 100%
-		padding 20px 0
+	.Cabecera
+		.Logo-dcm
+			height 120px
 	
 	.Busqueda-negativa
 		.Cursos_info-duration
-			font-size 13px
+			font-size 11px
 		.Cursos_info-description-2
 			padding-right 0
 		.Cursos_info
-			min-width 250px
 			margin-top 20px
+			min-width 245px
+		.Cursos_info-icon
+			font-size 20px
+			margin-right 10px
+		.Contacto-info
+			line-height 32px
 		
 
 @media (min-width: 767.99px)

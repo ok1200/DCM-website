@@ -14,15 +14,9 @@
         <title>Servicio de Diseño y Ejecución del Sistema de Seguridad y Salud en el Trabajo (SG-SST) - DCM - Antioquia</title>
         <meta name="description" content="Servicio de Diseño y Ejecución del Sistema de Seguridad y Salud en el Trabajo (SG-SST) - DCM - Antioquia, servicio ofrecido a las empresas que quieren actualizar o empezar la implementación del sistema de seguridad y salud en el trabajo como herramienta para  anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en el trabajo.">
         <link rel="shortcut icon" href="img/favicon.ico">
-        <!-- AOS css -->
-        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <!-- Fontawesome -->
-        <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-        <!-- Animate.css -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
-        <!-- Animate.css -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" rel="stylesheet">
-
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+        <!-- Librerias css -->
         <link rel="stylesheet" href="css/libraries.css">
 
         <!-- Our css -->
@@ -52,7 +46,7 @@
                     <div class="col-lg-7 col-md-12 Page_cursos-col" data-aos="fade-up">
                           <section id="tab-1-title" class="Page_cursos_conjunto-1 Page_servicios_title_2">
                             <i class="fas fa-list-ol Page_servicio_icon Page_servicio_icon-1 icon-list-ol" aria-hidden="true"></i>
-                            <h1 class="Titulo Page_servicios_title">Servicio de Diseño y Ejecución del Sistema de Seguridad y Salud en el Trabajo (SG-SST)</h1>
+                            <h1 class="Titulo Page_servicios_title">Servicio de Diseño y Ejecución del Sistema de gestión de Seguridad y Salud en el Trabajo (SG-SST)</h1>
                           </section>  
                           <p class="Page_cursos-description">Actualización e implementación del Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST) el cual consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua y que incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en el trabajo.</p>
 
@@ -93,6 +87,10 @@
           <?php require 'footer.php'; ?>
 
 
+            <!-- AOS css -->
+            <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+            <!-- hover.css -->
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" rel="stylesheet">        
    
             <!-- jQuery first, then Tether, then Bootstrap JS. -->
             <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

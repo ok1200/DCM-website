@@ -13,15 +13,8 @@
         <title>DCM Servicios y Consultoría - Cursos de Alturas</title>
         <meta name="description" content="DCM posee actualmente dos sedes con centros de entrenamiento avalados en el departamento de Antioquia. Contactanos en los teléfonos 313 689 35 24 - 314 483 8386 o al correo dcmserviciosyconsultoria@hotmail.com; o visitanos en nuestras sedes.">
         <link rel="shortcut icon" href="img/favicon.ico">
-        <!-- AOS css -->
-        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <!-- Fontawesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-        <!-- Animate.css -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
-        <!-- Animate.css -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" rel="stylesheet">  
-
         <!-- Our css -->
         <link rel="stylesheet" href="css/main.css">
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115639755-1"></script>
@@ -80,7 +73,7 @@
                 <small class="Sede_numero">SEDE 1</small>
                 <ol class="mb-0"">
                   <li class="Contacto-info_title">Dirección <small class="Contacto-info_description">KM 1 Via Rionegro el Carmen de Viboral</small></li>
-                  <a href="tel:+573136893524">
+                  <a href="tel:+573235816956">
                       <li class="Contacto-info_title">Teléfono <small class="Contacto-info_description">323 581 6956 - 531 4404</small></li>
                   </a>
                   <a href="mailto:contacto@dcmservicios.com">
@@ -128,7 +121,10 @@
 
         <!-- Footer! -->
 
-   
+            <!-- AOS css -->
+            <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"> 
+            <!-- hover.css -->
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" rel="stylesheet">                 
             <!-- jQuery first, then Tether, then Bootstrap JS. -->
             <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 

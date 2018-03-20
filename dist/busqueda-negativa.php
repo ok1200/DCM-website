@@ -19,18 +19,18 @@
 	</div>
 
 	<div class="Contacto-info" data-aos="fade-up" data-aos-duration="1700" >
-		<a href="tel:+573136893524" class="Cursos_info mb-0">
+		<a href="tel:+573235816956" class="Cursos_info mb-0">
 			<i class="fas fa-phone Cursos_info-icon"></i>
 			<div class="Cursos_info-description">
 			<p class="Cursos_info-title">LLÁMANOS</p>
-			<small class="Cursos_info-duration">313 689 3524</small> 
+			<small class="Cursos_info-duration">323 581 6956 - 531 4404</small> 
 			</div>
 		</a>
-		<a href="mailto:info@dcm.com.co" class="Cursos_info mb-0">
+		<a href="mailto:contacto@dcmservicios.com" class="Cursos_info mb-0">
 			<i class="fas fa-comments Cursos_info-icon"></i>
 			<div class="Cursos_info-description Cursos_info-description-2">
 			<p class="Cursos_info-title">CONTÁCTANOS</p>
-			<small class="Cursos_info-duration">info@dcmservicios.com</small> 
+			<small class="Cursos_info-duration">contacto@dcmservicios.com</small> 
 			</div>
 		</a>                             
 	</div> 

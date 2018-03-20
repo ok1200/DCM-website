@@ -10,22 +10,9 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
-        <title>Buscar Certificado</title>
+        <title>Validar Certificado</title>
         <meta name="description" content="Curso Avanzado en Trabajo Seguro en Alturas, en Antioquia para trabajadores que realicen trabajo en alturas con riesgo de caída y que realice desplazamientos horizontales, verticales y la técnica de suspensión,  con una duración de 40 horas.">
         <link rel="shortcut icon" href="img/favicon.ico">
-        <!-- AOS css -->
-        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-        <!-- Fontawesome -->
-        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-        <!-- Animate.css -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
-        <!-- Animate.css -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" rel="stylesheet">
-
-        <!-- Animate.css -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.1/flexslider.css" rel="stylesheet">        
-
-        <link rel="stylesheet" href="css/libraries.css">
 
         <!-- Our css -->
         <link rel="stylesheet" href="css/main.css">
@@ -43,7 +30,7 @@
       <div class="container">
         <div class="Busqueda-certificado">
         <div class="Cabecera">
-          <a href="index.php" target="_blank"><img src="img/DCM-Logo.png" class="Logo-dcm" alt=""></a>
+          <a href="index.php" target="_blank"><img src="img/DCM-Logotipo@2x.png" class="Logo-dcm" alt=""></a>
           <h2 class="Display-3">Validar Certificado</h2>
           <p class="Busqueda-certificado_text">Ingresa el número de cédula para validar si<br>existen certificados relacionados</p>
           
@@ -82,7 +69,7 @@
                   <style>
                   @media (max-width: 1400.98px){
                       .Container-certificado{
-                        height: 100%;
+                        height: auto;
                         padding: 20px 0;
                       }                    
 
@@ -96,7 +83,7 @@
                   </div>
                 
                 <div class="row Resultado-positivo_row">
-                  <div class="col-lg-10 offset-lg-1 col-12 pb-5">
+                  <div class="col-lg-10 offset-lg-1 col-12 pb-1">
                 <table class="table table-dark text-center pb-5" data-aos="fade-up" data-aos-duration="1700">
                   <thead class="Thead">
                     <tr>
@@ -155,7 +142,11 @@
 
   
 
-
+            <!-- AOS css -->
+            <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+            <!-- Fontawesome -->
+            <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"> 
+            
             <!-- jQuery first, then Tether, then Bootstrap JS. -->
             <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 

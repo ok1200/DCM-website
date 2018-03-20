@@ -14,15 +14,9 @@
         <title>Servicio de Capacitación Primer Respondiente - DCM - Antioquia</title>
         <meta name="description" content="Servicio de Capacitación Primer Respondiente - DCM - Antioquia, servicio ofrecido a las empresas que quieren capacitación en los conocimientos básicos que se deben tener en cuenta para responder adecuadamente como primer contacto ante una emergencia o urgencia. También conocido como primeros auxilios.">
         <link rel="shortcut icon" href="img/favicon.ico">
-        <!-- AOS css -->
-        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <!-- Fontawesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-        <!-- Animate.css -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
-        <!-- Animate.css -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" rel="stylesheet">
-
+        <!-- Librerias css -->
         <link rel="stylesheet" href="css/libraries.css">
 
         <!-- Our css -->
@@ -93,7 +87,10 @@
 
           <?php require 'footer.php'; ?>
 
-
+            <!-- AOS css -->
+            <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+            <!-- hover.css -->
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" rel="stylesheet">        
    
             <!-- jQuery first, then Tether, then Bootstrap JS. -->
             <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
