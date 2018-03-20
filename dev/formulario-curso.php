@@ -71,7 +71,7 @@
             $mail->SMTPSecure = 'ssl';                            // Habilitar encriptacion
             $mail->Port = 465;                                    // Puerto SMTP
             
-            $mail->setFrom('contacto@dcmservicios.com');     //***EDITAR*** Direccion de correo remitente
+            $mail->setFrom($email);     //***EDITAR*** Direccion de correo remitente
             $mail->addAddress('contacto@dcmservicios.com'); //***EDITAR*** Agregar eldestinatario
             
             $mail->addBCC($email);                          // Direccion con copia del envío 
@@ -92,7 +92,7 @@
                                 <table>
                                     <tr><td>Curso</td><td></td><td>' . $curso . '</td></tr>
                                     <tr><td>Nombre</td><td></td><td>' . $nombre . '</td></tr>
-                                    <tr><td>Teléfono</td><td></td><td>' . $telefono . '</td></tr>
+                                    <tr><td>Telefono</td><td></td><td>' . $telefono . '</td></tr>
                                     <tr><td>Email</td><td></td><td>' . $email . '</td></tr>
                                 </table>
                                 </body>
