@@ -326,7 +326,7 @@
                   <article class="row Elegir-dcm__article">
                     <div class="col-lg-3 col-sm-4 col-6 animated fadeIn delay User_icon">
                       <div class="Elegir-dcm__corbelen">
-                        <img src="img/Corbelen-Marinilla-png.png" class="img-fluid Elegir-dcm__corbelen-img" alt="">                
+                        <img src="img/cliente-1.png" class="img-fluid Elegir-dcm__corbelen-img" alt="">                
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-9 offset-md-1 animated fadeIn delay">
@@ -341,7 +341,7 @@
                   <article class="row Elegir-dcm__article">
                     <div class="col-lg-3 col-sm-4 col-6 animated fadeIn delay User_icon">
                       <div class="Elegir-dcm__corbelen">
-                        <img src="img/Cliente-1_1.png" class="img-fluid Elegir-dcm__corbelen-img" alt="">                
+                        <img src="img/cliente-2.png" class="img-fluid Elegir-dcm__corbelen-img" alt="">                
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-9 offset-md-1 animated fadeIn delay">
