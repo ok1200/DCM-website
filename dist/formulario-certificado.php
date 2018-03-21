@@ -9,34 +9,29 @@
 
             <input type="hidden" name="action" value="submit"> <br><br>
 
-            <label class="Form_label Label-curso" for="curso">Curso</label>
-            <select id="curso" class="form-control Form_input form-control-lg" name="curso">
-              <option <?php if ($curso == 1 ) echo 'selected' ;?> value="Basico-Administrativo" >BÁSICO ADMINISTRATIVO</option>
-              <option <?php if ($curso == 2 ) echo 'selected' ;?> value="Basico-Operativo" >BÁSICO OPERATIVO</option>
-              <option <?php if ($curso == 3 ) echo 'selected' ;?> value="Avanzado" >AVANZADO</option>
-              <option <?php if ($curso == 4 ) echo 'selected' ;?> value="Reentrenamiento" >REENTRENAMIENTO</option>
-              <option <?php if ($curso == 5 ) echo 'selected' ;?> value="Coordinador" >COORDINADOR</option>
-              <option <?php if ($curso == 6 ) echo 'selected' ;?> value="Armado-Desarmado-Andamios" >ARMADO Y DESARMADO DE ANDAMIOS</option>
-            </select>
+            <label class="Form_label" for="nombre">Nombre</label>
+            <input required type="text" name="nombre" value="" class="form-control Form_input" id="nombre" placeholder="Carolina Montenegro">
 
-            <label class="Form_label Label-nombre" for="nombre">Nombre</label>
-            <input type="text" name="nombre" value="" class="form-control Form_input" id="nombre" placeholder="Carolina Montenegro" required>
+            <label class="Form_label" for="cedula">Cédula</label>
+            <input required type="text" name="cedula" value="" class="form-control Form_input" id="nombre" placeholder="Ejemplo: 1039234567">            
 
-            <label class="Form_label Label-email" for="email">Email</label>
-            <input type="email" name="email" value="" class="form-control Form_input" id="email" placeholder="carolinamontenegro@gmail.com" required>
+            <label class="Form_label" for="email">Email</label>
+            <input required type="email" name="email" value="" class="form-control Form_input" id="email" placeholder="carolinamontenegro@gmail.com">
 
-            <label class="Form_label Label-telefono" for="telefono">Teléfono</label>
-            <input type="number" name="telefono" value="" class="form-control Form_input" id="telefono" placeholder="312 728 38 14" required>
+            <label class="Form_label" for="telefono">Teléfono</label>
+            <input required type="number" name="telefono" value="" class="form-control Form_input" id="telefono" placeholder="312 728 38 14">
 
-            <small class="Campos-necesarios">*Todos los campos son requeridos</small>
+            <label class="Form_label" for="empresa">Empresa <span>(opcional)</span></label>
+            <input type="text" name="empresa" value="" class="form-control Form_input" id="empresa" placeholder="Seguridad SAS">
+            
+            <small class="Campos-necesarios">*Todos los campos son necesarios</small>
 
-            <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox" required><label for="check" class="Check_label"> Acepto<a href="" target="_blank" class="Check_input Check_input-link">política de tratamiento de datos</a></label> 
-
+            <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox" required><label for="check" class="Check_label"> Acepto<a href="" target="_blank" class="Check_input Check_input-link">política de tratamiento de datos</a></label>
 
             <div class="text-center">
-                <button id="submit" class="Button Button_form Busqueda-certificado_btn" type="submit">Inscribirme</button>
+                <button id="submit" class="Button Button_form Busqueda-certificado_btn" type="submit">Solicitar</button>
             </div>
-           
+            
             </form>
             <?php
     }
@@ -44,16 +39,18 @@
   
     else{
         
-        // Variables donde se guardan los datos del formulario 
-        $curso=$_REQUEST['curso'];
+        // Variables donde se guardan los datos del formulario
+        $servicio=$_REQUEST['servicio'];
+        $empresa=$_REQUEST['empresa'];
         $nombre=$_REQUEST['nombre'];
-        $telefono=$_REQUEST['telefono'];
         $email=$_REQUEST['email'];
+        $telefono=$_REQUEST['telefono'];
+        $mensaje=$_REQUEST['mensaje'];
 
            
             $mail = new PHPMailer;
         // Condicional de campos vacíos 
-        if (($nombre=="")||($telefono=="")||($email=="")){
+        if (($nombre=="")||($telefono=="")||($email=="")||($mensaje=="")){
         echo "Hay campos vacíos, por favor llenar los campos requeridos con * <a href=\"\">Volver</a>.";
       }
       else{ 
@@ -80,20 +77,22 @@
             
             $mail->isHTML(true);                                  // Habilitar contenido HTML
             
-            $mail->Subject = 'Nueva Inscripción a Curso en dcmservicios.com'; //***EDITAR*** Asunto del mensaje . No debe tener tildes o estar escrito todo en Mayusculas
+            $mail->Subject = 'Nueva consulta de servicios en dcmservicios.com'; //***EDITAR*** Asunto del mensaje . No debe tener tildes o estar escrito todo en Mayusculas
             $mail->Body    ='<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
                                 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
                                 <html xmlns="http://www.w3.org/1999/xhtml">
                                 <head></head>
                                 <body>
                                 <table>
-                                    <th style="font-size:24px">Nueva Inscripción a Cursos - DCM</th>
+                                    <th style="font-size:24px">Nueva Consulta de Servicio - DCM</th>
                                 </table>
                                 <table>
-                                    <tr><td>Curso</td><td></td><td>' . $curso . '</td></tr>
+                                    <tr><td>Servicio</td><td></td><td>' . $servicio . '</td></tr>
                                     <tr><td>Nombre</td><td></td><td>' . $nombre . '</td></tr>
-                                    <tr><td>Telefono</td><td></td><td>' . $telefono . '</td></tr>
                                     <tr><td>Email</td><td></td><td>' . $email . '</td></tr>
+                                    <tr><td>Telefono</td><td></td><td>' . $telefono . '</td></tr>
+                                    <tr><td>Empresa</td><td></td><td>' . $empresa . '</td></tr> 
+                                    <tr><td>Mensaje</td><td></td><td>' . $mensaje . '</td></tr>
                                 </table>
                                 </body>
                                 </html>'; // Contenido del mensaje.
@@ -110,3 +109,4 @@
     
   }
 ?>
+

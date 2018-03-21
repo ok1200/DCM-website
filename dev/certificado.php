@@ -26,6 +26,23 @@
         </script>
     </head>
   <body class="Body_Certificado">
+      <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="Contacto_form-title" id="exampleModalLongTitle">Solicita tu Certificado</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <?php require 'formulario-certificado.php';?>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Modal -->
     <div class="Container-certificado">
       <div class="container">
         <div class="Busqueda-certificado">
@@ -112,7 +129,9 @@
                       <td><?php echo $row->certificado; ?></td>
                       <td><?php echo $row->expedicion; ?></td>
                       <td><?php echo $row->vigencia; ?></td>
-                      <td><a class="Descarga-certificado" href="<?php echo $row->descargar;?>" target="_blank">DESCARGAR</a></td>
+                      <td><a class="Descarga-certificado" data-toggle="modal" data-target="#exampleModalCenter">
+                        Solicitar</a>
+                      </td>
                     </tr>
 
               <?php

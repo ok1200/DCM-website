@@ -289,8 +289,9 @@
               <section class="col-lg-5 col-md-8 offset-md-2" data-aos="fade-right">
                 <h2 class="Titulo Portafolio_titulo">Conoce nuestro<br> portafolio de servicios</h2>
                 <p class="Certificado__parrafo Portafolio__parrafo">Somos una empresa que ofrece soluciones en sistemas de gestión de la seguridad y salud en el trabajo generando experiencias emocionales memorables a nuestros clientes.</p>
-                <a href="portafolio-dcm.pdf" class="Certificado_link Button" target="_blank">Descargar portafolio
+                <a href="" class="Certificado_link Button" target="_blank">Descargar portafolio
                 </a>                
+                
               </section>
             </article>
           </div>
@@ -397,7 +398,7 @@
         <!-- Por qué elegir DCM! -->
 
         <!-- Clientes! -->
-      <!--   <div class="Clientes">
+        <div class="Clientes">
           <div class="container">
             <h2 class="Titulo Clientes__titulo" data-aos="fade-up">Algunos de Nuestros Clientes</h2>
             <div class="row Clientes__row">
@@ -415,7 +416,7 @@
             </div>
             
           </div>
-        </div> -->
+        </div>
         <!-- Clientes! -->
 
         <!-- Footer! -->

@@ -39,8 +39,8 @@ body
 	position fixed
 	bottom 0
 	right 0
-	margin-bottom 40px
-	margin-right 40px
+	margin-bottom 65px
+	margin-right 65px
 	z-index 1
 	&:hover
 		.texto_whatsapp
@@ -50,17 +50,17 @@ body
 	position absolute
 	width 200px
 	top -95px
-	right 0
+	left -70px
 	text-align center
 	background-color Blue_200
 	font-size 15px
 	font-family Lato
-	font-weight 400
+	font-weight bold
 	color White_100
 	opacity 0
 	transition .5s ease-in-out
 	padding 10px
-	border-radius 5px
+	border-radius 0 5px 0 5px
 	
 	
 .WhatsApp-icon
@@ -261,9 +261,6 @@ body
 .flex-control-nav
 	bottom 60px
 	left -41%
-	
-.flex-direction-nav a:before
-	font-size 30px
 
 .Slide
 	position relative
@@ -561,6 +558,29 @@ body
 	align-items center
 	overflow hidden
 
+.modal
+	padding-left 0 !important
+
+
+.close
+	opacity .5
+	color Blue_200
+	position absolute
+	top 0
+	right 5px
+	font-size 30px
+	transition .5s ease-in-out
+	&:hover
+		opacity 1
+		color Blue_200
+
+.modal-header
+	justify-content center
+	.Contacto_form-title
+		padding 0
+		margin 0
+		
+
 .Certificado__articulo
 	align-items center
 
@@ -637,6 +657,7 @@ body
 .Elegir-dcm
 	padding 5em 0
 	background-color Grey_100
+	margin-bottom 3em
 	overflow hidden
 	
 .Elegir-dcm__titulo
@@ -1588,6 +1609,7 @@ body
 	background Yellow_200
 	padding 10px
 	color Grey_500
+	cursor pointer
 	&:hover
 		text-decoration none
 

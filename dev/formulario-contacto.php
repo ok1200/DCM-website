@@ -7,7 +7,7 @@
             <!-- Campos del formulario editables -->
             <form  action="" method="POST" enctype="multipart/form-data">
 
-            <input type="hidden" name="action" value="submit">
+            <input type="hidden" name="action" value="submit"> <br><br>
 
             <label class="Form_label" for="nombre">Nombre</label>
             <input required type="text" name="nombre" value="" class="form-control Form_input" id="nombre" placeholder="Carolina Montenegro">
