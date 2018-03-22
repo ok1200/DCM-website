@@ -6,20 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Canonical Re-Direction -->
         <link rel="canonical" href="">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
         <title>Trabajo seguro en alturas - DCM</title>
         <meta name="description" content="DCM - Compañía de Cursos de trabajo seguro en alturas y Servicios en seguridad y salud en el trabajo. Certificados de cursos de alturas, portafolio de servicios para empresas industriales, ambientales y en seguridad en el trabajo. Ubicados en Antioquia">
         <link rel="shortcut icon" href="img/favicon.ico">
-        <!-- Fontawesome -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-        <!-- Flexslider.css -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.0/flexslider.min.css" rel="stylesheet"> 
-        <!-- Our css -->
-        <link rel="stylesheet" href="css/main.css">
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115639755-1"></script>
+    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">        
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -423,9 +417,12 @@
           <?php require 'footer.php'; ?>
 
         <!-- Footer! -->
-
-
-
+            <!-- Flexslider.css -->
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.0/flexslider.min.css" rel="stylesheet"> 
+            <!-- Our css -->
+            <link rel="stylesheet" href="css/main.css">            
+            <!-- Fontawesome -->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
             <!-- AOS css -->
             <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
             <!-- Animate.css -->
