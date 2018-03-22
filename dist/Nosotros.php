@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
-        <title>DCM Servicios y Consultoría - Cursos de Alturas</title>
+        <title>DCM Servicios &amp; Consultoría - Cursos de Alturas</title>
         <meta name="description" content="DCM es una empresa que ofrece soluciones en sistemas de gestión de la seguridad y salud en el trabajo, además ofrece cursos de trabajo seguro en alturas. Cuenta con centros de entrenamientos avalados y certificados por entidades nacionales.">
         <link rel="shortcut icon" href="img/favicon.ico">
         <!-- Fontawesome -->
@@ -36,8 +36,12 @@
               <div class="container Header_articulo Nosotros_articulo">
                 <div class="row Conjunto_2 Nosotros_row-header">
                   <div class="col-xl-5 col-lg-7 col-md-10 col-12 Subconjunto_2 Nosotros_col-header" data-aos="fade-right">
-                   <h1 class="Titulo-slider_header">SOMOS DCM</h1>
-                   <p class="Conjunto_2-description">Una empresa que brinda soluciones integrales de formación, servicios &amp; consultoría en:<br>- Trabajo seguro en alturas<br> - Seguridad y salud en el trabajo </p>
+                   <h1 class="Titulo Titulo-slider_header">SOMOS DCM</h1>
+                   <p class="Conjunto_2-description mb-0">Una empresa que brinda soluciones integrales de formación, servicios &amp; consultoría en:
+                    <ul class="List-nosotros_header">
+                      <li>- Trabajo seguro en alturas </li>
+                      <li>- Seguridad y salud en el trabajo</li>
+                    </ul>
                    <a href="contacto.php" class="Button Button__Register">Contáctanos ahora<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                     
                   </div>
@@ -84,7 +88,7 @@
               <section class="col-lg-6 col-12 col-md-10 offset-md-1" data-aos="fade-right">
                 <h2 class="Titulo Portafolio_titulo">Marco legal</h2>
                 <p class="Certificado__parrafo Portafolio__parrafo">Desarrollamos diferentes procesos de servicios en entrenamiento, entre ellos trabajo seguro en alturas en centros de entrenamiento avalados y certificados por entidades nacionales de acuerdo a la <span class="Marco_resolucion-title">Resolución 2578 del 2012.</span></p>
-                <p class="Certificado__parrafo Portafolio__parrafo">Cuenta con Resolución de autorización por la cual se autoriza la empresa DCM SERVICIOS Y CONSULTORIA, para orientar formación en trabajo seguro en alturas.</p>
+                <p class="Certificado__parrafo Portafolio__parrafo">Cuenta con Resolución de autorización por la cual se autoriza la empresa DCM Servicios &amp; Consultoría, para orientar formación en trabajo seguro en alturas.</p>
                 <!-- <a href="" class="Certificado_link Button Button_resolucion" target="_blank">Descargar resolución
                   <i class="fas fa-download Dowload_icon Portafolio_icon" aria-hidden="true"></i>
                 </a> -->                

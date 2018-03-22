@@ -11,12 +11,12 @@
 
             <label class="Form_label Label-curso" for="curso">Curso</label>
             <select id="curso" class="form-control Form_input form-control-lg" name="curso">
-              <option <?php if ($curso == 1 ) echo 'selected' ;?> value="Basico-Administrativo" >BÁSICO ADMINISTRATIVO</option>
-              <option <?php if ($curso == 2 ) echo 'selected' ;?> value="Basico-Operativo" >BÁSICO OPERATIVO</option>
-              <option <?php if ($curso == 3 ) echo 'selected' ;?> value="Avanzado" >AVANZADO</option>
-              <option <?php if ($curso == 4 ) echo 'selected' ;?> value="Reentrenamiento" >REENTRENAMIENTO</option>
-              <option <?php if ($curso == 5 ) echo 'selected' ;?> value="Coordinador" >COORDINADOR</option>
-              <option <?php if ($curso == 6 ) echo 'selected' ;?> value="Armado-Desarmado-Andamios" >ARMADO Y DESARMADO DE ANDAMIOS</option>
+              <option <?php if ($curso == 1 ) echo 'selected' ;?> value="Basico-Administrativo" >Básico Administrativo en Trabajo Seguro en Alturas</option>
+              <option <?php if ($curso == 2 ) echo 'selected' ;?> value="Basico-Operativo" >Básico Operativo en Trabajo Seguro en Alturas</option>
+              <option <?php if ($curso == 3 ) echo 'selected' ;?> value="Avanzado" >Avanzado en Trabajo Seguro en Alturas</option>
+              <option <?php if ($curso == 4 ) echo 'selected' ;?> value="Reentrenamiento" >Reentrenamiento en Trabajo Seguro en Alturas</option>
+              <option <?php if ($curso == 5 ) echo 'selected' ;?> value="Coordinador" >Coordinador de Trabajo Seguro en Alturas</option>
+              <option <?php if ($curso == 6 ) echo 'selected' ;?> value="Armado-Desarmado-Andamios" >Armado y Desarmado de Andamios</option>
             </select>
 
             <label class="Form_label Label-nombre" for="nombre">Nombre</label>

@@ -48,7 +48,7 @@
                             <i class="fas fa-clipboard-check Page_servicio_icon Page_servicio_icon-1 icon-extinguisher" aria-hidden="true"></i>
                             <h1 class="Titulo Page_servicios_title">Asesoría en Seguridad y Salud en el Trabajo</h1>
                           </section>  
-                          <p class="Page_cursos-description">Brindamos Asesoría y Consultoría en seguridad y salud en el trabajo SG-SST, en DCM SERVICIOS Y CONSULTORIA contamos con profesionales altamente calificados para la consultoría SG-SST, garantizando siempre el buen cumplimiento de la normatividad Colombiana vigente, optimizando al máximo los recursos que se encuentran disponibles, mitigando reprocesos y gastos innecesarios en la compañía.</p>
+                          <p class="Page_cursos-description">Brindamos Asesoría y Consultoría en seguridad y salud en el trabajo SG-SST, en DCM Servicios &amp; Consultoría contamos con profesionales altamente calificados para la consultoría SG-SST, garantizando siempre el buen cumplimiento de la normatividad Colombiana vigente, optimizando al máximo los recursos que se encuentran disponibles, mitigando reprocesos y gastos innecesarios en la compañía.</p>
                           <p class="Page_cursos-description">Realizamos todos los procesos del Sistema de Gestión de Seguridad y Salud en el Trabajo en todo tipo de empresas de acuerdo al decreto 1072 del 2015 y resolución 1111 del 2017.</p>
 
                             <a href="tel:+573235816956" class="Cursos_info">

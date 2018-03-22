@@ -657,7 +657,7 @@ body
 .Elegir-dcm
 	padding 5em 0
 	background-color Grey_100
-	margin-bottom 3em
+	margin-bottom 0
 	overflow hidden
 	
 .Elegir-dcm__titulo
@@ -1177,6 +1177,15 @@ body
 
 .Nosotros_row-header
 	padding 126px 15px
+
+.List-nosotros_header
+	color White_100
+	font-size 24px
+	font-weight 100
+	font-family Rubik
+	list-style none
+	padding-left 20px
+	margin-bottom 40px
 	
 .Somos_title
 	color Blue_200
@@ -1791,7 +1800,7 @@ body
 		margin 15px 0
 	
 	.Contorno
-		min-height 0
+		min-height 90px
 	
 	.Footer_menu-col
 		text-align center
@@ -1967,6 +1976,7 @@ body
 	.Nosotros_row-header
 		justify-content center
 		padding 60px 15px
+		margin-top 60px
 	
 	.Nosotros_mundo
 		margin-top 50px
@@ -2019,6 +2029,13 @@ body
 		display inline-flex
 		justify-content center
 	
+	.Whatsapp_buton
+		margin-bottom 15px
+		margin-right 15px
+		&:hover
+			.texto_whatsapp
+				opacity 0
+	
 @media (max-width: 767.98px)
 			
 	.certificado-footer
@@ -2028,8 +2045,6 @@ body
 	.Contenido_slide-home
 		text-align center
 	
-	.Row_slide-home
-		padding-top 40px
 	
 	
 	.Constructor_img
@@ -2223,7 +2238,13 @@ body
 			font-size 25px
 			line-height 40px
 		.Conjunto_2-description
-			font-size 20px
+			font-size 15px
+	
+	.List-nosotros_header
+		display flex
+		flex-direction column
+		align-items baseline
+		font-size 15px
 		
 	.Nosotros_mundo
 		margin-bottom 100px

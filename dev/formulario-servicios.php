@@ -12,18 +12,18 @@
             
             <label class="Form_label" for="servicio">Servicio</label>
             <select id="servicio" class="form-control Form_input form-control-lg" name="servicio">
-              <option <?php if ($servicio == 1 ) echo 'selected' ;?> value="Capacitacion-Bomberotecnia" >CAPACITACIÓN BOMBEROTECNIA</option>
-              <option <?php if ($servicio == 2 ) echo 'selected' ;?> value="Diseño-Planes-de-Emergencia" >DISEÑO PLANES DE EMERGENCIA</option>
-              <option <?php if ($servicio == 3 ) echo 'selected' ;?> value="Capacitacion-Trabajo-en-Espacios-Confinados" >CAPACITACIÓN TRABAJO EN ESPACIOS CONFINADOS</option>
-              <option <?php if ($servicio == 4 ) echo 'selected' ;?> value="Evaluacion-Puestos-de-Trabajo" >EVALUACIÓN PUESTOS DE TRABAJO</option>
-              <option <?php if ($servicio == 5 ) echo 'selected' ;?> value="Diseño-de-Matriz-de-Peligro" >DISEÑO DE MATRIZ DE PELIGRO</option>
-              <option <?php if ($servicio == 6 ) echo 'selected' ;?> value="Capacitacion-Primer-Respondiente" >CAPACITACIÓN PRIMER RESPONDIENTE</option>
-              <option <?php if ($servicio == 7 ) echo 'selected' ;?> value="Capacitacion-Brigadas-de-Emergencias" >CAPACITACIÓN BRIGADAS DE EMERGENCIAS</option>
-              <option <?php if ($servicio == 8 ) echo 'selected' ;?> value="Investigacion-de-Accidentes-de-Trabajo" >INVESTIGACIÓN DE ACCIDENTES DE TRABAJO</option>
-              <option <?php if ($servicio == 9 ) echo 'selected' ;?> value="Inspeccion-de-Equipos-de-Alturas" >INSPECCIÓN DE EQUIPO DE ALTURAS</option>
-              <option <?php if ($servicio == 10 ) echo 'selected' ;?> value="Plan-Seguridad-Vial" >PLAN ESTRATÉGICO DE SEGURIDAD VIAL</option>
-              <option <?php if ($servicio == 11 ) echo 'selected' ;?> value="Asesoria-Seguridad-y-Salud-en-el-Trabajo" >ASESORÍA SEGURIDAD Y SALUD EN EL TRABAJO</option>
-              <option <?php if ($servicio == 12 ) echo 'selected' ;?> value="Sistema-Seguridad-y-Salud-en-el-Trabajo" >DISEÑO Y EJECUCIÓN DEL SISTEMA DE GESTIÓN DE SEGURIDAD Y SALUD EN EL TRABAJO (SG-SST)</option>
+              <option <?php if ($servicio == 1 ) echo 'selected' ;?> value="Capacitacion-Bomberotecnia" >Capacitación Bomberotecnia</option>
+              <option <?php if ($servicio == 2 ) echo 'selected' ;?> value="Diseño-Planes-de-Emergencia" >Diseño de Planes de Emergencia</option>
+              <option <?php if ($servicio == 3 ) echo 'selected' ;?> value="Capacitacion-Trabajo-en-Espacios-Confinados" >Capacitación Espacios Confinados</option>
+              <option <?php if ($servicio == 4 ) echo 'selected' ;?> value="Evaluacion-Puestos-de-Trabajo" >Evaluación de Puestos de Trabajo</option>
+              <option <?php if ($servicio == 5 ) echo 'selected' ;?> value="Diseño-de-Matriz-de-Peligro" >Diseño y Actualización de Matriz de Peligros</option>
+              <option <?php if ($servicio == 6 ) echo 'selected' ;?> value="Capacitacion-Primer-Respondiente" >Capacitación Primer Respondiente</option>
+              <option <?php if ($servicio == 7 ) echo 'selected' ;?> value="Capacitacion-Brigadas-de-Emergencias" >Capacitación y Conformación de Brigadas de Emergencia</option>
+              <option <?php if ($servicio == 8 ) echo 'selected' ;?> value="Investigacion-de-Accidentes-de-Trabajo" >Investigación de Accidentes de Trabajo</option>
+              <option <?php if ($servicio == 9 ) echo 'selected' ;?> value="Inspeccion-de-Equipos-de-Alturas" >Inspección de Equipos de Alturas</option>
+              <option <?php if ($servicio == 10 ) echo 'selected' ;?> value="Plan-Seguridad-Vial" >Plan Estratégico de Seguridad Vial</option>
+              <option <?php if ($servicio == 11 ) echo 'selected' ;?> value="Asesoria-Seguridad-y-Salud-en-el-Trabajo" >Asesoría en Seguridad y Salud en el Trabajo</option>
+              <option <?php if ($servicio == 12 ) echo 'selected' ;?> value="Sistema-Seguridad-y-Salud-en-el-Trabajo" >Diseño y Ejecución del Sistema de gestión de Seguridad y Salud en el Trabajo (SG-SST)</option>
 
             </select>    
 

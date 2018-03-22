@@ -157,7 +157,7 @@
               <div class="col-xl-3 col-lg-5 col-md-9 col-10 offset-1 Instalaciones_parrafo">
                 <h2 class="Titulo Titulo__instalaciones">Nuestras instalaciones</h2>
                 <p>Contamos con un <span>centro de entrenamiento avalado</span>  y certificado por entidades nacionales de acuerdo a la Resolución 2578 del 2012.</p>
-                <p>Cuenta con resolución de autorización por la cual se autoriza la empresa DCM SERVICIOS Y CONSULTORIA, para orientar formación en trabajo seguro en alturas.</p>
+                <p>Cuenta con resolución de autorización por la cual se autoriza la empresa DCM Servicios &amp; Consultoría, para orientar formación en trabajo seguro en alturas.</p>
                 <!-- <a href="#" class="Button Instalaciones_btn">Ver más</a> -->
               </div>
             </article>
@@ -398,7 +398,7 @@
         <!-- Por qué elegir DCM! -->
 
         <!-- Clientes! -->
-        <div class="Clientes">
+        <!-- <div class="Clientes">
           <div class="container">
             <h2 class="Titulo Clientes__titulo" data-aos="fade-up">Algunos de Nuestros Clientes</h2>
             <div class="row Clientes__row">
@@ -407,16 +407,16 @@
               </section>
               <section class="col-4 Clientes__section" data-aos="fade-up"
      data-aos-duration="1500">
-                <img src="img/Cliente-1_1.png" class="img-fluid Clientes__img" alt="">
+                <img src="img/cliente-2.png" class="img-fluid Clientes__img" alt="">
               </section>
               <section class="col-4 Clientes__section" data-aos="fade-up"
      data-aos-duration="1800">
-                <img src="img/Corbelen-Marinilla-png.png" class="img-fluid Clientes__img" alt="">
+                <img src="img/cliente-1.png" class="img-fluid Clientes__img" alt="">
               </section>
             </div>
             
           </div>
-        </div>
+        </div> -->
         <!-- Clientes! -->
 
         <!-- Footer! -->

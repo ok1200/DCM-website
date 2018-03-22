@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
-        <title>DCM Servicios y Consultoría - Cursos de Alturas</title>
+        <title>DCM Servicios &amp; Consultoría - Cursos de Alturas</title>
         <meta name="description" content="DCM posee actualmente dos sedes con centros de entrenamiento avalados en el departamento de Antioquia. Contactanos en los teléfonos 313 689 35 24 - 314 483 8386 o al correo dcmserviciosyconsultoria@hotmail.com; o visitanos en nuestras sedes.">
         <link rel="shortcut icon" href="img/favicon.ico">
         <!-- Fontawesome -->
