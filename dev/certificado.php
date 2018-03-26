@@ -63,7 +63,7 @@
           </div>
           <div class="col-lg-2 col-12 Center-button_certificado">
             <button class="Button Busqueda-certificado_btn" type="submit">Buscar</button>
-          </div>    
+          </div>
         </form>
 
       
