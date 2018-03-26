@@ -46,7 +46,7 @@
                     <div class="col-lg-7 col-md-12 Page_cursos-col" data-aos="fade-up">
                           <section id="tab-1-title" class="Page_cursos_conjunto-1 Page_servicios_title_2">
                             <i class="fas fa-briefcase Page_servicio_icon icon-evaluacion-puestos" aria-hidden="true"></i>
-                            <h1 class="Titulo Page_servicios_title">Servicio Evaluación de Puestos de Trabajo</h1>
+                            <h1 class="Titulo Page_servicios_title">Evaluación de Puestos de Trabajo</h1>
                           </section>  
                           <p class="Page_cursos-description">Evaluación del riesgo biomecanico y del proceso de integración laboral y/o de adaptación de puestos de trabajo. No es posible tomar una decisión sobre una persona con discapacidad en relación a un determinado puesto sin haber realizado primero un análisis del puesto de trabajo, de la persona y de la interacción entre ambos.</p>
 

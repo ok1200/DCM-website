@@ -46,7 +46,7 @@
                     <div class="col-lg-7 col-md-12 Page_cursos-col" data-aos="fade-up">
                           <section id="tab-1-title" class="Page_cursos_conjunto-1 Page_servicios_title_2">
                             <i class="fas fa-wheelchair Page_servicio_icon Page_servicio_icon-1 icon-wheelchair" aria-hidden="true"></i>
-                            <h1 class="Titulo Page_servicios_title">Servicio Investigación de Accidentes de Trabajo</h1>
+                            <h1 class="Titulo Page_servicios_title">Investigación de Accidentes de Trabajo</h1>
                           </section>  
                           <p class="Page_cursos-description">Capacitación en el proceso sistemático de determinación y ordenación de causas, hechos o situaciones que generaron o favorecieron la ocurrencia de un accidente o incidente, que se realiza con el objeto de prevenir su repetición, mediante el control de los riesgos que lo produjeron.</p>
 

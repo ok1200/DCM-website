@@ -46,7 +46,7 @@
                     <div class="col-lg-7 col-md-12 Page_cursos-col" data-aos="fade-up">
                           <section id="tab-1-title" class="Page_cursos_conjunto-1 Page_servicios_title_2">
                             <i class="fas fa-search Page_servicio_icon Page_servicio_icon-1 icon-search" aria-hidden="true"></i>
-                            <h1 class="Titulo Page_servicios_title">Servicio Inspección de Equipos de Alturas</h1>
+                            <h1 class="Titulo Page_servicios_title">Inspección de Equipos de Alturas</h1>
                           </section>  
                           <p class="Page_cursos-description">Capacitación a coordinadores y personal administrativo en el cumplimiento de la Resolución colombiana 1409 de 2012 que menciona que todo equipo o sistema de protección contra caídas deberá ser inspeccionado previo al uso por el trabajador, y como mínimo una vez al año por intermedio de una persona o equipo de personas avaladas por el fabricante y/o calificadas según corresponda.</p>
 

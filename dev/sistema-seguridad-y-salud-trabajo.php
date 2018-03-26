@@ -46,7 +46,7 @@
                     <div class="col-lg-7 col-md-12 Page_cursos-col" data-aos="fade-up">
                           <section id="tab-1-title" class="Page_cursos_conjunto-1 Page_servicios_title_2">
                             <i class="fas fa-list-ol Page_servicio_icon Page_servicio_icon-1 icon-list-ol" aria-hidden="true"></i>
-                            <h1 class="Titulo Page_servicios_title">Servicio de Diseño y Ejecución del Sistema de gestión de Seguridad y Salud en el Trabajo (SG-SST)</h1>
+                            <h1 class="Titulo Page_servicios_title">Diseño y Ejecución del Sistema de gestión de Seguridad y Salud en el Trabajo (SG-SST)</h1>
                           </section>  
                           <p class="Page_cursos-description">Actualización e implementación del Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST) el cual consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua y que incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en el trabajo.</p>
 
