@@ -21,8 +21,8 @@
             <label class="Form_label" for="telefono">Teléfono</label>
             <input required type="number" name="telefono" value="" class="form-control Form_input" id="telefono" placeholder="312 728 38 14">
 
-            <h5 class="mt-4 py-0 mb-0 Contacto_form-title">¿Qué certificado quieres?</h5>
-            <small class="Campos-necesarios mb-2">(Puedes elegir varias opciones)</small>
+            <h5 class="mt-4 py-0 mb-0 Contacto_form-title Color_subtitle">Certificados:</h5>
+            <small class="Campos-necesarios mb-2">(Elige los certificados que deseas solicitar)</small>
             <div class="Contorno-checkbox">
                 <div class="Form-group">
                     <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Básico Administrativo en Trabajo Seguro en Alturas</label> 
@@ -42,43 +42,6 @@
                 <div class="Form-group">
                     <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Armado y Desarmado de Andamios</label> 
                 </div>
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Capacitación Bomberotecnia</label> 
-                </div>
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Diseño de Planes de Emergencia</label> 
-                </div> 
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Capacitación Espacios Confinados</label> 
-                </div> 
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Evaluación de Puestos de Trabajo</label> 
-                </div> 
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Diseño y Actualización de Matriz de Peligros</label> 
-                </div> 
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Capacitación Primer Respondiente</label> 
-                </div> 
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Capacitación y Conformación de Brigadas de Emergencia</label> 
-                </div> 
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Investigación de Accidentes de Trabajo</label> 
-                </div> 
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Inspección de Equipos de Alturas</label> 
-                </div> 
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Plan Estratégico de Seguridad Vial</label> 
-                </div> 
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Asesoría en Seguridad y Salud en el Trabajo</label> 
-                </div> 
-                <div class="Form-group Form-group_last">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Diseño y Ejecución del Sistema de gestión de Seguridad y Salud en el Trabajo (SG-SST)</label> 
-                </div>                              
-
             </div>
             
             <small class="Campos-necesarios">*Todos los campos son necesarios</small>

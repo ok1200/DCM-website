@@ -4,10 +4,10 @@ function Conectar(){
 /*Varialbles Para conectar a base de datos*/
 
 $conexion = null;
-$dbHost = 'filemon';
-$dbName = 'dcmservi_certificados';
-$dbUser = 'dcmservi_admindcm';
-$dbPass = 'wy3HLJFnss0E';
+$dbHost = 'localhost';
+$dbName = 'certificados';
+$dbUser = 'root';
+$dbPass = '';
 	
 	try{
 		$conexion = new PDO("mysql:host=$dbHost;dbname=$dbName", "$dbUser", "$dbPass");

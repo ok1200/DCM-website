@@ -7,7 +7,7 @@
             <!-- Campos del formulario editables -->
             <form  action="" method="POST" enctype="multipart/form-data">
 
-            <input type="hidden" name="action" value="submit"> <br><br>
+            <input type="hidden" name="action" value="submit">
 
             
             <label class="Form_label" for="servicio">Servicio</label>
