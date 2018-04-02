@@ -13,36 +13,13 @@
             <input required type="text" name="nombre" value="" class="form-control Form_input" id="nombre" placeholder="Carolina Montenegro">
 
             <label class="Form_label" for="cedula">Cédula</label>
-            <input required type="text" name="cedula" value="" class="form-control Form_input" id="nombre" placeholder="Ejemplo: 1039234567">            
+            <input required type="text" name="cedula" value="" class="form-control Form_input" id="nombre" placeholder="1039234567">            
 
             <label class="Form_label" for="email">Email</label>
             <input required type="email" name="email" value="" class="form-control Form_input" id="email" placeholder="carolinamontenegro@gmail.com">
 
             <label class="Form_label" for="telefono">Teléfono</label>
             <input required type="number" name="telefono" value="" class="form-control Form_input" id="telefono" placeholder="312 728 38 14">
-
-            <h5 class="mt-4 py-0 mb-0 Contacto_form-title Color_subtitle">Certificados:</h5>
-            <small class="Campos-necesarios mb-2">(Elige los certificados que deseas solicitar)</small>
-            <div class="Contorno-checkbox">
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Básico Administrativo en Trabajo Seguro en Alturas</label> 
-                </div>
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Básico Operativo en Trabajo Seguro en Alturas</label> 
-                </div>
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Avanzado en Trabajo Seguro en Alturas</label> 
-                </div>
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Reentrenamiento en Trabajo Seguro en Alturas</label> 
-                </div>                                                
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Coordinador de Trabajo Seguro en Alturas</label> 
-                </div>
-                <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Armado y Desarmado de Andamios</label> 
-                </div>
-            </div>
             
             <small class="Campos-necesarios">*Todos los campos son necesarios</small>
 

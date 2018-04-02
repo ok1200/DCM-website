@@ -34,7 +34,7 @@
       <section class="col-md-5 col-12 offset-xl-3 offset-md-2 certificado-footer" data-aos="fade-left">
           <h2 class="Titulo Certificado__Titulo">Valida y descarga tu Certificado Online</h2>
           <p class="Certificado__parrafo">Ingresa a nuestro sistema de validación de Certificados Online, y podrás descargar tu certificado en formato PDF.</p>
-          <a href="certificado.php" class="Certificado_link Button" target="_blank">Validar certificado
+          <a href="validacion-certificado.php" class="Certificado_link Button">Validar certificado
           </a>
       </section>              
     </div>
