@@ -66,7 +66,7 @@
                 <a class="nav-link" href="contacto.php">CONTACTO</a>
               </li>
               <li class="d-block">    
-                <a href="certificado.php" class="Certificado_link Button certificado-button-top" target="_blank">Validar certificado
+                <a href="validacion-certificado.php" class="Certificado_link Button certificado-button-top">Validar certificado
                 </a>  
               </li>                                      
             </ul>
