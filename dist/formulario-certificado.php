@@ -40,7 +40,6 @@
         $cedula=$_REQUEST['cedula'];
         $email=$_REQUEST['email'];
         $telefono=$_REQUEST['telefono'];
-        $certificado=$_REQUEST['certificado'];
 
         $mail = new PHPMailer;
         // Condicional de campos vacíos 
@@ -63,7 +62,7 @@
             $mail->Port = 465;                                    // Puerto SMTP
             
             $mail->setFrom($email);     //***EDITAR*** Direccion de correo remitente
-            $mail->addAddress('dmanuell08@gmail.com'); //***EDITAR*** Agregar eldestinatario
+            $mail->addAddress('contacto@dcmservicios.com'); //***EDITAR*** Agregar eldestinatario
             
             $mail->addBCC($email);                          // Direccion con copia del envío 
             
@@ -85,7 +84,6 @@
                                     <tr><td>Cedula</td><td></td><td>' . $cedula . '</td></tr>
                                     <tr><td>Email</td><td></td><td>' . $email . '</td></tr>
                                     <tr><td>Telefono</td><td></td><td>' . $telefono . '</td></tr>
-                                    <tr><td>Certificados Solicitados</td><td></td><td>' . $certificado . '</td></tr>
                                 </table>
                                 </body>
                                 </html>'; // Contenido del mensaje.
@@ -94,7 +92,7 @@
                 echo 'El mensaje no pudo ser enviado';
                 echo 'Mailer Error: ' . $mail->ErrorInfo;
             } else {
-                echo "<p class='done-message'>Tu mensaje ha sido enviado exitosamente!</p>";
+                echo "<p class='done-message' style='position: relative !important'>Tu solicitud ha sido enviada exitosamente! Nos podremos en contacto pronto para resolver tu solicitud.</p>";
             }
         
         }

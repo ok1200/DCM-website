@@ -176,8 +176,6 @@
         </div> -->
       
 
-
-
         <!-- Footer! -->
           <?php require 'footer.php'; ?>
 

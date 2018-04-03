@@ -31,6 +31,7 @@
                 <div class="Cabecera">
                     <a href="index.php"><img src="img/DCM-Logotipo@2x.png" class="Logo-dcm" alt=""></a>
                 </div>
+                <h4 class="Page_cursos_title-inscribete">Solicitar Certificado</h4>
                 <div class="formulario-certificado_container">
                     <?php require 'formulario-certificado.php';?>
                 </div>
