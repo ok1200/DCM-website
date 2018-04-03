@@ -25,22 +25,22 @@
             <small class="Campos-necesarios mb-2">(Elige los certificados que deseas solicitar)</small>
             <div class="Contorno-checkbox">
                 <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Básico Administrativo en Trabajo Seguro en Alturas</label> 
+                    <input type="checkbox" class="Check_input" name="certificado"  aria-label="Checkbox"><label for="check" class="Check_label">Básico Administrativo en Trabajo Seguro en Alturas</label> 
                 </div>
                 <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Básico Operativo en Trabajo Seguro en Alturas</label> 
+                    <input type="checkbox" class="Check_input" name="certificado"  aria-label="Checkbox"><label for="check" class="Check_label">Básico Operativo en Trabajo Seguro en Alturas</label> 
                 </div>
                 <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Avanzado en Trabajo Seguro en Alturas</label> 
+                    <input type="checkbox" class="Check_input" name="certificado"  aria-label="Checkbox"><label for="check" class="Check_label">Avanzado en Trabajo Seguro en Alturas</label> 
                 </div>
                 <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Reentrenamiento en Trabajo Seguro en Alturas</label> 
+                    <input type="checkbox" class="Check_input" name="certificado"  aria-label="Checkbox"><label for="check" class="Check_label">Reentrenamiento en Trabajo Seguro en Alturas</label> 
                 </div>                                                
                 <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Coordinador de Trabajo Seguro en Alturas</label> 
+                    <input type="checkbox" class="Check_input" name="certificado"  aria-label="Checkbox"><label for="check" class="Check_label">Coordinador de Trabajo Seguro en Alturas</label> 
                 </div>
                 <div class="Form-group">
-                    <input type="checkbox" class="Check_input" name="check"  aria-label="Checkbox"><label for="check" class="Check_label">Armado y Desarmado de Andamios</label> 
+                    <input type="checkbox" class="Check_input" name="certificado"  aria-label="Checkbox"><label for="check" class="Check_label">Armado y Desarmado de Andamios</label> 
                 </div>
             </div>
             
@@ -56,21 +56,18 @@
             <?php
     }
     
-  
     else{
         
         // Variables donde se guardan los datos del formulario
-        $servicio=$_REQUEST['servicio'];
-        $empresa=$_REQUEST['empresa'];
         $nombre=$_REQUEST['nombre'];
+        $cedula=$_REQUEST['cedula'];
         $email=$_REQUEST['email'];
         $telefono=$_REQUEST['telefono'];
-        $mensaje=$_REQUEST['mensaje'];
+        $certificado=$_REQUEST['certificado'];
 
-           
-            $mail = new PHPMailer;
+        $mail = new PHPMailer;
         // Condicional de campos vacíos 
-        if (($nombre=="")||($telefono=="")||($email=="")||($mensaje=="")){
+        if (($nombre=="")||($telefono=="")||($email=="")||($cedula=="")){
         echo "Hay campos vacíos, por favor llenar los campos requeridos con * <a href=\"\">Volver</a>.";
       }
       else{ 
@@ -89,7 +86,7 @@
             $mail->Port = 465;                                    // Puerto SMTP
             
             $mail->setFrom($email);     //***EDITAR*** Direccion de correo remitente
-            $mail->addAddress('contacto@dcmservicios.com'); //***EDITAR*** Agregar eldestinatario
+            $mail->addAddress('dmanuell08@gmail.com'); //***EDITAR*** Agregar eldestinatario
             
             $mail->addBCC($email);                          // Direccion con copia del envío 
             
@@ -107,12 +104,11 @@
                                     <th style="font-size:24px">Nueva solicitud de certificado - DCM</th>
                                 </table>
                                 <table>
-                                    <tr><td>Servicio</td><td></td><td>' . $servicio . '</td></tr>
                                     <tr><td>Nombre</td><td></td><td>' . $nombre . '</td></tr>
+                                    <tr><td>Cedula</td><td></td><td>' . $cedula . '</td></tr>
                                     <tr><td>Email</td><td></td><td>' . $email . '</td></tr>
                                     <tr><td>Telefono</td><td></td><td>' . $telefono . '</td></tr>
-                                    <tr><td>Empresa</td><td></td><td>' . $empresa . '</td></tr> 
-                                    <tr><td>Mensaje</td><td></td><td>' . $mensaje . '</td></tr>
+                                    <tr><td>Certificados Solicitados</td><td></td><td>' . $certificado . '</td></tr>
                                 </table>
                                 </body>
                                 </html>'; // Contenido del mensaje.

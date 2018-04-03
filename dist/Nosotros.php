@@ -37,7 +37,7 @@
                 <div class="row Conjunto_2 Nosotros_row-header">
                   <div class="col-xl-5 col-lg-7 col-md-10 col-12 Subconjunto_2 Nosotros_col-header" data-aos="fade-right">
                    <h1 class="Titulo Titulo-slider_header">SOMOS DCM</h1>
-                   <p class="Conjunto_2-description mb-1">Una empresa que brinda soluciones integrales de formación, servicios &amp; consultoría en:
+                   <p class="Conjunto_2-description">Una empresa que brinda soluciones integrales de formación, servicios &amp; consultoría en:
                     <ul class="List-nosotros_header">
                       <li>- Trabajo seguro en alturas </li>
                       <li>- Seguridad y salud en el trabajo</li>
