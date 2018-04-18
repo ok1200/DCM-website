@@ -40,7 +40,7 @@
     </div>
     <small class="row Footer_copy">
       <p class="col-md-4 col-12">Copyright © 2018 DCM Servicios &amp; Consultoría</p>
-      <a href="https://www.juancarmona.co/" target="_blank" class="col-md-5 col-12 offset-md-3 Footer_link-juan">Diseñador y Desarrollado por Juan Carmon</a>
+      <a href="https://www.juancarmona.co/" target="_blank" class="col-md-5 col-12 offset-md-3 Footer_link-juan">Diseñado por Juan Carmona - Design Studio</a>
   </small>      
   </footer>        
 </div>
