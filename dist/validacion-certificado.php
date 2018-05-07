@@ -10,8 +10,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
-        <title>Validar Certificado</title>
-        <meta name="description" content="Curso Avanzado en Trabajo Seguro en Alturas, en Antioquia para trabajadores que realicen trabajo en alturas con riesgo de caída y que realice desplazamientos horizontales, verticales y la técnica de suspensión,  con una duración de 40 horas.">
+        <title>DCM Servicios &amp; Consultoría - Validar Certificado</title>
+        <meta name="description" content="Descargar certificado. Puedes validar y descargar tu certificado de trabajo seguro en alturas. Igresa tu cédula para verificar si tienes certificados disponibles.">
         <link rel="shortcut icon" href="img/favicon.ico">
 
         <!-- Our css -->
