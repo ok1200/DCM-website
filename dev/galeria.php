@@ -11,7 +11,7 @@
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Rubik:300,400,500,700" rel="stylesheet">
         <title>DCM Servicios &amp; Consultoría - Galería</title>
-        <meta name="description" content="DCM - Compañía de Cursos de trabajo seguro en alturas y Servicios en seguridad y salud en el trabajo. Aquí encontrarás imágenes sobre capacitaciones de trabajo en alturas y elememntos para el trabajo en altulas (cascos, arnés de seguridad,lineas de vida, andamiaje.)">
+        <meta name="description" content="DCM - Compañía de Cursos de trabajo seguro en alturas y Servicios en seguridad y salud en el trabajo. Aquí encontrarás imágenes sobre capacitaciones de trabajo en alturas y elementos para el trabajo en alturas (cascos, arnés de seguridad,lineas de vida, andamiaje).">
         <link rel="shortcut icon" href="img/favicon.ico">
         <!-- Fontawesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
