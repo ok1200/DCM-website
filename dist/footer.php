@@ -1,4 +1,4 @@
-<!-- Footer! -->
+Footer! -->
 
 <div class="Footer">
   <footer class="container Footer_flex">
@@ -31,12 +31,12 @@
           <a href="armado-andamios.php"><li>Otros servicios</li></a>
         </ul>               
       </section>
-      <section class="col-md-5 col-12 offset-xl-3 offset-md-2 certificado-footer" data-aos="fade-left">
+<!--       <section class="col-md-5 col-12 offset-xl-3 offset-md-2 certificado-footer" data-aos="fade-left">
           <h2 class="Titulo Certificado__Titulo">Valida y descarga tu Certificado Online</h2>
           <p class="Certificado__parrafo">Ingresa a nuestro sistema de validación de Certificados Online, y podrás descargar tu certificado en formato PDF.</p>
           <a href="validacion-certificado.php" class="Certificado_link Button">Validar certificado
           </a>
-      </section>              
+      </section> -->              
     </div>
     <small class="row Footer_copy">
       <p class="col-md-4 col-12">Copyright © 2018 DCM Servicios &amp; Consultoría</p>
@@ -45,4 +45,4 @@
   </footer>        
 </div>
 
-<!-- Footer! -->
+<!-- Footer!
