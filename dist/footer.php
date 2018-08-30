@@ -1,5 +1,3 @@
-Footer! -->
-
 <div class="Footer">
   <footer class="container Footer_flex">
     <img src="img/DCM-Logotipo-Blanco@2x.png" class="Footer_logo" data-aos="fade-down" alt="logo">
