@@ -65,10 +65,10 @@
               <li class="nav-item <?php echo ($page == "contacto" ? "active" : "")?>">
                 <a class="nav-link" href="contacto.php">CONTACTO</a>
               </li>
-<!--               <li class="d-block">    
+              <li class="d-block">    
                 <a href="validacion-certificado.php" class="Certificado_link Button certificado-button-top">Validar certificado
                 </a>  
-              </li>  -->                                     
+              </li>                           
             </ul>
         </nav>
     </div>

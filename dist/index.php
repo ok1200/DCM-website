@@ -254,7 +254,7 @@
         <!-- Servicios en seguridad y salud en el trabajo --> 
 
         <!-- Certificado! --> 
-<!--         <div class="Certificado">
+<div class="Certificado">
           <div class="container">
             <article class="row Certificado__articulo">
               <section class="col-md-5 col-12" data-aos="fade-left">
