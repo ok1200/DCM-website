@@ -270,7 +270,7 @@
               </section>
             </article>
           </div>
-        </div> -->
+        </div>
         <!-- Certificado! --> 
 
         <!-- Portafolio! -->
